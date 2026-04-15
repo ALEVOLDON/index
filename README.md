@@ -50,9 +50,9 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
-| [obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags) | AI-powered auto-tagging of Telegram posts into Obsidian notes. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/obsidian_posts_smart_tags) |
-| [full_roadmap_ai_enthusiast_2025](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2025) | The ultimate guide to mastering AI in 2025. | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2025) |
-| [Smart-Daw-Landing-React](https://github.com/ALEVOLDON/Smart-Daw-Landing-React) | Landing page for an AI-powered music mixing assistant. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Smart-Daw-Landing-React) |
+| [obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)<br><small>📅 2026-04-14</small> | AI-powered auto-tagging of Telegram posts into Obsidian notes. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/obsidian_posts_smart_tags) |
+| [full_roadmap_ai_enthusiast_2025](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2025)<br><small>📅 2025-07-24</small> | The ultimate guide to mastering AI in 2025. | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2025) |
+| [Smart-Daw-Landing-React](https://github.com/ALEVOLDON/Smart-Daw-Landing-React)<br><small>📅 2025-09-26</small> | Landing page for an AI-powered music mixing assistant. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Smart-Daw-Landing-React) |
 
 ---
 
@@ -61,12 +61,12 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
-| [acid-synth](https://github.com/ALEVOLDON/acid-synth) | Interactive acid synthesizer with oscilloscope. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PySide6](https://img.shields.io/badge/PySide6-41B883?style=flat-square&logo=qt&logoColor=white) | **Active** 🎹 | [Repo](https://github.com/ALEVOLDON/acid-synth) |
-| [Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis) | Portal about modular synthesis and generative music. | ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white) | **Active** ✨ | [Repo](https://github.com/ALEVOLDON/Modular-Genesis) |
-| [Signal-Lattice](https://github.com/ALEVOLDON/Signal-Lattice) | Browser-based digital musical instrument. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Experimental** 🧪 | [Repo](https://github.com/ALEVOLDON/Signal-Lattice) |
-| [gtwy-audio-archive](https://github.com/ALEVOLDON/gtwy-audio-archive) | Web interface for the GTWY music archive. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Bandcamp API](https://img.shields.io/badge/Bandcamp-629AAF?style=flat-square&logo=bandcamp&logoColor=white) | **Active** 🎧 | [Repo](https://github.com/ALEVOLDON/gtwy-audio-archive) |
-| [CineBlocker](https://github.com/ALEVOLDON/CineBlocker) | App to block distracting sites for creatives. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Maintenance** 🚫 | [Repo](https://github.com/ALEVOLDON/CineBlocker) |
-| [sc_liked_to_playlist_web](https://github.com/ALEVOLDON/sc_liked_to_playlist_web) | Download SoundCloud likes to a local player. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SoundCloud](https://img.shields.io/badge/SoundCloud-FF8800?style=flat-square&logo=soundcloud&logoColor=white) | **Maintenance** ☁️ | [Repo](https://github.com/ALEVOLDON/sc_liked_to_playlist_web) |
+| [acid-synth](https://github.com/ALEVOLDON/acid-synth)<br><small>📅 2025-11-02</small> | Interactive acid synthesizer with oscilloscope. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PySide6](https://img.shields.io/badge/PySide6-41B883?style=flat-square&logo=qt&logoColor=white) | **Active** 🎹 | [Repo](https://github.com/ALEVOLDON/acid-synth) |
+| [Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)<br><small>⭐ 1 • 📅 2026-04-03</small> | Portal about modular synthesis and generative music. | ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white) | **Active** ✨ | [Repo](https://github.com/ALEVOLDON/Modular-Genesis) |
+| [Signal-Lattice](https://github.com/ALEVOLDON/Signal-Lattice)<br><small>📅 2026-02-07</small> | Browser-based digital musical instrument. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Experimental** 🧪 | [Repo](https://github.com/ALEVOLDON/Signal-Lattice) |
+| [gtwy-audio-archive](https://github.com/ALEVOLDON/gtwy-audio-archive)<br><small>📅 2026-03-07</small> | Web interface for the GTWY music archive. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Bandcamp API](https://img.shields.io/badge/Bandcamp-629AAF?style=flat-square&logo=bandcamp&logoColor=white) | **Active** 🎧 | [Repo](https://github.com/ALEVOLDON/gtwy-audio-archive) |
+| [CineBlocker](https://github.com/ALEVOLDON/CineBlocker)<br><small>📅 2025-07-26</small> | App to block distracting sites for creatives. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Maintenance** 🚫 | [Repo](https://github.com/ALEVOLDON/CineBlocker) |
+| [sc_liked_to_playlist_web](https://github.com/ALEVOLDON/sc_liked_to_playlist_web)<br><small>📅 2025-04-16</small> | Download SoundCloud likes to a local player. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SoundCloud](https://img.shields.io/badge/SoundCloud-FF8800?style=flat-square&logo=soundcloud&logoColor=white) | **Maintenance** ☁️ | [Repo](https://github.com/ALEVOLDON/sc_liked_to_playlist_web) |
 
 ---
 
@@ -75,12 +75,12 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
-| [ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY) | Immersive 3D resource portal for developers. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Active** 🌌 | [Repo](https://github.com/ALEVOLDON/ZERO-GRAVITY) [Demo](https://zero-gravity.alevoldon.com/) |
-| [Anti-Gravity-Landing](https://github.com/ALEVOLDON/Anti-Gravity-Landing) | Landing page with physics: elements fall on click! | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Experimental** 🎈 | [Repo](https://github.com/ALEVOLDON/Anti-Gravity-Landing) |
-| [portfolio](https://github.com/ALEVOLDON/portfolio) | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 👤 | [Repo](https://github.com/ALEVOLDON/portfolio) |
-| [cosmic-portfolio](https://github.com/ALEVOLDON/cosmic-portfolio) | Interactive space-themed portfolio. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Maintenance** 🚀 | [Repo](https://github.com/ALEVOLDON/cosmic-portfolio) |
-| [CodeWizard](https://github.com/ALEVOLDON/CodeWizard) | Futuristic terminal-style website. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | **Maintenance** 🧙‍♂️ | [Repo](https://github.com/ALEVOLDON/CodeWizard) |
-| [relationship-test-app](https://github.com/ALEVOLDON/relationship-test-app) | Relationship personality style test app. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | **Completed** ❤️ | [Repo](https://github.com/ALEVOLDON/relationship-test-app) |
+| [ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)<br><small>📅 2026-02-05</small> | Immersive 3D resource portal for developers. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Active** 🌌 | [Repo](https://github.com/ALEVOLDON/ZERO-GRAVITY) [Demo](https://zero-gravity.alevoldon.com/) |
+| [Anti-Gravity-Landing](https://github.com/ALEVOLDON/Anti-Gravity-Landing)<br><small>📅 2026-02-03</small> | Landing page with physics: elements fall on click! | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Experimental** 🎈 | [Repo](https://github.com/ALEVOLDON/Anti-Gravity-Landing) |
+| [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>📅 2026-04-14</small> | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 👤 | [Repo](https://github.com/ALEVOLDON/portfolio) |
+| [cosmic-portfolio](https://github.com/ALEVOLDON/cosmic-portfolio)<br><small>⭐ 1 • 📅 2025-03-01</small> | Interactive space-themed portfolio. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Maintenance** 🚀 | [Repo](https://github.com/ALEVOLDON/cosmic-portfolio) |
+| [CodeWizard](https://github.com/ALEVOLDON/CodeWizard)<br><small>📅 2025-03-24</small> | Futuristic terminal-style website. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | **Maintenance** 🧙‍♂️ | [Repo](https://github.com/ALEVOLDON/CodeWizard) |
+| [relationship-test-app](https://github.com/ALEVOLDON/relationship-test-app)<br><small>📅 2025-05-13</small> | Relationship personality style test app. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | **Completed** ❤️ | [Repo](https://github.com/ALEVOLDON/relationship-test-app) |
 
 ---
 
@@ -89,9 +89,9 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
-| [point-cloud-surface](https://github.com/ALEVOLDON/point-cloud-surface) | Procedural blob in Blender via Geometry Nodes. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) | **Active** 🧊 | [Repo](https://github.com/ALEVOLDON/point-cloud-surface) |
-| [riverstrike](https://github.com/ALEVOLDON/riverstrike) | Arcade scrolling shooter (mobile-first). | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Phaser](https://img.shields.io/badge/Phaser-E34F26?style=flat-square&logo=phaser&logoColor=white) | **Completed** 🕹️ | [Repo](https://github.com/ALEVOLDON/riverstrike) |
-| [My-first-three.js-app](https://github.com/ALEVOLDON/My-first-three.js-app) | First steps in 3D web. | ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/My-first-three.js-app) |
+| [point-cloud-surface](https://github.com/ALEVOLDON/point-cloud-surface)<br><small>📅 2026-03-10</small> | Procedural blob in Blender via Geometry Nodes. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) | **Active** 🧊 | [Repo](https://github.com/ALEVOLDON/point-cloud-surface) |
+| [riverstrike](https://github.com/ALEVOLDON/riverstrike)<br><small>📅 2026-02-20</small> | Arcade scrolling shooter (mobile-first). | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Phaser](https://img.shields.io/badge/Phaser-E34F26?style=flat-square&logo=phaser&logoColor=white) | **Completed** 🕹️ | [Repo](https://github.com/ALEVOLDON/riverstrike) |
+| [My-first-three.js-app](https://github.com/ALEVOLDON/My-first-three.js-app)<br><small>📅 2021-02-04</small> | First steps in 3D web. | ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/My-first-three.js-app) |
 
 ---
 
@@ -100,9 +100,9 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
-| [habit-tracker](https://github.com/ALEVOLDON/habit-tracker) | Full-featured habit tracker. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Maintenance** ✅ | [Repo](https://github.com/ALEVOLDON/habit-tracker) |
-| [water-map-donetsk](https://github.com/ALEVOLDON/water-map-donetsk) | Water monitoring map. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Maintenance** 💧 | [Repo](https://github.com/ALEVOLDON/water-map-donetsk) |
-| [pwa_app](https://github.com/ALEVOLDON/pwa_app) | Progressive Web Apps experiment. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Archived** 📱 | [Repo](https://github.com/ALEVOLDON/pwa_app) |
+| [habit-tracker](https://github.com/ALEVOLDON/habit-tracker)<br><small>📅 2025-11-24</small> | Full-featured habit tracker. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Maintenance** ✅ | [Repo](https://github.com/ALEVOLDON/habit-tracker) |
+| [water-map-donetsk](https://github.com/ALEVOLDON/water-map-donetsk)<br><small>📅 2025-09-18</small> | Water monitoring map. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Maintenance** 💧 | [Repo](https://github.com/ALEVOLDON/water-map-donetsk) |
+| [pwa_app](https://github.com/ALEVOLDON/pwa_app)<br><small>📅 2024-01-31</small> | Progressive Web Apps experiment. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Archived** 📱 | [Repo](https://github.com/ALEVOLDON/pwa_app) |
 
 ---
 
@@ -114,6 +114,29 @@ This category contains my academic works (CS50, Udemy, GoIT) and tool forks (VCV
 - **Learning Courses:** `CS50-s-Web-Programming`, `modern_js_udemy_projects`, `Marathon-GoIT`.
 - **Tool Forks:** `Rack`, `magenta`, `AbletonLive9_RemoteScripts`.
 - **Old Drafts:** `Travel-to`, `3d-tic-tac-toe`, `audioplayer`.
+
+---
+
+## ⚡ Recent Activity
+<!-- RECENT_ACTIVITY_START -->
+- **Apr 15** — 🚀 Pushed to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**: _"Pushed commits"_
+- **Apr 15** — 🚀 Pushed to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**: _"Pushed commits"_
+- **Apr 14** — 🚀 Pushed to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)**: _"Pushed commits"_
+- **Apr 4** — 🚀 Pushed to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)**: _"Pushed commits"_
+- **Apr 4** — 🚀 Pushed to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)**: _"Pushed commits"_
+
+<!-- RECENT_ACTIVITY_END -->
+
+---
+
+## ☁️ Tech Cloud
+<!-- TOP_SKILLS_START -->
+<div align="center">
+
+![](https://img.shields.io/badge/creative-coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative-art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music-technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/ai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/audio-development-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/experiments-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/index-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/learning-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/machine-learning-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/meaning-engineer-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/portfolio-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/productivity-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/project-showcase-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/tools-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/web-development-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ableton-live-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/astro-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/audiovisual-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/experimental-music-1-1572B6?style=flat-square) 
+
+</div>
+<!-- TOP_SKILLS_END -->
 
 ---
 
