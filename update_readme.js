@@ -152,8 +152,9 @@ async function updateReadme() {
     
     let techCloudMarkdown = '<div align="center">\n\n';
     for(let [topic, count] of topTopics) {
-        // Render badges dynamically
-        techCloudMarkdown += `![](https://img.shields.io/badge/${encodeURIComponent(topic)}-${count}-1572B6?style=flat-square) `;
+        // Render badges dynamically: replace hyphens with double hyphens for shields.io
+        const safeTopic = topic.replace(/-/g, '--');
+        techCloudMarkdown += `![](https://img.shields.io/badge/${encodeURIComponent(safeTopic)}-${count}-1572B6?style=flat-square) `;
     }
     techCloudMarkdown += '\n\n</div>';
     
@@ -174,8 +175,12 @@ async function updateReadme() {
         const dateStr = new Date(ev.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
         let actionStr = '';
         if (ev.type === 'PushEvent') {
-            const msg = ev.payload.commits && ev.payload.commits.length > 0 ? ev.payload.commits[0].message.split('\n')[0] : 'Pushed commits';
-            actionStr = `🚀 Pushed to **[${ev.repo.name}](https://github.com/${ev.repo.name})**: _"${msg}"_`;
+            const branch = ev.payload.ref ? ev.payload.ref.replace('refs/heads/', '') : 'main';
+            let msg = '';
+            if (ev.payload.commits && ev.payload.commits.length > 0) {
+                msg = `: _"${ev.payload.commits[0].message.split('\n')[0]}"_`;
+            }
+            actionStr = `🚀 Pushed changes to **[${ev.repo.name}](https://github.com/${ev.repo.name})** (${branch})${msg}`;
         } else if (ev.type === 'CreateEvent' && ev.payload.ref_type === 'repository') {
             actionStr = `🎉 Created new repository **[${ev.repo.name}](https://github.com/${ev.repo.name})**`;
         } else if (ev.type === 'ReleaseEvent') {

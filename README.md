@@ -119,11 +119,11 @@ This category contains my academic works (CS50, Udemy, GoIT) and tool forks (VCV
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Apr 15** — 🚀 Pushed to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**: _"Pushed commits"_
-- **Apr 15** — 🚀 Pushed to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**: _"Pushed commits"_
-- **Apr 14** — 🚀 Pushed to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)**: _"Pushed commits"_
-- **Apr 4** — 🚀 Pushed to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)**: _"Pushed commits"_
-- **Apr 4** — 🚀 Pushed to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)**: _"Pushed commits"_
+- **Apr 15** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
+- **Apr 15** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
+- **Apr 15** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
+- **Apr 14** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
+- **Apr 4** — 🚀 Pushed changes to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (main)
 
 <!-- RECENT_ACTIVITY_END -->
 
@@ -133,7 +133,7 @@ This category contains my academic works (CS50, Udemy, GoIT) and tool forks (VCV
 <!-- TOP_SKILLS_START -->
 <div align="center">
 
-![](https://img.shields.io/badge/creative-coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative-art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music-technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/ai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/audio-development-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/experiments-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/index-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/learning-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/machine-learning-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/meaning-engineer-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/portfolio-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/productivity-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/project-showcase-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/tools-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/web-development-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ableton-live-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/astro-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/audiovisual-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/experimental-music-1-1572B6?style=flat-square) 
+![](https://img.shields.io/badge/creative--coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative--art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music--technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/ai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/audio--development-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/experiments-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/index-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/learning-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/machine--learning-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/meaning--engineer-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/portfolio-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/productivity-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/project--showcase-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/tools-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/web--development-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ableton--live-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/astro-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/audiovisual-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/experimental--music-1-1572B6?style=flat-square) 
 
 </div>
 <!-- TOP_SKILLS_END -->
