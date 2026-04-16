@@ -1,0 +1,226 @@
+{
+  "categories": [
+    {
+      "id": "ai",
+      "title": "🤖 AI & Prompt Engineering",
+      "description": "Projects at the intersection of artificial intelligence and development.",
+      "repos": [
+        {
+          "name": "obsidian_posts_smart_tags",
+          "featured": true,
+          "priority": 10,
+          "notes": ""
+        },
+        {
+          "name": "full_roadmap_ai_enthusiast_2025",
+          "featured": true,
+          "priority": 5,
+          "notes": ""
+        },
+        {
+          "name": "Smart-Daw-Landing-React",
+          "featured": false,
+          "priority": 1,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "title": "🎵 Music & Audio Technology",
+      "description": "My passion: tools for musicians and sound designers.",
+      "repos": [
+        {
+          "name": "acid-synth",
+          "featured": true,
+          "priority": 10,
+          "notes": ""
+        },
+        {
+          "name": "Modular-Genesis",
+          "featured": true,
+          "priority": 9,
+          "notes": ""
+        },
+        {
+          "name": "Signal-Lattice",
+          "featured": false,
+          "priority": 8,
+          "notes": ""
+        },
+        {
+          "name": "gtwy-audio-archive",
+          "featured": false,
+          "priority": 7,
+          "notes": ""
+        },
+        {
+          "name": "CineBlocker",
+          "featured": false,
+          "priority": 6,
+          "notes": ""
+        },
+        {
+          "name": "sc_liked_to_playlist_web",
+          "featured": false,
+          "priority": 5,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "title": "💻 Frontend & Web Development",
+      "description": "Modern interfaces and interactive web applications.",
+      "repos": [
+        {
+          "name": "ZERO-GRAVITY",
+          "featured": true,
+          "priority": 10,
+          "notes": ""
+        },
+        {
+          "name": "Anti-Gravity-Landing",
+          "featured": false,
+          "priority": 9,
+          "notes": ""
+        },
+        {
+          "name": "portfolio",
+          "featured": false,
+          "priority": 8,
+          "notes": ""
+        },
+        {
+          "name": "cosmic-portfolio",
+          "featured": false,
+          "priority": 7,
+          "notes": ""
+        },
+        {
+          "name": "CodeWizard",
+          "featured": false,
+          "priority": 6,
+          "notes": ""
+        },
+        {
+          "name": "relationship-test-app",
+          "featured": false,
+          "priority": 5,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "title": "🎨 Creative Coding & 3D",
+      "description": "Experiments with visualization and procedural generation.",
+      "repos": [
+        {
+          "name": "point-cloud-surface",
+          "featured": false,
+          "priority": 10,
+          "notes": ""
+        },
+        {
+          "name": "riverstrike",
+          "featured": false,
+          "priority": 9,
+          "notes": ""
+        },
+        {
+          "name": "My-first-three.js-app",
+          "featured": false,
+          "priority": 8,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "title": "📦 Productivity & Tools",
+      "description": "Utilities for automation and productivity.",
+      "repos": [
+        {
+          "name": "habit-tracker",
+          "featured": false,
+          "priority": 10,
+          "notes": ""
+        },
+        {
+          "name": "water-map-donetsk",
+          "featured": false,
+          "priority": 9,
+          "notes": ""
+        },
+        {
+          "name": "pwa_app",
+          "featured": false,
+          "priority": 8,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "archive",
+      "title": "📚 Archive & Learning",
+      "description": "Old projects, forks, and learning materials (over 60 repositories in total).",
+      "repos": [
+        {
+          "name": "CS50-s-Web-Programming",
+          "featured": false,
+          "priority": 10,
+          "notes": "Learning Course"
+        },
+        {
+          "name": "modern_js_udemy_projects",
+          "featured": false,
+          "priority": 9,
+          "notes": "Learning Course"
+        },
+        {
+          "name": "Marathon-GoIT",
+          "featured": false,
+          "priority": 8,
+          "notes": "Learning Course"
+        },
+        {
+          "name": "Rack",
+          "featured": false,
+          "priority": 7,
+          "notes": "Tool Fork"
+        },
+        {
+          "name": "magenta",
+          "featured": false,
+          "priority": 6,
+          "notes": "Tool Fork"
+        },
+        {
+          "name": "AbletonLive9_RemoteScripts",
+          "featured": false,
+          "priority": 5,
+          "notes": "Tool Fork"
+        },
+        {
+          "name": "Travel-to",
+          "featured": false,
+          "priority": 4,
+          "notes": "Old Draft"
+        },
+        {
+          "name": "3d-tic-tac-toe",
+          "featured": false,
+          "priority": 3,
+          "notes": "Old Draft"
+        },
+        {
+          "name": "audioplayer",
+          "featured": false,
+          "priority": 2,
+          "notes": "Old Draft"
+        }
+      ]
+    }
+  ]
+}
