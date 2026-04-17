@@ -1,0 +1,1012 @@
+[
+  {
+    "name": "3d-tic-tac-toe",
+    "stars": 0,
+    "updated_at": "2021-02-03",
+    "topics": [],
+    "tracked": true,
+    "category": "archive",
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "ableton",
+    "stars": 0,
+    "updated_at": "2016-11-05",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Parser for Ableton Live's .als file format"
+  },
+  {
+    "name": "AbletonLive9_RemoteScripts",
+    "stars": 0,
+    "updated_at": "2017-03-20",
+    "topics": [],
+    "tracked": true,
+    "category": "archive",
+    "fork": true,
+    "description": "Unofficial repository for Ableton Live 9 MIDI Remote Scripts by Julien Bayle"
+  },
+  {
+    "name": "acid-synth",
+    "stars": 0,
+    "updated_at": "2025-11-02",
+    "topics": [],
+    "tracked": true,
+    "category": "music",
+    "fork": false,
+    "description": "An interactive acid synthesizer created with Python and PySide6. Features real-time sound generation, ADSR envelope, effects, and an oscilloscope."
+  },
+  {
+    "name": "ALEVOLDON",
+    "stars": 0,
+    "updated_at": "2025-11-28",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "My personal repository"
+  },
+  {
+    "name": "Anti-Gravity-Landing",
+    "stars": 0,
+    "updated_at": "2026-02-03",
+    "topics": [],
+    "tracked": true,
+    "category": "frontend",
+    "fork": false,
+    "description": "This is an interactive landing page where standard web layout rules give way to the laws of physics. Click a button and watch as interface elements crumble under the influence of gravity!"
+  },
+  {
+    "name": "app_p5js_demo",
+    "stars": 0,
+    "updated_at": "2022-08-17",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "audioplayer",
+    "stars": 0,
+    "updated_at": "2021-06-12",
+    "topics": [],
+    "tracked": true,
+    "category": "archive",
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "Bidoo",
+    "stars": 0,
+    "updated_at": "2017-11-25",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "VCV Rack plugins"
+  },
+  {
+    "name": "BLAZE",
+    "stars": 0,
+    "updated_at": "2024-11-25",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "BlazeLeaf (BLAZE): A token symbolizing the fiery growth of blockchain and the cannabis industry."
+  },
+  {
+    "name": "bootstrap-bakery-master",
+    "stars": 0,
+    "updated_at": "2020-08-03",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "CineBlocker",
+    "stars": 0,
+    "updated_at": "2025-07-26",
+    "topics": [],
+    "tracked": true,
+    "category": "music",
+    "fork": false,
+    "description": "Приложение для блокировки YouTube/Netflix, если ты не занимался музыкой. Помогает творцам перестать тупить и начать творить."
+  },
+  {
+    "name": "city-game",
+    "stars": 0,
+    "updated_at": "2021-04-21",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "CodeWizard",
+    "stars": 0,
+    "updated_at": "2025-03-24",
+    "topics": [],
+    "tracked": true,
+    "category": "frontend",
+    "fork": false,
+    "description": "This project is a modern, minimalist personal website for a coder and prompt engineer, designed with a dark theme and a futuristic aesthetic. The design blends vaporwave and terminal UI elements, featuring a clean grid layout, smooth animations, and a strong atmospheric vibe. It reflects a tech-savvy style with neon accents and subtle 3D effects."
+  },
+  {
+    "name": "codiFunExample",
+    "stars": 0,
+    "updated_at": "2020-09-01",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "PHP Code Examples"
+  },
+  {
+    "name": "ComUnity",
+    "stars": 0,
+    "updated_at": "2025-05-10",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "ComUnity is a simple, front-end–only web application scaffold built with HTML5, CSS3 and vanilla JavaScript. It demonstrates the basics of structuring a static community hub: a responsive layout, interactive UI components, and easy deployment to any static-hosting provider."
+  },
+  {
+    "name": "cosmic-portfolio",
+    "stars": 1,
+    "updated_at": "2025-03-01",
+    "topics": [],
+    "tracked": true,
+    "category": "frontend",
+    "fork": false,
+    "description": "An interactive space-themed portfolio with dynamic effects and animations. Immerse yourself in a journey through the digital universe."
+  },
+  {
+    "name": "CS50-s-Web-Programming-with-Python-and-JavaScript",
+    "stars": 0,
+    "updated_at": "2023-09-13",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "CS50W---Lecture-3---Django",
+    "stars": 0,
+    "updated_at": "2023-11-16",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at      • CS50's Web Programming with Python an...  ."
+  },
+  {
+    "name": "cursor",
+    "stars": 0,
+    "updated_at": "2022-02-16",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "CV",
+    "stars": 0,
+    "updated_at": "2024-11-27",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "cwa-documentation",
+    "stars": 0,
+    "updated_at": "2020-06-15",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Project overview, general documentation, and white papers."
+  },
+  {
+    "name": "design-resources-for-developers",
+    "stars": 0,
+    "updated_at": "2020-05-09",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more"
+  },
+  {
+    "name": "duolingo",
+    "stars": 0,
+    "updated_at": "2023-08-24",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "EnvelopForLive",
+    "stars": 0,
+    "updated_at": "2017-11-16",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Max Platform for Ambisonic 3D panning with Live"
+  },
+  {
+    "name": "first-ide-lab-js-intro-000",
+    "stars": 1,
+    "updated_at": "2021-04-20",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": ""
+  },
+  {
+    "name": "frontend",
+    "stars": 0,
+    "updated_at": "2020-04-23",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": ":octocat: Kottans frontend course 🎓"
+  },
+  {
+    "name": "frontend-challenge",
+    "stars": 0,
+    "updated_at": "2016-05-23",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Implement a basic city comparison for a website using AngularJS as a service"
+  },
+  {
+    "name": "full_roadmap_ai_enthusiast_2025",
+    "stars": 0,
+    "updated_at": "2025-07-24",
+    "topics": [],
+    "tracked": true,
+    "category": "ai",
+    "fork": false,
+    "description": "Полная и структурированная дорожная карта для тех, кто хочет освоить искусственный интеллект в 2025 году — от абсолютного новичка до создателя собственных AI-продуктов, агентов и автоматизированных решений."
+  },
+  {
+    "name": "github-desktop",
+    "stars": 0,
+    "updated_at": "2021-08-12",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "tutorial"
+  },
+  {
+    "name": "github-slideshow",
+    "stars": 0,
+    "updated_at": "2022-02-26",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "A robot powered training repository :robot:"
+  },
+  {
+    "name": "gswp5.js-code",
+    "stars": 0,
+    "updated_at": "2020-10-06",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "gswp5.js code examples"
+  },
+  {
+    "name": "gtwy-audio-archive",
+    "stars": 0,
+    "updated_at": "2026-03-07",
+    "topics": [],
+    "tracked": true,
+    "category": "music",
+    "fork": false,
+    "description": "A web interface for browsing, previewing, and purchasing albums from the GTWY music archive — built with React and Vite, with audio streamed directly from Bandcamp."
+  },
+  {
+    "name": "gulp-starter-kit",
+    "stars": 0,
+    "updated_at": "2020-07-30",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "A simple Gulp 4 Starter Kit for modern web development."
+  },
+  {
+    "name": "habit-tracker",
+    "stars": 0,
+    "updated_at": "2025-11-24",
+    "topics": [],
+    "tracked": true,
+    "category": "productivity",
+    "fork": false,
+    "description": "Habit tracking app built with Node.js, MongoDB, React and Vite. Track, mark, and manage your habits easily.  Topics: habit-tracker, fullstack, nodejs, express, mongodb, react, vite, jwt, productivity"
+  },
+  {
+    "name": "HACKATON-IT-NATION-2020",
+    "stars": 0,
+    "updated_at": "2020-10-18",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "HTML5-Semantic",
+    "stars": 0,
+    "updated_at": "2025-05-13",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "HTML5 Semantic Tags: What Are They & How To Use Them!"
+  },
+  {
+    "name": "HUMAN",
+    "stars": 0,
+    "updated_at": "2020-02-05",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "The world will not be the same!"
+  },
+  {
+    "name": "index",
+    "stars": 1,
+    "updated_at": "2026-04-16",
+    "topics": [
+      "ai",
+      "audio-development",
+      "creative-coding",
+      "experiments",
+      "frontend",
+      "generative-art",
+      "index",
+      "learning",
+      "machine-learning",
+      "meaning-engineer",
+      "music-technology",
+      "portfolio",
+      "productivity",
+      "project-showcase",
+      "tools",
+      "web-development"
+    ],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "A curated index of ALEVOLDON's GitHub projects: AI, Music Tech, Frontend, Creative Coding, Productivity, and Learning. Explore my journey as a Meaning Engineer."
+  },
+  {
+    "name": "iphone-3d-website-starter",
+    "stars": 0,
+    "updated_at": "2023-04-04",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": ""
+  },
+  {
+    "name": "javascript-intro-to-functions-lab-js-intro-000",
+    "stars": 0,
+    "updated_at": "2021-04-25",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": ""
+  },
+  {
+    "name": "javascript-logging-lab-js-intro-000",
+    "stars": 1,
+    "updated_at": "2021-04-21",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": ""
+  },
+  {
+    "name": "javascript-strings-lab-js-intro-000",
+    "stars": 1,
+    "updated_at": "2021-04-22",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": ""
+  },
+  {
+    "name": "joomhost_superman",
+    "stars": 0,
+    "updated_at": "2020-02-05",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "The Best Web Hosting"
+  },
+  {
+    "name": "jukrainian",
+    "stars": 0,
+    "updated_at": "2025-05-16",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "Music nonprofit organization established in Ukraine. It's mainly based on the development of the Ukrainian underground scene."
+  },
+  {
+    "name": "JW-Modules",
+    "stars": 0,
+    "updated_at": "2017-11-27",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "VCV Rack Modules"
+  },
+  {
+    "name": "learn-co-sandbox",
+    "stars": 0,
+    "updated_at": "2021-04-20",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "learning-area",
+    "stars": 0,
+    "updated_at": "2021-10-18",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Github repo for the MDN Learning Area. "
+  },
+  {
+    "name": "link",
+    "stars": 0,
+    "updated_at": "2017-09-27",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Ableton Link"
+  },
+  {
+    "name": "m4l-connection-kit",
+    "stars": 0,
+    "updated_at": "2017-09-05",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Max for Live Connection Kit"
+  },
+  {
+    "name": "madDog",
+    "stars": 0,
+    "updated_at": "2020-07-01",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "magenta",
+    "stars": 0,
+    "updated_at": "2018-03-14",
+    "topics": [],
+    "tracked": true,
+    "category": "archive",
+    "fork": true,
+    "description": "Magenta: Music and Art Generation with Machine Intelligence"
+  },
+  {
+    "name": "Marathon-GoIT",
+    "stars": 0,
+    "updated_at": "2020-06-16",
+    "topics": [],
+    "tracked": true,
+    "category": "archive",
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "Markdown",
+    "stars": 0,
+    "updated_at": "2020-06-11",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "code examples"
+  },
+  {
+    "name": "MAVIC",
+    "stars": 0,
+    "updated_at": "2022-02-13",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "HTML/SCSS/GULP"
+  },
+  {
+    "name": "Minesweeper",
+    "stars": 0,
+    "updated_at": "2020-07-28",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "Build Minesweeper with JavaScript"
+  },
+  {
+    "name": "MJSB",
+    "stars": 0,
+    "updated_at": "2020-08-07",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "Moder JavaScript From The Beginning"
+  },
+  {
+    "name": "ML_modules",
+    "stars": 0,
+    "updated_at": "2017-11-25",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "free modules for VCV Rack"
+  },
+  {
+    "name": "Modern-Portfolio-Website",
+    "stars": 0,
+    "updated_at": "2026-03-31",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "This is a responsive portfolio website built using HTML and Sass (SCSS). It was originally created as part of a learning project based on a course by Brad Traversy."
+  },
+  {
+    "name": "modern_js_udemy_projects",
+    "stars": 0,
+    "updated_at": "2019-12-09",
+    "topics": [],
+    "tracked": true,
+    "category": "archive",
+    "fork": true,
+    "description": "Project files for Modern JS From The Beginning course"
+  },
+  {
+    "name": "Modular-Genesis",
+    "stars": 1,
+    "updated_at": "2026-04-03",
+    "topics": [
+      "ableton-live",
+      "astro",
+      "audiovisual",
+      "creative-coding",
+      "experimental-music",
+      "generative-music",
+      "modular-synthesis",
+      "music-technology",
+      "sound-design",
+      "vcv-rack"
+    ],
+    "tracked": true,
+    "category": "music",
+    "fork": false,
+    "description": "Open modular synthesis, generative music, VCV Rack + Ableton workflows, and audiovisual system design."
+  },
+  {
+    "name": "movieinfo",
+    "stars": 0,
+    "updated_at": "2022-02-11",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Movie info app built with JavaScript and uses the OMDb API"
+  },
+  {
+    "name": "MS-Modules",
+    "stars": 0,
+    "updated_at": "2017-11-27",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "VCV Rack Modules: MS-Modules"
+  },
+  {
+    "name": "my-app-vr84-bootcamp",
+    "stars": 0,
+    "updated_at": "2020-10-01",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "In order to find out the level of atmospheric air pollution (air quality) in the city, you must select the appropriate monitoring station on the map."
+  },
+  {
+    "name": "My-first-three.js-app",
+    "stars": 0,
+    "updated_at": "2021-02-04",
+    "topics": [],
+    "tracked": true,
+    "category": "creative",
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "obsidian_posts_smart_tags",
+    "stars": 0,
+    "updated_at": "2026-04-14",
+    "topics": [
+      "automation",
+      "knowledge-management",
+      "markdown",
+      "nodejs",
+      "note-taking",
+      "obsidian",
+      "obsidian-plugin",
+      "pkm",
+      "sync",
+      "telegram"
+    ],
+    "tracked": true,
+    "category": "ai",
+    "fork": false,
+    "description": "Node.js sync utility — pulls Telegram channel posts via Bot API and saves them as Markdown notes in Obsidian with auto-tagging"
+  },
+  {
+    "name": "point-cloud-surface",
+    "stars": 0,
+    "updated_at": "2026-03-10",
+    "topics": [
+      "3d",
+      "blender",
+      "bpy",
+      "eevee",
+      "generative-art",
+      "geometry-nodes",
+      "point-cloud",
+      "procedural",
+      "python"
+    ],
+    "tracked": true,
+    "category": "creative",
+    "fork": false,
+    "description": "Procedural glowing point-cloud blob made in Blender with Geometry Nodes and Python."
+  },
+  {
+    "name": "portfolio",
+    "stars": 0,
+    "updated_at": "2026-04-14",
+    "topics": [],
+    "tracked": true,
+    "category": "frontend",
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "Prototypes",
+    "stars": 0,
+    "updated_at": "2025-05-15",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "Eternity ago, when the streets were legal, one of them came up with the thought of my friends to create a platform for searching online IT-meetings."
+  },
+  {
+    "name": "push-interface",
+    "stars": 0,
+    "updated_at": "2017-11-16",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "The Ableton Push 2 MIDI and display interface manual."
+  },
+  {
+    "name": "pwa_app",
+    "stars": 0,
+    "updated_at": "2024-01-31",
+    "topics": [],
+    "tracked": true,
+    "category": "productivity",
+    "fork": false,
+    "description": "my pwa"
+  },
+  {
+    "name": "Rack",
+    "stars": 0,
+    "updated_at": "2017-11-28",
+    "topics": [],
+    "tracked": true,
+    "category": "archive",
+    "fork": true,
+    "description": "Open-source virtual Eurorack DAW"
+  },
+  {
+    "name": "relationship-test-app",
+    "stars": 0,
+    "updated_at": "2025-05-13",
+    "topics": [],
+    "tracked": true,
+    "category": "frontend",
+    "fork": false,
+    "description": "A sleek web app that helps you discover—and embrace—your dominant personality style in relationships. Built with modern tools and packed with features, it’s your go-to for self-insight (and a bit of fun)."
+  },
+  {
+    "name": "reponsive-web-design-bootcamp",
+    "stars": 0,
+    "updated_at": "2021-10-04",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Course files for the Responsive Web Design Bootcamp: [https://scrimba.com/course/gresponsive/]"
+  },
+  {
+    "name": "riverstrike",
+    "stars": 0,
+    "updated_at": "2026-02-20",
+    "topics": [
+      "browsergame",
+      "gamedev",
+      "html5",
+      "indie-game",
+      "javascript",
+      "mobilegame",
+      "opensource",
+      "phaser",
+      "pwa",
+      "webdev"
+    ],
+    "tracked": true,
+    "category": "creative",
+    "fork": false,
+    "description": "Arcade scrolling shooter — mobile-first, two playable versions."
+  },
+  {
+    "name": "RJModules",
+    "stars": 0,
+    "updated_at": "2017-11-28",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Various modules for VCV Rack"
+  },
+  {
+    "name": "Sass-Crash-Course",
+    "stars": 0,
+    "updated_at": "2020-06-03",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "Scandi",
+    "stars": 0,
+    "updated_at": "2022-08-19",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "Marathon-Finish-5.0"
+  },
+  {
+    "name": "sc_liked_to_playlist_web",
+    "stars": 0,
+    "updated_at": "2025-04-16",
+    "topics": [],
+    "tracked": true,
+    "category": "music",
+    "fork": false,
+    "description": "SoundCloud Liked to Playlist Web (Refactored) Этот проект позволяет собрать ваши лайки из SoundCloud, скачать их как MP3 файлы (пропуская миксы и подкасты) и слушать через локальный веб-плеер. Данная версия имеет улучшенную структуру проекта."
+  },
+  {
+    "name": "Signal-Lattice",
+    "stars": 0,
+    "updated_at": "2026-02-07",
+    "topics": [],
+    "tracked": true,
+    "category": "music",
+    "fork": false,
+    "description": "Signal Lattice is a browser-based digital musical instrument disguised as a control interface.  This project is not a DAW, not a plugin, and not a commercial product. It is a system for signal-state research: controlled tension, rhythm, instability, and observation."
+  },
+  {
+    "name": "skills-based-javascript-intro-to-flow-control-js-intro-000",
+    "stars": 0,
+    "updated_at": "2021-04-24",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": ""
+  },
+  {
+    "name": "Smart-Daw-Landing-React",
+    "stars": 0,
+    "updated_at": "2025-09-26",
+    "topics": [],
+    "tracked": true,
+    "category": "ai",
+    "fork": false,
+    "description": "Smart DAW Landing — лендинг ИИ‑помощника для сведения музыки"
+  },
+  {
+    "name": "Social-Network-Theme-With-Sass",
+    "stars": 0,
+    "updated_at": "2025-05-15",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "In this part we will setup Sass, create the landing page with navigation, image overlay, Sass variables, mixins and functions"
+  },
+  {
+    "name": "soundcloud-likes-downloader",
+    "stars": 1,
+    "updated_at": "2025-04-14",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "A convenient GUI application for downloading your liked tracks from SoundCloud."
+  },
+  {
+    "name": "tools",
+    "stars": 0,
+    "updated_at": "2018-11-26",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Codelabs management & hosting tools"
+  },
+  {
+    "name": "Travel-to",
+    "stars": 0,
+    "updated_at": "2021-01-20",
+    "topics": [],
+    "tracked": true,
+    "category": "archive",
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "trowaSoft-VCV",
+    "stars": 0,
+    "updated_at": "2017-11-28",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "trowaSoft Modules for VCV Rack"
+  },
+  {
+    "name": "vanillawebprojects",
+    "stars": 0,
+    "updated_at": "2020-06-13",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries"
+  },
+  {
+    "name": "vcv-gratrix",
+    "stars": 0,
+    "updated_at": "2017-11-27",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Gratrix modules for VCV Rack"
+  },
+  {
+    "name": "VCV-Rack-Plugins",
+    "stars": 0,
+    "updated_at": "2017-11-26",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "Plugins for VCV Rack"
+  },
+  {
+    "name": "vcvrackplugins_dekstop",
+    "stars": 0,
+    "updated_at": "2017-11-23",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "VCV Rack plugins: WAV recorder, 8-channel gate step sequencer, 3-channel tri-state step sequencer."
+  },
+  {
+    "name": "water-map-donetsk",
+    "stars": 0,
+    "updated_at": "2025-09-18",
+    "topics": [],
+    "tracked": true,
+    "category": "productivity",
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "webaudio_visualizer",
+    "stars": 0,
+    "updated_at": "2021-02-06",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
+    "name": "zaverstay-2",
+    "stars": 0,
+    "updated_at": "2021-08-28",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "Academy marathon repository"
+  },
+  {
+    "name": "ZERO-GRAVITY",
+    "stars": 0,
+    "updated_at": "2026-02-05",
+    "topics": [],
+    "tracked": true,
+    "category": "frontend",
+    "fork": false,
+    "description": "Zero Gravity Dev is an immersive, interactive resource portal designed to guide developers through their professional journey. It features a 3D environment, ambient audio system, and a gamified \"Ascension Roadmap\"."
+  }
+]
