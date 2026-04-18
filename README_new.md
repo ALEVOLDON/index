@@ -87,7 +87,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | :--- | :--- | :--- | :--- | :--- |
 | [ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)<br><small>📅 2026-02-05</small> | Zero Gravity Dev is an immersive, interactive resource porta... |  | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/ZERO-GRAVITY) |
 | [Anti-Gravity-Landing](https://github.com/ALEVOLDON/Anti-Gravity-Landing)<br><small>📅 2026-02-03</small> | This is an interactive landing page where standard web layou... |  | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Anti-Gravity-Landing) |
-| [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>📅 2026-04-14</small> | No description |  | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/portfolio) |
+| [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>📅 2026-04-17</small> | No description |  | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/portfolio) |
 | [cosmic-portfolio](https://github.com/ALEVOLDON/cosmic-portfolio)<br><small>⭐ 1 • 📅 2025-03-01</small> | An interactive space-themed portfolio with dynamic effects a... |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/cosmic-portfolio) |
 | [CodeWizard](https://github.com/ALEVOLDON/CodeWizard)<br><small>📅 2025-03-24</small> | This project is a modern, minimalist personal website for a ... |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CodeWizard) |
 | [relationship-test-app](https://github.com/ALEVOLDON/relationship-test-app)<br><small>📅 2025-05-13</small> | A sleek web app that helps you discover—and embrace—your dom... |  | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/relationship-test-app) |
@@ -139,17 +139,17 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 13 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3315 days)
-- ⚠️ `Rack` (inactive for 3062 days)
-- ⚠️ `magenta` (inactive for 2956 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3316 days)
+- ⚠️ `Rack` (inactive for 3063 days)
+- ⚠️ `magenta` (inactive for 2957 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
+- **Apr 17** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Apr 16** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
-- **Apr 15** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
 - **Apr 15** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
 - **Apr 15** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
 - **Apr 15** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)

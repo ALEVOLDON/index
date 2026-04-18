@@ -382,7 +382,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-04-16",
+    "updated_at": "2026-04-17",
     "topics": [
       "ai",
       "audio-development",
@@ -721,7 +721,7 @@
   {
     "name": "portfolio",
     "stars": 0,
-    "updated_at": "2026-04-14",
+    "updated_at": "2026-04-17",
     "topics": [],
     "tracked": true,
     "category": "frontend",
