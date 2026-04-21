@@ -230,6 +230,16 @@
     "description": "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more"
   },
   {
+    "name": "Dump-Assistant-Bot",
+    "stars": 1,
+    "updated_at": "2026-04-20",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": ""
+  },
+  {
     "name": "duolingo",
     "stars": 0,
     "updated_at": "2023-08-24",
@@ -382,7 +392,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-04-19",
+    "updated_at": "2026-04-20",
     "topics": [
       "ai",
       "audio-development",
