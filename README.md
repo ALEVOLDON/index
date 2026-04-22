@@ -145,16 +145,18 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 13 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3319 days)
-- ⚠️ `Rack` (inactive for 3066 days)
-- ⚠️ `magenta` (inactive for 2960 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3320 days)
+- ⚠️ `Rack` (inactive for 3067 days)
+- ⚠️ `magenta` (inactive for 2961 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-_No recent prominent activity in the last 90 days._
+- **Apr 22** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
+- **Apr 22** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
+- **Apr 22** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---

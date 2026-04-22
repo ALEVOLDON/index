@@ -232,7 +232,7 @@
   {
     "name": "Dump-Assistant-Bot",
     "stars": 1,
-    "updated_at": "2026-04-20",
+    "updated_at": "2026-04-21",
     "topics": [],
     "tracked": false,
     "category": null,
@@ -392,7 +392,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-04-20",
+    "updated_at": "2026-04-22",
     "topics": [
       "ai",
       "audio-development",
@@ -736,7 +736,7 @@
     "tracked": true,
     "category": "frontend",
     "fork": false,
-    "description": ""
+    "description": "A sleek, generative portfolio with live GitHub data integration, Three.js backgrounds, and a serverless Telegram contact flow."
   },
   {
     "name": "Prototypes",
