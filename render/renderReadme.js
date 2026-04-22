@@ -56,13 +56,13 @@ async function renderReadme() {
             if (rConf.featured) {
                 const rData = reposMap[rConf.name];
                 if (rData) {
-                    const techBadges = (rData.topics || []).slice(0, 4).map(t => {
+                    const techBadges = rConf.custom_badges || (rData.topics || []).slice(0, 4).map(t => {
                         const safeTopic = t.replace(/-/g, '--');
                         return `![${t}](https://img.shields.io/badge/${encodeURIComponent(safeTopic)}-1572B6?style=flat-square)`;
                     }).join(' ');
 
                     featuredMarkdown += `### 🌟 [${rData.name}](https://github.com/${USERNAME}/${rData.name})\n\n`;
-                    featuredMarkdown += `> ${rData.description || 'No description provided.'}\n\n`;
+                    featuredMarkdown += `> ${rConf.custom_description || rData.description || 'No description provided.'}\n\n`;
                     if (techBadges) featuredMarkdown += `**Technologies:** ${techBadges}\n\n`;
                     featuredMarkdown += `**Status:** **Active** 🚀 | [Repository](https://github.com/${USERNAME}/${rData.name})\n\n`;
                 }
@@ -115,7 +115,7 @@ async function renderReadme() {
                     statusText = '**Archived** 📦';
                 }
 
-                const techBadges = (rData.topics || []).slice(0, 3).map(t => {
+                const techBadges = rConf.custom_badges || (rData.topics || []).slice(0, 3).map(t => {
                     const safeTopic = t.replace(/-/g, '--');
                     return `![${t}](https://img.shields.io/badge/${encodeURIComponent(safeTopic)}-1572B6?style=flat-square)`;
                 }).join(' ');
@@ -129,7 +129,10 @@ async function renderReadme() {
                 }
 
                 const nameCol = `[${rData.name}](https://github.com/${USERNAME}/${rData.name})${extraHtml}`;
-                const descCol = (rData.description || 'No description').substring(0, 60) + (rData.description && rData.description.length > 60 ? '...' : '');
+                let descCol = rConf.custom_description || rData.description || 'No description';
+                if (!rConf.custom_description) {
+                     descCol = descCol.substring(0, 60) + (rData.description && rData.description.length > 60 ? '...' : '');
+                }
 
                 sectionsMarkdown += `| ${nameCol} | ${descCol} | ${techBadges} | ${statusText} | [Repo](https://github.com/${USERNAME}/${rData.name}) |\n`;
             }

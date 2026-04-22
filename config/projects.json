@@ -9,19 +9,25 @@
           "name": "obsidian_posts_smart_tags",
           "featured": true,
           "priority": 10,
-          "notes": ""
+          "notes": "",
+          "custom_description": "AI-powered auto-tagging of Telegram posts into Obsidian notes.",
+          "custom_badges": "![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white)"
         },
         {
           "name": "full_roadmap_ai_enthusiast_2025",
           "featured": true,
           "priority": 5,
-          "notes": ""
+          "notes": "",
+          "custom_description": "The ultimate guide to mastering AI in 2025.",
+          "custom_badges": "![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)"
         },
         {
           "name": "Smart-Daw-Landing-React",
           "featured": false,
           "priority": 1,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Landing page for an AI-powered music mixing assistant.",
+          "custom_badges": "![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)"
         }
       ]
     },
@@ -34,37 +40,49 @@
           "name": "acid-synth",
           "featured": true,
           "priority": 10,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Interactive acid synthesizer with oscilloscope.",
+          "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PySide6](https://img.shields.io/badge/PySide6-41B883?style=flat-square&logo=qt&logoColor=white)"
         },
         {
           "name": "Modular-Genesis",
           "featured": true,
           "priority": 9,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Portal about modular synthesis and generative music.",
+          "custom_badges": "![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white)"
         },
         {
           "name": "Signal-Lattice",
           "featured": false,
           "priority": 8,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Browser-based digital musical instrument.",
+          "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
         },
         {
           "name": "gtwy-audio-archive",
           "featured": false,
           "priority": 7,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Web interface for the GTWY music archive.",
+          "custom_badges": "![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Bandcamp API](https://img.shields.io/badge/Bandcamp-629AAF?style=flat-square&logo=bandcamp&logoColor=white)"
         },
         {
           "name": "CineBlocker",
           "featured": false,
           "priority": 6,
-          "notes": ""
+          "notes": "",
+          "custom_description": "App to block distracting sites for creatives.",
+          "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)"
         },
         {
           "name": "sc_liked_to_playlist_web",
           "featured": false,
           "priority": 5,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Download SoundCloud likes to a local player.",
+          "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SoundCloud](https://img.shields.io/badge/SoundCloud-FF8800?style=flat-square&logo=soundcloud&logoColor=white)"
         }
       ]
     },
@@ -77,37 +95,49 @@
           "name": "ZERO-GRAVITY",
           "featured": true,
           "priority": 10,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Immersive 3D resource portal for developers.",
+          "custom_badges": "![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)"
         },
         {
           "name": "Anti-Gravity-Landing",
           "featured": false,
           "priority": 9,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Landing page with physics: elements fall on click!",
+          "custom_badges": "![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
         },
         {
           "name": "portfolio",
           "featured": false,
           "priority": 8,
-          "notes": ""
+          "notes": "",
+          "custom_description": "My main portfolio.",
+          "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
         },
         {
           "name": "cosmic-portfolio",
           "featured": false,
           "priority": 7,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Interactive space-themed portfolio.",
+          "custom_badges": "![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
         },
         {
           "name": "CodeWizard",
           "featured": false,
           "priority": 6,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Futuristic terminal-style website.",
+          "custom_badges": "![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)"
         },
         {
           "name": "relationship-test-app",
           "featured": false,
           "priority": 5,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Relationship personality style test app.",
+          "custom_badges": "![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)"
         }
       ]
     },
@@ -120,19 +150,25 @@
           "name": "point-cloud-surface",
           "featured": false,
           "priority": 10,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Procedural blob in Blender via Geometry Nodes.",
+          "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white)"
         },
         {
           "name": "riverstrike",
           "featured": false,
           "priority": 9,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Arcade scrolling shooter (mobile-first).",
+          "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Phaser](https://img.shields.io/badge/Phaser-E34F26?style=flat-square&logo=phaser&logoColor=white)"
         },
         {
           "name": "My-first-three.js-app",
           "featured": false,
           "priority": 8,
-          "notes": ""
+          "notes": "",
+          "custom_description": "First steps in 3D web.",
+          "custom_badges": "![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white)"
         }
       ]
     },
@@ -145,19 +181,25 @@
           "name": "habit-tracker",
           "featured": false,
           "priority": 10,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Full-featured habit tracker.",
+          "custom_badges": "![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)"
         },
         {
           "name": "water-map-donetsk",
           "featured": false,
           "priority": 9,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Water monitoring map.",
+          "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
         },
         {
           "name": "pwa_app",
           "featured": false,
           "priority": 8,
-          "notes": ""
+          "notes": "",
+          "custom_description": "Progressive Web Apps experiment.",
+          "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
         }
       ]
     },

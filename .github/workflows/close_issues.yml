@@ -1,0 +1,24 @@
+name: Close Auto-Discovery Issues
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  close-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Close Spam Issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list --repo ALEVOLDON/index --state open --author "app/github-actions" --json number --jq '.[].number' > issues.txt
+          if [ -s issues.txt ]; then
+            cat issues.txt | xargs -I {} gh issue close {} --repo ALEVOLDON/index -r "completed"
+            echo "Closed issues successfully."
+          else
+            echo "No issues to close."
+          fi
