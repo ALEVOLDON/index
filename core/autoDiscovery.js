@@ -27,6 +27,21 @@ async function fetchJSON(endpoint) {
     return res.json();
 }
 
+// Fetch ALL pages of a paginated GitHub API endpoint
+async function fetchAllPages(endpoint) {
+    const allItems = [];
+    let page = 1;
+    const separator = endpoint.includes('?') ? '&' : '?';
+    while (true) {
+        const items = await fetchJSON(`${endpoint}${separator}per_page=100&page=${page}`);
+        if (!Array.isArray(items) || items.length === 0) break;
+        allItems.push(...items);
+        if (items.length < 100) break;
+        page++;
+    }
+    return allItems;
+}
+
 async function postIssue(title, body) {
     if (!process.env.GITHUB_ACTIONS || !process.env.GITHUB_TOKEN) {
         console.log(`[Dry Run] Would create issue: ${title}`);
@@ -57,7 +72,9 @@ async function runAutoDiscovery() {
     let existingIssues = [];
     try {
         if (process.env.GITHUB_ACTIONS && process.env.GITHUB_TOKEN) {
-            existingIssues = await fetchJSON(`repos/${USERNAME}/index/issues?state=open&creator=app/github-actions`);
+            // Fetch ALL pages to avoid missing existing issues (default API limit is 30)
+            existingIssues = await fetchAllPages(`repos/${USERNAME}/index/issues?state=open&creator=app%2Fgithub-actions`);
+            console.log(`Loaded ${existingIssues.length} existing open issues.`);
         }
     } catch (err) {
         console.log('Failed to fetch existing issues: ', err.message);

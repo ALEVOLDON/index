@@ -9,7 +9,7 @@ const DATA_DIR = path.join(__dirname, '../data');
 const REPOS_PATH = path.join(DATA_DIR, 'repos.json');
 const INSIGHTS_PATH = path.join(DATA_DIR, 'insights.json');
 const TEMPLATE_PATH = path.join(__dirname, 'template.md');
-const README_PATH = path.join(__dirname, '../README_new.md');
+const README_PATH = path.join(__dirname, '../README.md');
 
 function getHeaders() {
     const headers = { 
