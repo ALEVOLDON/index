@@ -42,18 +42,7 @@ async function fetchAllPages(endpoint) {
     return allItems;
 }
 
-async function postIssue(title, body) {
-    if (!process.env.GITHUB_ACTIONS || !process.env.GITHUB_TOKEN) {
-        console.log(`[Dry Run] Would create issue: ${title}`);
-        return;
-    }
-    
-    await fetch(GITHUB_API_URL + `repos/${USERNAME}/index/issues`, {
-        method: 'POST',
-        headers: getHeaders(),
-        body: JSON.stringify({ title, body })
-    });
-}
+// Removed postIssue function
 
 async function closeIssue(issueNumber) {
     if (!process.env.GITHUB_ACTIONS || !process.env.GITHUB_TOKEN) {
@@ -106,29 +95,40 @@ async function runAutoDiscovery() {
         } else if (!repo.fork && repo.name !== 'ALEVOLDON' && repo.name !== 'index') {
             const metrics = metricsMap[repo.name] || {};
             
-            // Increased threshold to avoid spamming
+            // If it's a healthy project, auto-add it to the config!
             if (metrics.health_score >= 1.0) {
-                if (!existingIssue) {
-                    console.log(`Creating issue for ${repo.name}...`);
-                    const body = `✨ **Auto-Discovery Radar!** ✨
-
-The script discovered a new public repository: **[${repo.name}](https://github.com/${USERNAME}/${repo.name})**.
-
-### 🧠 AI Insights
-- **Health Score**: ${metrics.health_score || 'N/A'}
-- **Activity Score**: ${metrics.activity_score || 'N/A'}
-- **Suggested Category**: \`${metrics.suggested_category || 'archive'}\`
-
-Please review it and consider adding it to \`config/projects.json\` under the appropriate category!`;
-                    
-                    await postIssue(title, body);
+                console.log(`Auto-adding ${repo.name} to config/projects.json...`);
+                
+                const configPath = path.join(__dirname, '../config/projects.json');
+                const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+                
+                const categoryId = metrics.suggested_category || 'archive';
+                let targetCategory = config.categories.find(c => c.id === categoryId);
+                
+                // Fallback to archive if suggested category doesn't exist
+                if (!targetCategory) {
+                    targetCategory = config.categories.find(c => c.id === 'archive');
                 }
-            } else {
-                // If an issue exists but the repo no longer meets the health score threshold, close it.
-                if (existingIssue) {
-                    console.log(`Closing auto-discovery issue for ${repo.name} because it does not meet the new health threshold (>= 1.0).`);
-                    await closeIssue(existingIssue.number);
+                
+                if (targetCategory) {
+                    // Check if not already added
+                    if (!targetCategory.repos.find(r => r.name === repo.name)) {
+                        targetCategory.repos.push({
+                            name: repo.name,
+                            featured: false,
+                            priority: 1, // lowest priority initially
+                            notes: "Auto-discovered"
+                        });
+                        fs.writeFileSync(configPath, JSON.stringify(config, null, 2), 'utf8');
+                        repo.tracked = true; // Mark as tracked so we close existing issues if any
+                    }
                 }
+            }
+            
+            // Clean up any existing auto-discovery issues for this repo (either we added it, or it doesn't meet the threshold)
+            if (existingIssue) {
+                console.log(`Closing existing auto-discovery issue for ${repo.name}...`);
+                await closeIssue(existingIssue.number);
             }
         }
     }
