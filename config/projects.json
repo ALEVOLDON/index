@@ -261,6 +261,12 @@
           "featured": false,
           "priority": 2,
           "notes": "Old Draft"
+        },
+        {
+          "name": "Dump-Assistant-Bot",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered"
         }
       ]
     }

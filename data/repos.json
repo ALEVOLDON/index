@@ -232,12 +232,24 @@
   {
     "name": "Dump-Assistant-Bot",
     "stars": 1,
-    "updated_at": "2026-04-21",
-    "topics": [],
+    "updated_at": "2026-04-23",
+    "topics": [
+      "automation",
+      "chatbot",
+      "community-management",
+      "javascript",
+      "llm",
+      "local-llm",
+      "nodejs",
+      "ollama",
+      "openai",
+      "telegram-api-integration",
+      "telegram-bot-ai-assistant"
+    ],
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback."
   },
   {
     "name": "duolingo",
@@ -392,7 +404,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-04-22",
+    "updated_at": "2026-04-23",
     "topics": [
       "ai",
       "audio-development",

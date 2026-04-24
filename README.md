@@ -135,29 +135,31 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [Travel-to](https://github.com/ALEVOLDON/Travel-to)<br><small>📅 2021-01-20</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Travel-to) |
 | [3d-tic-tac-toe](https://github.com/ALEVOLDON/3d-tic-tac-toe)<br><small>📅 2021-02-03</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/3d-tic-tac-toe) |
 | [audioplayer](https://github.com/ALEVOLDON/audioplayer)<br><small>📅 2021-06-12</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/audioplayer) |
+| [Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)<br><small>⭐ 1 • 📅 2026-04-23</small> | AI assistant bot for Telegram channels: reads posts, analyze... | ![automation](https://img.shields.io/badge/automation-1572B6?style=flat-square) ![chatbot](https://img.shields.io/badge/chatbot-1572B6?style=flat-square) ![community-management](https://img.shields.io/badge/community--management-1572B6?style=flat-square) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Dump-Assistant-Bot) |
 
 ---
 
 ## 🧠 Insights
 *Adaptive analysis and health tracking of my ecosystem powered by AI.*
 
-- 💡 Your ecosystem is currently heavily focused around 'creative-coding'.
+- 💡 Your ecosystem is currently heavily focused around 'automation'.
 - 💡 You have 13 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3321 days)
-- ⚠️ `Rack` (inactive for 3068 days)
-- ⚠️ `magenta` (inactive for 2962 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3322 days)
+- ⚠️ `Rack` (inactive for 3069 days)
+- ⚠️ `magenta` (inactive for 2963 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Apr 22** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
-- **Apr 22** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
-- **Apr 22** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
-- **Apr 22** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
+- **Apr 23** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
+- **Apr 23** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
+- **Apr 23** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
+- **Apr 23** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
+- **Apr 23** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
@@ -166,7 +168,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 <!-- TOP_SKILLS_START -->
 <div align="center">
 
-![](https://img.shields.io/badge/creative--coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative--art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music--technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/ai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/audio--development-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/experiments-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/index-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/learning-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/machine--learning-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/meaning--engineer-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/portfolio-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/productivity-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/project--showcase-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/tools-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/web--development-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ableton--live-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/astro-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/audiovisual-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/experimental--music-1-1572B6?style=flat-square)
+![](https://img.shields.io/badge/automation-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/javascript-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/nodejs-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/creative--coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative--art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music--technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/chatbot-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/community--management-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/local--llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ollama-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/openai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--api--integration-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--bot--ai--assistant-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/audio--development-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/experiments-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/index-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/learning-1-1572B6?style=flat-square)
 
 </div>
 <!-- TOP_SKILLS_END -->
