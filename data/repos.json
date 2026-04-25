@@ -246,8 +246,8 @@
       "telegram-api-integration",
       "telegram-bot-ai-assistant"
     ],
-    "tracked": false,
-    "category": null,
+    "tracked": true,
+    "category": "archive",
     "fork": false,
     "description": "AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback."
   },
@@ -404,7 +404,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-04-23",
+    "updated_at": "2026-04-24",
     "topics": [
       "ai",
       "audio-development",
