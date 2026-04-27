@@ -48,6 +48,8 @@ async function renderReadme() {
         reposMap[r.name] = r;
     }
 
+    const missingConfiguredRepos = [];
+
     // 1. Featured Projects
     console.log('Rendering Featured Projects...');
     let featuredMarkdown = '';
@@ -102,7 +104,10 @@ async function renderReadme() {
 
         for (const rConf of sortedRepos) {
             const rData = reposMap[rConf.name];
-            if (rData) {
+            if (!rData) {
+                missingConfiguredRepos.push(`${category.id}: ${rConf.name}`);
+                continue;
+            }
                 let statusText = rConf.featured ? '**Featured** ⭐' : '**Active** 🚀';
                 
                 // Auto-archive logic based on inactivity
@@ -135,10 +140,14 @@ async function renderReadme() {
                 }
 
                 sectionsMarkdown += `| ${nameCol} | ${descCol} | ${techBadges} | ${statusText} | [Repo](https://github.com/${USERNAME}/${rData.name}) |\n`;
-            }
         }
         sectionsMarkdown += `\n---\n\n`;
     }
+
+    if (missingConfiguredRepos.length > 0) {
+        throw new Error(`Configured repositories missing from data/repos.json:\n${missingConfiguredRepos.join('\n')}`);
+    }
+
     // Remove the last ---
     sectionsMarkdown = sectionsMarkdown.substring(0, sectionsMarkdown.lastIndexOf('---')).trim();
     template = template.replace('{{ CATEGORY_SECTIONS }}', sectionsMarkdown);

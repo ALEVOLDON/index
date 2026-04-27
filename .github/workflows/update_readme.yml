@@ -43,6 +43,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node core/autoDiscovery.js
 
+      - name: Validate Repository Data
+        run: node scripts/validate.js
+
       - name: Render New README (Node.js)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

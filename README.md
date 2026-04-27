@@ -127,6 +127,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
+| [CS50-s-Web-Programming-with-Python-and-JavaScript](https://github.com/ALEVOLDON/CS50-s-Web-Programming-with-Python-and-JavaScript)<br><small>📅 2023-09-13</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CS50-s-Web-Programming-with-Python-and-JavaScript) |
 | [modern_js_udemy_projects](https://github.com/ALEVOLDON/modern_js_udemy_projects)<br><small>📅 2019-12-09</small> | Project files for Modern JS From The Beginning course |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/modern_js_udemy_projects) |
 | [Marathon-GoIT](https://github.com/ALEVOLDON/Marathon-GoIT)<br><small>📅 2020-06-16</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Marathon-GoIT) |
 | [Rack](https://github.com/ALEVOLDON/Rack)<br><small>📅 2017-11-28</small> | Open-source virtual Eurorack DAW |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Rack) |
@@ -143,7 +144,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 *Adaptive analysis and health tracking of my ecosystem powered by AI.*
 
 - 💡 Your ecosystem is currently heavily focused around 'automation'.
-- 💡 You have 13 tracked repositories that are becoming inactive, consider archiving the oldest ones.
+- 💡 You have 14 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
 - ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3326 days)

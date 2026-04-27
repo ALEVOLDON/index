@@ -209,7 +209,7 @@
       "description": "Old projects, forks, and learning materials (over 60 repositories in total).",
       "repos": [
         {
-          "name": "CS50-s-Web-Programming",
+          "name": "CS50-s-Web-Programming-with-Python-and-JavaScript",
           "featured": false,
           "priority": 10,
           "notes": "Learning Course"

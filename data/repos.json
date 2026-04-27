@@ -174,8 +174,8 @@
     "stars": 0,
     "updated_at": "2023-09-13",
     "topics": [],
-    "tracked": false,
-    "category": null,
+    "tracked": true,
+    "category": "archive",
     "fork": false,
     "description": ""
   },

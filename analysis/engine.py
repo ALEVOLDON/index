@@ -1,14 +1,7 @@
 import json
 import os
 from datetime import datetime
-from collections import Counter, defaultdict
-
-try:
-    from sklearn.feature_extraction.text import TfidfVectorizer
-    from sklearn.cluster import KMeans
-    SKLEARN_AVAILABLE = True
-except ImportError:
-    SKLEARN_AVAILABLE = False
+from collections import Counter
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "../data/repos.json")
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "../data/insights.json")
@@ -31,6 +24,74 @@ def analyze_topics(repos):
             topic_counter[t] += 1
     return [t[0] for t in topic_counter.most_common(20)]
 
+def suggest_category(topics):
+    topics_set = set(topics or [])
+
+    category_topics = {
+        "ai": {
+            "ai",
+            "machine-learning",
+            "openai",
+            "llm",
+            "local-llm",
+            "automation",
+            "telegram",
+            "telegram-api-integration",
+            "telegram-bot-ai-assistant",
+            "obsidian",
+            "obsidian-plugin",
+            "knowledge-management",
+            "pkm",
+        },
+        "music": {
+            "music",
+            "audio",
+            "music-technology",
+            "generative-music",
+            "experimental-music",
+            "sound-design",
+            "ableton-live",
+            "vcv-rack",
+            "audiovisual",
+            "modular-synthesis",
+        },
+        "frontend": {
+            "react",
+            "frontend",
+            "web",
+            "webdev",
+            "javascript",
+            "typescript",
+            "nodejs",
+            "astro",
+            "vite",
+            "html5",
+            "css3",
+            "pwa",
+        },
+        "creative": {
+            "3d",
+            "threejs",
+            "three.js",
+            "blender",
+            "generative-art",
+            "creative-coding",
+            "phaser",
+            "gamedev",
+            "browsergame",
+            "indie-game",
+            "mobilegame",
+            "procedural",
+            "geometry-nodes",
+        },
+    }
+
+    for category, markers in category_topics.items():
+        if topics_set & markers:
+            return category
+
+    return "archive"
+
 def calculate_repo_metrics(repo, all_categories, top_topics):
     # Activity score: 1.0 (recent push) down to 0.0 (push > 2 years ago)
     d = days_since(repo.get("updated_at"))
@@ -42,18 +103,7 @@ def calculate_repo_metrics(repo, all_categories, top_topics):
     if repo.get("topics"): health_score += 0.3
     if repo.get("stars", 0) > 0: health_score += 0.4
     
-    # Simple Suggested Category logic
-    suggested = "archive"
-    topics_set = set(repo.get("topics", []))
-    
-    if "ai" in topics_set or "machine-learning" in topics_set:
-        suggested = "ai"
-    elif "music" in topics_set or "audio" in topics_set:
-        suggested = "music"
-    elif "react" in topics_set or "frontend" in topics_set or "web" in topics_set:
-        suggested = "frontend"
-    elif "3d" in topics_set or "threejs" in topics_set:
-        suggested = "creative"
+    suggested = suggest_category(repo.get("topics", []))
     
     return {
         "repo": repo["name"],
