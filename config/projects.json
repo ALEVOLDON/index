@@ -28,6 +28,14 @@
           "notes": "",
           "custom_description": "Landing page for an AI-powered music mixing assistant.",
           "custom_badges": "![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)"
+        },
+        {
+          "name": "Dump-Assistant-Bot",
+          "featured": false,
+          "priority": 8,
+          "notes": "AI assistant bot for Telegram channels",
+          "custom_description": "AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback.",
+          "custom_badges": "![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-1572B6?style=flat-square)"
         }
       ]
     },
@@ -261,12 +269,6 @@
           "featured": false,
           "priority": 2,
           "notes": "Old Draft"
-        },
-        {
-          "name": "Dump-Assistant-Bot",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered"
         }
       ]
     }
