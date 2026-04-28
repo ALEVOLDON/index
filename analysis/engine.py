@@ -34,14 +34,20 @@ def suggest_category(topics):
             "openai",
             "llm",
             "local-llm",
-            "automation",
-            "telegram",
-            "telegram-api-integration",
-            "telegram-bot-ai-assistant",
-            "obsidian",
-            "obsidian-plugin",
+            "chatgpt",
+            "deep-learning",
+            "neural-network",
+            "nlp",
+            "computer-vision",
             "knowledge-management",
             "pkm",
+            "obsidian",
+            "obsidian-plugin",
+            "rag",
+            "semantic-search",
+            "vector-database",
+            "embeddings",
+            "prompt-engineering"
         },
         "music": {
             "music",
@@ -54,6 +60,9 @@ def suggest_category(topics):
             "vcv-rack",
             "audiovisual",
             "modular-synthesis",
+            "synthesizer",
+            "midi",
+            "daw"
         },
         "frontend": {
             "react",
@@ -68,6 +77,9 @@ def suggest_category(topics):
             "html5",
             "css3",
             "pwa",
+            "nextjs",
+            "vue",
+            "svelte"
         },
         "creative": {
             "3d",
@@ -83,6 +95,8 @@ def suggest_category(topics):
             "mobilegame",
             "procedural",
             "geometry-nodes",
+            "webgl",
+            "canvas"
         },
     }
 
@@ -90,7 +104,27 @@ def suggest_category(topics):
         if topics_set & markers:
             return category
 
-    return "archive"
+    return None
+
+def infer_category_from_description(desc):
+    """Fallback categorization based on description keywords."""
+    if not desc:
+        return None
+    desc_l = desc.lower()
+    
+    # Order matters - check most specific first
+    patterns = {
+        "frontend": ["react", "frontend", "ui", "vite", "astro", "vue", "svelte", "angular", "next.js", "nuxt", "web app", "dashboard", "portofolio", "portfolio", "landing", "website", "web", "site"],
+        "creative": ["three.js", "threejs", "blender", "game", "creative", "generative", "procedural", "shader", "canvas", "webgl", "glsl", "music visual", "visualizer", "arcade", "scrolling", "shooter", "pwa game"],
+        "music": ["synthesizer", "daw", "melody", "sound design", "audio", "music technology", "modular", "vcv rack", "ableton", "oscillator", "midi", "chord", "beat", "drum", "bass", "sound"],
+        "ai": ["gpt", "openai", "ollama", "llm", "language model", "neural", "deep learning", "machine learning", "ml", "chatbot", "embedding", "vector", "semantic", "nlp", "transformer"],
+        "productivity": ["habit tracker", "productivity", "tool", "utility", "monitor", "water map", "tracking", "organizer", "planner", "calendar"]
+    }
+    for cat, pats in patterns.items():
+        for p in pats:
+            if p in desc_l:
+                return cat
+    return None
 
 def calculate_repo_metrics(repo, all_categories, top_topics):
     # Activity score: 1.0 (recent push) down to 0.0 (push > 2 years ago)
@@ -103,7 +137,13 @@ def calculate_repo_metrics(repo, all_categories, top_topics):
     if repo.get("topics"): health_score += 0.3
     if repo.get("stars", 0) > 0: health_score += 0.4
     
+    # Categorization: try topics first, then description fallback
     suggested = suggest_category(repo.get("topics", []))
+    if suggested is None:
+        desc = repo.get("description", "")
+        suggested = infer_category_from_description(desc)
+    if suggested is None:
+        suggested = "archive"
     
     return {
         "repo": repo["name"],
@@ -138,7 +178,7 @@ def build_insights():
         suggestions.append(f"Your ecosystem is currently heavily focused around '{topics[0]}'.")
     if len(neglected_repos) > 5:
         suggestions.append(f"You have {len(neglected_repos)} tracked repositories that are becoming inactive, consider archiving the oldest ones.")
-        
+         
     insights = {
         "generated_at": datetime.now().isoformat(),
         "top_topics": topics[:10],
