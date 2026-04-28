@@ -43,13 +43,27 @@ async function main() {
     const allRepos = [];
     let page = 1;
     while(true) {
-        const reposPage = await fetchJSON(`users/${USERNAME}/repos?per_page=100&page=${page}&type=public`);
+        // Use Accept header that includes topics
+        const reposPage = await fetchJSON(`users/${USERNAME}/repos?per_page=100&page=${page}&type=public&affiliations=owner,collaborator`);
         if (reposPage.length === 0) break;
         allRepos.push(...reposPage);
         if (reposPage.length < 100) break;
         page++;
     }
     console.log(`Fetched ${allRepos.length} public repositories from GitHub.`);
+    
+    // Fetch topics for repos that don't have them
+    console.log('Fetching repository topics...');
+    for (const repo of allRepos) {
+        if (!repo.topics || repo.topics.length === 0) {
+            try {
+                const topicsData = await fetchJSON(`repos/${USERNAME}/${repo.name}/topics`);
+                repo.topics = topicsData.names || topicsData || [];
+            } catch (err) {
+                repo.topics = [];
+            }
+        }
+    }
 
     const reposData = [];
 
