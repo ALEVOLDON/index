@@ -302,14 +302,14 @@
     "description": "Implement a basic city comparison for a website using AngularJS as a service"
   },
   {
-    "name": "full_roadmap_ai_enthusiast_2025",
+    "name": "full_roadmap_ai_enthusiast_2026",
     "stars": 0,
-    "updated_at": "2025-07-24",
+    "updated_at": "2026-04-29",
     "topics": [],
     "tracked": true,
     "category": "ai",
     "fork": false,
-    "description": "Полная и структурированная дорожная карта для тех, кто хочет освоить искусственный интеллект в 2025 году — от абсолютного новичка до создателя собственных AI-продуктов, агентов и автоматизированных решений."
+    "description": "Полная и структурированная дорожная карта для тех, кто хочет освоить искусственный интеллект в 2026 году — от абсолютного новичка до создателя собственных AI-продуктов, агентов и автоматизированных решений."
   },
   {
     "name": "github-desktop",
@@ -404,7 +404,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-04-28",
+    "updated_at": "2026-04-30",
     "topics": [
       "ai",
       "audio-development",
@@ -702,7 +702,7 @@
   {
     "name": "obsidian_posts_smart_tags",
     "stars": 0,
-    "updated_at": "2026-04-14",
+    "updated_at": "2026-04-29",
     "topics": [
       "automation",
       "knowledge-management",
@@ -917,7 +917,7 @@
     "updated_at": "2025-04-14",
     "topics": [],
     "tracked": true,
-    "category": null,
+    "category": "music",
     "fork": false,
     "description": "A convenient GUI application for downloading your liked tracks from SoundCloud."
   },

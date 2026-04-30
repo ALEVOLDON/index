@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T14:55:12.802642",
+  "generated_at": "2026-04-30T13:39:12.775595",
   "top_topics": [
     "automation",
     "javascript",
@@ -217,11 +217,11 @@
       "days_inactive": 3629
     },
     {
-      "repo": "full_roadmap_ai_enthusiast_2025",
+      "repo": "full_roadmap_ai_enthusiast_2026",
       "suggested_category": "archive",
       "health_score": 0.3,
-      "activity_score": 0.62,
-      "days_inactive": 280
+      "activity_score": 1.0,
+      "days_inactive": 1
     },
     {
       "repo": "github-desktop",
@@ -291,7 +291,7 @@
       "suggested_category": "ai",
       "health_score": 1.0,
       "activity_score": 1.0,
-      "days_inactive": 2
+      "days_inactive": 0
     },
     {
       "repo": "iphone-3d-website-starter",
@@ -479,8 +479,8 @@
       "repo": "obsidian_posts_smart_tags",
       "suggested_category": "ai",
       "health_score": 0.6,
-      "activity_score": 0.98,
-      "days_inactive": 16
+      "activity_score": 1.0,
+      "days_inactive": 1
     },
     {
       "repo": "point-cloud-surface",
@@ -730,6 +730,6 @@
   ],
   "suggestions": [
     "Your ecosystem is currently heavily focused around 'automation'.",
-    "You have 14 tracked repositories that are becoming inactive, consider archiving the oldest ones."
+    "You have 15 tracked repositories that are becoming inactive, consider archiving the oldest ones."
   ]
 }
