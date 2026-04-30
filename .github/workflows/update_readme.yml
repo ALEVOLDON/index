@@ -47,26 +47,9 @@ jobs:
         run: node core/autoDiscovery.js
 
       - name: Validate Repository Data
-        id: validate
-        continue-on-error: true
         run: node scripts/validate.js
 
-      - name: Debug Data Files on Failure
-        if: steps.validate.outcome == 'failure'
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-data-files
-          path: |
-            config/projects.json
-            data/repos.json
-            data/insights.json
-
-      - name: Fail Workflow if Validation Failed
-        if: steps.validate.outcome == 'failure'
-        run: exit 1
-
       - name: Render New README (Node.js)
-        if: steps.validate.outcome == 'success'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node render/renderReadme.js
