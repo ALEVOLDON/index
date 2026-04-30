@@ -47,9 +47,23 @@ jobs:
         run: node core/autoDiscovery.js
 
       - name: Validate Repository Data
+        id: validate
+        continue-on-error: true
         run: node scripts/validate.js
 
+      - name: Debug Data Files on Failure
+        if: steps.validate.outcome == 'failure'
+        run: |
+          echo "=== config/projects.json ==="
+          cat config/projects.json
+          echo -e "\n=== data/repos.json (last 20 lines) ==="
+          tail -n 20 data/repos.json
+          echo -e "\n=== data/insights.json (last 20 lines) ==="
+          tail -n 20 data/insights.json
+          exit 1
+
       - name: Render New README (Node.js)
+        if: steps.validate.outcome == 'success'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node render/renderReadme.js
