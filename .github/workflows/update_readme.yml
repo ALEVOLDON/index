@@ -53,14 +53,17 @@ jobs:
 
       - name: Debug Data Files on Failure
         if: steps.validate.outcome == 'failure'
-        run: |
-          echo "=== config/projects.json ==="
-          cat config/projects.json
-          echo -e "\n=== data/repos.json (last 20 lines) ==="
-          tail -n 20 data/repos.json
-          echo -e "\n=== data/insights.json (last 20 lines) ==="
-          tail -n 20 data/insights.json
-          exit 1
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-data-files
+          path: |
+            config/projects.json
+            data/repos.json
+            data/insights.json
+
+      - name: Fail Workflow if Validation Failed
+        if: steps.validate.outcome == 'failure'
+        run: exit 1
 
       - name: Render New README (Node.js)
         if: steps.validate.outcome == 'success'
