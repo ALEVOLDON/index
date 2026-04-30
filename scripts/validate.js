@@ -7,14 +7,30 @@ const REPOS_PATH = path.join(ROOT, 'data', 'repos.json');
 const INSIGHTS_PATH = path.join(ROOT, 'data', 'insights.json');
 
 function readJSON(filePath) {
+    if (!fs.existsSync(filePath)) {
+        throw new Error(`File missing: ${path.relative(ROOT, filePath)}`);
+    }
+    const content = fs.readFileSync(filePath, 'utf8');
     try {
-        return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        return JSON.parse(content);
     } catch (err) {
-        throw new Error(`Invalid JSON in ${path.relative(ROOT, filePath)}: ${err.message}`);
+        console.error(`JSON Parse Error in ${path.relative(ROOT, filePath)}:`);
+        console.error(err.message);
+        // Show a snippet of the file around the error if possible
+        const match = err.message.match(/position (\d+)/);
+        if (match) {
+            const pos = parseInt(match[1], 10);
+            const start = Math.max(0, pos - 50);
+            const end = Math.min(content.length, pos + 50);
+            console.error('Context around error:');
+            console.error('...' + content.substring(start, end) + '...');
+        }
+        throw new Error(`Invalid JSON in ${path.relative(ROOT, filePath)}`);
     }
 }
 
 function validate() {
+    console.log('Starting validation...');
     const config = readJSON(CONFIG_PATH);
     const repos = readJSON(REPOS_PATH);
     readJSON(INSIGHTS_PATH);
@@ -57,15 +73,15 @@ function validate() {
     }
 
     if (errors.length > 0) {
-        throw new Error(`Validation failed:\n- ${errors.join('\n- ')}`);
+        throw new Error(`Validation failed with ${errors.length} errors:\n- ${errors.join('\n- ')}`);
     }
 
-    console.log('Validation passed.');
+    console.log('Validation passed successfully.');
 }
 
 try {
     validate();
 } catch (err) {
-    console.error(err.message);
+    console.error('VALIDATION ERROR:', err.message);
     process.exit(1);
 }
