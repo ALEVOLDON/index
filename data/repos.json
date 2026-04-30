@@ -916,7 +916,7 @@
     "stars": 1,
     "updated_at": "2025-04-14",
     "topics": [],
-    "tracked": false,
+    "tracked": true,
     "category": null,
     "fork": false,
     "description": "A convenient GUI application for downloading your liked tracks from SoundCloud."

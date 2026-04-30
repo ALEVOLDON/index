@@ -1,3 +1,55 @@
+const fs = require('fs');
+const path = require('path');
+
+const GITHUB_API_URL = 'https://api.github.com/';
+const USERNAME = 'ALEVOLDON';
+const REPOS_PATH = path.join(__dirname, '../data/repos.json');
+const INSIGHTS_PATH = path.join(__dirname, '../data/insights.json');
+
+function getHeaders() {
+    const headers = { 
+        'User-Agent': 'Node.js README Updater',
+        'Accept': 'application/vnd.github.mercy-preview+json'
+    };
+    if (process.env.GITHUB_ACTIONS && process.env.GITHUB_TOKEN) {
+        headers['Authorization'] = `Bearer ${process.env.GITHUB_TOKEN}`;
+    }
+    return headers;
+}
+
+async function fetchJSON(endpoint, options = {}) {
+    const res = await fetch(GITHUB_API_URL + endpoint, { 
+        ...options,
+        headers: { ...getHeaders(), ...options.headers } 
+    });
+    if (!res.ok) {
+        // Silently handle 404/403 for individual issues if needed, but for now throw
+        throw new Error(`Failed to fetch ${endpoint}: ${res.statusText}`);
+    }
+    return res.json();
+}
+
+async function fetchAllPages(endpoint) {
+    let all = [];
+    let page = 1;
+    const separator = endpoint.includes('?') ? '&' : '?';
+    while (true) {
+        const data = await fetchJSON(`${endpoint}${separator}per_page=100&page=${page}`);
+        if (!Array.isArray(data) || data.length === 0) break;
+        all.push(...data);
+        if (data.length < 100) break;
+        page++;
+    }
+    return all;
+}
+
+async function closeIssue(issueNumber) {
+    return fetchJSON(`repos/${USERNAME}/index/issues/${issueNumber}`, {
+        method: 'PATCH',
+        body: JSON.stringify({ state: 'closed' })
+    });
+}
+
 async function runAutoDiscovery() {
     if (!fs.existsSync(REPOS_PATH) || !fs.existsSync(INSIGHTS_PATH)) {
         console.error('Missing data/repos.json or data/insights.json');
@@ -33,7 +85,7 @@ async function runAutoDiscovery() {
             // If the repo is now tracked, close the issue if it exists!
             if (existingIssue) {
                 console.log(`Closing auto-discovery issue for ${repo.name} since it is now tracked.`);
-                await closeIssue(existingIssue.number);
+                await closeIssue(existingIssue.number).catch(err => console.error(`Failed to close issue: ${err.message}`));
             }
             continue;
         }
@@ -42,7 +94,7 @@ async function runAutoDiscovery() {
             // Close existing issues for forks/self/index
             if (existingIssue) {
                 console.log(`Closing auto-discovery issue for ${repo.name} (fork/self/index).`);
-                await closeIssue(existingIssue.number);
+                await closeIssue(existingIssue.number).catch(err => console.error(`Failed to close issue: ${err.message}`));
             }
             continue;
         }
@@ -100,7 +152,7 @@ async function runAutoDiscovery() {
             // Only close if repo is now tracked OR if it's been more than 180 days
             if (repo.tracked || (metrics.days_inactive && metrics.days_inactive > 180)) {
                 console.log(`Closing existing auto-discovery issue for ${repo.name}...`);
-                await closeIssue(existingIssue.number);
+                await closeIssue(existingIssue.number).catch(err => console.error(`Failed to close issue: ${err.message}`));
             }
         }
     }
@@ -161,3 +213,8 @@ function infer_category_from_description(desc) {
     }
     return null;
 }
+
+runAutoDiscovery().catch(err => {
+    console.error('Auto-discovery failed:', err);
+    process.exit(1);
+});

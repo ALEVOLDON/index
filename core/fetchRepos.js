@@ -44,7 +44,10 @@ async function main() {
     let page = 1;
     while(true) {
         // Use Accept header that includes topics
-        const reposPage = await fetchJSON(`users/${USERNAME}/repos?per_page=100&page=${page}&type=public&affiliations=owner,collaborator`);
+        const endpoint = (process.env.GITHUB_ACTIONS && process.env.GITHUB_TOKEN)
+            ? `user/repos?per_page=100&page=${page}&type=public&affiliation=owner,collaborator`
+            : `users/${USERNAME}/repos?per_page=100&page=${page}&type=public`;
+        const reposPage = await fetchJSON(endpoint);
         if (reposPage.length === 0) break;
         allRepos.push(...reposPage);
         if (reposPage.length < 100) break;

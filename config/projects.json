@@ -91,6 +91,14 @@
           "notes": "",
           "custom_description": "Download SoundCloud likes to a local player.",
           "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SoundCloud](https://img.shields.io/badge/SoundCloud-FF8800?style=flat-square&logo=soundcloud&logoColor=white)"
+        },
+        {
+          "name": "soundcloud-likes-downloader",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered (no topics)",
+          "custom_description": "A convenient GUI application for downloading your liked tracks from SoundCloud.",
+          "custom_badges": ""
         }
       ]
     },
