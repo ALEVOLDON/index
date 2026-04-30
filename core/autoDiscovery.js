@@ -23,7 +23,6 @@ async function fetchJSON(endpoint, options = {}) {
         headers: { ...getHeaders(), ...options.headers } 
     });
     if (!res.ok) {
-        // Silently handle 404/403 for individual issues if needed, but for now throw
         throw new Error(`Failed to fetch ${endpoint}: ${res.statusText}`);
     }
     return res.json();
@@ -77,12 +76,14 @@ async function runAutoDiscovery() {
         console.log('Failed to fetch existing issues: ', err.message);
     }
 
+    let configModified = false;
+    let reposModified = false;
+
     for (const repo of reposData) {
         const title = `Auto-Discovery: Add ${repo.name} to README`;
         const existingIssue = existingIssues.find(iss => iss.title === title);
 
         if (repo.tracked) {
-            // If the repo is now tracked, close the issue if it exists!
             if (existingIssue) {
                 console.log(`Closing auto-discovery issue for ${repo.name} since it is now tracked.`);
                 await closeIssue(existingIssue.number).catch(err => console.error(`Failed to close issue: ${err.message}`));
@@ -91,7 +92,6 @@ async function runAutoDiscovery() {
         }
         
         if (repo.fork || repo.name === 'ALEVOLDON' || repo.name === 'index') {
-            // Close existing issues for forks/self/index
             if (existingIssue) {
                 console.log(`Closing auto-discovery issue for ${repo.name} (fork/self/index).`);
                 await closeIssue(existingIssue.number).catch(err => console.error(`Failed to close issue: ${err.message}`));
@@ -101,97 +101,72 @@ async function runAutoDiscovery() {
 
         const metrics = metricsMap[repo.name] || {};
         
-        // If it's a healthy project, auto-add it to the config with proper category
-        if (metrics.health_score >= 0.7 && repo.topics && repo.topics.length > 0) {
-            const categoryId = suggest_category(repo.topics) || 'archive';
-            
+        // Logic to decide if we should add the repo
+        let shouldAdd = false;
+        let categoryId = null;
+        let note = "";
+
+        if (metrics.health_score >= 0.7) {
+            if (repo.topics && repo.topics.length > 0) {
+                categoryId = suggest_category(repo.topics) || 'archive';
+                shouldAdd = true;
+                note = "Auto-discovered";
+            } else if (repo.description) {
+                categoryId = infer_category_from_description(repo.description.toLowerCase()) || 'archive';
+                shouldAdd = true;
+                note = "Auto-discovered (description-based)";
+            }
+        }
+
+        if (shouldAdd && categoryId) {
             const targetCategory = config.categories.find(c => c.id === categoryId);
-            
             if (targetCategory) {
-                // Check if not already added
                 if (!targetCategory.repos.find(r => r.name === repo.name)) {
                     console.log(`Auto-adding ${repo.name} to config/projects.json under ${categoryId}...`);
                     targetCategory.repos.push({
                         name: repo.name,
                         featured: false,
                         priority: 1,
-                        notes: "Auto-discovered",
+                        notes: note,
                         custom_description: repo.description || 'No description provided.',
                         custom_badges: ""
                     });
-                    fs.writeFileSync(configPath, JSON.stringify(config, null, 2), 'utf8');
+                    configModified = true;
                     repo.tracked = true;
-                    // Mark as tracked in reposData for this run
+                    reposModified = true;
                 }
-            } else {
-                console.log(`Warning: Category ${categoryId} not found for ${repo.name}`);
-            }
-        } else if (metrics.health_score >= 0.7 && (!repo.topics || repo.topics.length === 0)) {
-            // Healthy but no topics - use description-based categorization
-            const desc = (repo.description || '').toLowerCase();
-            const categoryId = infer_category_from_description(desc) || 'archive';
-            const targetCategory = config.categories.find(c => c.id === categoryId);
-            
-            if (targetCategory && !targetCategory.repos.find(r => r.name === repo.name)) {
-                console.log(`Auto-adding ${repo.name} to config/projects.json under ${categoryId} (description-based)...`);
-                targetCategory.repos.push({
-                    name: repo.name,
-                    featured: false,
-                    priority: 1,
-                    notes: "Auto-discovered (no topics)",
-                    custom_description: repo.description || 'No description provided.',
-                    custom_badges: ""
-                });
-                fs.writeFileSync(configPath, JSON.stringify(config, null, 2), 'utf8');
-                repo.tracked = true;
             }
         }
         
-        // Clean up any existing auto-discovery issues for this repo
-        if (existingIssue) {
-            // Only close if repo is now tracked OR if it's been more than 180 days
-            if (repo.tracked || (metrics.days_inactive && metrics.days_inactive > 180)) {
-                console.log(`Closing existing auto-discovery issue for ${repo.name}...`);
-                await closeIssue(existingIssue.number).catch(err => console.error(`Failed to close issue: ${err.message}`));
-            }
+        if (existingIssue && (repo.tracked || (metrics.days_inactive && metrics.days_inactive > 180))) {
+            console.log(`Closing existing auto-discovery issue for ${repo.name}...`);
+            await closeIssue(existingIssue.number).catch(err => console.error(`Failed to close issue: ${err.message}`));
         }
     }
     
-    // Save updated repos data
-    fs.writeFileSync(REPOS_PATH, JSON.stringify(reposData, null, 2), 'utf8');
+    if (configModified) {
+        console.log('Writing updated config/projects.json...');
+        fs.writeFileSync(configPath, JSON.stringify(config, null, 2), 'utf8');
+    }
+    
+    if (reposModified) {
+        console.log('Writing updated data/repos.json...');
+        fs.writeFileSync(REPOS_PATH, JSON.stringify(reposData, null, 2), 'utf8');
+    }
 }
 
 function suggest_category(topics) {
     const topics_set = new Set(topics);
-    
     const category_topics = {
-        "ai": [
-            "ai", "machine-learning", "openai", "llm", "local-llm", "automation",
-            "telegram", "telegram-api-integration", "telegram-bot-ai-assistant",
-            "obsidian", "obsidian-plugin", "knowledge-management", "pkm",
-            "chatbot", "community-management"
-        ],
-        "music": [
-            "music", "audio", "music-technology", "generative-music",
-            "experimental-music", "sound-design", "ableton-live", "vcv-rack",
-            "audiovisual", "modular-synthesis"
-        ],
-        "frontend": [
-            "react", "frontend", "web", "webdev", "javascript", "typescript",
-            "nodejs", "astro", "vite", "html5", "css3", "pwa"
-        ],
-        "creative": [
-            "3d", "threejs", "three.js", "blender", "generative-art",
-            "creative-coding", "phaser", "gamedev", "browsergame", "indie-game",
-            "mobilegame", "procedural", "geometry-nodes"
-        ]
+        "ai": ["ai", "machine-learning", "openai", "llm", "local-llm", "automation", "telegram", "telegram-api-integration", "telegram-bot-ai-assistant", "obsidian", "obsidian-plugin", "knowledge-management", "pkm", "chatbot", "community-management"],
+        "music": ["music", "audio", "music-technology", "generative-music", "experimental-music", "sound-design", "ableton-live", "vcv-rack", "audiovisual", "modular-synthesis"],
+        "frontend": ["react", "frontend", "web", "webdev", "javascript", "typescript", "nodejs", "astro", "vite", "html5", "css3", "pwa"],
+        "creative": ["3d", "threejs", "three.js", "blender", "generative-art", "creative-coding", "phaser", "gamedev", "browsergame", "indie-game", "mobilegame", "procedural", "geometry-nodes"]
     };
 
     for (const [category, markers] of Object.entries(category_topics)) {
         for (const m of markers) {
-            if (topics_set.has(m)) {
-                return category;
-            }
+            if (topics_set.has(m)) return category;
         }
     }
     return "archive";
@@ -205,7 +180,6 @@ function infer_category_from_description(desc) {
         "creative": ["3d", "three.js", "blender", "game", "creative", "generative", "procedural", "shader", "canvas"],
         "productivity": ["habit", "tracker", "productivity", "tool", "utility", "monitor", "map", "water"]
     };
-    
     for (const [cat, pats] of Object.entries(patterns)) {
         for (const p of pats) {
             if (desc.includes(p)) return cat;
