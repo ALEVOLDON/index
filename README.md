@@ -98,7 +98,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>📅 2026-04-17</small> | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/portfolio) |
 | [cosmic-portfolio](https://github.com/ALEVOLDON/cosmic-portfolio)<br><small>⭐ 1 • 📅 2025-03-01</small> | Interactive space-themed portfolio. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/cosmic-portfolio) |
 | [CodeWizard](https://github.com/ALEVOLDON/CodeWizard)<br><small>📅 2025-03-24</small> | Futuristic terminal-style website. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CodeWizard) |
-| [relationship-test-app](https://github.com/ALEVOLDON/relationship-test-app)<br><small>📅 2025-05-13</small> | Relationship personality style test app. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/relationship-test-app) |
+| [relationship-test-app](https://github.com/ALEVOLDON/relationship-test-app)<br><small>📅 2025-05-13</small> | Relationship personality style test app. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/relationship-test-app) |
 
 ---
 
@@ -148,9 +148,9 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 15 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3340 days)
-- ⚠️ `Rack` (inactive for 3087 days)
-- ⚠️ `magenta` (inactive for 2981 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3341 days)
+- ⚠️ `Rack` (inactive for 3088 days)
+- ⚠️ `magenta` (inactive for 2982 days)
 
 
 ---
