@@ -404,7 +404,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-05-21",
+    "updated_at": "2026-05-22",
     "topics": [
       "ai",
       "audio-development",
@@ -743,8 +743,19 @@
   {
     "name": "portfolio",
     "stars": 0,
-    "updated_at": "2026-05-18",
-    "topics": [],
+    "updated_at": "2026-05-22",
+    "topics": [
+      "developer-portfolio",
+      "frontend",
+      "javascript",
+      "p5js",
+      "portfolio",
+      "react",
+      "tailwindcss",
+      "threejs",
+      "vite",
+      "webgl"
+    ],
     "tracked": true,
     "category": "frontend",
     "fork": false,
