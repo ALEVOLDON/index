@@ -304,12 +304,25 @@
   {
     "name": "full_roadmap_ai_enthusiast_2026",
     "stars": 0,
-    "updated_at": "2026-04-29",
-    "topics": [],
+    "updated_at": "2026-05-23",
+    "topics": [
+      "agentic-workflows",
+      "ai-roadmap",
+      "claude-3-7",
+      "deepseek-r1",
+      "developer-roadmap",
+      "mcp-protocol",
+      "micro-saas",
+      "nextjs-15",
+      "pydantic-ai",
+      "rag",
+      "tailwind-v4",
+      "vercel-ai-sdk"
+    ],
     "tracked": true,
     "category": "ai",
     "fork": false,
-    "description": "Полная и структурированная дорожная карта для тех, кто хочет освоить искусственный интеллект в 2026 году — от абсолютного новичка до создателя собственных AI-продуктов, агентов и автоматизированных решений."
+    "description": "An interactive, dynamic, and privacy-first AI developer roadmap for 2026. From zero to building autonomous agents, MCP servers, and micro-SaaS. Built with Next.js, Tailwind v4, PydanticAI, and Vercel AI SDK."
   },
   {
     "name": "github-desktop",
@@ -404,7 +417,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-05-22",
+    "updated_at": "2026-05-23",
     "topics": [
       "ai",
       "audio-development",
@@ -743,7 +756,7 @@
   {
     "name": "portfolio",
     "stars": 0,
-    "updated_at": "2026-05-22",
+    "updated_at": "2026-05-23",
     "topics": [
       "developer-portfolio",
       "frontend",
