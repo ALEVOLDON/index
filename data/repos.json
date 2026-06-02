@@ -230,6 +230,16 @@
     "description": "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more"
   },
   {
+    "name": "developer-portfolios",
+    "stars": 0,
+    "updated_at": "2026-06-01",
+    "topics": [],
+    "tracked": false,
+    "category": null,
+    "fork": true,
+    "description": "A list of developer portfolios for your inspiration"
+  },
+  {
     "name": "Dump-Assistant-Bot",
     "stars": 1,
     "updated_at": "2026-04-27",
@@ -417,7 +427,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-05-31",
+    "updated_at": "2026-06-01",
     "topics": [
       "ai",
       "audio-development",
@@ -756,7 +766,7 @@
   {
     "name": "portfolio",
     "stars": 0,
-    "updated_at": "2026-05-31",
+    "updated_at": "2026-06-01",
     "topics": [
       "developer-portfolio",
       "frontend",
