@@ -67,7 +67,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
 | [obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)<br><small>📅 2026-05-25</small> | AI-powered auto-tagging of Telegram posts into Obsidian notes. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/obsidian_posts_smart_tags) |
-| [Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)<br><small>⭐ 1 • 📅 2026-06-14</small> | AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-1572B6?style=flat-square) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Dump-Assistant-Bot) |
+| [Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)<br><small>⭐ 1 • 📅 2026-06-15</small> | AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-1572B6?style=flat-square) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Dump-Assistant-Bot) |
 | [full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)<br><small>📅 2026-05-23</small> | The ultimate guide to mastering AI in 2025. | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026) |
 | [Smart-Daw-Landing-React](https://github.com/ALEVOLDON/Smart-Daw-Landing-React)<br><small>📅 2026-04-30</small> | Landing page for an AI-powered music mixing assistant. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Smart-Daw-Landing-React) |
 
@@ -148,20 +148,20 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 16 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3374 days)
-- ⚠️ `Rack` (inactive for 3121 days)
-- ⚠️ `magenta` (inactive for 3015 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3375 days)
+- ⚠️ `Rack` (inactive for 3122 days)
+- ⚠️ `magenta` (inactive for 3016 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
+- **Jun 15** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
+- **Jun 15** — 📦 Released **v0.2.0** in **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)**
+- **Jun 15** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
+- **Jun 15** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
 - **Jun 14** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Jun 14** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
-- **Jun 14** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
-- **Jun 14** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Jun 12** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
