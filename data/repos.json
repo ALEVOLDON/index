@@ -242,7 +242,7 @@
   {
     "name": "Dump-Assistant-Bot",
     "stars": 1,
-    "updated_at": "2026-06-16",
+    "updated_at": "2026-06-17",
     "topics": [
       "automation",
       "chatbot",
@@ -427,7 +427,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-06-16",
+    "updated_at": "2026-06-17",
     "topics": [
       "ai",
       "audio-development",
@@ -725,7 +725,7 @@
   {
     "name": "obsidian_posts_smart_tags",
     "stars": 0,
-    "updated_at": "2026-05-25",
+    "updated_at": "2026-06-17",
     "topics": [
       "automation",
       "knowledge-management",
@@ -766,7 +766,7 @@
   {
     "name": "portfolio",
     "stars": 0,
-    "updated_at": "2026-06-16",
+    "updated_at": "2026-06-17",
     "topics": [
       "developer-portfolio",
       "frontend",
