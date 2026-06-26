@@ -148,20 +148,20 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 16 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3384 days)
-- ⚠️ `Rack` (inactive for 3131 days)
-- ⚠️ `magenta` (inactive for 3025 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3385 days)
+- ⚠️ `Rack` (inactive for 3132 days)
+- ⚠️ `magenta` (inactive for 3026 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Jun 22** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Jun 22** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Jun 21** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Jun 20** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
-- **Jun 20** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
+- **Jun 25** — 🚀 Pushed changes to **[ALEVOLDON/solar-roof](https://github.com/ALEVOLDON/solar-roof)** (master)
+- **Jun 25** — 🚀 Pushed changes to **[ALEVOLDON/solar-roof](https://github.com/ALEVOLDON/solar-roof)** (master)
+- **Jun 25** — 🚀 Pushed changes to **[ALEVOLDON/solar-roof](https://github.com/ALEVOLDON/solar-roof)** (master)
+- **Jun 25** — 🚀 Pushed changes to **[ALEVOLDON/solar-roof](https://github.com/ALEVOLDON/solar-roof)** (master)
+- **Jun 25** — 🚀 Pushed changes to **[ALEVOLDON/solar-roof](https://github.com/ALEVOLDON/solar-roof)** (master)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
@@ -170,7 +170,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 <!-- TOP_SKILLS_START -->
 <div align="center">
 
-![](https://img.shields.io/badge/javascript-3-1572B6?style=flat-square) ![](https://img.shields.io/badge/automation-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/nodejs-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/creative--coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative--art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music--technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/portfolio-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/chatbot-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/community--management-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/local--llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ollama-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/openai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--api--integration-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--bot--ai--assistant-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/agentic--workflows-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ai--roadmap-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/claude--3--7-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/deepseek--r1-1-1572B6?style=flat-square)
+![](https://img.shields.io/badge/javascript-3-1572B6?style=flat-square) ![](https://img.shields.io/badge/automation-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/nodejs-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/creative--coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative--art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music--technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/portfolio-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/blender-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/python-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/chatbot-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/community--management-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/local--llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ollama-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/openai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--api--integration-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--bot--ai--assistant-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/agentic--workflows-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ai--roadmap-1-1572B6?style=flat-square)
 
 </div>
 <!-- TOP_SKILLS_END -->

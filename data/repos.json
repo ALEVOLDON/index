@@ -427,7 +427,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-06-24",
+    "updated_at": "2026-06-25",
     "topics": [
       "ai",
       "audio-development",
@@ -944,6 +944,21 @@
     "category": null,
     "fork": false,
     "description": "In this part we will setup Sass, create the landing page with navigation, image overlay, Sass variables, mixins and functions"
+  },
+  {
+    "name": "solar-roof",
+    "stars": 0,
+    "updated_at": "2026-06-25",
+    "topics": [
+      "3d-visualization",
+      "blender",
+      "python",
+      "solar-energy"
+    ],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "3D solar roof visualization: Blender Python, Cycles GPU"
   },
   {
     "name": "soundcloud-likes-downloader",
