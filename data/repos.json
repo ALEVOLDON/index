@@ -313,7 +313,7 @@
   },
   {
     "name": "full_roadmap_ai_enthusiast_2026",
-    "stars": 0,
+    "stars": 1,
     "updated_at": "2026-06-19",
     "topics": [
       "agentic-workflows",
@@ -427,7 +427,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-06-26",
+    "updated_at": "2026-06-27",
     "topics": [
       "ai",
       "audio-development",
@@ -766,7 +766,7 @@
   {
     "name": "portfolio",
     "stars": 0,
-    "updated_at": "2026-06-26",
+    "updated_at": "2026-06-27",
     "topics": [
       "developer-portfolio",
       "frontend",
