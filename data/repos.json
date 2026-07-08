@@ -313,7 +313,7 @@
   },
   {
     "name": "full_roadmap_ai_enthusiast_2026",
-    "stars": 1,
+    "stars": 2,
     "updated_at": "2026-06-19",
     "topics": [
       "agentic-workflows",
@@ -427,7 +427,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-07-06",
+    "updated_at": "2026-07-07",
     "topics": [
       "ai",
       "audio-development",
@@ -766,7 +766,7 @@
   {
     "name": "portfolio",
     "stars": 1,
-    "updated_at": "2026-07-06",
+    "updated_at": "2026-07-07",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -969,6 +969,26 @@
     "category": "music",
     "fork": false,
     "description": "A convenient GUI application for downloading your liked tracks from SoundCloud."
+  },
+  {
+    "name": "SPA-Eurorack-Market-Guide",
+    "stars": 0,
+    "updated_at": "2026-07-07",
+    "topics": [
+      "calculator",
+      "chartjs",
+      "eurorack",
+      "market-guide",
+      "modular-synth",
+      "safety-checklist",
+      "synthesizer",
+      "tailwindcss",
+      "vite"
+    ],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "Interactive Eurorack second-hand market guide and safety console for European musicians"
   },
   {
     "name": "tools",
