@@ -335,16 +335,6 @@
     "description": "An interactive, dynamic, and privacy-first AI developer roadmap for 2026. From zero to building autonomous agents, MCP servers, and micro-SaaS. Built with Next.js, Tailwind v4, PydanticAI, and Vercel AI SDK."
   },
   {
-    "name": "github-desktop",
-    "stars": 0,
-    "updated_at": "2021-08-12",
-    "topics": [],
-    "tracked": false,
-    "category": null,
-    "fork": false,
-    "description": "tutorial"
-  },
-  {
     "name": "github-slideshow",
     "stars": 0,
     "updated_at": "2022-02-26",
@@ -427,7 +417,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-07-15",
+    "updated_at": "2026-07-16",
     "topics": [
       "ai",
       "audio-development",
