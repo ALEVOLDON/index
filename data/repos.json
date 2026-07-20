@@ -417,7 +417,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-07-18",
+    "updated_at": "2026-07-19",
     "topics": [
       "ai",
       "audio-development",
@@ -756,7 +756,7 @@
   {
     "name": "portfolio",
     "stars": 1,
-    "updated_at": "2026-07-17",
+    "updated_at": "2026-07-19",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -1069,6 +1069,26 @@
     "category": null,
     "fork": false,
     "description": ""
+  },
+  {
+    "name": "WindyCheck_bot",
+    "stars": 0,
+    "updated_at": "2026-07-19",
+    "topics": [
+      "aiogram",
+      "kitesurfing",
+      "matplotlib",
+      "openweathermap",
+      "python",
+      "telegram-bot",
+      "weather-bot",
+      "wind-tracker",
+      "windsurfing"
+    ],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "Асинхронный Telegram-бот на Python (aiogram 3) для отслеживания ветра, порывов, прогнозов, розы ветров и авто-уведомлений."
   },
   {
     "name": "zaverstay-2",

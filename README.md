@@ -95,7 +95,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | :--- | :--- | :--- | :--- | :--- |
 | [ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)<br><small>📅 2026-02-05</small> | Immersive 3D resource portal for developers. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/ZERO-GRAVITY) |
 | [Anti-Gravity-Landing](https://github.com/ALEVOLDON/Anti-Gravity-Landing)<br><small>📅 2026-02-03</small> | Landing page with physics: elements fall on click! | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Anti-Gravity-Landing) |
-| [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>⭐ 1 • 📅 2026-07-17</small> | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/portfolio) |
+| [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>⭐ 1 • 📅 2026-07-19</small> | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/portfolio) |
 | [cosmic-portfolio](https://github.com/ALEVOLDON/cosmic-portfolio)<br><small>⭐ 1 • 📅 2025-03-01</small> | Interactive space-themed portfolio. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/cosmic-portfolio) |
 | [CodeWizard](https://github.com/ALEVOLDON/CodeWizard)<br><small>📅 2025-03-24</small> | Futuristic terminal-style website. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CodeWizard) |
 | [relationship-test-app](https://github.com/ALEVOLDON/relationship-test-app)<br><small>📅 2025-05-13</small> | Relationship personality style test app. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/relationship-test-app) |
@@ -148,20 +148,20 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 16 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3408 days)
-- ⚠️ `Rack` (inactive for 3155 days)
-- ⚠️ `magenta` (inactive for 3049 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3409 days)
+- ⚠️ `Rack` (inactive for 3156 days)
+- ⚠️ `magenta` (inactive for 3050 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
+- **Jul 19** — 🚀 Pushed changes to **[ALEVOLDON/WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)** (main)
+- **Jul 19** — 📦 Released **v1.0.0** in **[ALEVOLDON/WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)**
+- **Jul 19** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Jul 17** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Jul 17** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Jul 17** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
-- **Jul 17** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
-- **Jul 17** — 📦 Released **v0.4.1** in **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)**
 <!-- RECENT_ACTIVITY_END -->
 
 ---
@@ -170,7 +170,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 <!-- TOP_SKILLS_START -->
 <div align="center">
 
-![](https://img.shields.io/badge/javascript-3-1572B6?style=flat-square) ![](https://img.shields.io/badge/automation-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/nodejs-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/creative--coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative--art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music--technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/portfolio-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/blender-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/python-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/tailwindcss-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/vite-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/chatbot-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/community--management-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/local--llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ollama-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/openai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--api--integration-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--bot--ai--assistant-1-1572B6?style=flat-square)
+![](https://img.shields.io/badge/javascript-3-1572B6?style=flat-square) ![](https://img.shields.io/badge/python-3-1572B6?style=flat-square) ![](https://img.shields.io/badge/automation-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/nodejs-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/creative--coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative--art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music--technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/portfolio-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/blender-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/tailwindcss-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/vite-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/chatbot-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/community--management-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/local--llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ollama-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/openai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--api--integration-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--bot--ai--assistant-1-1572B6?style=flat-square)
 
 </div>
 <!-- TOP_SKILLS_END -->
