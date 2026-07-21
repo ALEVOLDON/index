@@ -148,20 +148,20 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 16 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3409 days)
-- ⚠️ `Rack` (inactive for 3156 days)
-- ⚠️ `magenta` (inactive for 3050 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3410 days)
+- ⚠️ `Rack` (inactive for 3157 days)
+- ⚠️ `magenta` (inactive for 3051 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
+- **Jul 20** — 📦 Released **v2.0.0** in **[ALEVOLDON/WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)**
+- **Jul 20** — 🚀 Pushed changes to **[ALEVOLDON/WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)** (main)
 - **Jul 19** — 🚀 Pushed changes to **[ALEVOLDON/WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)** (main)
 - **Jul 19** — 📦 Released **v1.0.0** in **[ALEVOLDON/WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)**
 - **Jul 19** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Jul 17** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Jul 17** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
