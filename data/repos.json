@@ -241,7 +241,7 @@
   },
   {
     "name": "Dump-Assistant-Bot",
-    "stars": 3,
+    "stars": 2,
     "updated_at": "2026-07-17",
     "topics": [
       "automation",
@@ -417,7 +417,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-07-20",
+    "updated_at": "2026-07-21",
     "topics": [
       "ai",
       "audio-development",
