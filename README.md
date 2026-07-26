@@ -82,7 +82,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)<br><small>⭐ 1 • 📅 2026-04-03</small> | Portal about modular synthesis and generative music. | ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/Modular-Genesis) |
 | [Signal-Lattice](https://github.com/ALEVOLDON/Signal-Lattice)<br><small>📅 2026-02-07</small> | Browser-based digital musical instrument. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Signal-Lattice) |
 | [gtwy-audio-archive](https://github.com/ALEVOLDON/gtwy-audio-archive)<br><small>📅 2026-03-07</small> | Web interface for the GTWY music archive. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Bandcamp API](https://img.shields.io/badge/Bandcamp-629AAF?style=flat-square&logo=bandcamp&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/gtwy-audio-archive) |
-| [CineBlocker](https://github.com/ALEVOLDON/CineBlocker)<br><small>📅 2025-07-26</small> | App to block distracting sites for creatives. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/CineBlocker) |
+| [CineBlocker](https://github.com/ALEVOLDON/CineBlocker)<br><small>📅 2025-07-26</small> | App to block distracting sites for creatives. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CineBlocker) |
 | [sc_liked_to_playlist_web](https://github.com/ALEVOLDON/sc_liked_to_playlist_web)<br><small>📅 2025-04-16</small> | Download SoundCloud likes to a local player. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SoundCloud](https://img.shields.io/badge/SoundCloud-FF8800?style=flat-square&logo=soundcloud&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/sc_liked_to_playlist_web) |
 | [soundcloud-likes-downloader](https://github.com/ALEVOLDON/soundcloud-likes-downloader)<br><small>⭐ 1 • 📅 2025-04-14</small> | A convenient GUI application for downloading your liked tracks from SoundCloud. |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/soundcloud-likes-downloader) |
 
@@ -148,9 +148,9 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 16 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3414 days)
-- ⚠️ `Rack` (inactive for 3161 days)
-- ⚠️ `magenta` (inactive for 3055 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3415 days)
+- ⚠️ `Rack` (inactive for 3162 days)
+- ⚠️ `magenta` (inactive for 3056 days)
 
 
 ---
