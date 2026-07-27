@@ -144,24 +144,24 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 ## 🧠 Insights
 *Adaptive analysis and health tracking of my ecosystem powered by AI.*
 
-- 💡 Your ecosystem is currently heavily focused around 'javascript'.
-- 💡 You have 16 tracked repositories that are becoming inactive, consider archiving the oldest ones.
+- 💡 Your ecosystem is currently heavily focused around 'python'.
+- 💡 You have 17 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3415 days)
-- ⚠️ `Rack` (inactive for 3162 days)
-- ⚠️ `magenta` (inactive for 3056 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3416 days)
+- ⚠️ `Rack` (inactive for 3163 days)
+- ⚠️ `magenta` (inactive for 3057 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
+- **Jul 26** — 📦 Released **v1.0.0** in **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)**
+- **Jul 26** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
+- **Jul 26** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
+- **Jul 26** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
 - **Jul 22** — 📦 Released **v0.5.0** in **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)**
-- **Jul 22** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
-- **Jul 20** — 📦 Released **v2.0.0** in **[ALEVOLDON/WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)**
-- **Jul 20** — 🚀 Pushed changes to **[ALEVOLDON/WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)** (main)
-- **Jul 19** — 🚀 Pushed changes to **[ALEVOLDON/WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
@@ -170,7 +170,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 <!-- TOP_SKILLS_START -->
 <div align="center">
 
-![](https://img.shields.io/badge/javascript-3-1572B6?style=flat-square) ![](https://img.shields.io/badge/python-3-1572B6?style=flat-square) ![](https://img.shields.io/badge/automation-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/nodejs-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/creative--coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative--art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music--technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/portfolio-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/blender-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/tailwindcss-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/vite-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/chatbot-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/community--management-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/local--llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ollama-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/openai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--api--integration-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--bot--ai--assistant-1-1572B6?style=flat-square)
+![](https://img.shields.io/badge/python-4-1572B6?style=flat-square) ![](https://img.shields.io/badge/javascript-3-1572B6?style=flat-square) ![](https://img.shields.io/badge/automation-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/nodejs-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/creative--coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative--art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music--technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/portfolio-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/blender-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/tailwindcss-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/vite-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/chatbot-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/community--management-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/local--llm-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/ollama-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/openai-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--api--integration-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--bot--ai--assistant-1-1572B6?style=flat-square)
 
 </div>
 <!-- TOP_SKILLS_END -->

@@ -417,7 +417,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-07-25",
+    "updated_at": "2026-07-26",
     "topics": [
       "ai",
       "audio-development",
@@ -1009,6 +1009,27 @@
     "category": null,
     "fork": true,
     "description": "trowaSoft Modules for VCV Rack"
+  },
+  {
+    "name": "UPS-ExeGate-SpecialPro-UNB-1200",
+    "stars": 0,
+    "updated_at": "2026-07-26",
+    "topics": [
+      "desktop-app",
+      "exegate",
+      "fastapi",
+      "hidapi",
+      "megatec-protocol",
+      "python",
+      "pywebview",
+      "ups",
+      "ups-monitor",
+      "websockets"
+    ],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "UPS-ExeGate-SpecialPro-UNB-1200"
   },
   {
     "name": "vanillawebprojects",
