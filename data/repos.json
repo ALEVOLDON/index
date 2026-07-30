@@ -417,7 +417,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-07-28",
+    "updated_at": "2026-07-29",
     "topics": [
       "ai",
       "audio-development",
@@ -1094,7 +1094,7 @@
   {
     "name": "WindyCheck_bot",
     "stars": 0,
-    "updated_at": "2026-07-20",
+    "updated_at": "2026-07-29",
     "topics": [
       "aiogram",
       "kitesurfing",

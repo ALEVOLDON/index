@@ -148,20 +148,20 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 17 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3418 days)
-- ⚠️ `Rack` (inactive for 3165 days)
-- ⚠️ `magenta` (inactive for 3059 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3419 days)
+- ⚠️ `Rack` (inactive for 3166 days)
+- ⚠️ `magenta` (inactive for 3060 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
+- **Jul 29** — 🚀 Pushed changes to **[ALEVOLDON/WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)** (main)
 - **Jul 28** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Jul 28** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Jul 28** — 📦 Released **v1.1.0** in **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)**
 - **Jul 28** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
-- **Jul 26** — 📦 Released **v1.0.0** in **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)**
 <!-- RECENT_ACTIVITY_END -->
 
 ---
