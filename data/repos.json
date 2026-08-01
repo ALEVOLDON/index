@@ -110,6 +110,29 @@
     "description": ""
   },
   {
+    "name": "bot-manager-dashboard",
+    "stars": 0,
+    "updated_at": "2026-07-31",
+    "topics": [
+      "bot-manager",
+      "control-panel",
+      "dashboard",
+      "discord-bot",
+      "express",
+      "live-logs",
+      "ngrok",
+      "nodejs",
+      "process-manager",
+      "telegram-bot",
+      "websockets",
+      "windows"
+    ],
+    "tracked": false,
+    "category": null,
+    "fork": false,
+    "description": "Windows Process Launcher and Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels"
+  },
+  {
     "name": "CineBlocker",
     "stars": 0,
     "updated_at": "2025-07-26",
@@ -417,7 +440,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-07-30",
+    "updated_at": "2026-07-31",
     "topics": [
       "ai",
       "audio-development",
@@ -756,7 +779,7 @@
   {
     "name": "portfolio",
     "stars": 1,
-    "updated_at": "2026-07-30",
+    "updated_at": "2026-07-31",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -1013,7 +1036,7 @@
   {
     "name": "UPS-ExeGate-SpecialPro-UNB-1200",
     "stars": 0,
-    "updated_at": "2026-07-28",
+    "updated_at": "2026-07-31",
     "topics": [
       "desktop-app",
       "exegate",
@@ -1094,22 +1117,24 @@
   {
     "name": "WindyCheck_bot",
     "stars": 0,
-    "updated_at": "2026-07-29",
+    "updated_at": "2026-07-31",
     "topics": [
       "aiogram",
       "kitesurfing",
       "matplotlib",
       "openweathermap",
       "python",
+      "sqlite",
       "telegram-bot",
       "weather-bot",
+      "weather-forecast",
       "wind-tracker",
       "windsurfing"
     ],
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "Асинхронный Telegram-бот на Python (aiogram 3) для отслеживания ветра, порывов, прогнозов, розы ветров и авто-уведомлений."
+    "description": "🌬️ Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts, wind rose charts & automated wind alerts tailored for kitesurfers, windsurfers and sailors."
   },
   {
     "name": "zaverstay-2",
