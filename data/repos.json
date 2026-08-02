@@ -128,7 +128,7 @@
       "windows"
     ],
     "tracked": true,
-    "category": null,
+    "category": "productivity",
     "fork": false,
     "description": "Windows Process Launcher and Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels"
   },
@@ -660,7 +660,7 @@
     "updated_at": "2026-03-31",
     "topics": [],
     "tracked": true,
-    "category": null,
+    "category": "archive",
     "fork": false,
     "description": "This is a responsive portfolio website built using HTML and Sass (SCSS). It was originally created as part of a learning project based on a course by Brad Traversy."
   },
@@ -969,7 +969,7 @@
       "solar-energy"
     ],
     "tracked": true,
-    "category": null,
+    "category": "creative",
     "fork": false,
     "description": "3D solar roof visualization: Blender Python, Cycles GPU"
   },
@@ -999,7 +999,7 @@
       "vite"
     ],
     "tracked": true,
-    "category": null,
+    "category": "music",
     "fork": false,
     "description": "Interactive Eurorack second-hand market guide and safety console for European musicians"
   },
@@ -1050,7 +1050,7 @@
       "websockets"
     ],
     "tracked": true,
-    "category": null,
+    "category": "productivity",
     "fork": false,
     "description": "UPS-ExeGate-SpecialPro-UNB-1200"
   },
@@ -1132,7 +1132,7 @@
       "windsurfing"
     ],
     "tracked": true,
-    "category": null,
+    "category": "productivity",
     "fork": false,
     "description": "🌬️ Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts, wind rose charts & automated wind alerts tailored for kitesurfers, windsurfers and sailors."
   },
