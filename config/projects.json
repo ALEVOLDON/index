@@ -211,16 +211,16 @@
       "repos": [
         {
           "name": "bot-manager-dashboard",
-          "featured": false,
-          "priority": 10,
+          "featured": true,
+          "priority": 15,
           "notes": "Windows Bot Control Panel",
           "custom_description": "Windows Process Launcher & Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels.",
           "custom_badges": "![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white)"
         },
         {
           "name": "WindyCheck_bot",
-          "featured": false,
-          "priority": 9,
+          "featured": true,
+          "priority": 14,
           "notes": "Telegram Weather Bot",
           "custom_description": "Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts & alerts for kitesurfers & sailors.",
           "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white)"
@@ -228,7 +228,7 @@
         {
           "name": "UPS-ExeGate-SpecialPro-UNB-1200",
           "featured": false,
-          "priority": 8,
+          "priority": 13,
           "notes": "UPS Monitoring Utility",
           "custom_description": "UPS-ExeGate-SpecialPro-UNB-1200 telemetry, power monitoring, and control tool.",
           "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)"

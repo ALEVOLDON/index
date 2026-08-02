@@ -49,6 +49,22 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 **Status:** **Active** 🚀 | [Repository](https://github.com/ALEVOLDON/ZERO-GRAVITY)
 
+### 🌟 [bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)
+
+> Windows Process Launcher & Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels.
+
+**Technologies:** ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
+
+**Status:** **Active** 🚀 | [Repository](https://github.com/ALEVOLDON/bot-manager-dashboard)
+
+### 🌟 [WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)
+
+> Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts & alerts for kitesurfers & sailors.
+
+**Technologies:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
+
+**Status:** **Active** 🚀 | [Repository](https://github.com/ALEVOLDON/WindyCheck_bot)
+
 ---
 
 ## 🧭 Navigation by Categories
@@ -120,8 +136,8 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
-| [bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)<br><small>📅 2026-07-31</small> | Windows Process Launcher & Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/bot-manager-dashboard) |
-| [WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)<br><small>📅 2026-07-31</small> | Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts & alerts for kitesurfers & sailors. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/WindyCheck_bot) |
+| [bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)<br><small>📅 2026-07-31</small> | Windows Process Launcher & Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/bot-manager-dashboard) |
+| [WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)<br><small>📅 2026-07-31</small> | Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts & alerts for kitesurfers & sailors. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/WindyCheck_bot) |
 | [UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)<br><small>📅 2026-07-31</small> | UPS-ExeGate-SpecialPro-UNB-1200 telemetry, power monitoring, and control tool. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200) |
 | [habit-tracker](https://github.com/ALEVOLDON/habit-tracker)<br><small>📅 2025-11-24</small> | Full-featured habit tracker. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/habit-tracker) |
 | [water-map-donetsk](https://github.com/ALEVOLDON/water-map-donetsk)<br><small>📅 2025-09-18</small> | Water monitoring map. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/water-map-donetsk) |
@@ -168,11 +184,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Aug 2** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
-- **Aug 2** — 📦 Released **v3.0.0** in **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**
-- **Aug 2** — 📦 Released **v2.5.0** in **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**
-- **Aug 2** — 📦 Released **v2.0.0** in **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**
-- **Aug 2** — 📦 Released **v1.5.0** in **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**
+_No recent prominent activity in the last 90 days._
 <!-- RECENT_ACTIVITY_END -->
 
 ---
