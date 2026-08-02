@@ -13,16 +13,29 @@ function getHeaders() {
         'User-Agent': 'Node.js README Updater',
         'Accept': 'application/vnd.github.mercy-preview+json'
     };
-    if (process.env.GITHUB_ACTIONS && process.env.GITHUB_TOKEN) {
+    if (process.env.GITHUB_TOKEN) {
         headers['Authorization'] = `Bearer ${process.env.GITHUB_TOKEN}`;
     }
     return headers;
 }
 
 async function fetchJSON(endpoint) {
-    const res = await fetch(GITHUB_API_URL + endpoint, { headers: getHeaders() });
+    let res = await fetch(GITHUB_API_URL + endpoint, { headers: getHeaders() });
+    if (res.status === 401 && process.env.GITHUB_TOKEN) {
+        console.warn(`[GitHub API] Token unauthorized for ${endpoint}, retrying without token...`);
+        res = await fetch(GITHUB_API_URL + endpoint, { 
+            headers: { 
+                'User-Agent': 'Node.js README Updater',
+                'Accept': 'application/vnd.github.mercy-preview+json'
+            } 
+        });
+    }
+    const remaining = res.headers.get('x-ratelimit-remaining');
+    if (remaining !== null) {
+        console.log(`[GitHub API] Endpoint ${endpoint} - Rate Limit Remaining: ${remaining}`);
+    }
     if (!res.ok) {
-        throw new Error(`Failed to fetch ${endpoint}: ${res.statusText}`);
+        throw new Error(`Failed to fetch ${endpoint}: ${res.status} ${res.statusText}`);
     }
     return res.json();
 }

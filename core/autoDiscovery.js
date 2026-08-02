@@ -107,15 +107,9 @@ async function runAutoDiscovery() {
         let note = "";
 
         if (metrics.health_score >= 0.7) {
-            if (repo.topics && repo.topics.length > 0) {
-                categoryId = suggest_category(repo.topics) || 'archive';
-                shouldAdd = true;
-                note = "Auto-discovered";
-            } else if (repo.description) {
-                categoryId = infer_category_from_description(repo.description.toLowerCase()) || 'archive';
-                shouldAdd = true;
-                note = "Auto-discovered (description-based)";
-            }
+            categoryId = metrics.suggested_category || suggest_category(repo.topics) || infer_category_from_description(repo.description ? repo.description.toLowerCase() : '') || 'archive';
+            shouldAdd = true;
+            note = repo.topics && repo.topics.length > 0 ? "Auto-discovered" : "Auto-discovered (description-based)";
         }
 
         if (shouldAdd && categoryId) {

@@ -163,6 +163,13 @@ def build_insights():
     repo_metrics = []
     neglected_repos = []
     
+    total_repos = len(repos)
+    total_stars = sum(r.get("stars", 0) for r in repos)
+    
+    cat_counts = Counter()
+    for cat in config.get("categories", []):
+        cat_counts[cat["id"]] = len(cat.get("repos", []))
+
     for r in repos:
         metrics = calculate_repo_metrics(r, categories, topics)
         repo_metrics.append(metrics)
@@ -179,8 +186,19 @@ def build_insights():
     if len(neglected_repos) > 5:
         suggestions.append(f"You have {len(neglected_repos)} tracked repositories that are becoming inactive, consider archiving the oldest ones.")
          
+    ecosystem_stats = {
+        "total_repos": total_repos,
+        "total_stars": total_stars,
+        "ai_projects": cat_counts.get("ai", 0),
+        "music_projects": cat_counts.get("music", 0),
+        "frontend_projects": cat_counts.get("frontend", 0),
+        "creative_projects": cat_counts.get("creative", 0),
+        "productivity_projects": cat_counts.get("productivity", 0)
+    }
+
     insights = {
         "generated_at": datetime.now().isoformat(),
+        "ecosystem_stats": ecosystem_stats,
         "top_topics": topics[:10],
         "repo_metrics": repo_metrics,
         "neglected_repos": neglected_repos[:10],
@@ -194,3 +212,4 @@ if __name__ == "__main__":
     print("Running Intelligence Engine...")
     build_insights()
     print("Intelligence Engine complete. Generated insights.json.")
+
