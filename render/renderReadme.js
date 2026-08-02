@@ -11,23 +11,54 @@ const INSIGHTS_PATH = path.join(DATA_DIR, 'insights.json');
 const TEMPLATE_PATH = path.join(__dirname, 'template.md');
 const README_PATH = path.join(__dirname, '../README.md');
 
+const TECH_BADGES_PATH = path.join(__dirname, '../config/tech_badges.json');
+
 function getHeaders() {
     const headers = { 
         'User-Agent': 'Node.js README Updater',
         'Accept': 'application/vnd.github.mercy-preview+json'
     };
-    if (process.env.GITHUB_ACTIONS && process.env.GITHUB_TOKEN) {
+    if (process.env.GITHUB_TOKEN && process.env.GITHUB_TOKEN.trim() !== '') {
         headers['Authorization'] = `Bearer ${process.env.GITHUB_TOKEN}`;
     }
     return headers;
 }
 
 async function fetchJSON(endpoint) {
-    const res = await fetch(GITHUB_API_URL + endpoint, { headers: getHeaders() });
+    let res = await fetch(GITHUB_API_URL + endpoint, { headers: getHeaders() });
+    if (res.status === 401 && process.env.GITHUB_TOKEN) {
+        console.warn(`[GitHub API] Token unauthorized for ${endpoint}, retrying without token...`);
+        res = await fetch(GITHUB_API_URL + endpoint, { 
+            headers: { 
+                'User-Agent': 'Node.js README Updater',
+                'Accept': 'application/vnd.github.mercy-preview+json'
+            } 
+        });
+    }
     if (!res.ok) {
         throw new Error(`Failed to fetch ${endpoint}: ${res.statusText}`);
     }
     return res.json();
+}
+
+function getBadgeForTopic(topic, techBadgesMap) {
+    const key = topic.toLowerCase();
+    if (techBadgesMap[key]) {
+        const item = techBadgesMap[key];
+        const logoParam = item.logo ? `&logo=${encodeURIComponent(item.logo)}` : '';
+        const logoColorParam = item.logoColor ? `&logoColor=${encodeURIComponent(item.logoColor)}` : '';
+        const label = encodeURIComponent(item.label.replace(/-/g, '--'));
+        return `![${item.label}](https://img.shields.io/badge/${label}-${item.color}?style=flat-square${logoParam}${logoColorParam})`;
+    }
+    const safeTopic = topic.replace(/-/g, '--');
+    return `![${topic}](https://img.shields.io/badge/${encodeURIComponent(safeTopic)}-1572B6?style=flat-square)`;
+}
+
+function getRepoBadges(rConf, rData, techBadgesMap, limit = 3) {
+    if (rConf.custom_badges) return rConf.custom_badges;
+    const topics = (rData.topics || []).slice(0, limit);
+    if (topics.length === 0) return '';
+    return topics.map(t => getBadgeForTopic(t, techBadgesMap)).join(' ');
 }
 
 async function renderReadme() {
@@ -35,12 +66,25 @@ async function renderReadme() {
     const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
     const reposData = JSON.parse(fs.readFileSync(REPOS_PATH, 'utf8'));
     
+    let techBadgesMap = {};
+    if (fs.existsSync(TECH_BADGES_PATH)) {
+        techBadgesMap = JSON.parse(fs.readFileSync(TECH_BADGES_PATH, 'utf8'));
+    }
+
     let insights = null;
     if (fs.existsSync(INSIGHTS_PATH)) {
         insights = JSON.parse(fs.readFileSync(INSIGHTS_PATH, 'utf8'));
     }
 
     let template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
+
+    // Ecosystem Stats
+    let statsMarkdown = '';
+    if (insights && insights.ecosystem_stats) {
+        const s = insights.ecosystem_stats;
+        statsMarkdown = `![Repos](https://img.shields.io/badge/REPOSITORIES-${s.total_repos}-blueviolet?style=flat-square) ![Stars](https://img.shields.io/badge/STARS-${s.total_stars}-gold?style=flat-square)`;
+    }
+    template = template.replace('{{ ECOSYSTEM_STATS }}', statsMarkdown);
 
     // Create lookup map
     const reposMap = {};
@@ -58,10 +102,7 @@ async function renderReadme() {
             if (rConf.featured) {
                 const rData = reposMap[rConf.name];
                 if (rData) {
-                    const techBadges = rConf.custom_badges || (rData.topics || []).slice(0, 4).map(t => {
-                        const safeTopic = t.replace(/-/g, '--');
-                        return `![${t}](https://img.shields.io/badge/${encodeURIComponent(safeTopic)}-1572B6?style=flat-square)`;
-                    }).join(' ');
+                    const techBadges = getRepoBadges(rConf, rData, techBadgesMap, 4);
 
                     featuredMarkdown += `### 🌟 [${rData.name}](https://github.com/${USERNAME}/${rData.name})\n\n`;
                     featuredMarkdown += `> ${rConf.custom_description || rData.description || 'No description provided.'}\n\n`;
@@ -90,17 +131,28 @@ async function renderReadme() {
     
     const daysSince = (dateStr) => {
         if (!dateStr) return 9999;
-        return (new Date() - new Date(dateStr)) / (1000 * 60 * 60 * 24);
+        const d = new Date(dateStr);
+        if (isNaN(d.getTime())) return 9999;
+        return (new Date() - d) / (1000 * 60 * 60 * 24);
     };
 
     for (const category of config.categories) {
         sectionsMarkdown += `## ${category.title}\n`;
         sectionsMarkdown += `*${category.description}*\n\n`;
-        sectionsMarkdown += `| Project | Description | Technologies | Status | Links |\n`;
-        sectionsMarkdown += `| :--- | :--- | :--- | :--- | :--- |\n`;
+        
+        let tableContent = '';
+        tableContent += `| Project | Description | Technologies | Status | Links |\n`;
+        tableContent += `| :--- | :--- | :--- | :--- | :--- |\n`;
 
-        // Sort by priority (descending)
-        const sortedRepos = [...category.repos].sort((a, b) => b.priority - a.priority);
+        // Sort by priority (descending) then by update date
+        const sortedRepos = [...category.repos].sort((a, b) => {
+            if (b.priority !== a.priority) return b.priority - a.priority;
+            const rDataA = reposMap[a.name];
+            const rDataB = reposMap[b.name];
+            const dateA = rDataA && rDataA.updated_at ? rDataA.updated_at : '';
+            const dateB = rDataB && rDataB.updated_at ? rDataB.updated_at : '';
+            return dateB.localeCompare(dateA);
+        });
 
         for (const rConf of sortedRepos) {
             const rData = reposMap[rConf.name];
@@ -108,48 +160,56 @@ async function renderReadme() {
                 missingConfiguredRepos.push(`${category.id}: ${rConf.name}`);
                 continue;
             }
-                let statusText = rConf.featured ? '**Featured** ⭐' : '**Active** 🚀';
-                
-                // Auto-archive logic based on inactivity
-                if (daysSince(rData.updated_at) > 365) {
-                    statusText = '**Maintenance** 🛠️';
-                }
+            let statusText = rConf.featured ? '**Featured** ⭐' : '**Active** 🚀';
+            
+            // Auto-archive logic based on inactivity
+            if (daysSince(rData.updated_at) > 365) {
+                statusText = '**Maintenance** 🛠️';
+            }
 
-                // Add notes context
-                if (rConf.notes && rConf.notes.includes('Archived')) {
-                    statusText = '**Archived** 📦';
-                }
+            // Add notes context
+            if (rConf.notes && rConf.notes.includes('Archived')) {
+                statusText = '**Archived** 📦';
+            }
 
-                const techBadges = rConf.custom_badges || (rData.topics || []).slice(0, 3).map(t => {
-                    const safeTopic = t.replace(/-/g, '--');
-                    return `![${t}](https://img.shields.io/badge/${encodeURIComponent(safeTopic)}-1572B6?style=flat-square)`;
-                }).join(' ');
+            const techBadges = getRepoBadges(rConf, rData, techBadgesMap, 3);
 
-                let extraHtml = '';
-                let extras = [];
-                if (rData.stars > 0) extras.push(`⭐ ${rData.stars}`);
-                if (rData.updated_at) extras.push(`📅 ${rData.updated_at}`);
-                if (extras.length > 0) {
-                    extraHtml = `<br><small>${extras.join(' • ')}</small>`;
-                }
+            let extraHtml = '';
+            let extras = [];
+            if (rData.stars > 0) extras.push(`⭐ ${rData.stars}`);
+            if (rData.updated_at) extras.push(`📅 ${rData.updated_at}`);
+            if (extras.length > 0) {
+                extraHtml = `<br><small>${extras.join(' • ')}</small>`;
+            }
 
-                const nameCol = `[${rData.name}](https://github.com/${USERNAME}/${rData.name})${extraHtml}`;
-                let descCol = rConf.custom_description || rData.description || 'No description';
-                if (!rConf.custom_description) {
-                     descCol = descCol.substring(0, 60) + (rData.description && rData.description.length > 60 ? '...' : '');
-                }
+            const nameCol = `[${rData.name}](https://github.com/${USERNAME}/${rData.name})${extraHtml}`;
+            let descCol = rConf.custom_description || rData.description || 'No description';
+            if (!rConf.custom_description) {
+                 descCol = descCol.substring(0, 60) + (rData.description && rData.description.length > 60 ? '...' : '');
+            }
 
-                sectionsMarkdown += `| ${nameCol} | ${descCol} | ${techBadges} | ${statusText} | [Repo](https://github.com/${USERNAME}/${rData.name}) |\n`;
+            tableContent += `| ${nameCol} | ${descCol} | ${techBadges} | ${statusText} | [Repo](https://github.com/${USERNAME}/${rData.name}) |\n`;
         }
-        sectionsMarkdown += `\n---\n\n`;
+
+        if (category.id === 'archive') {
+            sectionsMarkdown += `<details>\n<summary><b>📦 View Archived & Learning Repositories (${category.repos.length} items)</b></summary>\n\n`;
+            sectionsMarkdown += tableContent;
+            sectionsMarkdown += `\n</details>\n\n`;
+        } else {
+            sectionsMarkdown += tableContent;
+            sectionsMarkdown += `\n---\n\n`;
+        }
     }
 
     if (missingConfiguredRepos.length > 0) {
         throw new Error(`Configured repositories missing from data/repos.json:\n${missingConfiguredRepos.join('\n')}`);
     }
 
-    // Remove the last ---
-    sectionsMarkdown = sectionsMarkdown.substring(0, sectionsMarkdown.lastIndexOf('---')).trim();
+    // Remove trailing separators
+    sectionsMarkdown = sectionsMarkdown.trim();
+    if (sectionsMarkdown.endsWith('---')) {
+        sectionsMarkdown = sectionsMarkdown.substring(0, sectionsMarkdown.lastIndexOf('---')).trim();
+    }
     template = template.replace('{{ CATEGORY_SECTIONS }}', sectionsMarkdown);
 
 
@@ -160,7 +220,6 @@ async function renderReadme() {
         for (const suggestion of insights.suggestions) {
             insightsMarkdown += `- 💡 ${suggestion}\n`;
         }
-        // Add additional logic when Python script expands insights.json
         if (insights.neglected_repos && insights.neglected_repos.length > 0) {
             insightsMarkdown += `\n**Attention Needed:**\n`;
             insights.neglected_repos.slice(0, 3).forEach(nr => {
@@ -185,8 +244,8 @@ async function renderReadme() {
     
     let techCloudMarkdown = '';
     for(let [topic, count] of topTopics) {
-        const safeTopic = topic.replace(/-/g, '--');
-        techCloudMarkdown += `![](https://img.shields.io/badge/${encodeURIComponent(safeTopic)}-${count}-1572B6?style=flat-square) `;
+        const badgeStr = getBadgeForTopic(topic, techBadgesMap);
+        techCloudMarkdown += `${badgeStr} `;
     }
     template = template.replace('{{ TECH_CLOUD }}', techCloudMarkdown.trim());
 

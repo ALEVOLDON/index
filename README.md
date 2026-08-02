@@ -1,6 +1,6 @@
 # 📚 ALEVOLDON Repository Index
 
-![Profile Views](https://komarev.com/ghpvc/?username=ALEVOLDON&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=ALEVOLDON&color=blueviolet&style=flat-square&label=PROFILE+VIEWS) ![Repos](https://img.shields.io/badge/REPOSITORIES-101-blueviolet?style=flat-square) ![Stars](https://img.shields.io/badge/STARS-13-gold?style=flat-square)
 
 Welcome to my master catalog! Here, all my projects are gathered and structured, from large-scale AI tools to small creative experiments. This index serves as a dynamic portfolio, showcasing my journey as a **Meaning Engineer** at the intersection of technology, art, and innovation.
 
@@ -127,6 +127,9 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 ## 📚 Archive & Learning
 *Old projects, forks, and learning materials (over 60 repositories in total).*
 
+<details>
+<summary><b>📦 View Archived & Learning Repositories (9 items)</b></summary>
+
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
 | [CS50-s-Web-Programming-with-Python-and-JavaScript](https://github.com/ALEVOLDON/CS50-s-Web-Programming-with-Python-and-JavaScript)<br><small>📅 2023-09-13</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CS50-s-Web-Programming-with-Python-and-JavaScript) |
@@ -138,6 +141,8 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [Travel-to](https://github.com/ALEVOLDON/Travel-to)<br><small>📅 2021-01-20</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Travel-to) |
 | [3d-tic-tac-toe](https://github.com/ALEVOLDON/3d-tic-tac-toe)<br><small>📅 2021-02-03</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/3d-tic-tac-toe) |
 | [audioplayer](https://github.com/ALEVOLDON/audioplayer)<br><small>📅 2021-06-12</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/audioplayer) |
+
+</details>
 
 ---
 
@@ -157,11 +162,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Aug 2** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 1** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Jul 31** — 📦 Released **v1.2.0** in **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)**
-- **Jul 31** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
-- **Jul 31** — 🚀 Pushed changes to **[ALEVOLDON/WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)** (main)
+_No recent prominent activity in the last 90 days._
 <!-- RECENT_ACTIVITY_END -->
 
 ---
@@ -170,7 +171,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 <!-- TOP_SKILLS_START -->
 <div align="center">
 
-![](https://img.shields.io/badge/python-4-1572B6?style=flat-square) ![](https://img.shields.io/badge/nodejs-3-1572B6?style=flat-square) ![](https://img.shields.io/badge/javascript-3-1572B6?style=flat-square) ![](https://img.shields.io/badge/telegram--bot-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/websockets-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/automation-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/creative--coding-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/frontend-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/generative--art-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/music--technology-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/portfolio-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/blender-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/tailwindcss-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/vite-2-1572B6?style=flat-square) ![](https://img.shields.io/badge/bot--manager-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/control--panel-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/dashboard-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/discord--bot-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/express-1-1572B6?style=flat-square) ![](https://img.shields.io/badge/live--logs-1-1572B6?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![websockets](https://img.shields.io/badge/websockets-1572B6?style=flat-square) ![automation](https://img.shields.io/badge/automation-1572B6?style=flat-square) ![creative-coding](https://img.shields.io/badge/creative--coding-1572B6?style=flat-square) ![frontend](https://img.shields.io/badge/frontend-1572B6?style=flat-square) ![generative-art](https://img.shields.io/badge/generative--art-1572B6?style=flat-square) ![music-technology](https://img.shields.io/badge/music--technology-1572B6?style=flat-square) ![portfolio](https://img.shields.io/badge/portfolio-1572B6?style=flat-square) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![bot-manager](https://img.shields.io/badge/bot--manager-1572B6?style=flat-square) ![control-panel](https://img.shields.io/badge/control--panel-1572B6?style=flat-square) ![dashboard](https://img.shields.io/badge/dashboard-1572B6?style=flat-square) ![discord-bot](https://img.shields.io/badge/discord--bot-1572B6?style=flat-square) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![live-logs](https://img.shields.io/badge/live--logs-1572B6?style=flat-square)
 
 </div>
 <!-- TOP_SKILLS_END -->
