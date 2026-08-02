@@ -5,6 +5,7 @@ const ROOT = path.join(__dirname, '..');
 const CONFIG_PATH = path.join(ROOT, 'config', 'projects.json');
 const REPOS_PATH = path.join(ROOT, 'data', 'repos.json');
 const INSIGHTS_PATH = path.join(ROOT, 'data', 'insights.json');
+const TECH_BADGES_PATH = path.join(ROOT, 'config', 'tech_badges.json');
 
 function readJSON(filePath) {
     if (!fs.existsSync(filePath)) {
@@ -34,6 +35,9 @@ function validate() {
     const config = readJSON(CONFIG_PATH);
     const repos = readJSON(REPOS_PATH);
     readJSON(INSIGHTS_PATH);
+    if (fs.existsSync(TECH_BADGES_PATH)) {
+        readJSON(TECH_BADGES_PATH);
+    }
 
     const errors = [];
     const repoNames = new Set(repos.map(repo => repo.name));

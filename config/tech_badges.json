@@ -1,0 +1,140 @@
+{
+  "python": {
+    "label": "Python",
+    "color": "3776AB",
+    "logo": "python",
+    "logoColor": "white"
+  },
+  "javascript": {
+    "label": "JavaScript",
+    "color": "F7DF1E",
+    "logo": "javascript",
+    "logoColor": "black"
+  },
+  "typescript": {
+    "label": "TypeScript",
+    "color": "3178C6",
+    "logo": "typescript",
+    "logoColor": "white"
+  },
+  "nodejs": {
+    "label": "Node.js",
+    "color": "339933",
+    "logo": "nodedotjs",
+    "logoColor": "white"
+  },
+  "react": {
+    "label": "React",
+    "color": "20232A",
+    "logo": "react",
+    "logoColor": "61DAFB"
+  },
+  "astro": {
+    "label": "Astro",
+    "color": "FF5D01",
+    "logo": "astro",
+    "logoColor": "white"
+  },
+  "vite": {
+    "label": "Vite",
+    "color": "646CFF",
+    "logo": "vite",
+    "logoColor": "white"
+  },
+  "threejs": {
+    "label": "Three.js",
+    "color": "black",
+    "logo": "three.js",
+    "logoColor": "white"
+  },
+  "three.js": {
+    "label": "Three.js",
+    "color": "black",
+    "logo": "three.js",
+    "logoColor": "white"
+  },
+  "blender": {
+    "label": "Blender",
+    "color": "F5792A",
+    "logo": "blender",
+    "logoColor": "white"
+  },
+  "obsidian": {
+    "label": "Obsidian",
+    "color": "7C3AED",
+    "logo": "obsidian",
+    "logoColor": "white"
+  },
+  "telegram": {
+    "label": "Telegram API",
+    "color": "2CA5E0",
+    "logo": "telegram",
+    "logoColor": "white"
+  },
+  "telegram-bot": {
+    "label": "Telegram Bot",
+    "color": "2CA5E0",
+    "logo": "telegram",
+    "logoColor": "white"
+  },
+  "pyside6": {
+    "label": "PySide6",
+    "color": "41B883",
+    "logo": "qt",
+    "logoColor": "white"
+  },
+  "phaser": {
+    "label": "Phaser",
+    "color": "E34F26",
+    "logo": "phaser",
+    "logoColor": "white"
+  },
+  "html5": {
+    "label": "HTML5",
+    "color": "E34F26",
+    "logo": "html5",
+    "logoColor": "white"
+  },
+  "css3": {
+    "label": "CSS3",
+    "color": "1572B6",
+    "logo": "css3",
+    "logoColor": "white"
+  },
+  "markdown": {
+    "label": "Markdown",
+    "color": "000000",
+    "logo": "markdown",
+    "logoColor": "white"
+  },
+  "mongodb": {
+    "label": "MongoDB",
+    "color": "47A248",
+    "logo": "mongodb",
+    "logoColor": "white"
+  },
+  "pwa": {
+    "label": "PWA",
+    "color": "5A0FC8",
+    "logo": "pwa",
+    "logoColor": "white"
+  },
+  "soundcloud": {
+    "label": "SoundCloud",
+    "color": "FF8800",
+    "logo": "soundcloud",
+    "logoColor": "white"
+  },
+  "express": {
+    "label": "Express",
+    "color": "000000",
+    "logo": "express",
+    "logoColor": "white"
+  },
+  "tailwindcss": {
+    "label": "TailwindCSS",
+    "color": "06B6D4",
+    "logo": "tailwindcss",
+    "logoColor": "white"
+  }
+}
