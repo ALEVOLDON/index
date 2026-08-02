@@ -131,11 +131,12 @@ def calculate_repo_metrics(repo, all_categories, top_topics):
     d = days_since(repo.get("updated_at"))
     activity_score = max(0.0, 1.0 - (d / 730.0))
     
-    # Health score based on having description, topics, stars
+    # Health score based on having description, topics, stars, and recent activity
     health_score = 0.0
-    if repo.get("description"): health_score += 0.3
+    if repo.get("description"): health_score += 0.4
     if repo.get("topics"): health_score += 0.3
-    if repo.get("stars", 0) > 0: health_score += 0.4
+    if repo.get("stars", 0) > 0: health_score += 0.1
+    if d <= 180: health_score += 0.2
     
     # Categorization: try topics first, then description fallback
     suggested = suggest_category(repo.get("topics", []))

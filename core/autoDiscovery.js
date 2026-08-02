@@ -106,7 +106,7 @@ async function runAutoDiscovery() {
         let categoryId = null;
         let note = "";
 
-        if (metrics.health_score >= 0.7) {
+        if (metrics.health_score >= 0.5 || (metrics.days_inactive !== undefined && metrics.days_inactive <= 180 && repo.description)) {
             categoryId = metrics.suggested_category || suggest_category(repo.topics) || infer_category_from_description(repo.description ? repo.description.toLowerCase() : '') || 'archive';
             shouldAdd = true;
             note = repo.topics && repo.topics.length > 0 ? "Auto-discovered" : "Auto-discovered (description-based)";

@@ -99,6 +99,14 @@
           "notes": "Auto-discovered (no topics)",
           "custom_description": "A convenient GUI application for downloading your liked tracks from SoundCloud.",
           "custom_badges": ""
+        },
+        {
+          "name": "SPA-Eurorack-Market-Guide",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered",
+          "custom_description": "Interactive Eurorack second-hand market guide and safety console for European musicians",
+          "custom_badges": ""
         }
       ]
     },
@@ -171,9 +179,17 @@
           "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white)"
         },
         {
-          "name": "riverstrike",
+          "name": "solar-roof",
           "featured": false,
           "priority": 9,
+          "notes": "3D Solar Visualization",
+          "custom_description": "3D solar roof visualization and energy analysis using Blender Python and Cycles GPU.",
+          "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white)"
+        },
+        {
+          "name": "riverstrike",
+          "featured": false,
+          "priority": 8,
           "notes": "",
           "custom_description": "Arcade scrolling shooter (mobile-first).",
           "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Phaser](https://img.shields.io/badge/Phaser-E34F26?style=flat-square&logo=phaser&logoColor=white)"
@@ -181,7 +197,7 @@
         {
           "name": "My-first-three.js-app",
           "featured": false,
-          "priority": 8,
+          "priority": 7,
           "notes": "",
           "custom_description": "First steps in 3D web.",
           "custom_badges": "![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white)"
@@ -194,9 +210,33 @@
       "description": "Utilities for automation and productivity.",
       "repos": [
         {
-          "name": "habit-tracker",
+          "name": "bot-manager-dashboard",
           "featured": false,
           "priority": 10,
+          "notes": "Windows Bot Control Panel",
+          "custom_description": "Windows Process Launcher & Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels.",
+          "custom_badges": "![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white)"
+        },
+        {
+          "name": "WindyCheck_bot",
+          "featured": false,
+          "priority": 9,
+          "notes": "Telegram Weather Bot",
+          "custom_description": "Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts & alerts for kitesurfers & sailors.",
+          "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white)"
+        },
+        {
+          "name": "UPS-ExeGate-SpecialPro-UNB-1200",
+          "featured": false,
+          "priority": 8,
+          "notes": "UPS Monitoring Utility",
+          "custom_description": "UPS-ExeGate-SpecialPro-UNB-1200 telemetry, power monitoring, and control tool.",
+          "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)"
+        },
+        {
+          "name": "habit-tracker",
+          "featured": false,
+          "priority": 7,
           "notes": "",
           "custom_description": "Full-featured habit tracker.",
           "custom_badges": "![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)"
@@ -204,7 +244,7 @@
         {
           "name": "water-map-donetsk",
           "featured": false,
-          "priority": 9,
+          "priority": 6,
           "notes": "",
           "custom_description": "Water monitoring map.",
           "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
@@ -212,7 +252,7 @@
         {
           "name": "pwa_app",
           "featured": false,
-          "priority": 8,
+          "priority": 5,
           "notes": "",
           "custom_description": "Progressive Web Apps experiment.",
           "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
@@ -277,6 +317,12 @@
           "featured": false,
           "priority": 2,
           "notes": "Old Draft"
+        },
+        {
+          "name": "Modern-Portfolio-Website",
+          "featured": false,
+          "priority": 1,
+          "notes": "Learning Course"
         }
       ]
     }

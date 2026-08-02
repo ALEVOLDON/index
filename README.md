@@ -84,6 +84,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [gtwy-audio-archive](https://github.com/ALEVOLDON/gtwy-audio-archive)<br><small>📅 2026-03-07</small> | Web interface for the GTWY music archive. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Bandcamp API](https://img.shields.io/badge/Bandcamp-629AAF?style=flat-square&logo=bandcamp&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/gtwy-audio-archive) |
 | [CineBlocker](https://github.com/ALEVOLDON/CineBlocker)<br><small>📅 2025-07-26</small> | App to block distracting sites for creatives. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CineBlocker) |
 | [sc_liked_to_playlist_web](https://github.com/ALEVOLDON/sc_liked_to_playlist_web)<br><small>📅 2025-04-16</small> | Download SoundCloud likes to a local player. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SoundCloud](https://img.shields.io/badge/SoundCloud-FF8800?style=flat-square&logo=soundcloud&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/sc_liked_to_playlist_web) |
+| [SPA-Eurorack-Market-Guide](https://github.com/ALEVOLDON/SPA-Eurorack-Market-Guide)<br><small>📅 2026-07-07</small> | Interactive Eurorack second-hand market guide and safety console for European musicians | ![calculator](https://img.shields.io/badge/calculator-1572B6?style=flat-square) ![chartjs](https://img.shields.io/badge/chartjs-1572B6?style=flat-square) ![eurorack](https://img.shields.io/badge/eurorack-1572B6?style=flat-square) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/SPA-Eurorack-Market-Guide) |
 | [soundcloud-likes-downloader](https://github.com/ALEVOLDON/soundcloud-likes-downloader)<br><small>⭐ 1 • 📅 2025-04-14</small> | A convenient GUI application for downloading your liked tracks from SoundCloud. |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/soundcloud-likes-downloader) |
 
 ---
@@ -108,6 +109,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
 | [point-cloud-surface](https://github.com/ALEVOLDON/point-cloud-surface)<br><small>📅 2026-03-10</small> | Procedural blob in Blender via Geometry Nodes. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/point-cloud-surface) |
+| [solar-roof](https://github.com/ALEVOLDON/solar-roof)<br><small>📅 2026-06-26</small> | 3D solar roof visualization and energy analysis using Blender Python and Cycles GPU. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/solar-roof) |
 | [riverstrike](https://github.com/ALEVOLDON/riverstrike)<br><small>📅 2026-02-20</small> | Arcade scrolling shooter (mobile-first). | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Phaser](https://img.shields.io/badge/Phaser-E34F26?style=flat-square&logo=phaser&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/riverstrike) |
 | [My-first-three.js-app](https://github.com/ALEVOLDON/My-first-three.js-app)<br><small>📅 2021-02-04</small> | First steps in 3D web. | ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/My-first-three.js-app) |
 
@@ -118,6 +120,9 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
+| [bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)<br><small>📅 2026-07-31</small> | Windows Process Launcher & Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/bot-manager-dashboard) |
+| [WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)<br><small>📅 2026-07-31</small> | Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts & alerts for kitesurfers & sailors. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/WindyCheck_bot) |
+| [UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)<br><small>📅 2026-07-31</small> | UPS-ExeGate-SpecialPro-UNB-1200 telemetry, power monitoring, and control tool. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200) |
 | [habit-tracker](https://github.com/ALEVOLDON/habit-tracker)<br><small>📅 2025-11-24</small> | Full-featured habit tracker. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/habit-tracker) |
 | [water-map-donetsk](https://github.com/ALEVOLDON/water-map-donetsk)<br><small>📅 2025-09-18</small> | Water monitoring map. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/water-map-donetsk) |
 | [pwa_app](https://github.com/ALEVOLDON/pwa_app)<br><small>📅 2024-01-31</small> | Progressive Web Apps experiment. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/pwa_app) |
@@ -128,7 +133,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 *Old projects, forks, and learning materials (over 60 repositories in total).*
 
 <details>
-<summary><b>📦 View Archived & Learning Repositories (9 items)</b></summary>
+<summary><b>📦 View Archived & Learning Repositories (10 items)</b></summary>
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
@@ -141,6 +146,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [Travel-to](https://github.com/ALEVOLDON/Travel-to)<br><small>📅 2021-01-20</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Travel-to) |
 | [3d-tic-tac-toe](https://github.com/ALEVOLDON/3d-tic-tac-toe)<br><small>📅 2021-02-03</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/3d-tic-tac-toe) |
 | [audioplayer](https://github.com/ALEVOLDON/audioplayer)<br><small>📅 2021-06-12</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/audioplayer) |
+| [Modern-Portfolio-Website](https://github.com/ALEVOLDON/Modern-Portfolio-Website)<br><small>📅 2026-03-31</small> | This is a responsive portfolio website built using HTML and ... |  | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Modern-Portfolio-Website) |
 
 </details>
 
@@ -162,11 +168,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Aug 2** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
-- **Aug 2** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 1** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Jul 31** — 📦 Released **v1.2.0** in **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)**
-- **Jul 31** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
+_No recent prominent activity in the last 90 days._
 <!-- RECENT_ACTIVITY_END -->
 
 ---
