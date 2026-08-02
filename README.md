@@ -184,7 +184,11 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-_No recent prominent activity in the last 90 days._
+- **Aug 2** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
+- **Aug 2** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
+- **Aug 2** — 📦 Released **v3.0.0** in **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**
+- **Aug 2** — 📦 Released **v2.5.0** in **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**
+- **Aug 2** — 📦 Released **v2.0.0** in **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**
 <!-- RECENT_ACTIVITY_END -->
 
 ---
