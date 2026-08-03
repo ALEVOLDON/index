@@ -84,7 +84,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | :--- | :--- | :--- | :--- | :--- |
 | [obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)<br><small>📅 2026-07-13</small> | AI-powered auto-tagging of Telegram posts into Obsidian notes. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/obsidian_posts_smart_tags) |
 | [Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)<br><small>⭐ 2 • 📅 2026-07-22</small> | AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-1572B6?style=flat-square) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Dump-Assistant-Bot) |
-| [full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)<br><small>⭐ 3 • 📅 2026-06-19</small> | The ultimate guide to mastering AI in 2025. | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026) |
+| [full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)<br><small>⭐ 3 • 📅 2026-08-02</small> | The ultimate guide to mastering AI in 2025. | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026) |
 | [Smart-Daw-Landing-React](https://github.com/ALEVOLDON/Smart-Daw-Landing-React)<br><small>📅 2026-04-30</small> | Landing page for an AI-powered music mixing assistant. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Smart-Daw-Landing-React) |
 
 ---
@@ -175,20 +175,20 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 17 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3422 days)
-- ⚠️ `Rack` (inactive for 3169 days)
-- ⚠️ `magenta` (inactive for 3063 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3423 days)
+- ⚠️ `Rack` (inactive for 3170 days)
+- ⚠️ `magenta` (inactive for 3064 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Aug 2** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
-- **Aug 2** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
-- **Aug 2** — 📦 Released **v3.0.0** in **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**
-- **Aug 2** — 📦 Released **v2.5.0** in **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**
-- **Aug 2** — 📦 Released **v2.0.0** in **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)**
+- **Aug 2** — 📦 Released **v1.4.0** in **[ALEVOLDON/full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)**
+- **Aug 2** — 🚀 Pushed changes to **[ALEVOLDON/full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (main)
+- **Aug 2** — 📦 Released **v1.3.1** in **[ALEVOLDON/full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)**
+- **Aug 2** — 🚀 Pushed changes to **[ALEVOLDON/full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (main)
+- **Aug 2** — 📦 Released **v1.3.0** in **[ALEVOLDON/full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)**
 <!-- RECENT_ACTIVITY_END -->
 
 ---
