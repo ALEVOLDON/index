@@ -51,7 +51,8 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ![GitHub Stars](https://img.shields.io/github/stars/ALEVOLDON?style=flat-square&color=gold&label=TOTAL%20STARS) ![GitHub Followers](https://img.shields.io/github/followers/ALEVOLDON?style=flat-square&color=blueviolet&label=FOLLOWERS)
 
-![ALEVOLDON's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ALEVOLDON&theme=radical)
+![ALEVOLDON's GitHub stats](https://github-readme-stats-extended.vercel.app/api?username=ALEVOLDON&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats-extended.vercel.app/api/top-langs/?username=ALEVOLDON&layout=compact&theme=radical)
 ![ALEVOLDON's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ALEVOLDON&theme=react-dark)
 
 ---
