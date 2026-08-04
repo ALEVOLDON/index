@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T03:15:16.101865",
+  "generated_at": "2026-08-04T13:01:52.094890",
   "ecosystem_stats": {
     "total_repos": 101,
     "total_stars": 13,
@@ -307,7 +307,7 @@
       "suggested_category": "ai",
       "health_score": 1.0,
       "activity_score": 1.0,
-      "days_inactive": 1
+      "days_inactive": 0
     },
     {
       "repo": "iphone-3d-website-starter",
