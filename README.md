@@ -184,11 +184,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Aug 3** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 3** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 3** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 3** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 3** — 📦 Released **v1.8.0** in **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)**
+_No recent prominent activity in the last 90 days._
 <!-- RECENT_ACTIVITY_END -->
 
 ---
@@ -205,8 +201,11 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 ---
 
 ## 📈 Statistics
-![ALEVOLDON's GitHub stats](https://github-readme-stats.vercel.app/api?username=ALEVOLDON&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ALEVOLDON&layout=compact&theme=radical)
+
+![GitHub Stars](https://img.shields.io/github/stars/ALEVOLDON?style=flat-square&color=gold&label=TOTAL%20STARS) ![GitHub Followers](https://img.shields.io/github/followers/ALEVOLDON?style=flat-square&color=blueviolet&label=FOLLOWERS)
+
+![ALEVOLDON's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ALEVOLDON&theme=radical)
+![ALEVOLDON's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ALEVOLDON&theme=react-dark)
 
 ---
 
