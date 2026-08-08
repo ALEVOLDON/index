@@ -440,7 +440,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-08-06",
+    "updated_at": "2026-08-07",
     "topics": [
       "ai",
       "audio-development",
@@ -677,7 +677,7 @@
   {
     "name": "Modular-Genesis",
     "stars": 1,
-    "updated_at": "2026-08-06",
+    "updated_at": "2026-08-07",
     "topics": [
       "ableton-live",
       "astro",
@@ -1149,7 +1149,7 @@
   {
     "name": "ZERO-GRAVITY",
     "stars": 0,
-    "updated_at": "2026-02-05",
+    "updated_at": "2026-08-07",
     "topics": [],
     "tracked": true,
     "category": "frontend",

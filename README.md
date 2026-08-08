@@ -95,7 +95,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
 | [acid-synth](https://github.com/ALEVOLDON/acid-synth)<br><small>📅 2025-11-02</small> | Interactive acid synthesizer with oscilloscope. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PySide6](https://img.shields.io/badge/PySide6-41B883?style=flat-square&logo=qt&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/acid-synth) |
-| [Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)<br><small>⭐ 1 • 📅 2026-08-06</small> | Portal about modular synthesis and generative music. | ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/Modular-Genesis) |
+| [Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)<br><small>⭐ 1 • 📅 2026-08-07</small> | Portal about modular synthesis and generative music. | ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/Modular-Genesis) |
 | [Signal-Lattice](https://github.com/ALEVOLDON/Signal-Lattice)<br><small>📅 2026-02-07</small> | Browser-based digital musical instrument. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Signal-Lattice) |
 | [gtwy-audio-archive](https://github.com/ALEVOLDON/gtwy-audio-archive)<br><small>📅 2026-03-07</small> | Web interface for the GTWY music archive. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Bandcamp API](https://img.shields.io/badge/Bandcamp-629AAF?style=flat-square&logo=bandcamp&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/gtwy-audio-archive) |
 | [CineBlocker](https://github.com/ALEVOLDON/CineBlocker)<br><small>📅 2025-07-26</small> | App to block distracting sites for creatives. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CineBlocker) |
@@ -110,7 +110,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
-| [ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)<br><small>📅 2026-02-05</small> | Immersive 3D resource portal for developers. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/ZERO-GRAVITY) |
+| [ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)<br><small>📅 2026-08-07</small> | Immersive 3D resource portal for developers. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/ZERO-GRAVITY) |
 | [Anti-Gravity-Landing](https://github.com/ALEVOLDON/Anti-Gravity-Landing)<br><small>📅 2026-02-03</small> | Landing page with physics: elements fall on click! | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Anti-Gravity-Landing) |
 | [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>⭐ 1 • 📅 2026-08-06</small> | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/portfolio) |
 | [cosmic-portfolio](https://github.com/ALEVOLDON/cosmic-portfolio)<br><small>⭐ 1 • 📅 2025-03-01</small> | Interactive space-themed portfolio. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/cosmic-portfolio) |
@@ -175,20 +175,20 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 17 tracked repositories that are becoming inactive, consider archiving the oldest ones.
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3427 days)
-- ⚠️ `Rack` (inactive for 3174 days)
-- ⚠️ `magenta` (inactive for 3068 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3428 days)
+- ⚠️ `Rack` (inactive for 3175 days)
+- ⚠️ `magenta` (inactive for 3069 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Aug 6** — 🚀 Pushed changes to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (main)
-- **Aug 6** — 🚀 Pushed changes to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (main)
-- **Aug 6** — 🚀 Pushed changes to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (main)
-- **Aug 6** — 🚀 Pushed changes to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (main)
-- **Aug 6** — 🚀 Pushed changes to **[ALEVOLDON/obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (main)
+- **Aug 7** — 🚀 Pushed changes to **[ALEVOLDON/ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)** (main)
+- **Aug 7** — 🚀 Pushed changes to **[ALEVOLDON/ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)** (main)
+- **Aug 7** — 🚀 Pushed changes to **[ALEVOLDON/ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)** (main)
+- **Aug 7** — 🚀 Pushed changes to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (main)
+- **Aug 7** — 🚀 Pushed changes to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
