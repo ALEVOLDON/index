@@ -220,6 +220,12 @@ async function renderReadme() {
         for (const suggestion of insights.suggestions) {
             insightsMarkdown += `- 💡 ${suggestion}\n`;
         }
+        if (insights.rising_projects && insights.rising_projects.length > 0) {
+            insightsMarkdown += `\n**🚀 Rising & Active Momentum Projects:**\n`;
+            insights.rising_projects.slice(0, 4).forEach(rp => {
+                insightsMarkdown += `- 🔥 **[${rp.repo}](https://github.com/${USERNAME}/${rp.repo})** (${rp.primary_category}) — _${rp.reason}_\n`;
+            });
+        }
         if (insights.neglected_repos && insights.neglected_repos.length > 0) {
             insightsMarkdown += `\n**Attention Needed:**\n`;
             insights.neglected_repos.slice(0, 3).forEach(nr => {

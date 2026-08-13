@@ -172,7 +172,15 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 *Adaptive analysis and health tracking of my ecosystem powered by AI.*
 
 - 💡 Your ecosystem is currently heavily focused around 'python'.
-- 💡 You have 17 tracked repositories that are becoming inactive, consider archiving the oldest ones.
+- 💡 9 projects are showing strong recent momentum (e.g. 'full_roadmap_ai_enthusiast_2026').
+- 💡 Candidate for Featured recommendation: 'portfolio' (score 0.73).
+- 💡 You have 17 tracked repositories inactive for over 1 year.
+
+**🚀 Rising & Active Momentum Projects:**
+- 🔥 **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _High momentum (0.86) with recent updates (7 days ago)_
+- 🔥 **[Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (music) — _High momentum (0.82) with recent updates (6 days ago)_
+- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _High momentum (0.82) with recent updates (3 days ago)_
+- 🔥 **[obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (ai) — _High momentum (0.8) with recent updates (7 days ago)_
 
 **Attention Needed:**
 - ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3433 days)
@@ -184,11 +192,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Aug 10** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 10** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
-- **Aug 10** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
-- **Aug 10** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
-- **Aug 10** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
+_No recent prominent activity in the last 90 days._
 <!-- RECENT_ACTIVITY_END -->
 
 ---

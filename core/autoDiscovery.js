@@ -61,6 +61,15 @@ async function runAutoDiscovery() {
     const configPath = path.join(__dirname, '../config/projects.json');
     const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
     
+    const intelligencePath = path.join(__dirname, '../config/intelligence.json');
+    let thresholds = { auto_discovery_health: 0.45, auto_discovery_momentum: 0.50 };
+    if (fs.existsSync(intelligencePath)) {
+        try {
+            const intelCfg = JSON.parse(fs.readFileSync(intelligencePath, 'utf8'));
+            if (intelCfg.thresholds) thresholds = intelCfg.thresholds;
+        } catch (e) {}
+    }
+
     const metricsMap = {};
     for (const m of (insightsData.repo_metrics || [])) {
         metricsMap[m.repo] = m;
@@ -106,8 +115,14 @@ async function runAutoDiscovery() {
         let categoryId = null;
         let note = "";
 
-        if (metrics.health_score >= 0.5 || (metrics.days_inactive !== undefined && metrics.days_inactive <= 180 && repo.description)) {
-            categoryId = metrics.suggested_category || suggest_category(repo.topics) || infer_category_from_description(repo.description ? repo.description.toLowerCase() : '') || 'archive';
+        const healthThreshold = thresholds.auto_discovery_health || 0.45;
+        const momentumThreshold = thresholds.auto_discovery_momentum || 0.50;
+
+        if ((metrics.health_score !== undefined && metrics.health_score >= healthThreshold) ||
+            (metrics.momentum_score !== undefined && metrics.momentum_score >= momentumThreshold) ||
+            (metrics.days_inactive !== undefined && metrics.days_inactive <= 180 && repo.description)) {
+            
+            categoryId = metrics.primary_category || metrics.suggested_category || suggest_category(repo.topics) || infer_category_from_description(repo.description ? repo.description.toLowerCase() : '') || 'archive';
             shouldAdd = true;
             note = repo.topics && repo.topics.length > 0 ? "Auto-discovered" : "Auto-discovered (description-based)";
         }

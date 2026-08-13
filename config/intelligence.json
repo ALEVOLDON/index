@@ -1,0 +1,237 @@
+{
+  "version": "2.0",
+  "scoring_weights": {
+    "health": {
+      "has_description": 0.20,
+      "has_topics": 0.15,
+      "has_license": 0.10,
+      "has_stars": 0.10,
+      "has_forks": 0.05,
+      "has_language": 0.10,
+      "non_empty_size": 0.10,
+      "recent_push_bonus": 0.20
+    },
+    "activity": {
+      "days_7": 1.0,
+      "days_30": 0.85,
+      "days_90": 0.70,
+      "days_180": 0.45,
+      "days_365": 0.20
+    },
+    "momentum": {
+      "activity_weight": 0.50,
+      "recency_boost": 0.30,
+      "engagement_weight": 0.20
+    },
+    "recommendation": {
+      "health_weight": 0.40,
+      "activity_weight": 0.25,
+      "momentum_weight": 0.25,
+      "stars_weight": 0.10
+    }
+  },
+  "thresholds": {
+    "auto_discovery_health": 0.45,
+    "auto_discovery_momentum": 0.50,
+    "rising_momentum_min": 0.55,
+    "rising_activity_min": 0.40,
+    "featured_recommendation_min": 0.65,
+    "neglected_days": 365
+  },
+  "category_definitions": {
+    "ai": {
+      "topics": [
+        "ai",
+        "machine-learning",
+        "openai",
+        "llm",
+        "local-llm",
+        "chatgpt",
+        "deep-learning",
+        "neural-network",
+        "nlp",
+        "computer-vision",
+        "knowledge-management",
+        "pkm",
+        "obsidian",
+        "obsidian-plugin",
+        "rag",
+        "semantic-search",
+        "vector-database",
+        "embeddings",
+        "prompt-engineering",
+        "automation",
+        "telegram-bot-ai-assistant",
+        "chatbot",
+        "community-management"
+      ],
+      "keywords": [
+        "gpt",
+        "openai",
+        "ollama",
+        "llm",
+        "language model",
+        "neural",
+        "deep learning",
+        "machine learning",
+        "ml",
+        "chatbot",
+        "embedding",
+        "vector",
+        "semantic",
+        "nlp",
+        "transformer",
+        "assistant",
+        "ai bot",
+        "bot"
+      ],
+      "languages": ["python", "jupyter notebook"]
+    },
+    "music": {
+      "topics": [
+        "music",
+        "audio",
+        "music-technology",
+        "generative-music",
+        "experimental-music",
+        "sound-design",
+        "ableton-live",
+        "vcv-rack",
+        "audiovisual",
+        "modular-synthesis",
+        "synthesizer",
+        "midi",
+        "daw",
+        "web-audio"
+      ],
+      "keywords": [
+        "synthesizer",
+        "daw",
+        "melody",
+        "sound design",
+        "audio",
+        "music technology",
+        "modular",
+        "vcv rack",
+        "ableton",
+        "oscillator",
+        "midi",
+        "chord",
+        "beat",
+        "drum",
+        "bass",
+        "sound",
+        "web audio"
+      ],
+      "languages": ["c++", "max", "supercollider", "faust"]
+    },
+    "frontend": {
+      "topics": [
+        "react",
+        "frontend",
+        "web",
+        "webdev",
+        "javascript",
+        "typescript",
+        "nodejs",
+        "astro",
+        "vite",
+        "html5",
+        "css3",
+        "pwa",
+        "nextjs",
+        "vue",
+        "svelte",
+        "tailwindcss"
+      ],
+      "keywords": [
+        "react",
+        "frontend",
+        "ui",
+        "vite",
+        "astro",
+        "vue",
+        "svelte",
+        "angular",
+        "next.js",
+        "nuxt",
+        "web app",
+        "dashboard",
+        "portfolio",
+        "landing",
+        "website",
+        "web",
+        "site"
+      ],
+      "languages": ["typescript", "javascript", "html", "css"]
+    },
+    "creative": {
+      "topics": [
+        "3d",
+        "threejs",
+        "three.js",
+        "blender",
+        "generative-art",
+        "creative-coding",
+        "phaser",
+        "gamedev",
+        "browsergame",
+        "indie-game",
+        "mobilegame",
+        "procedural",
+        "geometry-nodes",
+        "webgl",
+        "canvas",
+        "shaders",
+        "glsl"
+      ],
+      "keywords": [
+        "three.js",
+        "threejs",
+        "blender",
+        "game",
+        "creative",
+        "generative",
+        "procedural",
+        "shader",
+        "canvas",
+        "webgl",
+        "glsl",
+        "music visual",
+        "visualizer",
+        "arcade",
+        "scrolling",
+        "shooter",
+        "pwa game"
+      ],
+      "languages": ["glsl", "c#", "gdscript"]
+    },
+    "productivity": {
+      "topics": [
+        "productivity",
+        "tool",
+        "utility",
+        "habit-tracker",
+        "organizer",
+        "planner",
+        "cli",
+        "workflow"
+      ],
+      "keywords": [
+        "habit tracker",
+        "productivity",
+        "tool",
+        "utility",
+        "monitor",
+        "water map",
+        "tracking",
+        "organizer",
+        "planner",
+        "calendar",
+        "task manager",
+        "cli"
+      ],
+      "languages": ["shell", "python", "go", "rust"]
+    }
+  }
+}

@@ -7,6 +7,8 @@ const REPOS_PATH = path.join(ROOT, 'data', 'repos.json');
 const INSIGHTS_PATH = path.join(ROOT, 'data', 'insights.json');
 const TECH_BADGES_PATH = path.join(ROOT, 'config', 'tech_badges.json');
 
+const INTELLIGENCE_PATH = path.join(ROOT, 'config', 'intelligence.json');
+
 function readJSON(filePath) {
     if (!fs.existsSync(filePath)) {
         throw new Error(`File missing: ${path.relative(ROOT, filePath)}`);
@@ -34,12 +36,26 @@ function validate() {
     console.log('Starting validation...');
     const config = readJSON(CONFIG_PATH);
     const repos = readJSON(REPOS_PATH);
-    readJSON(INSIGHTS_PATH);
+    const insights = readJSON(INSIGHTS_PATH);
+    const intelligence = readJSON(INTELLIGENCE_PATH);
     if (fs.existsSync(TECH_BADGES_PATH)) {
         readJSON(TECH_BADGES_PATH);
     }
 
     const errors = [];
+
+    if (!intelligence.scoring_weights || !intelligence.thresholds || !intelligence.category_definitions) {
+        errors.push('config/intelligence.json must contain scoring_weights, thresholds, and category_definitions.');
+    }
+
+    if (insights.repo_metrics && Array.isArray(insights.repo_metrics)) {
+        for (const metric of insights.repo_metrics.slice(0, 10)) {
+            if (metric.health_score === undefined || metric.activity_score === undefined || metric.momentum_score === undefined) {
+                errors.push(`insights.json metric for repo ${metric.repo} is missing v2 score fields.`);
+                break;
+            }
+        }
+    }
     const repoNames = new Set(repos.map(repo => repo.name));
     const configuredRepos = new Map();
 

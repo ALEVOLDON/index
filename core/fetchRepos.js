@@ -91,7 +91,14 @@ async function main() {
             tracked: isTracked,
             category: isTracked ? repoCategories[repo.name] : null,
             fork: repo.fork,
-            description: repo.description || ''
+            description: repo.description || '',
+            language: repo.language || '',
+            license: repo.license ? (repo.license.spdx_id || repo.license.key || repo.license.name || '') : '',
+            forks_count: repo.forks_count || 0,
+            open_issues_count: repo.open_issues_count || 0,
+            created_at: repo.created_at ? repo.created_at.substring(0, 10) : '',
+            size: repo.size || 0,
+            archived: !!repo.archived
         });
     }
 
