@@ -1,14 +1,14 @@
 {
   "version": "2.0",
-  "generated_at": "2026-08-13T09:24:32.306132",
+  "generated_at": "2026-08-13T06:25:52.047145",
   "ecosystem_stats": {
     "total_repos": 101,
     "total_stars": 13,
     "ai_projects": 8,
-    "music_projects": 20,
-    "frontend_projects": 18,
+    "music_projects": 21,
+    "frontend_projects": 40,
     "creative_projects": 5,
-    "productivity_projects": 8
+    "productivity_projects": 7
   },
   "top_topics": [
     "python",
@@ -26,12 +26,14 @@
     {
       "repo": "3d-tic-tac-toe",
       "primary_category": "archive",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "frontend"
+      ],
       "suggested_category": "archive",
-      "health_score": 0.0,
+      "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.0,
+      "recommendation_score": 0.08,
       "days_inactive": 2017
     },
     {
@@ -39,34 +41,39 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 3568
     },
     {
       "repo": "AbletonLive9_RemoteScripts",
       "primary_category": "archive",
       "secondary_categories": [
-        "music"
+        "music",
+        "ai",
+        "productivity"
       ],
       "suggested_category": "archive",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 3433
     },
     {
       "repo": "acid-synth",
       "primary_category": "music",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "ai",
+        "productivity"
+      ],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.2,
       "momentum_score": 0.1,
-      "recommendation_score": 0.15,
+      "recommendation_score": 0.24,
       "days_inactive": 284
     },
     {
@@ -74,10 +81,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.4,
+      "health_score": 0.5,
       "activity_score": 0.7,
       "momentum_score": 0.5,
-      "recommendation_score": 0.46,
+      "recommendation_score": 0.5,
       "days_inactive": 56
     },
     {
@@ -87,32 +94,34 @@
         "productivity"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.2,
       "momentum_score": 0.1,
-      "recommendation_score": 0.15,
+      "recommendation_score": 0.24,
       "days_inactive": 191
     },
     {
       "repo": "app_p5js_demo",
-      "primary_category": "archive",
+      "primary_category": "frontend",
       "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
+      "suggested_category": "frontend",
+      "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.0,
+      "recommendation_score": 0.08,
       "days_inactive": 1457
     },
     {
       "repo": "audioplayer",
       "primary_category": "archive",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "frontend"
+      ],
       "suggested_category": "archive",
-      "health_score": 0.0,
+      "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.0,
+      "recommendation_score": 0.08,
       "days_inactive": 1888
     },
     {
@@ -120,32 +129,32 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3183
     },
     {
       "repo": "BLAZE",
-      "primary_category": "archive",
+      "primary_category": "frontend",
       "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.2,
+      "suggested_category": "frontend",
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 626
     },
     {
       "repo": "bootstrap-bakery-master",
-      "primary_category": "archive",
+      "primary_category": "frontend",
       "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
+      "suggested_category": "frontend",
+      "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.0,
+      "recommendation_score": 0.08,
       "days_inactive": 2201
     },
     {
@@ -156,32 +165,35 @@
         "ai"
       ],
       "suggested_category": "productivity",
-      "health_score": 0.55,
+      "health_score": 0.85,
       "activity_score": 0.85,
       "momentum_score": 0.67,
-      "recommendation_score": 0.6,
+      "recommendation_score": 0.72,
       "days_inactive": 13
     },
     {
       "repo": "CineBlocker",
       "primary_category": "music",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "ai",
+        "productivity"
+      ],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 383
     },
     {
       "repo": "city-game",
-      "primary_category": "archive",
+      "primary_category": "frontend",
       "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
+      "suggested_category": "frontend",
+      "health_score": 0.1,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.0,
+      "recommendation_score": 0.04,
       "days_inactive": 1940
     },
     {
@@ -189,10 +201,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 507
     },
     {
@@ -200,10 +212,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 2172
     },
     {
@@ -213,10 +225,10 @@
         "ai"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 460
     },
     {
@@ -224,25 +236,41 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.3,
+      "health_score": 0.6,
       "activity_score": 0.0,
       "momentum_score": 0.02,
-      "recommendation_score": 0.14,
+      "recommendation_score": 0.26,
       "days_inactive": 530
     },
     {
       "repo": "CS50-s-Web-Programming-with-Python-and-JavaScript",
       "primary_category": "archive",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "frontend"
+      ],
       "suggested_category": "archive",
-      "health_score": 0.0,
+      "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.0,
+      "recommendation_score": 0.08,
       "days_inactive": 1065
     },
     {
       "repo": "CS50W---Lecture-3---Django",
+      "primary_category": "ai",
+      "secondary_categories": [
+        "productivity",
+        "frontend"
+      ],
+      "suggested_category": "ai",
+      "health_score": 0.5,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.2,
+      "days_inactive": 1001
+    },
+    {
+      "repo": "cursor",
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
@@ -250,28 +278,17 @@
       "activity_score": 0.0,
       "momentum_score": 0.0,
       "recommendation_score": 0.08,
-      "days_inactive": 1001
-    },
-    {
-      "repo": "cursor",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.0,
       "days_inactive": 1639
     },
     {
       "repo": "CV",
-      "primary_category": "archive",
+      "primary_category": "frontend",
       "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
+      "suggested_category": "frontend",
+      "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.0,
+      "recommendation_score": 0.08,
       "days_inactive": 624
     },
     {
@@ -279,10 +296,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 2250
     },
     {
@@ -292,10 +309,10 @@
         "productivity"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 2287
     },
     {
@@ -303,10 +320,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.5,
       "activity_score": 0.7,
       "momentum_score": 0.5,
-      "recommendation_score": 0.46,
+      "recommendation_score": 0.5,
       "days_inactive": 72
     },
     {
@@ -316,10 +333,10 @@
         "frontend"
       ],
       "suggested_category": "ai",
-      "health_score": 0.65,
+      "health_score": 0.95,
       "activity_score": 0.85,
       "momentum_score": 0.71,
-      "recommendation_score": 0.67,
+      "recommendation_score": 0.79,
       "days_inactive": 22
     },
     {
@@ -327,21 +344,21 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.0,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.0,
-      "days_inactive": 1085
-    },
-    {
-      "repo": "EnvelopForLive",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
       "recommendation_score": 0.08,
+      "days_inactive": 1085
+    },
+    {
+      "repo": "EnvelopForLive",
+      "primary_category": "music",
+      "secondary_categories": [],
+      "suggested_category": "music",
+      "health_score": 0.5,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.2,
       "days_inactive": 3192
     },
     {
@@ -349,10 +366,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.1,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.02,
-      "recommendation_score": 0.06,
+      "recommendation_score": 0.18,
       "days_inactive": 1941
     },
     {
@@ -360,10 +377,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 2303
     },
     {
@@ -371,10 +388,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.3,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.12,
       "days_inactive": 3734
     },
     {
@@ -384,10 +401,10 @@
         "frontend"
       ],
       "suggested_category": "ai",
-      "health_score": 0.65,
+      "health_score": 1.0,
       "activity_score": 1.0,
-      "momentum_score": 0.86,
-      "recommendation_score": 0.76,
+      "momentum_score": 0.9,
+      "recommendation_score": 0.91,
       "days_inactive": 7
     },
     {
@@ -395,10 +412,10 @@
       "primary_category": "ai",
       "secondary_categories": [],
       "suggested_category": "ai",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 1629
     },
     {
@@ -406,10 +423,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.2,
+      "health_score": 0.3,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.12,
       "days_inactive": 2137
     },
     {
@@ -419,10 +436,10 @@
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.4,
+      "health_score": 0.6,
       "activity_score": 0.45,
       "momentum_score": 0.29,
-      "recommendation_score": 0.34,
+      "recommendation_score": 0.42,
       "days_inactive": 159
     },
     {
@@ -430,10 +447,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 2205
     },
     {
@@ -443,107 +460,14 @@
         "frontend"
       ],
       "suggested_category": "productivity",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.2,
       "momentum_score": 0.1,
-      "recommendation_score": 0.15,
+      "recommendation_score": 0.24,
       "days_inactive": 262
     },
     {
       "repo": "HACKATON-IT-NATION-2020",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.0,
-      "days_inactive": 2125
-    },
-    {
-      "repo": "HTML5-Semantic",
-      "primary_category": "ai",
-      "secondary_categories": [],
-      "suggested_category": "ai",
-      "health_score": 0.2,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.08,
-      "days_inactive": 457
-    },
-    {
-      "repo": "HUMAN",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.2,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.08,
-      "days_inactive": 2381
-    },
-    {
-      "repo": "index",
-      "primary_category": "creative",
-      "secondary_categories": [
-        "ai",
-        "frontend",
-        "productivity",
-        "music"
-      ],
-      "suggested_category": "creative",
-      "health_score": 0.65,
-      "activity_score": 1.0,
-      "momentum_score": 0.82,
-      "recommendation_score": 0.73,
-      "days_inactive": 1
-    },
-    {
-      "repo": "iphone-3d-website-starter",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.0,
-      "days_inactive": 1227
-    },
-    {
-      "repo": "javascript-intro-to-functions-lab-js-intro-000",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.0,
-      "days_inactive": 1936
-    },
-    {
-      "repo": "javascript-logging-lab-js-intro-000",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.1,
-      "activity_score": 0.0,
-      "momentum_score": 0.02,
-      "recommendation_score": 0.06,
-      "days_inactive": 1940
-    },
-    {
-      "repo": "javascript-strings-lab-js-intro-000",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.1,
-      "activity_score": 0.0,
-      "momentum_score": 0.02,
-      "recommendation_score": 0.06,
-      "days_inactive": 1939
-    },
-    {
-      "repo": "joomhost_superman",
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
@@ -551,17 +475,112 @@
       "activity_score": 0.0,
       "momentum_score": 0.0,
       "recommendation_score": 0.08,
+      "days_inactive": 2125
+    },
+    {
+      "repo": "HTML5-Semantic",
+      "primary_category": "ai",
+      "secondary_categories": [
+        "frontend"
+      ],
+      "suggested_category": "ai",
+      "health_score": 0.5,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.2,
+      "days_inactive": 457
+    },
+    {
+      "repo": "HUMAN",
+      "primary_category": "frontend",
+      "secondary_categories": [],
+      "suggested_category": "frontend",
+      "health_score": 0.4,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.16,
       "days_inactive": 2381
     },
     {
-      "repo": "jukrainian",
-      "primary_category": "archive",
+      "repo": "index",
+      "primary_category": "creative",
+      "secondary_categories": [
+        "frontend",
+        "ai",
+        "productivity",
+        "music"
+      ],
+      "suggested_category": "creative",
+      "health_score": 0.95,
+      "activity_score": 1.0,
+      "momentum_score": 0.82,
+      "recommendation_score": 0.84,
+      "days_inactive": 0
+    },
+    {
+      "repo": "iphone-3d-website-starter",
+      "primary_category": "frontend",
       "secondary_categories": [],
-      "suggested_category": "archive",
+      "suggested_category": "frontend",
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
       "recommendation_score": 0.08,
+      "days_inactive": 1227
+    },
+    {
+      "repo": "javascript-intro-to-functions-lab-js-intro-000",
+      "primary_category": "frontend",
+      "secondary_categories": [],
+      "suggested_category": "frontend",
+      "health_score": 0.3,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.12,
+      "days_inactive": 1936
+    },
+    {
+      "repo": "javascript-logging-lab-js-intro-000",
+      "primary_category": "frontend",
+      "secondary_categories": [],
+      "suggested_category": "frontend",
+      "health_score": 0.4,
+      "activity_score": 0.0,
+      "momentum_score": 0.02,
+      "recommendation_score": 0.18,
+      "days_inactive": 1940
+    },
+    {
+      "repo": "javascript-strings-lab-js-intro-000",
+      "primary_category": "frontend",
+      "secondary_categories": [],
+      "suggested_category": "frontend",
+      "health_score": 0.4,
+      "activity_score": 0.0,
+      "momentum_score": 0.02,
+      "recommendation_score": 0.18,
+      "days_inactive": 1939
+    },
+    {
+      "repo": "joomhost_superman",
+      "primary_category": "frontend",
+      "secondary_categories": [],
+      "suggested_category": "frontend",
+      "health_score": 0.4,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.16,
+      "days_inactive": 2381
+    },
+    {
+      "repo": "jukrainian",
+      "primary_category": "frontend",
+      "secondary_categories": [],
+      "suggested_category": "frontend",
+      "health_score": 0.5,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.2,
       "days_inactive": 454
     },
     {
@@ -569,10 +588,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3181
     },
     {
@@ -591,10 +610,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 1760
     },
     {
@@ -602,10 +621,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3242
     },
     {
@@ -613,69 +632,14 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3264
     },
     {
       "repo": "madDog",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.0,
-      "days_inactive": 2234
-    },
-    {
-      "repo": "magenta",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.2,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.08,
-      "days_inactive": 3074
-    },
-    {
-      "repo": "Marathon-GoIT",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.0,
-      "days_inactive": 2249
-    },
-    {
-      "repo": "Markdown",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.2,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.08,
-      "days_inactive": 2254
-    },
-    {
-      "repo": "MAVIC",
-      "primary_category": "ai",
-      "secondary_categories": [],
-      "suggested_category": "ai",
-      "health_score": 0.2,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.08,
-      "days_inactive": 1642
-    },
-    {
-      "repo": "Minesweeper",
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
@@ -683,17 +647,79 @@
       "activity_score": 0.0,
       "momentum_score": 0.0,
       "recommendation_score": 0.08,
-      "days_inactive": 2207
+      "days_inactive": 2234
     },
     {
-      "repo": "MJSB",
+      "repo": "magenta",
       "primary_category": "archive",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "ai",
+        "productivity"
+      ],
+      "suggested_category": "archive",
+      "health_score": 0.5,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.2,
+      "days_inactive": 3074
+    },
+    {
+      "repo": "Marathon-GoIT",
+      "primary_category": "archive",
+      "secondary_categories": [
+        "frontend"
+      ],
       "suggested_category": "archive",
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
       "recommendation_score": 0.08,
+      "days_inactive": 2249
+    },
+    {
+      "repo": "Markdown",
+      "primary_category": "archive",
+      "secondary_categories": [],
+      "suggested_category": "archive",
+      "health_score": 0.3,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.12,
+      "days_inactive": 2254
+    },
+    {
+      "repo": "MAVIC",
+      "primary_category": "frontend",
+      "secondary_categories": [
+        "ai"
+      ],
+      "suggested_category": "frontend",
+      "health_score": 0.4,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.16,
+      "days_inactive": 1642
+    },
+    {
+      "repo": "Minesweeper",
+      "primary_category": "frontend",
+      "secondary_categories": [],
+      "suggested_category": "frontend",
+      "health_score": 0.4,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.16,
+      "days_inactive": 2207
+    },
+    {
+      "repo": "MJSB",
+      "primary_category": "frontend",
+      "secondary_categories": [],
+      "suggested_category": "frontend",
+      "health_score": 0.4,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.16,
       "days_inactive": 2197
     },
     {
@@ -701,10 +727,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3183
     },
     {
@@ -715,10 +741,10 @@
         "ai"
       ],
       "suggested_category": "archive",
-      "health_score": 0.4,
+      "health_score": 0.6,
       "activity_score": 0.45,
       "momentum_score": 0.29,
-      "recommendation_score": 0.34,
+      "recommendation_score": 0.42,
       "days_inactive": 135
     },
     {
@@ -726,10 +752,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.2,
+      "health_score": 0.3,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.12,
       "days_inactive": 2439
     },
     {
@@ -740,10 +766,10 @@
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.65,
+      "health_score": 0.95,
       "activity_score": 1.0,
       "momentum_score": 0.82,
-      "recommendation_score": 0.73,
+      "recommendation_score": 0.84,
       "days_inactive": 6
     },
     {
@@ -751,10 +777,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 1644
     },
     {
@@ -762,32 +788,36 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3181
     },
     {
       "repo": "my-app-vr84-bootcamp",
-      "primary_category": "productivity",
-      "secondary_categories": [],
-      "suggested_category": "productivity",
-      "health_score": 0.2,
+      "primary_category": "frontend",
+      "secondary_categories": [
+        "productivity"
+      ],
+      "suggested_category": "frontend",
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 2142
     },
     {
       "repo": "My-first-three.js-app",
       "primary_category": "creative",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "frontend"
+      ],
       "suggested_category": "creative",
-      "health_score": 0.0,
+      "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.0,
+      "recommendation_score": 0.08,
       "days_inactive": 2016
     },
     {
@@ -798,21 +828,24 @@
         "productivity"
       ],
       "suggested_category": "ai",
-      "health_score": 0.55,
+      "health_score": 0.75,
       "activity_score": 1.0,
       "momentum_score": 0.8,
-      "recommendation_score": 0.67,
+      "recommendation_score": 0.75,
       "days_inactive": 7
     },
     {
       "repo": "point-cloud-surface",
       "primary_category": "creative",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "ai",
+        "productivity"
+      ],
       "suggested_category": "creative",
-      "health_score": 0.55,
+      "health_score": 0.9,
       "activity_score": 0.45,
-      "momentum_score": 0.29,
-      "recommendation_score": 0.4,
+      "momentum_score": 0.33,
+      "recommendation_score": 0.55,
       "days_inactive": 156
     },
     {
@@ -822,21 +855,21 @@
         "creative"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.65,
+      "health_score": 0.85,
       "activity_score": 1.0,
       "momentum_score": 0.82,
-      "recommendation_score": 0.73,
-      "days_inactive": 3
+      "recommendation_score": 0.8,
+      "days_inactive": 0
     },
     {
       "repo": "Prototypes",
-      "primary_category": "archive",
+      "primary_category": "frontend",
       "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.2,
+      "suggested_category": "frontend",
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 455
     },
     {
@@ -844,21 +877,23 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.3,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.12,
       "days_inactive": 3192
     },
     {
       "repo": "pwa_app",
       "primary_category": "productivity",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "frontend"
+      ],
       "suggested_category": "productivity",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 925
     },
     {
@@ -868,10 +903,10 @@
         "music"
       ],
       "suggested_category": "archive",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3180
     },
     {
@@ -881,10 +916,10 @@
         "productivity"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 457
     },
     {
@@ -892,10 +927,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.3,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.12,
       "days_inactive": 1774
     },
     {
@@ -905,10 +940,10 @@
         "frontend"
       ],
       "suggested_category": "creative",
-      "health_score": 0.55,
+      "health_score": 0.85,
       "activity_score": 0.45,
       "momentum_score": 0.29,
-      "recommendation_score": 0.4,
+      "recommendation_score": 0.52,
       "days_inactive": 174
     },
     {
@@ -916,45 +951,47 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3180
     },
     {
       "repo": "Sass-Crash-Course",
-      "primary_category": "archive",
+      "primary_category": "frontend",
       "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
-      "activity_score": 0.0,
-      "momentum_score": 0.0,
-      "recommendation_score": 0.0,
-      "days_inactive": 2262
-    },
-    {
-      "repo": "Scandi",
-      "primary_category": "archive",
-      "secondary_categories": [],
-      "suggested_category": "archive",
+      "suggested_category": "frontend",
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
       "recommendation_score": 0.08,
+      "days_inactive": 2262
+    },
+    {
+      "repo": "Scandi",
+      "primary_category": "frontend",
+      "secondary_categories": [],
+      "suggested_category": "frontend",
+      "health_score": 0.5,
+      "activity_score": 0.0,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.2,
       "days_inactive": 1455
     },
     {
       "repo": "sc_liked_to_playlist_web",
       "primary_category": "music",
       "secondary_categories": [
+        "ai",
+        "productivity",
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 484
     },
     {
@@ -964,35 +1001,35 @@
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.2,
       "momentum_score": 0.1,
-      "recommendation_score": 0.15,
+      "recommendation_score": 0.24,
       "days_inactive": 187
     },
     {
       "repo": "skills-based-javascript-intro-to-flow-control-js-intro-000",
-      "primary_category": "archive",
+      "primary_category": "frontend",
       "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
+      "suggested_category": "frontend",
+      "health_score": 0.3,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.0,
+      "recommendation_score": 0.12,
       "days_inactive": 1937
     },
     {
       "repo": "Smart-Daw-Landing-React",
       "primary_category": "ai",
       "secondary_categories": [
-        "music",
-        "frontend"
+        "frontend",
+        "music"
       ],
       "suggested_category": "ai",
-      "health_score": 0.4,
+      "health_score": 0.7,
       "activity_score": 0.45,
       "momentum_score": 0.29,
-      "recommendation_score": 0.34,
+      "recommendation_score": 0.46,
       "days_inactive": 105
     },
     {
@@ -1000,34 +1037,39 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 455
     },
     {
       "repo": "solar-roof",
       "primary_category": "creative",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "ai",
+        "productivity"
+      ],
       "suggested_category": "creative",
-      "health_score": 0.55,
+      "health_score": 0.85,
       "activity_score": 0.7,
       "momentum_score": 0.5,
-      "recommendation_score": 0.52,
+      "recommendation_score": 0.64,
       "days_inactive": 48
     },
     {
       "repo": "soundcloud-likes-downloader",
       "primary_category": "music",
       "secondary_categories": [
+        "ai",
+        "productivity",
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.3,
+      "health_score": 0.6,
       "activity_score": 0.0,
       "momentum_score": 0.02,
-      "recommendation_score": 0.14,
+      "recommendation_score": 0.26,
       "days_inactive": 486
     },
     {
@@ -1037,10 +1079,10 @@
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.55,
+      "health_score": 0.75,
       "activity_score": 0.7,
       "momentum_score": 0.5,
-      "recommendation_score": 0.52,
+      "recommendation_score": 0.6,
       "days_inactive": 37
     },
     {
@@ -1048,21 +1090,23 @@
       "primary_category": "productivity",
       "secondary_categories": [],
       "suggested_category": "productivity",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 2817
     },
     {
       "repo": "Travel-to",
       "primary_category": "archive",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "frontend"
+      ],
       "suggested_category": "archive",
-      "health_score": 0.0,
+      "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.0,
+      "recommendation_score": 0.08,
       "days_inactive": 2031
     },
     {
@@ -1070,21 +1114,23 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3180
     },
     {
       "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
       "primary_category": "productivity",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "ai"
+      ],
       "suggested_category": "productivity",
-      "health_score": 0.55,
+      "health_score": 0.85,
       "activity_score": 1.0,
       "momentum_score": 0.8,
-      "recommendation_score": 0.67,
+      "recommendation_score": 0.79,
       "days_inactive": 3
     },
     {
@@ -1094,10 +1140,10 @@
         "frontend"
       ],
       "suggested_category": "ai",
-      "health_score": 0.2,
+      "health_score": 0.3,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.12,
       "days_inactive": 2252
     },
     {
@@ -1105,10 +1151,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3181
     },
     {
@@ -1116,10 +1162,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3182
     },
     {
@@ -1127,10 +1173,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.2,
+      "health_score": 0.5,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.2,
       "days_inactive": 3185
     },
     {
@@ -1146,13 +1192,13 @@
     },
     {
       "repo": "webaudio_visualizer",
-      "primary_category": "archive",
+      "primary_category": "frontend",
       "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.0,
+      "suggested_category": "frontend",
+      "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.0,
+      "recommendation_score": 0.08,
       "days_inactive": 2014
     },
     {
@@ -1162,21 +1208,21 @@
         "ai"
       ],
       "suggested_category": "productivity",
-      "health_score": 0.55,
+      "health_score": 0.85,
       "activity_score": 0.85,
       "momentum_score": 0.67,
-      "recommendation_score": 0.6,
+      "recommendation_score": 0.72,
       "days_inactive": 13
     },
     {
       "repo": "zaverstay-2",
-      "primary_category": "archive",
+      "primary_category": "frontend",
       "secondary_categories": [],
-      "suggested_category": "archive",
-      "health_score": 0.2,
+      "suggested_category": "frontend",
+      "health_score": 0.4,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.16,
       "days_inactive": 1811
     },
     {
@@ -1186,20 +1232,20 @@
         "music"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.6,
       "activity_score": 1.0,
       "momentum_score": 0.8,
-      "recommendation_score": 0.61,
+      "recommendation_score": 0.69,
       "days_inactive": 6
     }
   ],
   "rising_projects": [
     {
       "repo": "full_roadmap_ai_enthusiast_2026",
-      "momentum_score": 0.86,
+      "momentum_score": 0.9,
       "activity_score": 1.0,
       "primary_category": "ai",
-      "reason": "High momentum (0.86) with recent updates (7 days ago)"
+      "reason": "High momentum (0.9) with recent updates (7 days ago)"
     },
     {
       "repo": "Modular-Genesis",
@@ -1213,7 +1259,7 @@
       "momentum_score": 0.82,
       "activity_score": 1.0,
       "primary_category": "frontend",
-      "reason": "High momentum (0.82) with recent updates (3 days ago)"
+      "reason": "High momentum (0.82) with recent updates (0 days ago)"
     },
     {
       "repo": "obsidian_posts_smart_tags",
@@ -1233,19 +1279,21 @@
   "featured_recommendations": [
     {
       "repo": "portfolio",
-      "recommendation_score": 0.73,
+      "recommendation_score": 0.8,
       "primary_category": "frontend",
       "reasons": [
-        "Recent active updates (3 days ago)",
+        "High completeness & health (0.85)",
+        "Recent active updates (0 days ago)",
         "Strong momentum (0.82)",
         "1 star(s)"
       ]
     },
     {
       "repo": "Dump-Assistant-Bot",
-      "recommendation_score": 0.67,
+      "recommendation_score": 0.79,
       "primary_category": "ai",
       "reasons": [
+        "High completeness & health (0.95)",
         "Recent active updates (22 days ago)",
         "Strong momentum (0.71)",
         "2 star(s)"
@@ -1253,9 +1301,10 @@
     },
     {
       "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
-      "recommendation_score": 0.67,
+      "recommendation_score": 0.79,
       "primary_category": "productivity",
       "reasons": [
+        "High completeness & health (0.85)",
         "Recent active updates (3 days ago)",
         "Strong momentum (0.8)"
       ]
@@ -1306,7 +1355,7 @@
   "suggestions": [
     "Your ecosystem is currently heavily focused around 'python'.",
     "9 projects are showing strong recent momentum (e.g. 'full_roadmap_ai_enthusiast_2026').",
-    "Candidate for Featured recommendation: 'portfolio' (score 0.73).",
+    "Candidate for Featured recommendation: 'portfolio' (score 0.8).",
     "You have 17 tracked repositories inactive for over 1 year."
   ]
 }

@@ -36,6 +36,30 @@
           "notes": "AI assistant bot for Telegram channels",
           "custom_description": "AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback.",
           "custom_badges": "![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-1572B6?style=flat-square)"
+        },
+        {
+          "name": "CS50W---Lecture-3---Django",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at      • CS50's Web Programming with Python an...  .",
+          "custom_badges": ""
+        },
+        {
+          "name": "github-slideshow",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "A robot powered training repository :robot:",
+          "custom_badges": ""
+        },
+        {
+          "name": "HTML5-Semantic",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "HTML5 Semantic Tags: What Are They & How To Use Them!",
+          "custom_badges": ""
         }
       ]
     },
@@ -162,6 +186,38 @@
           "notes": "",
           "custom_description": "Relationship personality style test app.",
           "custom_badges": "![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)"
+        },
+        {
+          "name": "BLAZE",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "BlazeLeaf (BLAZE): A token symbolizing the fiery growth of blockchain and the cannabis industry.",
+          "custom_badges": ""
+        },
+        {
+          "name": "ComUnity",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "ComUnity is a simple, front-end–only web application scaffold built with HTML5, CSS3 and vanilla JavaScript. It demonstrates the basics of structuring a static community hub: a responsive layout, interactive UI components, and easy deployment to any static-hosting provider.",
+          "custom_badges": ""
+        },
+        {
+          "name": "jukrainian",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "Music nonprofit organization established in Ukraine. It's mainly based on the development of the Ukrainian underground scene.",
+          "custom_badges": ""
+        },
+        {
+          "name": "Scandi",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "Marathon-Finish-5.0",
+          "custom_badges": ""
         }
       ]
     },

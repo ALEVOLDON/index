@@ -7,7 +7,14 @@
     "tracked": true,
     "category": "archive",
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-02-03",
+    "size": 7761,
+    "archived": false
   },
   {
     "name": "ableton",
@@ -17,7 +24,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Parser for Ableton Live's .als file format"
+    "description": "Parser for Ableton Live's .als file format",
+    "language": "CoffeeScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 380,
+    "archived": false
   },
   {
     "name": "AbletonLive9_RemoteScripts",
@@ -27,7 +41,14 @@
     "tracked": true,
     "category": "archive",
     "fork": true,
-    "description": "Unofficial repository for Ableton Live 9 MIDI Remote Scripts by Julien Bayle"
+    "description": "Unofficial repository for Ableton Live 9 MIDI Remote Scripts by Julien Bayle",
+    "language": "Python",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 3794,
+    "archived": false
   },
   {
     "name": "acid-synth",
@@ -37,7 +58,14 @@
     "tracked": true,
     "category": "music",
     "fork": false,
-    "description": "An interactive acid synthesizer created with Python and PySide6. Features real-time sound generation, ADSR envelope, effects, and an oscilloscope."
+    "description": "An interactive acid synthesizer created with Python and PySide6. Features real-time sound generation, ADSR envelope, effects, and an oscilloscope.",
+    "language": "Python",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2025-11-02",
+    "size": 74,
+    "archived": false
   },
   {
     "name": "ALEVOLDON",
@@ -47,7 +75,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "My personal repository"
+    "description": "My personal repository",
+    "language": "",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-12-12",
+    "size": 4166,
+    "archived": false
   },
   {
     "name": "Anti-Gravity-Landing",
@@ -57,7 +92,14 @@
     "tracked": true,
     "category": "frontend",
     "fork": false,
-    "description": "This is an interactive landing page where standard web layout rules give way to the laws of physics. Click a button and watch as interface elements crumble under the influence of gravity!"
+    "description": "This is an interactive landing page where standard web layout rules give way to the laws of physics. Click a button and watch as interface elements crumble under the influence of gravity!",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-02-03",
+    "size": 10,
+    "archived": false
   },
   {
     "name": "app_p5js_demo",
@@ -67,7 +109,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2022-07-25",
+    "size": 242,
+    "archived": true
   },
   {
     "name": "audioplayer",
@@ -77,7 +126,14 @@
     "tracked": true,
     "category": "archive",
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-06-12",
+    "size": 27869,
+    "archived": false
   },
   {
     "name": "Bidoo",
@@ -87,17 +143,31 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "VCV Rack plugins"
+    "description": "VCV Rack plugins",
+    "language": "C++",
+    "license": "NOASSERTION",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 28180,
+    "archived": false
   },
   {
     "name": "BLAZE",
     "stars": 0,
     "updated_at": "2024-11-25",
     "topics": [],
-    "tracked": false,
+    "tracked": true,
     "category": null,
     "fork": false,
-    "description": "BlazeLeaf (BLAZE): A token symbolizing the fiery growth of blockchain and the cannabis industry."
+    "description": "BlazeLeaf (BLAZE): A token symbolizing the fiery growth of blockchain and the cannabis industry.",
+    "language": "HTML",
+    "license": "GPL-3.0",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2024-11-24",
+    "size": 41,
+    "archived": false
   },
   {
     "name": "bootstrap-bakery-master",
@@ -107,7 +177,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-08-03",
+    "size": 5396,
+    "archived": false
   },
   {
     "name": "bot-manager-dashboard",
@@ -130,7 +207,14 @@
     "tracked": true,
     "category": "productivity",
     "fork": false,
-    "description": "Windows Process Launcher and Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels"
+    "description": "Windows Process Launcher and Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels",
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-07-31",
+    "size": 1970,
+    "archived": false
   },
   {
     "name": "CineBlocker",
@@ -140,7 +224,14 @@
     "tracked": true,
     "category": "music",
     "fork": false,
-    "description": "Приложение для блокировки YouTube/Netflix, если ты не занимался музыкой. Помогает творцам перестать тупить и начать творить."
+    "description": "Приложение для блокировки YouTube/Netflix, если ты не занимался музыкой. Помогает творцам перестать тупить и начать творить.",
+    "language": "Python",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2025-07-26",
+    "size": 18,
+    "archived": false
   },
   {
     "name": "city-game",
@@ -150,7 +241,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-02-22",
+    "size": 0,
+    "archived": true
   },
   {
     "name": "CodeWizard",
@@ -160,7 +258,14 @@
     "tracked": true,
     "category": "frontend",
     "fork": false,
-    "description": "This project is a modern, minimalist personal website for a coder and prompt engineer, designed with a dark theme and a futuristic aesthetic. The design blends vaporwave and terminal UI elements, featuring a clean grid layout, smooth animations, and a strong atmospheric vibe. It reflects a tech-savvy style with neon accents and subtle 3D effects."
+    "description": "This project is a modern, minimalist personal website for a coder and prompt engineer, designed with a dark theme and a futuristic aesthetic. The design blends vaporwave and terminal UI elements, featuring a clean grid layout, smooth animations, and a strong atmospheric vibe. It reflects a tech-savvy style with neon accents and subtle 3D effects.",
+    "language": "CSS",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2025-03-24",
+    "size": 11652,
+    "archived": false
   },
   {
     "name": "codiFunExample",
@@ -170,17 +275,31 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "PHP Code Examples"
+    "description": "PHP Code Examples",
+    "language": "PHP",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-08-06",
+    "size": 31,
+    "archived": false
   },
   {
     "name": "ComUnity",
     "stars": 0,
     "updated_at": "2025-05-10",
     "topics": [],
-    "tracked": false,
+    "tracked": true,
     "category": null,
     "fork": false,
-    "description": "ComUnity is a simple, front-end–only web application scaffold built with HTML5, CSS3 and vanilla JavaScript. It demonstrates the basics of structuring a static community hub: a responsive layout, interactive UI components, and easy deployment to any static-hosting provider."
+    "description": "ComUnity is a simple, front-end–only web application scaffold built with HTML5, CSS3 and vanilla JavaScript. It demonstrates the basics of structuring a static community hub: a responsive layout, interactive UI components, and easy deployment to any static-hosting provider.",
+    "language": "JavaScript",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2025-05-10",
+    "size": 37,
+    "archived": false
   },
   {
     "name": "cosmic-portfolio",
@@ -190,7 +309,14 @@
     "tracked": true,
     "category": "frontend",
     "fork": false,
-    "description": "An interactive space-themed portfolio with dynamic effects and animations. Immerse yourself in a journey through the digital universe."
+    "description": "An interactive space-themed portfolio with dynamic effects and animations. Immerse yourself in a journey through the digital universe.",
+    "language": "CSS",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2025-02-28",
+    "size": 11858,
+    "archived": false
   },
   {
     "name": "CS50-s-Web-Programming-with-Python-and-JavaScript",
@@ -200,17 +326,31 @@
     "tracked": true,
     "category": "archive",
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2023-08-30",
+    "size": 37,
+    "archived": true
   },
   {
     "name": "CS50W---Lecture-3---Django",
     "stars": 0,
     "updated_at": "2023-11-16",
     "topics": [],
-    "tracked": false,
+    "tracked": true,
     "category": null,
     "fork": false,
-    "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at      • CS50's Web Programming with Python an...  ."
+    "description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at      • CS50's Web Programming with Python an...  .",
+    "language": "Python",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2023-11-15",
+    "size": 29,
+    "archived": true
   },
   {
     "name": "cursor",
@@ -220,7 +360,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2022-02-16",
+    "size": 539,
+    "archived": true
   },
   {
     "name": "CV",
@@ -230,7 +377,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2024-11-27",
+    "size": 682,
+    "archived": true
   },
   {
     "name": "cwa-documentation",
@@ -240,7 +394,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Project overview, general documentation, and white papers."
+    "description": "Project overview, general documentation, and white papers.",
+    "language": "",
+    "license": "Apache-2.0",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-06-16",
+    "size": 10262,
+    "archived": false
   },
   {
     "name": "design-resources-for-developers",
@@ -250,7 +411,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more"
+    "description": "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more",
+    "language": "",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-05-09",
+    "size": 803,
+    "archived": false
   },
   {
     "name": "developer-portfolios",
@@ -260,7 +428,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "A list of developer portfolios for your inspiration"
+    "description": "A list of developer portfolios for your inspiration",
+    "language": "",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-06-01",
+    "size": 15132,
+    "archived": false
   },
   {
     "name": "Dump-Assistant-Bot",
@@ -282,7 +457,14 @@
     "tracked": true,
     "category": "ai",
     "fork": false,
-    "description": "AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback."
+    "description": "AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback.",
+    "language": "JavaScript",
+    "license": "AGPL-3.0",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-04-20",
+    "size": 1786,
+    "archived": false
   },
   {
     "name": "duolingo",
@@ -292,7 +474,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2023-08-21",
+    "size": 2,
+    "archived": true
   },
   {
     "name": "EnvelopForLive",
@@ -302,7 +491,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Max Platform for Ambisonic 3D panning with Live"
+    "description": "Max Platform for Ambisonic 3D panning with Live",
+    "language": "Max",
+    "license": "GPL-2.0",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 30896,
+    "archived": false
   },
   {
     "name": "first-ide-lab-js-intro-000",
@@ -312,7 +508,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": ""
+    "description": "",
+    "language": "Ruby",
+    "license": "NOASSERTION",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-04-20",
+    "size": 23,
+    "archived": true
   },
   {
     "name": "frontend",
@@ -322,7 +525,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": ":octocat: Kottans frontend course 🎓"
+    "description": ":octocat: Kottans frontend course 🎓",
+    "language": "",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-05-16",
+    "size": 2363,
+    "archived": false
   },
   {
     "name": "frontend-challenge",
@@ -332,7 +542,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Implement a basic city comparison for a website using AngularJS as a service"
+    "description": "Implement a basic city comparison for a website using AngularJS as a service",
+    "language": "",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-06-01",
+    "size": 123,
+    "archived": true
   },
   {
     "name": "full_roadmap_ai_enthusiast_2026",
@@ -355,17 +572,31 @@
     "tracked": true,
     "category": "ai",
     "fork": false,
-    "description": "An interactive, dynamic, and privacy-first AI developer roadmap for 2026. From zero to building autonomous agents, MCP servers, and micro-SaaS. Built with Next.js, Tailwind v4, PydanticAI, and Vercel AI SDK."
+    "description": "An interactive, dynamic, and privacy-first AI developer roadmap for 2026. From zero to building autonomous agents, MCP servers, and micro-SaaS. Built with Next.js, Tailwind v4, PydanticAI, and Vercel AI SDK.",
+    "language": "JavaScript",
+    "license": "MIT",
+    "forks_count": 1,
+    "open_issues_count": 1,
+    "created_at": "2025-07-24",
+    "size": 1340,
+    "archived": false
   },
   {
     "name": "github-slideshow",
     "stars": 0,
     "updated_at": "2022-02-26",
     "topics": [],
-    "tracked": false,
+    "tracked": true,
     "category": null,
     "fork": false,
-    "description": "A robot powered training repository :robot:"
+    "description": "A robot powered training repository :robot:",
+    "language": "Ruby",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 2,
+    "created_at": "2020-05-15",
+    "size": 3524,
+    "archived": true
   },
   {
     "name": "gswp5.js-code",
@@ -375,7 +606,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "gswp5.js code examples"
+    "description": "gswp5.js code examples",
+    "language": "",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-03-16",
+    "size": 1212,
+    "archived": false
   },
   {
     "name": "gtwy-audio-archive",
@@ -385,7 +623,14 @@
     "tracked": true,
     "category": "music",
     "fork": false,
-    "description": "A web interface for browsing, previewing, and purchasing albums from the GTWY music archive — built with React and Vite, with audio streamed directly from Bandcamp."
+    "description": "A web interface for browsing, previewing, and purchasing albums from the GTWY music archive — built with React and Vite, with audio streamed directly from Bandcamp.",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-02-27",
+    "size": 4619,
+    "archived": false
   },
   {
     "name": "gulp-starter-kit",
@@ -395,7 +640,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "A simple Gulp 4 Starter Kit for modern web development."
+    "description": "A simple Gulp 4 Starter Kit for modern web development.",
+    "language": "",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-07-31",
+    "size": 2787,
+    "archived": false
   },
   {
     "name": "habit-tracker",
@@ -405,7 +657,14 @@
     "tracked": true,
     "category": "productivity",
     "fork": false,
-    "description": "Habit tracking app built with Node.js, MongoDB, React and Vite. Track, mark, and manage your habits easily.  Topics: habit-tracker, fullstack, nodejs, express, mongodb, react, vite, jwt, productivity"
+    "description": "Habit tracking app built with Node.js, MongoDB, React and Vite. Track, mark, and manage your habits easily.  Topics: habit-tracker, fullstack, nodejs, express, mongodb, react, vite, jwt, productivity",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2025-03-25",
+    "size": 191,
+    "archived": false
   },
   {
     "name": "HACKATON-IT-NATION-2020",
@@ -415,17 +674,31 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-10-17",
+    "size": 279,
+    "archived": false
   },
   {
     "name": "HTML5-Semantic",
     "stars": 0,
     "updated_at": "2025-05-13",
     "topics": [],
-    "tracked": false,
+    "tracked": true,
     "category": null,
     "fork": false,
-    "description": "HTML5 Semantic Tags: What Are They & How To Use Them!"
+    "description": "HTML5 Semantic Tags: What Are They & How To Use Them!",
+    "language": "CSS",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-05-18",
+    "size": 17,
+    "archived": false
   },
   {
     "name": "HUMAN",
@@ -435,12 +708,19 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "The world will not be the same!"
+    "description": "The world will not be the same!",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2019-10-25",
+    "size": 400,
+    "archived": false
   },
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-08-12",
+    "updated_at": "2026-08-13",
     "topics": [
       "ai",
       "audio-development",
@@ -462,7 +742,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "A curated index of ALEVOLDON's GitHub projects: AI, Music Tech, Frontend, Creative Coding, Productivity, and Learning. Explore my journey as a Meaning Engineer."
+    "description": "A curated index of ALEVOLDON's GitHub projects: AI, Music Tech, Frontend, Creative Coding, Productivity, and Learning. Explore my journey as a Meaning Engineer.",
+    "language": "JavaScript",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-04-15",
+    "size": 331,
+    "archived": false
   },
   {
     "name": "iphone-3d-website-starter",
@@ -472,7 +759,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": ""
+    "description": "",
+    "language": "CSS",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2023-04-03",
+    "size": 1345,
+    "archived": false
   },
   {
     "name": "javascript-intro-to-functions-lab-js-intro-000",
@@ -482,7 +776,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": ""
+    "description": "",
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-04-24",
+    "size": 119,
+    "archived": true
   },
   {
     "name": "javascript-logging-lab-js-intro-000",
@@ -492,7 +793,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": ""
+    "description": "",
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-04-20",
+    "size": 29,
+    "archived": true
   },
   {
     "name": "javascript-strings-lab-js-intro-000",
@@ -502,7 +810,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": ""
+    "description": "",
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-04-22",
+    "size": 29,
+    "archived": true
   },
   {
     "name": "joomhost_superman",
@@ -512,17 +827,31 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "The Best Web Hosting"
+    "description": "The Best Web Hosting",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2019-10-27",
+    "size": 421,
+    "archived": false
   },
   {
     "name": "jukrainian",
     "stars": 0,
     "updated_at": "2025-05-16",
     "topics": [],
-    "tracked": false,
+    "tracked": true,
     "category": null,
     "fork": false,
-    "description": "Music nonprofit organization established in Ukraine. It's mainly based on the development of the Ukrainian underground scene."
+    "description": "Music nonprofit organization established in Ukraine. It's mainly based on the development of the Ukrainian underground scene.",
+    "language": "HTML",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-03-07",
+    "size": 98017,
+    "archived": false
   },
   {
     "name": "JW-Modules",
@@ -532,7 +861,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "VCV Rack Modules"
+    "description": "VCV Rack Modules",
+    "language": "C++",
+    "license": "BSD-3-Clause",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 23424,
+    "archived": false
   },
   {
     "name": "learn-co-sandbox",
@@ -542,7 +878,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-04-20",
+    "size": 0,
+    "archived": true
   },
   {
     "name": "learning-area",
@@ -552,7 +895,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Github repo for the MDN Learning Area. "
+    "description": "Github repo for the MDN Learning Area. ",
+    "language": "",
+    "license": "CC0-1.0",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-10-20",
+    "size": 83781,
+    "archived": true
   },
   {
     "name": "link",
@@ -562,7 +912,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Ableton Link"
+    "description": "Ableton Link",
+    "language": "C++",
+    "license": "NOASSERTION",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 1768,
+    "archived": false
   },
   {
     "name": "m4l-connection-kit",
@@ -572,7 +929,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Max for Live Connection Kit"
+    "description": "Max for Live Connection Kit",
+    "language": "Arduino",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 499,
+    "archived": false
   },
   {
     "name": "madDog",
@@ -582,7 +946,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "CSS",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-06-29",
+    "size": 22,
+    "archived": false
   },
   {
     "name": "magenta",
@@ -592,7 +963,14 @@
     "tracked": true,
     "category": "archive",
     "fork": true,
-    "description": "Magenta: Music and Art Generation with Machine Intelligence"
+    "description": "Magenta: Music and Art Generation with Machine Intelligence",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2018-03-14",
+    "size": 27194,
+    "archived": false
   },
   {
     "name": "Marathon-GoIT",
@@ -602,7 +980,14 @@
     "tracked": true,
     "category": "archive",
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-06-12",
+    "size": 1675,
+    "archived": true
   },
   {
     "name": "Markdown",
@@ -612,7 +997,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "code examples"
+    "description": "code examples",
+    "language": "",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-06-11",
+    "size": 5,
+    "archived": false
   },
   {
     "name": "MAVIC",
@@ -622,7 +1014,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "HTML/SCSS/GULP"
+    "description": "HTML/SCSS/GULP",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 9,
+    "created_at": "2020-07-06",
+    "size": 4512,
+    "archived": true
   },
   {
     "name": "Minesweeper",
@@ -632,7 +1031,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "Build Minesweeper with JavaScript"
+    "description": "Build Minesweeper with JavaScript",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-07-28",
+    "size": 13,
+    "archived": false
   },
   {
     "name": "MJSB",
@@ -642,7 +1048,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "Moder JavaScript From The Beginning"
+    "description": "Moder JavaScript From The Beginning",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-06-22",
+    "size": 45,
+    "archived": false
   },
   {
     "name": "ML_modules",
@@ -652,7 +1065,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "free modules for VCV Rack"
+    "description": "free modules for VCV Rack",
+    "language": "C++",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 2829,
+    "archived": false
   },
   {
     "name": "Modern-Portfolio-Website",
@@ -662,7 +1082,14 @@
     "tracked": true,
     "category": "archive",
     "fork": false,
-    "description": "This is a responsive portfolio website built using HTML and Sass (SCSS). It was originally created as part of a learning project based on a course by Brad Traversy."
+    "description": "This is a responsive portfolio website built using HTML and Sass (SCSS). It was originally created as part of a learning project based on a course by Brad Traversy.",
+    "language": "SCSS",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 7,
+    "created_at": "2020-06-04",
+    "size": 1119,
+    "archived": true
   },
   {
     "name": "modern_js_udemy_projects",
@@ -672,7 +1099,14 @@
     "tracked": true,
     "category": "archive",
     "fork": true,
-    "description": "Project files for Modern JS From The Beginning course"
+    "description": "Project files for Modern JS From The Beginning course",
+    "language": "",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-06-21",
+    "size": 38,
+    "archived": false
   },
   {
     "name": "Modular-Genesis",
@@ -693,7 +1127,14 @@
     "tracked": true,
     "category": "music",
     "fork": false,
-    "description": "Open modular synthesis, generative music, VCV Rack + Ableton workflows, and audiovisual system design."
+    "description": "Open modular synthesis, generative music, VCV Rack + Ableton workflows, and audiovisual system design.",
+    "language": "Astro",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-03-13",
+    "size": 2628,
+    "archived": false
   },
   {
     "name": "movieinfo",
@@ -703,7 +1144,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Movie info app built with JavaScript and uses the OMDb API"
+    "description": "Movie info app built with JavaScript and uses the OMDb API",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2022-02-10",
+    "size": 30,
+    "archived": true
   },
   {
     "name": "MS-Modules",
@@ -713,7 +1161,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "VCV Rack Modules: MS-Modules"
+    "description": "VCV Rack Modules: MS-Modules",
+    "language": "C++",
+    "license": "NOASSERTION",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 260,
+    "archived": false
   },
   {
     "name": "my-app-vr84-bootcamp",
@@ -723,7 +1178,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "In order to find out the level of atmospheric air pollution (air quality) in the city, you must select the appropriate monitoring station on the map."
+    "description": "In order to find out the level of atmospheric air pollution (air quality) in the city, you must select the appropriate monitoring station on the map.",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-09-30",
+    "size": 4586,
+    "archived": false
   },
   {
     "name": "My-first-three.js-app",
@@ -733,7 +1195,14 @@
     "tracked": true,
     "category": "creative",
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-02-04",
+    "size": 244,
+    "archived": false
   },
   {
     "name": "obsidian_posts_smart_tags",
@@ -754,7 +1223,14 @@
     "tracked": true,
     "category": "ai",
     "fork": false,
-    "description": "Node.js sync utility — pulls Telegram channel posts via Bot API and saves them as Markdown notes in Obsidian with auto-tagging"
+    "description": "Node.js sync utility — pulls Telegram channel posts via Bot API and saves them as Markdown notes in Obsidian with auto-tagging",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-04-14",
+    "size": 982,
+    "archived": false
   },
   {
     "name": "point-cloud-surface",
@@ -774,12 +1250,19 @@
     "tracked": true,
     "category": "creative",
     "fork": false,
-    "description": "Procedural glowing point-cloud blob made in Blender with Geometry Nodes and Python."
+    "description": "Procedural glowing point-cloud blob made in Blender with Geometry Nodes and Python.",
+    "language": "Python",
+    "license": "MIT",
+    "forks_count": 1,
+    "open_issues_count": 0,
+    "created_at": "2026-03-10",
+    "size": 20223,
+    "archived": false
   },
   {
     "name": "portfolio",
     "stars": 1,
-    "updated_at": "2026-08-10",
+    "updated_at": "2026-08-13",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -795,7 +1278,14 @@
     "tracked": true,
     "category": "frontend",
     "fork": false,
-    "description": "A sleek, generative portfolio with live GitHub data integration, Three.js backgrounds, and a serverless Telegram contact flow."
+    "description": "A sleek, generative portfolio with live GitHub data integration, Three.js backgrounds, and a serverless Telegram contact flow.",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2025-11-28",
+    "size": 192522,
+    "archived": false
   },
   {
     "name": "Prototypes",
@@ -805,7 +1295,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "Eternity ago, when the streets were legal, one of them came up with the thought of my friends to create a platform for searching online IT-meetings."
+    "description": "Eternity ago, when the streets were legal, one of them came up with the thought of my friends to create a platform for searching online IT-meetings.",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-04-26",
+    "size": 82,
+    "archived": false
   },
   {
     "name": "push-interface",
@@ -815,7 +1312,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "The Ableton Push 2 MIDI and display interface manual."
+    "description": "The Ableton Push 2 MIDI and display interface manual.",
+    "language": "",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 4077,
+    "archived": false
   },
   {
     "name": "pwa_app",
@@ -825,7 +1329,14 @@
     "tracked": true,
     "category": "productivity",
     "fork": false,
-    "description": "my pwa"
+    "description": "my pwa",
+    "language": "JavaScript",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2024-01-26",
+    "size": 17,
+    "archived": true
   },
   {
     "name": "Rack",
@@ -835,7 +1346,14 @@
     "tracked": true,
     "category": "archive",
     "fork": true,
-    "description": "Open-source virtual Eurorack DAW"
+    "description": "Open-source virtual Eurorack DAW",
+    "language": "C++",
+    "license": "BSD-3-Clause",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 1957,
+    "archived": false
   },
   {
     "name": "relationship-test-app",
@@ -845,7 +1363,14 @@
     "tracked": true,
     "category": "frontend",
     "fork": false,
-    "description": "A sleek web app that helps you discover—and embrace—your dominant personality style in relationships. Built with modern tools and packed with features, it’s your go-to for self-insight (and a bit of fun)."
+    "description": "A sleek web app that helps you discover—and embrace—your dominant personality style in relationships. Built with modern tools and packed with features, it’s your go-to for self-insight (and a bit of fun).",
+    "language": "TypeScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2025-05-12",
+    "size": 264,
+    "archived": false
   },
   {
     "name": "reponsive-web-design-bootcamp",
@@ -855,7 +1380,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Course files for the Responsive Web Design Bootcamp: [https://scrimba.com/course/gresponsive/]"
+    "description": "Course files for the Responsive Web Design Bootcamp: [https://scrimba.com/course/gresponsive/]",
+    "language": "",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-10-22",
+    "size": 1934,
+    "archived": true
   },
   {
     "name": "riverstrike",
@@ -876,7 +1408,14 @@
     "tracked": true,
     "category": "creative",
     "fork": false,
-    "description": "Arcade scrolling shooter — mobile-first, two playable versions."
+    "description": "Arcade scrolling shooter — mobile-first, two playable versions.",
+    "language": "JavaScript",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-02-15",
+    "size": 74,
+    "archived": false
   },
   {
     "name": "RJModules",
@@ -886,7 +1425,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Various modules for VCV Rack"
+    "description": "Various modules for VCV Rack",
+    "language": "C++",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 233,
+    "archived": false
   },
   {
     "name": "Sass-Crash-Course",
@@ -896,17 +1442,31 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "CSS",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-05-27",
+    "size": 17,
+    "archived": false
   },
   {
     "name": "Scandi",
     "stars": 0,
     "updated_at": "2022-08-19",
     "topics": [],
-    "tracked": false,
+    "tracked": true,
     "category": null,
     "fork": false,
-    "description": "Marathon-Finish-5.0"
+    "description": "Marathon-Finish-5.0",
+    "language": "HTML",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2022-08-01",
+    "size": 3193,
+    "archived": true
   },
   {
     "name": "sc_liked_to_playlist_web",
@@ -916,7 +1476,14 @@
     "tracked": true,
     "category": "music",
     "fork": false,
-    "description": "SoundCloud Liked to Playlist Web (Refactored) Этот проект позволяет собрать ваши лайки из SoundCloud, скачать их как MP3 файлы (пропуская миксы и подкасты) и слушать через локальный веб-плеер. Данная версия имеет улучшенную структуру проекта."
+    "description": "SoundCloud Liked to Playlist Web (Refactored) Этот проект позволяет собрать ваши лайки из SoundCloud, скачать их как MP3 файлы (пропуская миксы и подкасты) и слушать через локальный веб-плеер. Данная версия имеет улучшенную структуру проекта.",
+    "language": "Python",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2025-04-16",
+    "size": 417932,
+    "archived": false
   },
   {
     "name": "Signal-Lattice",
@@ -926,7 +1493,14 @@
     "tracked": true,
     "category": "music",
     "fork": false,
-    "description": "Signal Lattice is a browser-based digital musical instrument disguised as a control interface.  This project is not a DAW, not a plugin, and not a commercial product. It is a system for signal-state research: controlled tension, rhythm, instability, and observation."
+    "description": "Signal Lattice is a browser-based digital musical instrument disguised as a control interface.  This project is not a DAW, not a plugin, and not a commercial product. It is a system for signal-state research: controlled tension, rhythm, instability, and observation.",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-02-07",
+    "size": 54,
+    "archived": false
   },
   {
     "name": "skills-based-javascript-intro-to-flow-control-js-intro-000",
@@ -936,7 +1510,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": ""
+    "description": "",
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-04-24",
+    "size": 35,
+    "archived": true
   },
   {
     "name": "Smart-Daw-Landing-React",
@@ -946,7 +1527,14 @@
     "tracked": true,
     "category": "ai",
     "fork": false,
-    "description": "Smart DAW Landing — лендинг ИИ‑помощника для сведения музыки"
+    "description": "Smart DAW Landing — лендинг ИИ‑помощника для сведения музыки",
+    "language": "JavaScript",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2025-09-25",
+    "size": 76,
+    "archived": false
   },
   {
     "name": "Social-Network-Theme-With-Sass",
@@ -956,7 +1544,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "In this part we will setup Sass, create the landing page with navigation, image overlay, Sass variables, mixins and functions"
+    "description": "In this part we will setup Sass, create the landing page with navigation, image overlay, Sass variables, mixins and functions",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-05-23",
+    "size": 351,
+    "archived": false
   },
   {
     "name": "solar-roof",
@@ -971,7 +1566,14 @@
     "tracked": true,
     "category": "creative",
     "fork": false,
-    "description": "3D solar roof visualization: Blender Python, Cycles GPU"
+    "description": "3D solar roof visualization: Blender Python, Cycles GPU",
+    "language": "Python",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-06-25",
+    "size": 41444,
+    "archived": false
   },
   {
     "name": "soundcloud-likes-downloader",
@@ -981,7 +1583,14 @@
     "tracked": true,
     "category": "music",
     "fork": false,
-    "description": "A convenient GUI application for downloading your liked tracks from SoundCloud."
+    "description": "A convenient GUI application for downloading your liked tracks from SoundCloud.",
+    "language": "Python",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 1,
+    "created_at": "2025-04-13",
+    "size": 37,
+    "archived": false
   },
   {
     "name": "SPA-Eurorack-Market-Guide",
@@ -1001,7 +1610,14 @@
     "tracked": true,
     "category": "music",
     "fork": false,
-    "description": "Interactive Eurorack second-hand market guide and safety console for European musicians"
+    "description": "Interactive Eurorack second-hand market guide and safety console for European musicians",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-07-07",
+    "size": 102,
+    "archived": false
   },
   {
     "name": "tools",
@@ -1011,7 +1627,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Codelabs management & hosting tools"
+    "description": "Codelabs management & hosting tools",
+    "language": "Go",
+    "license": "Apache-2.0",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2018-12-10",
+    "size": 56670,
+    "archived": false
   },
   {
     "name": "Travel-to",
@@ -1021,7 +1644,14 @@
     "tracked": true,
     "category": "archive",
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-01-20",
+    "size": 2,
+    "archived": false
   },
   {
     "name": "trowaSoft-VCV",
@@ -1031,7 +1661,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "trowaSoft Modules for VCV Rack"
+    "description": "trowaSoft Modules for VCV Rack",
+    "language": "C++",
+    "license": "CC0-1.0",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 76,
+    "archived": false
   },
   {
     "name": "UPS-ExeGate-SpecialPro-UNB-1200",
@@ -1052,7 +1689,14 @@
     "tracked": true,
     "category": "productivity",
     "fork": false,
-    "description": "UPS-ExeGate-SpecialPro-UNB-1200"
+    "description": "UPS-ExeGate-SpecialPro-UNB-1200",
+    "language": "Python",
+    "license": "NOASSERTION",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-07-26",
+    "size": 3161,
+    "archived": false
   },
   {
     "name": "vanillawebprojects",
@@ -1062,7 +1706,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries"
+    "description": "Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries",
+    "language": "",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2020-06-13",
+    "size": 28768,
+    "archived": false
   },
   {
     "name": "vcv-gratrix",
@@ -1072,7 +1723,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Gratrix modules for VCV Rack"
+    "description": "Gratrix modules for VCV Rack",
+    "language": "C++",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 2282,
+    "archived": false
   },
   {
     "name": "VCV-Rack-Plugins",
@@ -1082,7 +1740,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "Plugins for VCV Rack"
+    "description": "Plugins for VCV Rack",
+    "language": "C++",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 125200,
+    "archived": false
   },
   {
     "name": "vcvrackplugins_dekstop",
@@ -1092,7 +1757,14 @@
     "tracked": false,
     "category": null,
     "fork": true,
-    "description": "VCV Rack plugins: WAV recorder, 8-channel gate step sequencer, 3-channel tri-state step sequencer."
+    "description": "VCV Rack plugins: WAV recorder, 8-channel gate step sequencer, 3-channel tri-state step sequencer.",
+    "language": "C++",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2017-11-28",
+    "size": 344,
+    "archived": false
   },
   {
     "name": "water-map-donetsk",
@@ -1102,7 +1774,14 @@
     "tracked": true,
     "category": "productivity",
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2025-09-18",
+    "size": 0,
+    "archived": true
   },
   {
     "name": "webaudio_visualizer",
@@ -1112,7 +1791,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": ""
+    "description": "",
+    "language": "JavaScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-02-06",
+    "size": 18253,
+    "archived": false
   },
   {
     "name": "WindyCheck_bot",
@@ -1134,7 +1820,14 @@
     "tracked": true,
     "category": "productivity",
     "fork": false,
-    "description": "🌬️ Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts, wind rose charts & automated wind alerts tailored for kitesurfers, windsurfers and sailors."
+    "description": "🌬️ Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts, wind rose charts & automated wind alerts tailored for kitesurfers, windsurfers and sailors.",
+    "language": "Python",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-07-19",
+    "size": 746,
+    "archived": false
   },
   {
     "name": "zaverstay-2",
@@ -1144,7 +1837,14 @@
     "tracked": false,
     "category": null,
     "fork": false,
-    "description": "Academy marathon repository"
+    "description": "Academy marathon repository",
+    "language": "HTML",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2021-08-12",
+    "size": 2342,
+    "archived": true
   },
   {
     "name": "ZERO-GRAVITY",
@@ -1154,6 +1854,13 @@
     "tracked": true,
     "category": "frontend",
     "fork": false,
-    "description": "Zero Gravity Dev is an immersive, interactive resource portal designed to guide developers through their professional journey. It features a 3D environment, ambient audio system, and a gamified \"Ascension Roadmap\"."
+    "description": "Zero Gravity Dev is an immersive, interactive resource portal designed to guide developers through their professional journey. It features a 3D environment, ambient audio system, and a gamified \"Ascension Roadmap\".",
+    "language": "TypeScript",
+    "license": "",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-02-05",
+    "size": 1486,
+    "archived": false
   }
 ]

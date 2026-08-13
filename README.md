@@ -86,6 +86,9 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)<br><small>⭐ 2 • 📅 2026-07-22</small> | AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-1572B6?style=flat-square) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Dump-Assistant-Bot) |
 | [full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)<br><small>⭐ 3 • 📅 2026-08-06</small> | The ultimate guide to mastering AI in 2025. | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026) |
 | [Smart-Daw-Landing-React](https://github.com/ALEVOLDON/Smart-Daw-Landing-React)<br><small>📅 2026-04-30</small> | Landing page for an AI-powered music mixing assistant. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Smart-Daw-Landing-React) |
+| [HTML5-Semantic](https://github.com/ALEVOLDON/HTML5-Semantic)<br><small>📅 2025-05-13</small> | HTML5 Semantic Tags: What Are They & How To Use Them! |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/HTML5-Semantic) |
+| [CS50W---Lecture-3---Django](https://github.com/ALEVOLDON/CS50W---Lecture-3---Django)<br><small>📅 2023-11-16</small> | This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at      • CS50's Web Programming with Python an...  . |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CS50W---Lecture-3---Django) |
+| [github-slideshow](https://github.com/ALEVOLDON/github-slideshow)<br><small>📅 2022-02-26</small> | A robot powered training repository :robot: |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/github-slideshow) |
 
 ---
 
@@ -112,10 +115,14 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | :--- | :--- | :--- | :--- | :--- |
 | [ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)<br><small>📅 2026-08-07</small> | Immersive 3D resource portal for developers. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/ZERO-GRAVITY) |
 | [Anti-Gravity-Landing](https://github.com/ALEVOLDON/Anti-Gravity-Landing)<br><small>📅 2026-02-03</small> | Landing page with physics: elements fall on click! | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Anti-Gravity-Landing) |
-| [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>⭐ 1 • 📅 2026-08-10</small> | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/portfolio) |
+| [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>⭐ 1 • 📅 2026-08-13</small> | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/portfolio) |
 | [cosmic-portfolio](https://github.com/ALEVOLDON/cosmic-portfolio)<br><small>⭐ 1 • 📅 2025-03-01</small> | Interactive space-themed portfolio. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/cosmic-portfolio) |
 | [CodeWizard](https://github.com/ALEVOLDON/CodeWizard)<br><small>📅 2025-03-24</small> | Futuristic terminal-style website. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CodeWizard) |
 | [relationship-test-app](https://github.com/ALEVOLDON/relationship-test-app)<br><small>📅 2025-05-13</small> | Relationship personality style test app. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/relationship-test-app) |
+| [jukrainian](https://github.com/ALEVOLDON/jukrainian)<br><small>📅 2025-05-16</small> | Music nonprofit organization established in Ukraine. It's mainly based on the development of the Ukrainian underground scene. |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/jukrainian) |
+| [ComUnity](https://github.com/ALEVOLDON/ComUnity)<br><small>📅 2025-05-10</small> | ComUnity is a simple, front-end–only web application scaffold built with HTML5, CSS3 and vanilla JavaScript. It demonstrates the basics of structuring a static community hub: a responsive layout, interactive UI components, and easy deployment to any static-hosting provider. |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/ComUnity) |
+| [BLAZE](https://github.com/ALEVOLDON/BLAZE)<br><small>📅 2024-11-25</small> | BlazeLeaf (BLAZE): A token symbolizing the fiery growth of blockchain and the cannabis industry. |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/BLAZE) |
+| [Scandi](https://github.com/ALEVOLDON/Scandi)<br><small>📅 2022-08-19</small> | Marathon-Finish-5.0 |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Scandi) |
 
 ---
 
@@ -173,13 +180,13 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 - 💡 Your ecosystem is currently heavily focused around 'python'.
 - 💡 9 projects are showing strong recent momentum (e.g. 'full_roadmap_ai_enthusiast_2026').
-- 💡 Candidate for Featured recommendation: 'portfolio' (score 0.73).
+- 💡 Candidate for Featured recommendation: 'portfolio' (score 0.8).
 - 💡 You have 17 tracked repositories inactive for over 1 year.
 
 **🚀 Rising & Active Momentum Projects:**
-- 🔥 **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _High momentum (0.86) with recent updates (7 days ago)_
+- 🔥 **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _High momentum (0.9) with recent updates (7 days ago)_
 - 🔥 **[Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (music) — _High momentum (0.82) with recent updates (6 days ago)_
-- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _High momentum (0.82) with recent updates (3 days ago)_
+- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _High momentum (0.82) with recent updates (0 days ago)_
 - 🔥 **[obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (ai) — _High momentum (0.8) with recent updates (7 days ago)_
 
 **Attention Needed:**
@@ -192,7 +199,11 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-_No recent prominent activity in the last 90 days._
+- **Aug 13** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
+- **Aug 13** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
+- **Aug 13** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
+- **Aug 10** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
+- **Aug 10** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
