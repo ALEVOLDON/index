@@ -131,6 +131,14 @@
           "notes": "Auto-discovered",
           "custom_description": "Interactive Eurorack second-hand market guide and safety console for European musicians",
           "custom_badges": ""
+        },
+        {
+          "name": "web-hero-modular",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "Live Modular Genesis lab: Blender rack, Three.js, GSAP, Web Audio",
+          "custom_badges": ""
         }
       ]
     },
