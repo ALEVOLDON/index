@@ -5,13 +5,16 @@ const GITHUB_API_URL = 'https://api.github.com/';
 const USERNAME = 'ALEVOLDON';
 const REPOS_PATH = path.join(__dirname, '../data/repos.json');
 const INSIGHTS_PATH = path.join(__dirname, '../data/insights.json');
+const CONFIG_PATH = path.join(__dirname, '../config/projects.json');
+const INTELLIGENCE_PATH = path.join(__dirname, '../config/intelligence.json');
 
 function getHeaders() {
     const headers = { 
         'User-Agent': 'Node.js README Updater',
-        'Accept': 'application/vnd.github.mercy-preview+json'
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28'
     };
-    if (process.env.GITHUB_ACTIONS && process.env.GITHUB_TOKEN) {
+    if (process.env.GITHUB_ACTIONS && process.env.GITHUB_TOKEN && process.env.GITHUB_TOKEN.trim() !== '') {
         headers['Authorization'] = `Bearer ${process.env.GITHUB_TOKEN}`;
     }
     return headers;
@@ -49,6 +52,40 @@ async function closeIssue(issueNumber) {
     });
 }
 
+function matchKeyword(kw, text) {
+    if (!kw || !text) return false;
+    const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const pattern = new RegExp(`(?:^|[\\s_\\-/,.;:()[\\]{}!?'"<>+=*~\`#|\\\\])${escaped}(?:$|[\\s_\\-/,.;:()[\\]{}!?'"<>+=*~\`#|\\\\])`, 'i');
+    return pattern.test(text);
+}
+
+function inferCategory(repo, intelCfg) {
+    const categoryDefs = (intelCfg && intelCfg.category_definitions) ? intelCfg.category_definitions : {};
+    const topics = new Set((repo.topics || []).map(t => t.toLowerCase()));
+    const nameTokens = (repo.name || '').replace(/([a-z])([A-Z])/g, '$1 $2').replace(/[-_]/g, ' ');
+    const combinedText = `${nameTokens} ${repo.description || ''}`;
+    const lang = (repo.language || '').toLowerCase();
+
+    const scores = {};
+    for (const [catId, catDef] of Object.entries(categoryDefs)) {
+        let score = 0;
+        const catTopics = new Set((catDef.topics || []).map(t => t.toLowerCase()));
+        for (const t of topics) {
+            if (catTopics.has(t)) score += 2;
+        }
+        for (const kw of (catDef.keywords || [])) {
+            if (matchKeyword(kw, combinedText)) score += 1;
+        }
+        const catLangs = (catDef.languages || []).map(l => l.toLowerCase());
+        if (lang && catLangs.includes(lang)) score += 1.5;
+
+        if (score > 0) scores[catId] = score;
+    }
+
+    const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1]);
+    return sorted.length > 0 ? sorted[0][0] : 'archive';
+}
+
 async function runAutoDiscovery() {
     if (!fs.existsSync(REPOS_PATH) || !fs.existsSync(INSIGHTS_PATH)) {
         console.error('Missing data/repos.json or data/insights.json');
@@ -57,15 +94,13 @@ async function runAutoDiscovery() {
 
     const reposData = JSON.parse(fs.readFileSync(REPOS_PATH, 'utf8'));
     const insightsData = JSON.parse(fs.readFileSync(INSIGHTS_PATH, 'utf8'));
+    const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
     
-    const configPath = path.join(__dirname, '../config/projects.json');
-    const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
-    
-    const intelligencePath = path.join(__dirname, '../config/intelligence.json');
+    let intelCfg = {};
     let thresholds = { auto_discovery_health: 0.45, auto_discovery_momentum: 0.50 };
-    if (fs.existsSync(intelligencePath)) {
+    if (fs.existsSync(INTELLIGENCE_PATH)) {
         try {
-            const intelCfg = JSON.parse(fs.readFileSync(intelligencePath, 'utf8'));
+            intelCfg = JSON.parse(fs.readFileSync(INTELLIGENCE_PATH, 'utf8'));
             if (intelCfg.thresholds) thresholds = intelCfg.thresholds;
         } catch (e) {}
     }
@@ -77,7 +112,7 @@ async function runAutoDiscovery() {
 
     let existingIssues = [];
     try {
-        if (process.env.GITHUB_ACTIONS && process.env.GITHUB_TOKEN) {
+        if (process.env.GITHUB_ACTIONS && process.env.GITHUB_TOKEN && process.env.GITHUB_TOKEN.trim() !== '') {
             existingIssues = await fetchAllPages(`repos/${USERNAME}/index/issues?state=open&creator=app%2Fgithub-actions`);
             console.log(`Loaded ${existingIssues.length} existing open issues.`);
         }
@@ -100,9 +135,9 @@ async function runAutoDiscovery() {
             continue;
         }
         
-        if (repo.fork || repo.name === 'ALEVOLDON' || repo.name === 'index') {
+        if (repo.fork || repo.archived || repo.name === 'ALEVOLDON' || repo.name === 'index') {
             if (existingIssue) {
-                console.log(`Closing auto-discovery issue for ${repo.name} (fork/self/index).`);
+                console.log(`Closing auto-discovery issue for ${repo.name} (fork/archived/self/index).`);
                 await closeIssue(existingIssue.number).catch(err => console.error(`Failed to close issue: ${err.message}`));
             }
             continue;
@@ -122,7 +157,7 @@ async function runAutoDiscovery() {
             (metrics.momentum_score !== undefined && metrics.momentum_score >= momentumThreshold) ||
             (metrics.days_inactive !== undefined && metrics.days_inactive <= 180 && repo.description)) {
             
-            categoryId = metrics.primary_category || metrics.suggested_category || suggest_category(repo.topics) || infer_category_from_description(repo.description ? repo.description.toLowerCase() : '') || 'archive';
+            categoryId = metrics.primary_category || inferCategory(repo, intelCfg);
             shouldAdd = true;
             note = repo.topics && repo.topics.length > 0 ? "Auto-discovered" : "Auto-discovered (description-based)";
         }
@@ -155,46 +190,13 @@ async function runAutoDiscovery() {
     
     if (configModified) {
         console.log('Writing updated config/projects.json...');
-        fs.writeFileSync(configPath, JSON.stringify(config, null, 2), 'utf8');
+        fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2), 'utf8');
     }
     
     if (reposModified) {
         console.log('Writing updated data/repos.json...');
         fs.writeFileSync(REPOS_PATH, JSON.stringify(reposData, null, 2), 'utf8');
     }
-}
-
-function suggest_category(topics) {
-    const topics_set = new Set(topics);
-    const category_topics = {
-        "ai": ["ai", "machine-learning", "openai", "llm", "local-llm", "automation", "telegram", "telegram-api-integration", "telegram-bot-ai-assistant", "obsidian", "obsidian-plugin", "knowledge-management", "pkm", "chatbot", "community-management"],
-        "music": ["music", "audio", "music-technology", "generative-music", "experimental-music", "sound-design", "ableton-live", "vcv-rack", "audiovisual", "modular-synthesis"],
-        "frontend": ["react", "frontend", "web", "webdev", "javascript", "typescript", "nodejs", "astro", "vite", "html5", "css3", "pwa"],
-        "creative": ["3d", "threejs", "three.js", "blender", "generative-art", "creative-coding", "phaser", "gamedev", "browsergame", "indie-game", "mobilegame", "procedural", "geometry-nodes"]
-    };
-
-    for (const [category, markers] of Object.entries(category_topics)) {
-        for (const m of markers) {
-            if (topics_set.has(m)) return category;
-        }
-    }
-    return "archive";
-}
-
-function infer_category_from_description(desc) {
-    const patterns = {
-        "ai": ["ai", "bot", "chat", "neural", "gpt", "openai", "ollama", "llm", "assistant", "automation", "telegram"],
-        "music": ["music", "audio", "synthesizer", "daw", "melody", "sound", "beat", "chord", "oscillator", "midi"],
-        "frontend": ["web", "site", "portfolio", "landing", "ui", "frontend", "react", "vite", "astro", "dashboard"],
-        "creative": ["3d", "three.js", "blender", "game", "creative", "generative", "procedural", "shader", "canvas"],
-        "productivity": ["habit", "tracker", "productivity", "tool", "utility", "monitor", "map", "water"]
-    };
-    for (const [cat, pats] of Object.entries(patterns)) {
-        for (const p of pats) {
-            if (desc.includes(p)) return cat;
-        }
-    }
-    return null;
 }
 
 runAutoDiscovery().catch(err => {

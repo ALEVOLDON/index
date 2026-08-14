@@ -11,9 +11,10 @@ const OUT_PATH = path.join(DATA_DIR, 'repos.json');
 function getHeaders() {
     const headers = { 
         'User-Agent': 'Node.js README Updater',
-        'Accept': 'application/vnd.github.mercy-preview+json'
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28'
     };
-    if (process.env.GITHUB_TOKEN) {
+    if (process.env.GITHUB_TOKEN && process.env.GITHUB_TOKEN.trim() !== '') {
         headers['Authorization'] = `Bearer ${process.env.GITHUB_TOKEN}`;
     }
     return headers;
@@ -26,7 +27,8 @@ async function fetchJSON(endpoint) {
         res = await fetch(GITHUB_API_URL + endpoint, { 
             headers: { 
                 'User-Agent': 'Node.js README Updater',
-                'Accept': 'application/vnd.github.mercy-preview+json'
+                'Accept': 'application/vnd.github+json',
+                'X-GitHub-Api-Version': '2022-11-28'
             } 
         });
     }
@@ -55,20 +57,18 @@ async function main() {
     console.log('Fetching all public repositories...');
     const allRepos = [];
     let page = 1;
-    while(true) {
-        // Use Accept header that includes topics
+    while (true) {
         const reposPage = await fetchJSON(`users/${USERNAME}/repos?per_page=100&page=${page}&type=public`);
-        if (reposPage.length === 0) break;
+        if (!Array.isArray(reposPage) || reposPage.length === 0) break;
         allRepos.push(...reposPage);
         if (reposPage.length < 100) break;
         page++;
     }
     console.log(`Fetched ${allRepos.length} public repositories from GitHub.`);
     
-    // Fetch topics for repos that don't have them
-    console.log('Fetching repository topics...');
+    // Fetch topics only if missing from repo object
     for (const repo of allRepos) {
-        if (!repo.topics || repo.topics.length === 0) {
+        if (repo.topics === undefined) {
             try {
                 const topicsData = await fetchJSON(`repos/${USERNAME}/${repo.name}/topics`);
                 repo.topics = topicsData.names || topicsData || [];
@@ -85,18 +85,19 @@ async function main() {
         
         reposData.push({
             name: repo.name,
-            stars: repo.stargazers_count,
-            updated_at: repo.pushed_at ? repo.pushed_at.substring(0, 10) : '',
-            topics: repo.topics || [],
+            stars: repo.stargazers_count || 0,
+            updated_at: repo.pushed_at ? repo.pushed_at.substring(0, 10) : (repo.updated_at ? repo.updated_at.substring(0, 10) : ''),
+            topics: Array.isArray(repo.topics) ? repo.topics : [],
             tracked: isTracked,
             category: isTracked ? repoCategories[repo.name] : null,
-            fork: repo.fork,
+            fork: !!repo.fork,
             description: repo.description || '',
             language: repo.language || '',
             license: repo.license ? (repo.license.spdx_id || repo.license.key || repo.license.name || '') : '',
             forks_count: repo.forks_count || 0,
             open_issues_count: repo.open_issues_count || 0,
             created_at: repo.created_at ? repo.created_at.substring(0, 10) : '',
+            homepage: repo.homepage || '',
             size: repo.size || 0,
             archived: !!repo.archived
         });

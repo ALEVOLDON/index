@@ -32,7 +32,10 @@ jobs:
       - name: Install Python Dependencies
         run: pip install -r analysis/requirements.txt
 
-      # NEW SYSTEM PIPELINE
+      - name: Run Automated Unit Tests (Python)
+        run: python -m unittest discover tests -v
+
+      # PIPELINE EXECUTION
       - name: Run Fetch Repos (Node.js)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

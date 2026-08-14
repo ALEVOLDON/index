@@ -6,7 +6,6 @@ const CONFIG_PATH = path.join(ROOT, 'config', 'projects.json');
 const REPOS_PATH = path.join(ROOT, 'data', 'repos.json');
 const INSIGHTS_PATH = path.join(ROOT, 'data', 'insights.json');
 const TECH_BADGES_PATH = path.join(ROOT, 'config', 'tech_badges.json');
-
 const INTELLIGENCE_PATH = path.join(ROOT, 'config', 'intelligence.json');
 
 function readJSON(filePath) {
@@ -19,7 +18,6 @@ function readJSON(filePath) {
     } catch (err) {
         console.error(`JSON Parse Error in ${path.relative(ROOT, filePath)}:`);
         console.error(err.message);
-        // Show a snippet of the file around the error if possible
         const match = err.message.match(/position (\d+)/);
         if (match) {
             const pos = parseInt(match[1], 10);
@@ -46,11 +44,16 @@ function validate() {
 
     if (!intelligence.scoring_weights || !intelligence.thresholds || !intelligence.category_definitions) {
         errors.push('config/intelligence.json must contain scoring_weights, thresholds, and category_definitions.');
+    } else {
+        const sw = intelligence.scoring_weights;
+        if (!sw.health || !sw.activity || !sw.momentum || !sw.recommendation) {
+            errors.push('config/intelligence.json scoring_weights must contain health, activity, momentum, and recommendation.');
+        }
     }
 
     if (insights.repo_metrics && Array.isArray(insights.repo_metrics)) {
         for (const metric of insights.repo_metrics.slice(0, 10)) {
-            if (metric.health_score === undefined || metric.activity_score === undefined || metric.momentum_score === undefined) {
+            if (metric.health_score === undefined || metric.activity_score === undefined || metric.momentum_score === undefined || metric.recommendation_score === undefined) {
                 errors.push(`insights.json metric for repo ${metric.repo} is missing v2 score fields.`);
                 break;
             }

@@ -87,8 +87,8 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)<br><small>⭐ 3 • 📅 2026-08-06</small> | The ultimate guide to mastering AI in 2025. | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026) |
 | [Smart-Daw-Landing-React](https://github.com/ALEVOLDON/Smart-Daw-Landing-React)<br><small>📅 2026-04-30</small> | Landing page for an AI-powered music mixing assistant. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Smart-Daw-Landing-React) |
 | [HTML5-Semantic](https://github.com/ALEVOLDON/HTML5-Semantic)<br><small>📅 2025-05-13</small> | HTML5 Semantic Tags: What Are They & How To Use Them! |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/HTML5-Semantic) |
-| [CS50W---Lecture-3---Django](https://github.com/ALEVOLDON/CS50W---Lecture-3---Django)<br><small>📅 2023-11-16</small> | This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at      • CS50's Web Programming with Python an...  . |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CS50W---Lecture-3---Django) |
-| [github-slideshow](https://github.com/ALEVOLDON/github-slideshow)<br><small>📅 2022-02-26</small> | A robot powered training repository :robot: |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/github-slideshow) |
+| [CS50W---Lecture-3---Django](https://github.com/ALEVOLDON/CS50W---Lecture-3---Django)<br><small>📅 2023-11-16</small> | This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at      • CS50's Web Programming with Python an...  . |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/CS50W---Lecture-3---Django) |
+| [github-slideshow](https://github.com/ALEVOLDON/github-slideshow)<br><small>📅 2022-02-26</small> | A robot powered training repository :robot: |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/github-slideshow) |
 
 ---
 
@@ -122,7 +122,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [jukrainian](https://github.com/ALEVOLDON/jukrainian)<br><small>📅 2025-05-16</small> | Music nonprofit organization established in Ukraine. It's mainly based on the development of the Ukrainian underground scene. |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/jukrainian) |
 | [ComUnity](https://github.com/ALEVOLDON/ComUnity)<br><small>📅 2025-05-10</small> | ComUnity is a simple, front-end–only web application scaffold built with HTML5, CSS3 and vanilla JavaScript. It demonstrates the basics of structuring a static community hub: a responsive layout, interactive UI components, and easy deployment to any static-hosting provider. |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/ComUnity) |
 | [BLAZE](https://github.com/ALEVOLDON/BLAZE)<br><small>📅 2024-11-25</small> | BlazeLeaf (BLAZE): A token symbolizing the fiery growth of blockchain and the cannabis industry. |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/BLAZE) |
-| [Scandi](https://github.com/ALEVOLDON/Scandi)<br><small>📅 2022-08-19</small> | Marathon-Finish-5.0 |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Scandi) |
+| [Scandi](https://github.com/ALEVOLDON/Scandi)<br><small>📅 2022-08-19</small> | Marathon-Finish-5.0 |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/Scandi) |
 
 ---
 
@@ -147,8 +147,8 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)<br><small>📅 2026-07-31</small> | Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts & alerts for kitesurfers & sailors. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/WindyCheck_bot) |
 | [UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)<br><small>📅 2026-08-10</small> | UPS-ExeGate-SpecialPro-UNB-1200 telemetry, power monitoring, and control tool. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200) |
 | [habit-tracker](https://github.com/ALEVOLDON/habit-tracker)<br><small>📅 2025-11-24</small> | Full-featured habit tracker. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/habit-tracker) |
-| [water-map-donetsk](https://github.com/ALEVOLDON/water-map-donetsk)<br><small>📅 2025-09-18</small> | Water monitoring map. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/water-map-donetsk) |
-| [pwa_app](https://github.com/ALEVOLDON/pwa_app)<br><small>📅 2024-01-31</small> | Progressive Web Apps experiment. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/pwa_app) |
+| [water-map-donetsk](https://github.com/ALEVOLDON/water-map-donetsk)<br><small>📅 2025-09-18</small> | Water monitoring map. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/water-map-donetsk) |
+| [pwa_app](https://github.com/ALEVOLDON/pwa_app)<br><small>📅 2024-01-31</small> | Progressive Web Apps experiment. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/pwa_app) |
 
 ---
 
@@ -160,50 +160,46 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
-| [CS50-s-Web-Programming-with-Python-and-JavaScript](https://github.com/ALEVOLDON/CS50-s-Web-Programming-with-Python-and-JavaScript)<br><small>📅 2023-09-13</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CS50-s-Web-Programming-with-Python-and-JavaScript) |
-| [modern_js_udemy_projects](https://github.com/ALEVOLDON/modern_js_udemy_projects)<br><small>📅 2019-12-09</small> | Project files for Modern JS From The Beginning course |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/modern_js_udemy_projects) |
-| [Marathon-GoIT](https://github.com/ALEVOLDON/Marathon-GoIT)<br><small>📅 2020-06-16</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Marathon-GoIT) |
-| [Rack](https://github.com/ALEVOLDON/Rack)<br><small>📅 2017-11-28</small> | Open-source virtual Eurorack DAW |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Rack) |
-| [magenta](https://github.com/ALEVOLDON/magenta)<br><small>📅 2018-03-14</small> | Magenta: Music and Art Generation with Machine Intelligence |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/magenta) |
-| [AbletonLive9_RemoteScripts](https://github.com/ALEVOLDON/AbletonLive9_RemoteScripts)<br><small>📅 2017-03-20</small> | Unofficial repository for Ableton Live 9 MIDI Remote Scripts... |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/AbletonLive9_RemoteScripts) |
-| [Travel-to](https://github.com/ALEVOLDON/Travel-to)<br><small>📅 2021-01-20</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/Travel-to) |
-| [3d-tic-tac-toe](https://github.com/ALEVOLDON/3d-tic-tac-toe)<br><small>📅 2021-02-03</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/3d-tic-tac-toe) |
-| [audioplayer](https://github.com/ALEVOLDON/audioplayer)<br><small>📅 2021-06-12</small> | No description |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/audioplayer) |
-| [Modern-Portfolio-Website](https://github.com/ALEVOLDON/Modern-Portfolio-Website)<br><small>📅 2026-03-31</small> | This is a responsive portfolio website built using HTML and ... |  | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Modern-Portfolio-Website) |
+| [CS50-s-Web-Programming-with-Python-and-JavaScript](https://github.com/ALEVOLDON/CS50-s-Web-Programming-with-Python-and-JavaScript)<br><small>📅 2023-09-13</small> | No description |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/CS50-s-Web-Programming-with-Python-and-JavaScript) |
+| [modern_js_udemy_projects](https://github.com/ALEVOLDON/modern_js_udemy_projects)<br><small>📅 2019-12-09</small> | Project files for Modern JS From The Beginning course |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/modern_js_udemy_projects) |
+| [Marathon-GoIT](https://github.com/ALEVOLDON/Marathon-GoIT)<br><small>📅 2020-06-16</small> | No description |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/Marathon-GoIT) |
+| [Rack](https://github.com/ALEVOLDON/Rack)<br><small>📅 2017-11-28</small> | Open-source virtual Eurorack DAW |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/Rack) |
+| [magenta](https://github.com/ALEVOLDON/magenta)<br><small>📅 2018-03-14</small> | Magenta: Music and Art Generation with Machine Intelligence |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/magenta) |
+| [AbletonLive9_RemoteScripts](https://github.com/ALEVOLDON/AbletonLive9_RemoteScripts)<br><small>📅 2017-03-20</small> | Unofficial repository for Ableton Live 9 MIDI Remote Scripts... |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/AbletonLive9_RemoteScripts) |
+| [Travel-to](https://github.com/ALEVOLDON/Travel-to)<br><small>📅 2021-01-20</small> | No description |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/Travel-to) |
+| [3d-tic-tac-toe](https://github.com/ALEVOLDON/3d-tic-tac-toe)<br><small>📅 2021-02-03</small> | No description |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/3d-tic-tac-toe) |
+| [audioplayer](https://github.com/ALEVOLDON/audioplayer)<br><small>📅 2021-06-12</small> | No description |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/audioplayer) |
+| [Modern-Portfolio-Website](https://github.com/ALEVOLDON/Modern-Portfolio-Website)<br><small>📅 2026-03-31</small> | This is a responsive portfolio website built using HTML and ... |  | **Archived** 📦 | [Repo](https://github.com/ALEVOLDON/Modern-Portfolio-Website) |
 
 </details>
 
 ---
 
 ## 🧠 Insights
-*Adaptive analysis and health tracking of my ecosystem powered by AI.*
+*Adaptive heuristics and health tracking of the repository ecosystem.*
 
 - 💡 Your ecosystem is currently heavily focused around 'python'.
-- 💡 9 projects are showing strong recent momentum (e.g. 'Modular-Genesis').
-- 💡 Candidate for Featured recommendation: 'portfolio' (score 0.8).
-- 💡 You have 24 tracked repositories inactive for over 1 year.
+- 💡 9 projects are showing strong recent momentum (e.g. 'portfolio').
+- 💡 Candidate for Featured recommendation: 'portfolio' (score 0.76).
+- 💡 You have 11 tracked active repositories inactive for over 1 year.
 
 **🚀 Rising & Active Momentum Projects:**
-- 🔥 **[Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (music) — _High momentum (0.82) with recent updates (7 days ago)_
-- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _High momentum (0.82) with recent updates (1 days ago)_
-- 🔥 **[UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (productivity) — _High momentum (0.8) with recent updates (4 days ago)_
-- 🔥 **[ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)** (frontend) — _High momentum (0.8) with recent updates (7 days ago)_
+- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (1 days ago, momentum 0.86)_
+- 🔥 **[ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)** (frontend) — _Revived project with recent active pushes (7 days ago, momentum 0.85)_
+- 🔥 **[UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (productivity) — _High momentum (0.82) with updates in the last 7 days_
+- 🔥 **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _Revived project with recent active pushes (8 days ago, momentum 0.81)_
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3434 days)
-- ⚠️ `Rack` (inactive for 3181 days)
-- ⚠️ `magenta` (inactive for 3075 days)
+- ⚠️ `My-first-three.js-app` (inactive for 2017 days)
+- ⚠️ `BLAZE` (inactive for 627 days)
+- ⚠️ `cosmic-portfolio` (inactive for 531 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Aug 13** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
-- **Aug 13** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 13** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 10** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 10** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
+_No recent prominent activity in the last 90 days._
 <!-- RECENT_ACTIVITY_END -->
 
 ---

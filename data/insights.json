@@ -1,13 +1,13 @@
 {
   "version": "2.0",
-  "generated_at": "2026-08-14T02:24:17.403409",
+  "generated_at": "2026-08-14T16:29:51.206360",
   "ecosystem_stats": {
     "total_repos": 101,
     "total_stars": 13,
-    "ai_projects": 8,
+    "ai_projects": 7,
     "music_projects": 21,
-    "frontend_projects": 40,
-    "creative_projects": 5,
+    "frontend_projects": 41,
+    "creative_projects": 4,
     "productivity_projects": 7
   },
   "top_topics": [
@@ -33,7 +33,7 @@
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.07,
       "days_inactive": 2018
     },
     {
@@ -41,10 +41,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.0,
       "days_inactive": 3569
     },
     {
@@ -56,10 +56,10 @@
         "productivity"
       ],
       "suggested_category": "archive",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.0,
       "days_inactive": 3434
     },
     {
@@ -70,10 +70,10 @@
         "productivity"
       ],
       "suggested_category": "music",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.2,
-      "momentum_score": 0.1,
-      "recommendation_score": 0.24,
+      "momentum_score": 0.08,
+      "recommendation_score": 0.19,
       "days_inactive": 285
     },
     {
@@ -81,34 +81,34 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.7,
       "momentum_score": 0.5,
-      "recommendation_score": 0.5,
+      "recommendation_score": 0.46,
       "days_inactive": 57
     },
     {
       "repo": "Anti-Gravity-Landing",
       "primary_category": "frontend",
-      "secondary_categories": [
-        "productivity"
-      ],
+      "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.2,
-      "momentum_score": 0.1,
-      "recommendation_score": 0.24,
+      "momentum_score": 0.08,
+      "recommendation_score": 0.19,
       "days_inactive": 192
     },
     {
       "repo": "app_p5js_demo",
       "primary_category": "frontend",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "creative"
+      ],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.0,
       "days_inactive": 1458
     },
     {
@@ -121,7 +121,7 @@
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.07,
       "days_inactive": 1889
     },
     {
@@ -129,10 +129,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3184
     },
     {
@@ -140,10 +140,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.16,
       "days_inactive": 627
     },
     {
@@ -154,7 +154,7 @@
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.07,
       "days_inactive": 2202
     },
     {
@@ -165,10 +165,10 @@
         "ai"
       ],
       "suggested_category": "productivity",
-      "health_score": 0.85,
+      "health_score": 0.8,
       "activity_score": 0.85,
-      "momentum_score": 0.67,
-      "recommendation_score": 0.72,
+      "momentum_score": 0.7,
+      "recommendation_score": 0.67,
       "days_inactive": 14
     },
     {
@@ -179,21 +179,23 @@
         "productivity"
       ],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.16,
       "days_inactive": 384
     },
     {
       "repo": "city-game",
       "primary_category": "frontend",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "creative"
+      ],
       "suggested_category": "frontend",
-      "health_score": 0.1,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.04,
+      "recommendation_score": 0.0,
       "days_inactive": 1941
     },
     {
@@ -201,10 +203,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.16,
       "days_inactive": 508
     },
     {
@@ -212,23 +214,21 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.12,
       "days_inactive": 2173
     },
     {
       "repo": "ComUnity",
       "primary_category": "frontend",
-      "secondary_categories": [
-        "ai"
-      ],
+      "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.16,
       "days_inactive": 461
     },
     {
@@ -236,10 +236,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.6,
+      "health_score": 0.55,
       "activity_score": 0.0,
-      "momentum_score": 0.02,
-      "recommendation_score": 0.26,
+      "momentum_score": 0.01,
+      "recommendation_score": 0.21,
       "days_inactive": 531
     },
     {
@@ -249,10 +249,10 @@
         "frontend"
       ],
       "suggested_category": "archive",
-      "health_score": 0.2,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.0,
       "days_inactive": 1066
     },
     {
@@ -260,13 +260,14 @@
       "primary_category": "ai",
       "secondary_categories": [
         "productivity",
+        "music",
         "frontend"
       ],
       "suggested_category": "ai",
-      "health_score": 0.5,
+      "health_score": 0.05,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 1002
     },
     {
@@ -274,10 +275,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.0,
       "days_inactive": 1640
     },
     {
@@ -285,10 +286,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.2,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.0,
       "days_inactive": 625
     },
     {
@@ -296,10 +297,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.0,
       "days_inactive": 2251
     },
     {
@@ -309,34 +310,35 @@
         "productivity"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.0,
       "days_inactive": 2288
     },
     {
       "repo": "developer-portfolios",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
-      "health_score": 0.5,
+      "suggested_category": "archive",
+      "health_score": 0.45,
       "activity_score": 0.7,
-      "momentum_score": 0.5,
-      "recommendation_score": 0.5,
+      "momentum_score": 0.43,
+      "recommendation_score": 0.0,
       "days_inactive": 73
     },
     {
       "repo": "Dump-Assistant-Bot",
       "primary_category": "ai",
       "secondary_categories": [
-        "frontend"
+        "frontend",
+        "productivity"
       ],
       "suggested_category": "ai",
-      "health_score": 0.95,
+      "health_score": 0.9,
       "activity_score": 0.85,
-      "momentum_score": 0.71,
-      "recommendation_score": 0.79,
+      "momentum_score": 0.61,
+      "recommendation_score": 0.71,
       "days_inactive": 23
     },
     {
@@ -344,10 +346,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.2,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.0,
       "days_inactive": 1086
     },
     {
@@ -355,10 +357,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3193
     },
     {
@@ -366,10 +368,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.4,
+      "health_score": 0.0,
       "activity_score": 0.0,
-      "momentum_score": 0.02,
-      "recommendation_score": 0.18,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.0,
       "days_inactive": 1942
     },
     {
@@ -377,10 +379,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.0,
       "days_inactive": 2304
     },
     {
@@ -388,10 +390,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.3,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.12,
+      "recommendation_score": 0.0,
       "days_inactive": 3735
     },
     {
@@ -401,10 +403,10 @@
         "frontend"
       ],
       "suggested_category": "ai",
-      "health_score": 1.0,
+      "health_score": 0.95,
       "activity_score": 0.85,
-      "momentum_score": 0.77,
-      "recommendation_score": 0.83,
+      "momentum_score": 0.81,
+      "recommendation_score": 0.79,
       "days_inactive": 8
     },
     {
@@ -412,10 +414,10 @@
       "primary_category": "ai",
       "secondary_categories": [],
       "suggested_category": "ai",
-      "health_score": 0.5,
+      "health_score": 0.05,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 1630
     },
     {
@@ -423,10 +425,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.3,
+      "health_score": 0.25,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.12,
+      "recommendation_score": 0.0,
       "days_inactive": 2138
     },
     {
@@ -436,10 +438,10 @@
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.6,
+      "health_score": 0.55,
       "activity_score": 0.45,
-      "momentum_score": 0.29,
-      "recommendation_score": 0.42,
+      "momentum_score": 0.24,
+      "recommendation_score": 0.36,
       "days_inactive": 160
     },
     {
@@ -447,10 +449,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.0,
       "days_inactive": 2206
     },
     {
@@ -460,10 +462,10 @@
         "frontend"
       ],
       "suggested_category": "productivity",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.2,
-      "momentum_score": 0.1,
-      "recommendation_score": 0.24,
+      "momentum_score": 0.08,
+      "recommendation_score": 0.19,
       "days_inactive": 263
     },
     {
@@ -474,7 +476,7 @@
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.07,
       "days_inactive": 2126
     },
     {
@@ -484,10 +486,10 @@
         "frontend"
       ],
       "suggested_category": "ai",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.16,
       "days_inactive": 458
     },
     {
@@ -495,26 +497,26 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.12,
       "days_inactive": 2382
     },
     {
       "repo": "index",
-      "primary_category": "creative",
+      "primary_category": "frontend",
       "secondary_categories": [
-        "frontend",
+        "creative",
         "ai",
         "productivity",
         "music"
       ],
-      "suggested_category": "creative",
-      "health_score": 0.95,
+      "suggested_category": "frontend",
+      "health_score": 0.9,
       "activity_score": 1.0,
-      "momentum_score": 0.82,
-      "recommendation_score": 0.84,
+      "momentum_score": 0.71,
+      "recommendation_score": 0.76,
       "days_inactive": 1
     },
     {
@@ -525,7 +527,7 @@
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.0,
       "days_inactive": 1228
     },
     {
@@ -533,10 +535,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.3,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.12,
+      "recommendation_score": 0.0,
       "days_inactive": 1937
     },
     {
@@ -544,10 +546,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.0,
       "activity_score": 0.0,
-      "momentum_score": 0.02,
-      "recommendation_score": 0.18,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.0,
       "days_inactive": 1941
     },
     {
@@ -555,10 +557,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.0,
       "activity_score": 0.0,
-      "momentum_score": 0.02,
-      "recommendation_score": 0.18,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.0,
       "days_inactive": 1940
     },
     {
@@ -566,10 +568,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.12,
       "days_inactive": 2382
     },
     {
@@ -577,10 +579,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.16,
       "days_inactive": 455
     },
     {
@@ -588,10 +590,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3182
     },
     {
@@ -610,10 +612,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.4,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.0,
       "days_inactive": 1761
     },
     {
@@ -621,10 +623,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3243
     },
     {
@@ -632,10 +634,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3265
     },
     {
@@ -646,7 +648,7 @@
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.07,
       "days_inactive": 2235
     },
     {
@@ -657,10 +659,10 @@
         "productivity"
       ],
       "suggested_category": "archive",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3075
     },
     {
@@ -670,10 +672,10 @@
         "frontend"
       ],
       "suggested_category": "archive",
-      "health_score": 0.2,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.0,
       "days_inactive": 2250
     },
     {
@@ -681,23 +683,21 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.3,
+      "health_score": 0.25,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.12,
+      "recommendation_score": 0.09,
       "days_inactive": 2255
     },
     {
       "repo": "MAVIC",
       "primary_category": "frontend",
-      "secondary_categories": [
-        "ai"
-      ],
+      "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.0,
       "days_inactive": 1643
     },
     {
@@ -705,10 +705,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.12,
       "days_inactive": 2208
     },
     {
@@ -716,35 +716,36 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.12,
       "days_inactive": 2198
     },
     {
       "repo": "ML_modules",
       "primary_category": "music",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "ai"
+      ],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3184
     },
     {
       "repo": "Modern-Portfolio-Website",
       "primary_category": "archive",
       "secondary_categories": [
-        "frontend",
-        "ai"
+        "frontend"
       ],
       "suggested_category": "archive",
-      "health_score": 0.6,
+      "health_score": 0.15,
       "activity_score": 0.45,
-      "momentum_score": 0.29,
-      "recommendation_score": 0.42,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.0,
       "days_inactive": 136
     },
     {
@@ -752,10 +753,10 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.3,
+      "health_score": 0.25,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.12,
+      "recommendation_score": 0.0,
       "days_inactive": 2440
     },
     {
@@ -766,10 +767,10 @@
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.95,
+      "health_score": 0.9,
       "activity_score": 1.0,
-      "momentum_score": 0.82,
-      "recommendation_score": 0.84,
+      "momentum_score": 0.71,
+      "recommendation_score": 0.76,
       "days_inactive": 7
     },
     {
@@ -777,10 +778,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.0,
       "days_inactive": 1645
     },
     {
@@ -788,23 +789,21 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3182
     },
     {
       "repo": "my-app-vr84-bootcamp",
       "primary_category": "frontend",
-      "secondary_categories": [
-        "productivity"
-      ],
+      "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.12,
       "days_inactive": 2143
     },
     {
@@ -817,7 +816,7 @@
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.07,
       "days_inactive": 2017
     },
     {
@@ -828,10 +827,10 @@
         "productivity"
       ],
       "suggested_category": "ai",
-      "health_score": 0.75,
+      "health_score": 0.7,
       "activity_score": 0.85,
-      "momentum_score": 0.67,
-      "recommendation_score": 0.68,
+      "momentum_score": 0.58,
+      "recommendation_score": 0.6,
       "days_inactive": 8
     },
     {
@@ -842,10 +841,10 @@
         "productivity"
       ],
       "suggested_category": "creative",
-      "health_score": 0.9,
+      "health_score": 0.85,
       "activity_score": 0.45,
-      "momentum_score": 0.33,
-      "recommendation_score": 0.55,
+      "momentum_score": 0.27,
+      "recommendation_score": 0.48,
       "days_inactive": 157
     },
     {
@@ -855,10 +854,10 @@
         "creative"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.85,
+      "health_score": 0.8,
       "activity_score": 1.0,
-      "momentum_score": 0.82,
-      "recommendation_score": 0.8,
+      "momentum_score": 0.86,
+      "recommendation_score": 0.76,
       "days_inactive": 1
     },
     {
@@ -866,10 +865,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.12,
       "days_inactive": 456
     },
     {
@@ -877,10 +876,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.3,
+      "health_score": 0.25,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.12,
+      "recommendation_score": 0.0,
       "days_inactive": 3193
     },
     {
@@ -890,10 +889,10 @@
         "frontend"
       ],
       "suggested_category": "productivity",
-      "health_score": 0.5,
+      "health_score": 0.05,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 926
     },
     {
@@ -903,10 +902,10 @@
         "music"
       ],
       "suggested_category": "archive",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3181
     },
     {
@@ -916,10 +915,10 @@
         "productivity"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.12,
       "days_inactive": 458
     },
     {
@@ -927,10 +926,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.3,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.12,
+      "recommendation_score": 0.0,
       "days_inactive": 1775
     },
     {
@@ -940,10 +939,10 @@
         "frontend"
       ],
       "suggested_category": "creative",
-      "health_score": 0.85,
+      "health_score": 0.8,
       "activity_score": 0.45,
-      "momentum_score": 0.29,
-      "recommendation_score": 0.52,
+      "momentum_score": 0.24,
+      "recommendation_score": 0.45,
       "days_inactive": 175
     },
     {
@@ -951,10 +950,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3181
     },
     {
@@ -965,7 +964,7 @@
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.07,
       "days_inactive": 2263
     },
     {
@@ -973,10 +972,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.5,
+      "health_score": 0.05,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 1456
     },
     {
@@ -988,10 +987,10 @@
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.16,
       "days_inactive": 485
     },
     {
@@ -1001,10 +1000,10 @@
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.2,
-      "momentum_score": 0.1,
-      "recommendation_score": 0.24,
+      "momentum_score": 0.08,
+      "recommendation_score": 0.19,
       "days_inactive": 188
     },
     {
@@ -1012,10 +1011,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.3,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.12,
+      "recommendation_score": 0.0,
       "days_inactive": 1938
     },
     {
@@ -1026,10 +1025,10 @@
         "music"
       ],
       "suggested_category": "ai",
-      "health_score": 0.7,
+      "health_score": 0.65,
       "activity_score": 0.45,
-      "momentum_score": 0.29,
-      "recommendation_score": 0.46,
+      "momentum_score": 0.24,
+      "recommendation_score": 0.4,
       "days_inactive": 106
     },
     {
@@ -1037,10 +1036,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.35,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.12,
       "days_inactive": 456
     },
     {
@@ -1051,10 +1050,10 @@
         "productivity"
       ],
       "suggested_category": "creative",
-      "health_score": 0.85,
+      "health_score": 0.8,
       "activity_score": 0.7,
-      "momentum_score": 0.5,
-      "recommendation_score": 0.64,
+      "momentum_score": 0.43,
+      "recommendation_score": 0.56,
       "days_inactive": 49
     },
     {
@@ -1062,14 +1061,13 @@
       "primary_category": "music",
       "secondary_categories": [
         "ai",
-        "productivity",
-        "frontend"
+        "productivity"
       ],
       "suggested_category": "music",
-      "health_score": 0.6,
+      "health_score": 0.55,
       "activity_score": 0.0,
-      "momentum_score": 0.02,
-      "recommendation_score": 0.26,
+      "momentum_score": 0.01,
+      "recommendation_score": 0.21,
       "days_inactive": 487
     },
     {
@@ -1079,10 +1077,10 @@
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.75,
+      "health_score": 0.7,
       "activity_score": 0.7,
-      "momentum_score": 0.5,
-      "recommendation_score": 0.6,
+      "momentum_score": 0.43,
+      "recommendation_score": 0.53,
       "days_inactive": 38
     },
     {
@@ -1090,10 +1088,10 @@
       "primary_category": "productivity",
       "secondary_categories": [],
       "suggested_category": "productivity",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 2818
     },
     {
@@ -1106,7 +1104,7 @@
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.07,
       "days_inactive": 2032
     },
     {
@@ -1114,10 +1112,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3181
     },
     {
@@ -1127,23 +1125,21 @@
         "ai"
       ],
       "suggested_category": "productivity",
-      "health_score": 0.85,
+      "health_score": 0.8,
       "activity_score": 1.0,
-      "momentum_score": 0.8,
-      "recommendation_score": 0.79,
+      "momentum_score": 0.82,
+      "recommendation_score": 0.73,
       "days_inactive": 4
     },
     {
       "repo": "vanillawebprojects",
-      "primary_category": "ai",
-      "secondary_categories": [
-        "frontend"
-      ],
-      "suggested_category": "ai",
-      "health_score": 0.3,
+      "primary_category": "frontend",
+      "secondary_categories": [],
+      "suggested_category": "frontend",
+      "health_score": 0.25,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.12,
+      "recommendation_score": 0.0,
       "days_inactive": 2253
     },
     {
@@ -1151,10 +1147,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3182
     },
     {
@@ -1162,10 +1158,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3183
     },
     {
@@ -1173,10 +1169,10 @@
       "primary_category": "music",
       "secondary_categories": [],
       "suggested_category": "music",
-      "health_score": 0.5,
+      "health_score": 0.45,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.2,
+      "recommendation_score": 0.0,
       "days_inactive": 3186
     },
     {
@@ -1186,19 +1182,21 @@
       "suggested_category": "productivity",
       "health_score": 0.0,
       "activity_score": 0.2,
-      "momentum_score": 0.1,
-      "recommendation_score": 0.08,
+      "momentum_score": 0.0,
+      "recommendation_score": 0.0,
       "days_inactive": 330
     },
     {
       "repo": "webaudio_visualizer",
       "primary_category": "frontend",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "creative"
+      ],
       "suggested_category": "frontend",
       "health_score": 0.2,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.08,
+      "recommendation_score": 0.07,
       "days_inactive": 2015
     },
     {
@@ -1208,10 +1206,10 @@
         "ai"
       ],
       "suggested_category": "productivity",
-      "health_score": 0.85,
+      "health_score": 0.8,
       "activity_score": 0.85,
-      "momentum_score": 0.67,
-      "recommendation_score": 0.72,
+      "momentum_score": 0.7,
+      "recommendation_score": 0.67,
       "days_inactive": 14
     },
     {
@@ -1219,10 +1217,10 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.4,
+      "health_score": 0.0,
       "activity_score": 0.0,
       "momentum_score": 0.0,
-      "recommendation_score": 0.16,
+      "recommendation_score": 0.0,
       "days_inactive": 1812
     },
     {
@@ -1232,130 +1230,130 @@
         "music"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.6,
+      "health_score": 0.55,
       "activity_score": 1.0,
-      "momentum_score": 0.8,
-      "recommendation_score": 0.69,
+      "momentum_score": 0.85,
+      "recommendation_score": 0.66,
       "days_inactive": 7
     }
   ],
   "rising_projects": [
     {
-      "repo": "Modular-Genesis",
-      "momentum_score": 0.82,
-      "activity_score": 1.0,
-      "primary_category": "music",
-      "reason": "High momentum (0.82) with recent updates (7 days ago)"
-    },
-    {
       "repo": "portfolio",
-      "momentum_score": 0.82,
+      "momentum_score": 0.86,
       "activity_score": 1.0,
       "primary_category": "frontend",
-      "reason": "High momentum (0.82) with recent updates (1 days ago)"
-    },
-    {
-      "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
-      "momentum_score": 0.8,
-      "activity_score": 1.0,
-      "primary_category": "productivity",
-      "reason": "High momentum (0.8) with recent updates (4 days ago)"
+      "reason": "Revived project with recent active pushes (1 days ago, momentum 0.86)"
     },
     {
       "repo": "ZERO-GRAVITY",
-      "momentum_score": 0.8,
+      "momentum_score": 0.85,
       "activity_score": 1.0,
       "primary_category": "frontend",
-      "reason": "High momentum (0.8) with recent updates (7 days ago)"
+      "reason": "Revived project with recent active pushes (7 days ago, momentum 0.85)"
+    },
+    {
+      "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
+      "momentum_score": 0.82,
+      "activity_score": 1.0,
+      "primary_category": "productivity",
+      "reason": "High momentum (0.82) with updates in the last 7 days"
     },
     {
       "repo": "full_roadmap_ai_enthusiast_2026",
-      "momentum_score": 0.77,
+      "momentum_score": 0.81,
       "activity_score": 0.85,
       "primary_category": "ai",
-      "reason": "High momentum (0.77) with recent updates (8 days ago)"
+      "reason": "Revived project with recent active pushes (8 days ago, momentum 0.81)"
+    },
+    {
+      "repo": "Modular-Genesis",
+      "momentum_score": 0.71,
+      "activity_score": 1.0,
+      "primary_category": "music",
+      "reason": "High momentum (0.71) with updates in the last 7 days"
     }
   ],
   "featured_recommendations": [
     {
       "repo": "portfolio",
-      "recommendation_score": 0.8,
+      "recommendation_score": 0.76,
       "primary_category": "frontend",
       "reasons": [
-        "High completeness & health (0.85)",
-        "Recent active updates (1 days ago)",
-        "Strong momentum (0.82)",
+        "High completeness & health (0.8)",
+        "Active updates (1 days ago)",
+        "Strong momentum (0.86)",
         "1 star(s)"
       ]
     },
     {
-      "repo": "Dump-Assistant-Bot",
-      "recommendation_score": 0.79,
-      "primary_category": "ai",
+      "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
+      "recommendation_score": 0.73,
+      "primary_category": "productivity",
       "reasons": [
-        "High completeness & health (0.95)",
-        "Recent active updates (23 days ago)",
-        "Strong momentum (0.71)",
-        "2 star(s)"
+        "High completeness & health (0.8)",
+        "Active updates (4 days ago)",
+        "Strong momentum (0.82)"
       ]
     },
     {
-      "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
-      "recommendation_score": 0.79,
-      "primary_category": "productivity",
+      "repo": "Dump-Assistant-Bot",
+      "recommendation_score": 0.71,
+      "primary_category": "ai",
       "reasons": [
-        "High completeness & health (0.85)",
-        "Recent active updates (4 days ago)",
-        "Strong momentum (0.8)"
+        "High completeness & health (0.9)",
+        "Active updates (23 days ago)",
+        "Strong momentum (0.61)",
+        "2 star(s)"
       ]
     }
   ],
   "neglected_repos": [
     {
-      "name": "AbletonLive9_RemoteScripts",
-      "days_inactive": 3434
-    },
-    {
-      "name": "Rack",
-      "days_inactive": 3181
-    },
-    {
-      "name": "magenta",
-      "days_inactive": 3075
-    },
-    {
-      "name": "modern_js_udemy_projects",
-      "days_inactive": 2440
-    },
-    {
-      "name": "Marathon-GoIT",
-      "days_inactive": 2250
-    },
-    {
-      "name": "Travel-to",
-      "days_inactive": 2032
-    },
-    {
-      "name": "3d-tic-tac-toe",
-      "days_inactive": 2018
-    },
-    {
       "name": "My-first-three.js-app",
       "days_inactive": 2017
     },
     {
-      "name": "audioplayer",
-      "days_inactive": 1889
+      "name": "BLAZE",
+      "days_inactive": 627
     },
     {
-      "name": "github-slideshow",
-      "days_inactive": 1630
+      "name": "cosmic-portfolio",
+      "days_inactive": 531
+    },
+    {
+      "name": "CodeWizard",
+      "days_inactive": 508
+    },
+    {
+      "name": "soundcloud-likes-downloader",
+      "days_inactive": 487
+    },
+    {
+      "name": "sc_liked_to_playlist_web",
+      "days_inactive": 485
+    },
+    {
+      "name": "ComUnity",
+      "days_inactive": 461
+    },
+    {
+      "name": "HTML5-Semantic",
+      "days_inactive": 458
+    },
+    {
+      "name": "relationship-test-app",
+      "days_inactive": 458
+    },
+    {
+      "name": "jukrainian",
+      "days_inactive": 455
     }
   ],
   "suggestions": [
     "Your ecosystem is currently heavily focused around 'python'.",
-    "9 projects are showing strong recent momentum (e.g. 'Modular-Genesis').",
-    "Candidate for Featured recommendation: 'portfolio' (score 0.8).",
-    "You have 24 tracked repositories inactive for over 1 year."
+    "9 projects are showing strong recent momentum (e.g. 'portfolio').",
+    "Candidate for Featured recommendation: 'portfolio' (score 0.76).",
+    "You have 11 tracked active repositories inactive for over 1 year."
   ]
 }

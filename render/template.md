@@ -23,7 +23,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 ---
 
 ## 🧠 Insights
-*Adaptive analysis and health tracking of my ecosystem powered by AI.*
+*Adaptive heuristics and health tracking of the repository ecosystem.*
 
 {{ INSIGHTS }}
 

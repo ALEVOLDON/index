@@ -10,13 +10,13 @@ const REPOS_PATH = path.join(DATA_DIR, 'repos.json');
 const INSIGHTS_PATH = path.join(DATA_DIR, 'insights.json');
 const TEMPLATE_PATH = path.join(__dirname, 'template.md');
 const README_PATH = path.join(__dirname, '../README.md');
-
 const TECH_BADGES_PATH = path.join(__dirname, '../config/tech_badges.json');
 
 function getHeaders() {
     const headers = { 
         'User-Agent': 'Node.js README Updater',
-        'Accept': 'application/vnd.github.mercy-preview+json'
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28'
     };
     if (process.env.GITHUB_TOKEN && process.env.GITHUB_TOKEN.trim() !== '') {
         headers['Authorization'] = `Bearer ${process.env.GITHUB_TOKEN}`;
@@ -31,14 +31,20 @@ async function fetchJSON(endpoint) {
         res = await fetch(GITHUB_API_URL + endpoint, { 
             headers: { 
                 'User-Agent': 'Node.js README Updater',
-                'Accept': 'application/vnd.github.mercy-preview+json'
+                'Accept': 'application/vnd.github+json',
+                'X-GitHub-Api-Version': '2022-11-28'
             } 
         });
     }
     if (!res.ok) {
-        throw new Error(`Failed to fetch ${endpoint}: ${res.statusText}`);
+        throw new Error(`Failed to fetch ${endpoint}: ${res.status} ${res.statusText}`);
     }
     return res.json();
+}
+
+function sanitizeMarkdownCell(text) {
+    if (!text) return '';
+    return String(text).replace(/\|/g, '\\|').replace(/\r?\n/g, ' ').trim();
 }
 
 function getBadgeForTopic(topic, techBadgesMap) {
@@ -59,6 +65,24 @@ function getRepoBadges(rConf, rData, techBadgesMap, limit = 3) {
     const topics = (rData.topics || []).slice(0, limit);
     if (topics.length === 0) return '';
     return topics.map(t => getBadgeForTopic(t, techBadgesMap)).join(' ');
+}
+
+function extractExistingActivity(readmePath) {
+    if (!fs.existsSync(readmePath)) return null;
+    try {
+        const content = fs.readFileSync(readmePath, 'utf8');
+        const startTag = '<!-- RECENT_ACTIVITY_START -->';
+        const endTag = '<!-- RECENT_ACTIVITY_END -->';
+        const startIdx = content.indexOf(startTag);
+        const endIdx = content.indexOf(endTag);
+        if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
+            const extracted = content.substring(startIdx + startTag.length, endIdx).trim();
+            if (extracted && !extracted.includes('_No recent prominent activity')) {
+                return extracted;
+            }
+        }
+    } catch (e) {}
+    return null;
 }
 
 async function renderReadme() {
@@ -105,7 +129,7 @@ async function renderReadme() {
                     const techBadges = getRepoBadges(rConf, rData, techBadgesMap, 4);
 
                     featuredMarkdown += `### 🌟 [${rData.name}](https://github.com/${USERNAME}/${rData.name})\n\n`;
-                    featuredMarkdown += `> ${rConf.custom_description || rData.description || 'No description provided.'}\n\n`;
+                    featuredMarkdown += `> ${sanitizeMarkdownCell(rConf.custom_description || rData.description || 'No description provided.')}\n\n`;
                     if (techBadges) featuredMarkdown += `**Technologies:** ${techBadges}\n\n`;
                     featuredMarkdown += `**Status:** **Active** 🚀 | [Repository](https://github.com/${USERNAME}/${rData.name})\n\n`;
                 }
@@ -113,7 +137,6 @@ async function renderReadme() {
         }
     }
     template = template.replace('{{ FEATURED_PROJECTS }}', featuredMarkdown.trim());
-
 
     // 2. Navigation
     console.log('Rendering Category Links...');
@@ -124,7 +147,6 @@ async function renderReadme() {
     }
     template = template.replace('{{ CATEGORY_LINKS }}', navMarkdown.trim());
 
-
     // 3. Category Sections
     console.log('Rendering Categories...');
     let sectionsMarkdown = '';
@@ -133,7 +155,7 @@ async function renderReadme() {
         if (!dateStr) return 9999;
         const d = new Date(dateStr);
         if (isNaN(d.getTime())) return 9999;
-        return (new Date() - d) / (1000 * 60 * 60 * 24);
+        return Math.max(0, (new Date() - d) / (1000 * 60 * 60 * 24));
     };
 
     for (const category of config.categories) {
@@ -162,14 +184,11 @@ async function renderReadme() {
             }
             let statusText = rConf.featured ? '**Featured** ⭐' : '**Active** 🚀';
             
-            // Auto-archive logic based on inactivity
-            if (daysSince(rData.updated_at) > 365) {
-                statusText = '**Maintenance** 🛠️';
-            }
-
-            // Add notes context
-            if (rConf.notes && rConf.notes.includes('Archived')) {
+            // Status determination
+            if (rData.archived || category.id === 'archive' || (rConf.notes && rConf.notes.toLowerCase().includes('archive'))) {
                 statusText = '**Archived** 📦';
+            } else if (daysSince(rData.updated_at) > 365) {
+                statusText = '**Maintenance** 🛠️';
             }
 
             const techBadges = getRepoBadges(rConf, rData, techBadgesMap, 3);
@@ -183,10 +202,11 @@ async function renderReadme() {
             }
 
             const nameCol = `[${rData.name}](https://github.com/${USERNAME}/${rData.name})${extraHtml}`;
-            let descCol = rConf.custom_description || rData.description || 'No description';
-            if (!rConf.custom_description) {
-                 descCol = descCol.substring(0, 60) + (rData.description && rData.description.length > 60 ? '...' : '');
+            let rawDesc = rConf.custom_description || rData.description || 'No description';
+            if (!rConf.custom_description && rawDesc.length > 60) {
+                rawDesc = rawDesc.substring(0, 60) + '...';
             }
+            const descCol = sanitizeMarkdownCell(rawDesc);
 
             tableContent += `| ${nameCol} | ${descCol} | ${techBadges} | ${statusText} | [Repo](https://github.com/${USERNAME}/${rData.name}) |\n`;
         }
@@ -212,7 +232,6 @@ async function renderReadme() {
     }
     template = template.replace('{{ CATEGORY_SECTIONS }}', sectionsMarkdown);
 
-
     // 4. Insights
     console.log('Rendering Insights...');
     let insightsMarkdown = '';
@@ -229,14 +248,13 @@ async function renderReadme() {
         if (insights.neglected_repos && insights.neglected_repos.length > 0) {
             insightsMarkdown += `\n**Attention Needed:**\n`;
             insights.neglected_repos.slice(0, 3).forEach(nr => {
-                 insightsMarkdown += `- ⚠️ \`${nr.name}\` (inactive for ${nr.days_inactive} days)\n`;
+                insightsMarkdown += `- ⚠️ \`${nr.name}\` (inactive for ${nr.days_inactive} days)\n`;
             });
         }
     } else {
         insightsMarkdown = '_No recent intelligence analysis available._\n';
     }
     template = template.replace('{{ INSIGHTS }}', insightsMarkdown);
-
 
     // 5. Tech Cloud
     console.log('Rendering Tech Cloud...');
@@ -249,12 +267,11 @@ async function renderReadme() {
     const topTopics = Object.entries(topicsCount).sort((a,b) => b[1] - a[1]).slice(0, 20);
     
     let techCloudMarkdown = '';
-    for(let [topic, count] of topTopics) {
+    for(let [topic] of topTopics) {
         const badgeStr = getBadgeForTopic(topic, techBadgesMap);
         techCloudMarkdown += `${badgeStr} `;
     }
     template = template.replace('{{ TECH_CLOUD }}', techCloudMarkdown.trim());
-
 
     // 6. Recent Activity
     console.log('Fetching Recent Activity...');
@@ -272,7 +289,7 @@ async function renderReadme() {
                 const branch = ev.payload.ref ? ev.payload.ref.replace('refs/heads/', '') : 'main';
                 let msg = '';
                 if (ev.payload.commits && ev.payload.commits.length > 0) {
-                    msg = `: _"${ev.payload.commits[0].message.split('\n')[0].substring(0, 40)}"_`;
+                    msg = `: _"${sanitizeMarkdownCell(ev.payload.commits[0].message.split('\n')[0].substring(0, 40))}"_`;
                 }
                 actionStr = `🚀 Pushed changes to **[${ev.repo.name}](https://github.com/${ev.repo.name})** (${branch})${msg}`;
             } else if (ev.type === 'CreateEvent' && ev.payload.ref_type === 'repository') {
@@ -280,7 +297,7 @@ async function renderReadme() {
             } else if (ev.type === 'ReleaseEvent') {
                 actionStr = `📦 Released **${ev.payload.release.tag_name}** in **[${ev.repo.name}](https://github.com/${ev.repo.name})**`;
             } else if (ev.type === 'IssuesEvent' && ev.payload.action === 'opened') {
-                actionStr = `🐛 Opened issue in **[${ev.repo.name}](https://github.com/${ev.repo.name})**: _${ev.payload.issue.title}_`;
+                actionStr = `🐛 Opened issue in **[${ev.repo.name}](https://github.com/${ev.repo.name})**: _${sanitizeMarkdownCell(ev.payload.issue.title)}_`;
             } else {
                 continue;
             }
@@ -289,11 +306,17 @@ async function renderReadme() {
             eventCount++;
         }
     } catch(err) {
-        console.error('Failed to fetch events: ', err);
+        console.warn('Could not fetch latest live events (rate limit or offline):', err.message);
     }
     
     if (activityMarkdown === '') {
-        activityMarkdown = '_No recent prominent activity in the last 90 days._\n';
+        const existing = extractExistingActivity(README_PATH);
+        if (existing) {
+            console.log('Preserved previous Recent Activity from README.md.');
+            activityMarkdown = existing;
+        } else {
+            activityMarkdown = '_No recent prominent activity in the last 90 days._\n';
+        }
     }
     template = template.replace('{{ RECENT_ACTIVITY }}', activityMarkdown.trim());
 

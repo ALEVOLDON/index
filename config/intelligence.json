@@ -2,14 +2,17 @@
   "version": "2.0",
   "scoring_weights": {
     "health": {
-      "has_description": 0.20,
-      "has_topics": 0.15,
+      "has_description": 0.15,
+      "has_topics": 0.10,
+      "topic_richness": 0.05,
       "has_license": 0.10,
       "has_stars": 0.10,
       "has_forks": 0.05,
       "has_language": 0.10,
       "non_empty_size": 0.10,
-      "recent_push_bonus": 0.20
+      "has_homepage": 0.05,
+      "recent_push_bonus": 0.20,
+      "archived_penalty": 0.40
     },
     "activity": {
       "days_7": 1.0,
@@ -19,15 +22,16 @@
       "days_365": 0.20
     },
     "momentum": {
-      "activity_weight": 0.50,
+      "activity_weight": 0.40,
       "recency_boost": 0.30,
-      "engagement_weight": 0.20
+      "revival_boost": 0.15,
+      "engagement_weight": 0.15
     },
     "recommendation": {
-      "health_weight": 0.40,
+      "health_weight": 0.35,
       "activity_weight": 0.25,
       "momentum_weight": 0.25,
-      "stars_weight": 0.10
+      "stars_weight": 0.15
     }
   },
   "thresholds": {
@@ -63,7 +67,15 @@
         "automation",
         "telegram-bot-ai-assistant",
         "chatbot",
-        "community-management"
+        "community-management",
+        "mcp",
+        "agents",
+        "autonomous-agents",
+        "pydanticai",
+        "langchain",
+        "ollama",
+        "claude",
+        "gemini"
       ],
       "keywords": [
         "gpt",
@@ -77,13 +89,23 @@
         "ml",
         "chatbot",
         "embedding",
-        "vector",
-        "semantic",
+        "embeddings",
+        "vector database",
+        "vector search",
+        "semantic search",
         "nlp",
         "transformer",
         "assistant",
         "ai bot",
-        "bot"
+        "bot",
+        "bot assistant",
+        "mcp",
+        "agent",
+        "agents",
+        "pydanticai",
+        "prompt engineering",
+        "claude",
+        "gemini"
       ],
       "languages": ["python", "jupyter notebook"]
     },
@@ -102,10 +124,20 @@
         "synthesizer",
         "midi",
         "daw",
-        "web-audio"
+        "web-audio",
+        "sound",
+        "eurorack",
+        "synthesizers",
+        "bandcamp",
+        "soundcloud",
+        "max-msp",
+        "supercollider",
+        "dsp",
+        "audio-processing"
       ],
       "keywords": [
         "synthesizer",
+        "synth",
         "daw",
         "melody",
         "sound design",
@@ -121,7 +153,13 @@
         "drum",
         "bass",
         "sound",
-        "web audio"
+        "web audio",
+        "eurorack",
+        "sound tracker",
+        "playlist",
+        "soundcloud",
+        "bandcamp",
+        "dsp"
       ],
       "languages": ["c++", "max", "supercollider", "faust"]
     },
@@ -142,7 +180,13 @@
         "nextjs",
         "vue",
         "svelte",
-        "tailwindcss"
+        "tailwindcss",
+        "tailwind",
+        "sass",
+        "scss",
+        "web-app",
+        "portfolio",
+        "landing-page"
       ],
       "keywords": [
         "react",
@@ -154,6 +198,7 @@
         "svelte",
         "angular",
         "next.js",
+        "nextjs",
         "nuxt",
         "web app",
         "dashboard",
@@ -161,7 +206,13 @@
         "landing",
         "website",
         "web",
-        "site"
+        "html5",
+        "css3",
+        "sass",
+        "tailwind",
+        "pwa",
+        "semantic html",
+        "semantic tags"
       ],
       "languages": ["typescript", "javascript", "html", "css"]
     },
@@ -183,7 +234,10 @@
         "webgl",
         "canvas",
         "shaders",
-        "glsl"
+        "glsl",
+        "p5js",
+        "animation",
+        "game"
       ],
       "keywords": [
         "three.js",
@@ -194,6 +248,7 @@
         "generative",
         "procedural",
         "shader",
+        "shaders",
         "canvas",
         "webgl",
         "glsl",
@@ -202,7 +257,11 @@
         "arcade",
         "scrolling",
         "shooter",
-        "pwa game"
+        "pwa game",
+        "creative coding",
+        "generative art",
+        "p5.js",
+        "p5js"
       ],
       "languages": ["glsl", "c#", "gdscript"]
     },
@@ -215,12 +274,19 @@
         "organizer",
         "planner",
         "cli",
-        "workflow"
+        "workflow",
+        "automation",
+        "dashboard",
+        "management",
+        "control-panel",
+        "launcher"
       ],
       "keywords": [
         "habit tracker",
+        "habit",
         "productivity",
         "tool",
+        "tools",
         "utility",
         "monitor",
         "water map",
@@ -229,7 +295,10 @@
         "planner",
         "calendar",
         "task manager",
-        "cli"
+        "cli",
+        "control panel",
+        "launcher",
+        "workflow"
       ],
       "languages": ["shell", "python", "go", "rust"]
     }
