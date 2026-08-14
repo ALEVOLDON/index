@@ -179,20 +179,20 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 *Adaptive analysis and health tracking of my ecosystem powered by AI.*
 
 - 💡 Your ecosystem is currently heavily focused around 'python'.
-- 💡 9 projects are showing strong recent momentum (e.g. 'full_roadmap_ai_enthusiast_2026').
+- 💡 9 projects are showing strong recent momentum (e.g. 'Modular-Genesis').
 - 💡 Candidate for Featured recommendation: 'portfolio' (score 0.8).
-- 💡 You have 17 tracked repositories inactive for over 1 year.
+- 💡 You have 24 tracked repositories inactive for over 1 year.
 
 **🚀 Rising & Active Momentum Projects:**
-- 🔥 **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _High momentum (0.9) with recent updates (7 days ago)_
-- 🔥 **[Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (music) — _High momentum (0.82) with recent updates (6 days ago)_
-- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _High momentum (0.82) with recent updates (0 days ago)_
-- 🔥 **[obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (ai) — _High momentum (0.8) with recent updates (7 days ago)_
+- 🔥 **[Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (music) — _High momentum (0.82) with recent updates (7 days ago)_
+- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _High momentum (0.82) with recent updates (1 days ago)_
+- 🔥 **[UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (productivity) — _High momentum (0.8) with recent updates (4 days ago)_
+- 🔥 **[ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)** (frontend) — _High momentum (0.8) with recent updates (7 days ago)_
 
 **Attention Needed:**
-- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3433 days)
-- ⚠️ `Rack` (inactive for 3180 days)
-- ⚠️ `magenta` (inactive for 3074 days)
+- ⚠️ `AbletonLive9_RemoteScripts` (inactive for 3434 days)
+- ⚠️ `Rack` (inactive for 3181 days)
+- ⚠️ `magenta` (inactive for 3075 days)
 
 
 ---
