@@ -103,7 +103,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [gtwy-audio-archive](https://github.com/ALEVOLDON/gtwy-audio-archive)<br><small>📅 2026-03-07</small> | Web interface for the GTWY music archive. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Bandcamp API](https://img.shields.io/badge/Bandcamp-629AAF?style=flat-square&logo=bandcamp&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/gtwy-audio-archive) |
 | [CineBlocker](https://github.com/ALEVOLDON/CineBlocker)<br><small>📅 2025-07-26</small> | App to block distracting sites for creatives. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CineBlocker) |
 | [sc_liked_to_playlist_web](https://github.com/ALEVOLDON/sc_liked_to_playlist_web)<br><small>📅 2025-04-16</small> | Download SoundCloud likes to a local player. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SoundCloud](https://img.shields.io/badge/SoundCloud-FF8800?style=flat-square&logo=soundcloud&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/sc_liked_to_playlist_web) |
-| [web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)<br><small>📅 2026-08-14</small> | Live Modular Genesis lab: Blender rack, Three.js, GSAP, Web Audio |  | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/web-hero-modular) |
+| [web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)<br><small>📅 2026-08-14</small> | Live Modular Genesis lab: Blender rack, Three.js, GSAP, Web Audio | ![3d-graphics](https://img.shields.io/badge/3d--graphics-1572B6?style=flat-square) ![audio-visualizer](https://img.shields.io/badge/audio--visualizer-1572B6?style=flat-square) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/web-hero-modular) |
 | [SPA-Eurorack-Market-Guide](https://github.com/ALEVOLDON/SPA-Eurorack-Market-Guide)<br><small>📅 2026-07-07</small> | Interactive Eurorack second-hand market guide and safety console for European musicians | ![calculator](https://img.shields.io/badge/calculator-1572B6?style=flat-square) ![chartjs](https://img.shields.io/badge/chartjs-1572B6?style=flat-square) ![eurorack](https://img.shields.io/badge/eurorack-1572B6?style=flat-square) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/SPA-Eurorack-Market-Guide) |
 | [soundcloud-likes-downloader](https://github.com/ALEVOLDON/soundcloud-likes-downloader)<br><small>⭐ 1 • 📅 2025-04-14</small> | A convenient GUI application for downloading your liked tracks from SoundCloud. |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/soundcloud-likes-downloader) |
 
@@ -179,32 +179,32 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 ## 🧠 Insights
 *Adaptive heuristics and health tracking of the repository ecosystem.*
 
-- 💡 Your ecosystem is currently heavily focused around 'python'.
+- 💡 Your ecosystem is currently heavily focused around 'javascript'.
 - 💡 10 projects are showing strong recent momentum (e.g. 'portfolio').
 - 💡 Candidate for Featured recommendation: 'portfolio' (score 0.78).
 - 💡 You have 11 tracked active repositories inactive for over 1 year.
 
 **🚀 Rising & Active Momentum Projects:**
-- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (0 days ago, momentum 0.86)_
-- 🔥 **[ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)** (frontend) — _Revived project with recent active pushes (7 days ago, momentum 0.85)_
+- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (1 days ago, momentum 0.86)_
 - 🔥 **[UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (productivity) — _High momentum (0.82) with updates in the last 7 days_
 - 🔥 **[web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)** (music) — _High momentum (0.82) with updates in the last 7 days_
+- 🔥 **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _Revived project with recent active pushes (9 days ago, momentum 0.81)_
 
 **Attention Needed:**
-- ⚠️ `My-first-three.js-app` (inactive for 2017 days)
-- ⚠️ `BLAZE` (inactive for 627 days)
-- ⚠️ `cosmic-portfolio` (inactive for 531 days)
+- ⚠️ `My-first-three.js-app` (inactive for 2018 days)
+- ⚠️ `BLAZE` (inactive for 628 days)
+- ⚠️ `cosmic-portfolio` (inactive for 532 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Aug 14** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
 - **Aug 14** — 🚀 Pushed changes to **[ALEVOLDON/web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)** (master)
-- **Aug 14** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 14** — 🚀 Pushed changes to **[ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (main)
-- **Aug 13** — 🚀 Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
+- **Aug 14** — 🚀 Pushed changes to **[ALEVOLDON/web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)** (master)
+- **Aug 14** — 🚀 Pushed changes to **[ALEVOLDON/web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)** (gh-pages)
+- **Aug 14** — 🚀 Pushed changes to **[ALEVOLDON/web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)** (master)
+- **Aug 14** — 📦 Released **v0.1.0-preview** in **[ALEVOLDON/web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)**
 <!-- RECENT_ACTIVITY_END -->
 
 ---
@@ -213,7 +213,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 <!-- TOP_SKILLS_START -->
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![websockets](https://img.shields.io/badge/websockets-1572B6?style=flat-square) ![automation](https://img.shields.io/badge/automation-1572B6?style=flat-square) ![creative-coding](https://img.shields.io/badge/creative--coding-1572B6?style=flat-square) ![frontend](https://img.shields.io/badge/frontend-1572B6?style=flat-square) ![generative-art](https://img.shields.io/badge/generative--art-1572B6?style=flat-square) ![music-technology](https://img.shields.io/badge/music--technology-1572B6?style=flat-square) ![portfolio](https://img.shields.io/badge/portfolio-1572B6?style=flat-square) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![bot-manager](https://img.shields.io/badge/bot--manager-1572B6?style=flat-square) ![control-panel](https://img.shields.io/badge/control--panel-1572B6?style=flat-square) ![dashboard](https://img.shields.io/badge/dashboard-1572B6?style=flat-square) ![discord-bot](https://img.shields.io/badge/discord--bot-1572B6?style=flat-square) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![live-logs](https://img.shields.io/badge/live--logs-1572B6?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) ![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![websockets](https://img.shields.io/badge/websockets-1572B6?style=flat-square) ![automation](https://img.shields.io/badge/automation-1572B6?style=flat-square) ![creative-coding](https://img.shields.io/badge/creative--coding-1572B6?style=flat-square) ![frontend](https://img.shields.io/badge/frontend-1572B6?style=flat-square) ![generative-art](https://img.shields.io/badge/generative--art-1572B6?style=flat-square) ![music-technology](https://img.shields.io/badge/music--technology-1572B6?style=flat-square) ![portfolio](https://img.shields.io/badge/portfolio-1572B6?style=flat-square) ![generative-music](https://img.shields.io/badge/generative--music-1572B6?style=flat-square) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![webgl](https://img.shields.io/badge/webgl-1572B6?style=flat-square) ![eurorack](https://img.shields.io/badge/eurorack-1572B6?style=flat-square) ![modular-synth](https://img.shields.io/badge/modular--synth-1572B6?style=flat-square) ![synthesizer](https://img.shields.io/badge/synthesizer-1572B6?style=flat-square)
 
 </div>
 <!-- TOP_SKILLS_END -->
