@@ -83,7 +83,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
 | [obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)<br><small>📅 2026-08-06</small> | AI-powered auto-tagging of Telegram posts into Obsidian notes. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/obsidian_posts_smart_tags) |
-| [Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)<br><small>⭐ 2 • 📅 2026-07-22</small> | AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-1572B6?style=flat-square) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Dump-Assistant-Bot) |
+| [Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)<br><small>⭐ 2 • 📅 2026-08-15</small> | AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-1572B6?style=flat-square) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Dump-Assistant-Bot) |
 | [full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)<br><small>⭐ 3 • 📅 2026-08-06</small> | The ultimate guide to mastering AI in 2025. | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026) |
 | [Smart-Daw-Landing-React](https://github.com/ALEVOLDON/Smart-Daw-Landing-React)<br><small>📅 2026-04-30</small> | Landing page for an AI-powered music mixing assistant. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Smart-Daw-Landing-React) |
 | [HTML5-Semantic](https://github.com/ALEVOLDON/HTML5-Semantic)<br><small>📅 2025-05-13</small> | HTML5 Semantic Tags: What Are They & How To Use Them! |  | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/HTML5-Semantic) |
@@ -98,7 +98,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
 | [acid-synth](https://github.com/ALEVOLDON/acid-synth)<br><small>📅 2025-11-02</small> | Interactive acid synthesizer with oscilloscope. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PySide6](https://img.shields.io/badge/PySide6-41B883?style=flat-square&logo=qt&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/acid-synth) |
-| [Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)<br><small>⭐ 1 • 📅 2026-08-07</small> | Portal about modular synthesis and generative music. | ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/Modular-Genesis) |
+| [Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)<br><small>⭐ 1 • 📅 2026-08-15</small> | Portal about modular synthesis and generative music. | ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/Modular-Genesis) |
 | [Signal-Lattice](https://github.com/ALEVOLDON/Signal-Lattice)<br><small>📅 2026-02-07</small> | Browser-based digital musical instrument. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Signal-Lattice) |
 | [gtwy-audio-archive](https://github.com/ALEVOLDON/gtwy-audio-archive)<br><small>📅 2026-03-07</small> | Web interface for the GTWY music archive. | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Bandcamp API](https://img.shields.io/badge/Bandcamp-629AAF?style=flat-square&logo=bandcamp&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/gtwy-audio-archive) |
 | [CineBlocker](https://github.com/ALEVOLDON/CineBlocker)<br><small>📅 2025-07-26</small> | App to block distracting sites for creatives. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CineBlocker) |
@@ -144,7 +144,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 | Project | Description | Technologies | Status | Links |
 | :--- | :--- | :--- | :--- | :--- |
-| [bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)<br><small>📅 2026-07-31</small> | Windows Process Launcher & Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/bot-manager-dashboard) |
+| [bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)<br><small>📅 2026-08-15</small> | Windows Process Launcher & Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/bot-manager-dashboard) |
 | [WindyCheck_bot](https://github.com/ALEVOLDON/WindyCheck_bot)<br><small>📅 2026-07-31</small> | Modern asynchronous Telegram bot for tracking wind speed, gusts, weather forecasts & alerts for kitesurfers & sailors. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/WindyCheck_bot) |
 | [UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)<br><small>📅 2026-08-14</small> | UPS-ExeGate-SpecialPro-UNB-1200 telemetry, power monitoring, and control tool. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200) |
 | [habit-tracker](https://github.com/ALEVOLDON/habit-tracker)<br><small>📅 2025-11-24</small> | Full-featured habit tracker. | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/habit-tracker) |
@@ -181,30 +181,30 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 - 💡 Your ecosystem is currently heavily focused around 'javascript'.
 - 💡 10 projects are showing strong recent momentum (e.g. 'portfolio').
-- 💡 Candidate for Featured recommendation: 'portfolio' (score 0.78).
+- 💡 Candidate for Featured recommendation: 'Dump-Assistant-Bot' (score 0.8).
 - 💡 You have 11 tracked active repositories inactive for over 1 year.
 
 **🚀 Rising & Active Momentum Projects:**
-- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (1 days ago, momentum 0.86)_
+- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (2 days ago, momentum 0.86)_
+- 🔥 **[bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)** (productivity) — _High momentum (0.82) with updates in the last 7 days_
 - 🔥 **[UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (productivity) — _High momentum (0.82) with updates in the last 7 days_
 - 🔥 **[web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)** (music) — _High momentum (0.82) with updates in the last 7 days_
-- 🔥 **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _Revived project with recent active pushes (9 days ago, momentum 0.81)_
 
 **Attention Needed:**
-- ⚠️ `My-first-three.js-app` (inactive for 2018 days)
-- ⚠️ `BLAZE` (inactive for 628 days)
-- ⚠️ `cosmic-portfolio` (inactive for 532 days)
+- ⚠️ `My-first-three.js-app` (inactive for 2019 days)
+- ⚠️ `BLAZE` (inactive for 629 days)
+- ⚠️ `cosmic-portfolio` (inactive for 533 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
+- **Aug 15** — 🚀 Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
+- **Aug 15** — 🚀 Pushed changes to **[ALEVOLDON/bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)** (main)
+- **Aug 15** — 🚀 Pushed changes to **[ALEVOLDON/Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (main)
 - **Aug 14** — 🚀 Pushed changes to **[ALEVOLDON/web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)** (master)
 - **Aug 14** — 🚀 Pushed changes to **[ALEVOLDON/web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)** (master)
-- **Aug 14** — 🚀 Pushed changes to **[ALEVOLDON/web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)** (gh-pages)
-- **Aug 14** — 🚀 Pushed changes to **[ALEVOLDON/web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)** (master)
-- **Aug 14** — 📦 Released **v0.1.0-preview** in **[ALEVOLDON/web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)**
 <!-- RECENT_ACTIVITY_END -->
 
 ---

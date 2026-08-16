@@ -200,7 +200,7 @@
   {
     "name": "bot-manager-dashboard",
     "stars": 0,
-    "updated_at": "2026-07-31",
+    "updated_at": "2026-08-15",
     "topics": [
       "bot-manager",
       "control-panel",
@@ -225,7 +225,7 @@
     "open_issues_count": 0,
     "created_at": "2026-07-31",
     "homepage": "",
-    "size": 1970,
+    "size": 1976,
     "archived": false
   },
   {
@@ -465,7 +465,7 @@
   {
     "name": "Dump-Assistant-Bot",
     "stars": 2,
-    "updated_at": "2026-07-22",
+    "updated_at": "2026-08-15",
     "topics": [
       "automation",
       "chatbot",
@@ -489,7 +489,7 @@
     "open_issues_count": 0,
     "created_at": "2026-04-20",
     "homepage": "https://alevoldon.github.io/Dump-Assistant-Bot/",
-    "size": 1786,
+    "size": 1826,
     "archived": false
   },
   {
@@ -760,7 +760,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-08-14",
+    "updated_at": "2026-08-15",
     "topics": [
       "ai",
       "audio-development",
@@ -789,7 +789,7 @@
     "open_issues_count": 0,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 411,
+    "size": 425,
     "archived": false
   },
   {
@@ -1173,7 +1173,7 @@
   {
     "name": "Modular-Genesis",
     "stars": 1,
-    "updated_at": "2026-08-07",
+    "updated_at": "2026-08-15",
     "topics": [
       "ableton-live",
       "astro",
@@ -1196,7 +1196,7 @@
     "open_issues_count": 0,
     "created_at": "2026-03-13",
     "homepage": "https://modular-genesis.netlify.app/",
-    "size": 2628,
+    "size": 2695,
     "archived": false
   },
   {
