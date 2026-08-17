@@ -265,6 +265,14 @@
           "notes": "",
           "custom_description": "First steps in 3D web.",
           "custom_badges": "![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white)"
+        },
+        {
+          "name": "jmf-radio",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered",
+          "custom_description": "🎧 Interactive 3D WebGL Nightclub & 24/7 DJ Streaming Station powered by Three.js, Blender 5.2, Web Audio API, and Node.js.",
+          "custom_badges": ""
         }
       ]
     },
