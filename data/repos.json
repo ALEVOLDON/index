@@ -760,7 +760,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-08-16",
+    "updated_at": "2026-08-17",
     "topics": [
       "ai",
       "audio-development",
@@ -789,7 +789,7 @@
     "open_issues_count": 0,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 433,
+    "size": 443,
     "archived": false
   },
   {
@@ -867,7 +867,7 @@
   {
     "name": "jmf-radio",
     "stars": 0,
-    "updated_at": "2026-08-16",
+    "updated_at": "2026-08-17",
     "topics": [
       "blender3d",
       "cyberpunk",
@@ -883,7 +883,7 @@
       "webgl"
     ],
     "tracked": true,
-    "category": null,
+    "category": "creative",
     "fork": false,
     "description": "🎧 Interactive 3D WebGL Nightclub & 24/7 DJ Streaming Station powered by Three.js, Blender 5.2, Web Audio API, and Node.js.",
     "language": "JavaScript",
@@ -891,8 +891,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2026-08-16",
-    "homepage": "https://apache-accurately-biography-forming.trycloudflare.com",
-    "size": 14821,
+    "homepage": "",
+    "size": 26460,
     "archived": false
   },
   {
@@ -1203,7 +1203,7 @@
   },
   {
     "name": "Modular-Genesis",
-    "stars": 1,
+    "stars": 2,
     "updated_at": "2026-08-15",
     "topics": [
       "ableton-live",
