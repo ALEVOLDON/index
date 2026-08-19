@@ -136,7 +136,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | [solar-roof](https://github.com/ALEVOLDON/solar-roof)<br><small>📅 2026-06-26</small> | 3D solar roof visualization and energy analysis using Blender Python and Cycles GPU. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/solar-roof) |
 | [riverstrike](https://github.com/ALEVOLDON/riverstrike)<br><small>📅 2026-02-20</small> | Arcade scrolling shooter (mobile-first). | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Phaser](https://img.shields.io/badge/Phaser-E34F26?style=flat-square&logo=phaser&logoColor=white) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/riverstrike) |
 | [My-first-three.js-app](https://github.com/ALEVOLDON/My-first-three.js-app)<br><small>📅 2021-02-04</small> | First steps in 3D web. | ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/My-first-three.js-app) |
-| [jmf-radio](https://github.com/ALEVOLDON/jmf-radio)<br><small>📅 2026-08-17</small> | 🎧 Interactive 3D WebGL Nightclub & 24/7 DJ Streaming Station powered by Three.js, Blender 5.2, Web Audio API, and Node.js. | ![blender3d](https://img.shields.io/badge/blender3d-1572B6?style=flat-square) ![cyberpunk](https://img.shields.io/badge/cyberpunk-1572B6?style=flat-square) ![dj-mixer](https://img.shields.io/badge/dj--mixer-1572B6?style=flat-square) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/jmf-radio) |
+| [jmf-radio](https://github.com/ALEVOLDON/jmf-radio)<br><small>📅 2026-08-18</small> | 🎧 Interactive 3D WebGL Nightclub & 24/7 DJ Streaming Station powered by Three.js, Blender 5.2, Web Audio API, and Node.js. | ![blender3d](https://img.shields.io/badge/blender3d-1572B6?style=flat-square) ![cyberpunk](https://img.shields.io/badge/cyberpunk-1572B6?style=flat-square) ![dj-mixer](https://img.shields.io/badge/dj--mixer-1572B6?style=flat-square) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/jmf-radio) |
 
 ---
 
@@ -186,26 +186,26 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 11 tracked active repositories inactive for over 1 year.
 
 **🚀 Rising & Active Momentum Projects:**
-- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (4 days ago, momentum 0.86)_
+- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (5 days ago, momentum 0.86)_
 - 🔥 **[bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)** (productivity) — _High momentum (0.82) with updates in the last 7 days_
 - 🔥 **[jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (creative) — _High momentum (0.82) with updates in the last 7 days_
 - 🔥 **[UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (productivity) — _High momentum (0.82) with updates in the last 7 days_
 
 **Attention Needed:**
-- ⚠️ `My-first-three.js-app` (inactive for 2021 days)
-- ⚠️ `BLAZE` (inactive for 631 days)
-- ⚠️ `cosmic-portfolio` (inactive for 535 days)
+- ⚠️ `My-first-three.js-app` (inactive for 2022 days)
+- ⚠️ `BLAZE` (inactive for 632 days)
+- ⚠️ `cosmic-portfolio` (inactive for 536 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-- **Aug 17** — 🚀 Pushed changes to **[ALEVOLDON/jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (main)
-- **Aug 17** — 🚀 Pushed changes to **[ALEVOLDON/jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (main)
-- **Aug 17** — 🚀 Pushed changes to **[ALEVOLDON/jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (main)
-- **Aug 17** — 🚀 Pushed changes to **[ALEVOLDON/jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (main)
-- **Aug 17** — 🚀 Pushed changes to **[ALEVOLDON/jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (main)
+- **Aug 18** — 🚀 Pushed changes to **[ALEVOLDON/jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (main)
+- **Aug 18** — 🚀 Pushed changes to **[ALEVOLDON/jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (main)
+- **Aug 18** — 🚀 Pushed changes to **[ALEVOLDON/jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (main)
+- **Aug 18** — 🚀 Pushed changes to **[ALEVOLDON/jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (main)
+- **Aug 18** — 🚀 Pushed changes to **[ALEVOLDON/jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
