@@ -186,15 +186,15 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - 💡 You have 11 tracked active repositories inactive for over 1 year.
 
 **🚀 Rising & Active Momentum Projects:**
-- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (6 days ago, momentum 0.86)_
+- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (7 days ago, momentum 0.86)_
 - 🔥 **[bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)** (productivity) — _High momentum (0.82) with updates in the last 7 days_
 - 🔥 **[jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (creative) — _High momentum (0.82) with updates in the last 7 days_
 - 🔥 **[UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (productivity) — _High momentum (0.82) with updates in the last 7 days_
 
 **Attention Needed:**
-- ⚠️ `My-first-three.js-app` (inactive for 2023 days)
-- ⚠️ `BLAZE` (inactive for 633 days)
-- ⚠️ `cosmic-portfolio` (inactive for 537 days)
+- ⚠️ `My-first-three.js-app` (inactive for 2024 days)
+- ⚠️ `BLAZE` (inactive for 634 days)
+- ⚠️ `cosmic-portfolio` (inactive for 538 days)
 
 
 ---
