@@ -183,19 +183,19 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 - 💡 Your ecosystem is currently heavily focused around 'javascript'.
 - 💡 12 projects are showing strong recent momentum (e.g. 'alevoldon-lab').
-- 💡 Candidate for Featured recommendation: 'Dump-Assistant-Bot' (score 0.8).
+- 💡 Candidate for Featured recommendation: 'alevoldon-lab' (score 0.75).
 - 💡 You have 11 tracked active repositories inactive for over 1 year.
 
 **🚀 Rising & Active Momentum Projects:**
 - 🔥 **[alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (creative) — _High momentum (0.82) with updates in the last 7 days_
-- 🔥 **[bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)** (productivity) — _High momentum (0.82) with updates in the last 7 days_
 - 🔥 **[jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (creative) — _High momentum (0.82) with updates in the last 7 days_
-- 🔥 **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _Revived project with recent active pushes (16 days ago, momentum 0.78)_
+- 🔥 **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _Revived project with recent active pushes (17 days ago, momentum 0.78)_
+- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (9 days ago, momentum 0.75)_
 
 **Attention Needed:**
-- ⚠️ `My-first-three.js-app` (inactive for 2025 days)
-- ⚠️ `BLAZE` (inactive for 635 days)
-- ⚠️ `cosmic-portfolio` (inactive for 539 days)
+- ⚠️ `My-first-three.js-app` (inactive for 2026 days)
+- ⚠️ `BLAZE` (inactive for 636 days)
+- ⚠️ `cosmic-portfolio` (inactive for 540 days)
 
 
 ---

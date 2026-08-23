@@ -113,7 +113,7 @@
       "webgl"
     ],
     "tracked": true,
-    "category": null,
+    "category": "creative",
     "fork": false,
     "description": "Interactive 3D lab of AI agents, WebGL, and generative audio.",
     "language": "TypeScript",
@@ -818,7 +818,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-22",
     "topics": [
       "ai",
       "audio-development",
@@ -847,7 +847,7 @@
     "open_issues_count": 0,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 477,
+    "size": 279,
     "archived": false
   },
   {
