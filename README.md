@@ -116,7 +116,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | :--- | :--- | :--- | :--- | :--- |
 | [ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)<br><small>📅 2026-08-07</small> | Immersive 3D resource portal for developers. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | **Featured** ⭐ | [Repo](https://github.com/ALEVOLDON/ZERO-GRAVITY) |
 | [Anti-Gravity-Landing](https://github.com/ALEVOLDON/Anti-Gravity-Landing)<br><small>📅 2026-02-03</small> | Landing page with physics: elements fall on click! | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/Anti-Gravity-Landing) |
-| [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>⭐ 1 • 📅 2026-08-14</small> | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/portfolio) |
+| [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>⭐ 1 • 📅 2026-08-23</small> | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Active** 🚀 | [Repo](https://github.com/ALEVOLDON/portfolio) |
 | [cosmic-portfolio](https://github.com/ALEVOLDON/cosmic-portfolio)<br><small>⭐ 1 • 📅 2025-03-01</small> | Interactive space-themed portfolio. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/cosmic-portfolio) |
 | [CodeWizard](https://github.com/ALEVOLDON/CodeWizard)<br><small>📅 2025-03-24</small> | Futuristic terminal-style website. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/CodeWizard) |
 | [relationship-test-app](https://github.com/ALEVOLDON/relationship-test-app)<br><small>📅 2025-05-13</small> | Relationship personality style test app. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | **Maintenance** 🛠️ | [Repo](https://github.com/ALEVOLDON/relationship-test-app) |
@@ -182,28 +182,28 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 *Adaptive heuristics and health tracking of the repository ecosystem.*
 
 - 💡 Your ecosystem is currently heavily focused around 'javascript'.
-- 💡 12 projects are showing strong recent momentum (e.g. 'alevoldon-lab').
-- 💡 Candidate for Featured recommendation: 'alevoldon-lab' (score 0.75).
+- 💡 12 projects are showing strong recent momentum (e.g. 'portfolio').
+- 💡 Candidate for Featured recommendation: 'portfolio' (score 0.78).
 - 💡 You have 11 tracked active repositories inactive for over 1 year.
 
 **🚀 Rising & Active Momentum Projects:**
+- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (1 days ago, momentum 0.86)_
 - 🔥 **[alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (creative) — _High momentum (0.82) with updates in the last 7 days_
 - 🔥 **[jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (creative) — _High momentum (0.82) with updates in the last 7 days_
-- 🔥 **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _Revived project with recent active pushes (17 days ago, momentum 0.78)_
-- 🔥 **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (9 days ago, momentum 0.75)_
+- 🔥 **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _Revived project with recent active pushes (18 days ago, momentum 0.78)_
 
 **Attention Needed:**
-- ⚠️ `My-first-three.js-app` (inactive for 2026 days)
-- ⚠️ `BLAZE` (inactive for 636 days)
-- ⚠️ `cosmic-portfolio` (inactive for 540 days)
+- ⚠️ `My-first-three.js-app` (inactive for 2027 days)
+- ⚠️ `BLAZE` (inactive for 637 days)
+- ⚠️ `cosmic-portfolio` (inactive for 541 days)
 
 
 ---
 
 ## ⚡ Recent Activity
 <!-- RECENT_ACTIVITY_START -->
+- **Aug 23** — 🚀 Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Aug 21** — 🚀 Pushed changes to **[ALEVOLDON/ALEVOLDON](https://github.com/ALEVOLDON/ALEVOLDON)** (main)
-- **Aug 21** — 🚀 Pushed changes to **[ALEVOLDON/alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (main)
 - **Aug 21** — 🚀 Pushed changes to **[ALEVOLDON/alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (main)
 - **Aug 21** — 🚀 Pushed changes to **[ALEVOLDON/alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (main)
 - **Aug 21** — 🚀 Pushed changes to **[ALEVOLDON/alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (main)
