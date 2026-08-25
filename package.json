@@ -1,6 +1,6 @@
 {
   "name": "alevoldon-index",
-  "version": "2.0.0",
+  "version": "4.0.0",
   "type": "module",
   "description": "GitHub Index Intelligence Engine & Dynamic Portfolio",
   "main": "src/render/renderReadme.ts",
