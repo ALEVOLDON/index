@@ -78,7 +78,11 @@ function extractExistingActivity(readmePath) {
         if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
             const extracted = content.substring(startIdx + startTag.length, endIdx).trim();
             if (extracted && !extracted.includes('_No recent prominent activity')) {
-                return extracted;
+                return extracted
+                    .replace(/🚀 Pushed changes to/g, '![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to')
+                    .replace(/🎉 Created new repository/g, '![Created](https://img.shields.io/badge/-created-brightgreen?style=flat-square&logo=github&logoColor=white) Created new repository')
+                    .replace(/📦 Released/g, '![Release](https://img.shields.io/badge/-release-blueviolet?style=flat-square&logo=github&logoColor=white) Released')
+                    .replace(/🐛 Opened issue in/g, '![Issue](https://img.shields.io/badge/-issue-orange?style=flat-square&logo=github&logoColor=white) Opened issue in');
             }
         }
     } catch (e) {}
@@ -103,10 +107,11 @@ async function renderReadme() {
     let template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
 
     // Ecosystem Stats
+    // Ecosystem Stats
     let statsMarkdown = '';
     if (insights && insights.ecosystem_stats) {
         const s = insights.ecosystem_stats;
-        statsMarkdown = `![Repos](https://img.shields.io/badge/REPOSITORIES-${s.total_repos}-blueviolet?style=flat-square) ![Stars](https://img.shields.io/badge/STARS-${s.total_stars}-gold?style=flat-square)`;
+        statsMarkdown = `![Repos](https://img.shields.io/badge/REPOSITORIES-${s.total_repos}-blueviolet?style=flat-square&logo=github&logoColor=white) ![Stars](https://img.shields.io/badge/STARS-${s.total_stars}-gold?style=flat-square&logo=apachespark&logoColor=white)`;
     }
     template = template.replace('{{ ECOSYSTEM_STATS }}', statsMarkdown);
 
@@ -128,10 +133,13 @@ async function renderReadme() {
                 if (rData) {
                     const techBadges = getRepoBadges(rConf, rData, techBadgesMap, 4);
 
-                    featuredMarkdown += `### 🌟 [${rData.name}](https://github.com/${USERNAME}/${rData.name})\n\n`;
-                    featuredMarkdown += `> ${sanitizeMarkdownCell(rConf.custom_description || rData.description || 'No description provided.')}\n\n`;
+                    let rawDesc = rConf.custom_description || rData.description || 'No description provided.';
+                    rawDesc = rawDesc.replace(/:[a-zA-Z0-9_+-]+:/g, '').replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '').replace(/\s+/g, ' ').trim();
+
+                    featuredMarkdown += `### [${rData.name}](https://github.com/${USERNAME}/${rData.name})\n\n`;
+                    featuredMarkdown += `> ${sanitizeMarkdownCell(rawDesc)}\n\n`;
                     if (techBadges) featuredMarkdown += `**Technologies:** ${techBadges}\n\n`;
-                    featuredMarkdown += `**Status:** **Active** 🚀 | [Repository](https://github.com/${USERNAME}/${rData.name})\n\n`;
+                    featuredMarkdown += `**Status:** ![Featured](https://img.shields.io/badge/Status-Featured-f1e05a?style=flat-square&logo=githubsponsors&logoColor=black) | [![Repository](https://img.shields.io/badge/Repo-View-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/${USERNAME}/${rData.name})\n\n`;
                 }
             }
         }
@@ -140,10 +148,19 @@ async function renderReadme() {
 
     // 2. Navigation
     console.log('Rendering Category Links...');
+    const categoryBadges = {
+        'ai': '![AI](https://img.shields.io/badge/AI-6366F1?style=flat-square&logo=openai&logoColor=white)',
+        'music': '![Music](https://img.shields.io/badge/Music-FF5500?style=flat-square&logo=audacity&logoColor=white)',
+        'frontend': '![Frontend](https://img.shields.io/badge/Frontend-3178C6?style=flat-square&logo=react&logoColor=white)',
+        'creative': '![Creative](https://img.shields.io/badge/Creative-F5792A?style=flat-square&logo=blender&logoColor=white)',
+        'productivity': '![Productivity](https://img.shields.io/badge/Productivity-339933?style=flat-square&logo=nodedotjs&logoColor=white)',
+        'archive': '![Archive](https://img.shields.io/badge/Archive-6E7681?style=flat-square&logo=archivebox&logoColor=white)'
+    };
     let navMarkdown = '';
     for (const category of config.categories) {
         const anchor = category.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-        navMarkdown += `- [${category.title}](#${anchor}) — ${category.description.split('.')[0]}.\n`;
+        const badge = categoryBadges[category.id] ? `${categoryBadges[category.id]} ` : '';
+        navMarkdown += `- ${badge}[**${category.title}**](#${anchor}) — ${category.description.split('.')[0]}.\n`;
     }
     template = template.replace('{{ CATEGORY_LINKS }}', navMarkdown.trim());
 
@@ -182,37 +199,43 @@ async function renderReadme() {
                 missingConfiguredRepos.push(`${category.id}: ${rConf.name}`);
                 continue;
             }
-            let statusText = rConf.featured ? '**Featured** ⭐' : '**Active** 🚀';
+            let statusText = rConf.featured 
+                ? '![Featured](https://img.shields.io/badge/Status-Featured-f1e05a?style=flat-square&logo=githubsponsors&logoColor=black)' 
+                : '![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square&logo=githubactions&logoColor=white)';
             
             // Status determination
             if (rData.archived || category.id === 'archive' || (rConf.notes && rConf.notes.toLowerCase().includes('archive'))) {
-                statusText = '**Archived** 📦';
+                statusText = '![Archived](https://img.shields.io/badge/Status-Archived-lightgrey?style=flat-square&logo=archivebox&logoColor=white)';
             } else if (daysSince(rData.updated_at) > 365) {
-                statusText = '**Maintenance** 🛠️';
+                statusText = '![Maintenance](https://img.shields.io/badge/Status-Maintenance-orange?style=flat-square&logo=dependabot&logoColor=white)';
             }
 
             const techBadges = getRepoBadges(rConf, rData, techBadgesMap, 3);
 
             let extraHtml = '';
             let extras = [];
-            if (rData.stars > 0) extras.push(`⭐ ${rData.stars}`);
-            if (rData.updated_at) extras.push(`📅 ${rData.updated_at}`);
+            if (rData.stars > 0) extras.push(`![Stars](https://img.shields.io/badge/stars-${rData.stars}-gold?style=flat-square)`);
+            if (rData.updated_at) extras.push(`Updated: ${rData.updated_at}`);
             if (extras.length > 0) {
                 extraHtml = `<br><small>${extras.join(' • ')}</small>`;
             }
 
             const nameCol = `[${rData.name}](https://github.com/${USERNAME}/${rData.name})${extraHtml}`;
             let rawDesc = rConf.custom_description || rData.description || 'No description';
+            // Strip any raw emojis or colon-codes if present in repos descriptions
+            rawDesc = rawDesc.replace(/:[a-zA-Z0-9_+-]+:/g, '').replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '').replace(/\s+/g, ' ').trim();
             if (!rConf.custom_description && rawDesc.length > 60) {
                 rawDesc = rawDesc.substring(0, 60) + '...';
             }
             const descCol = sanitizeMarkdownCell(rawDesc);
 
-            tableContent += `| ${nameCol} | ${descCol} | ${techBadges} | ${statusText} | [Repo](https://github.com/${USERNAME}/${rData.name}) |\n`;
+            const repoLinkCol = `[![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/${USERNAME}/${rData.name})`;
+
+            tableContent += `| ${nameCol} | ${descCol} | ${techBadges} | ${statusText} | ${repoLinkCol} |\n`;
         }
 
         if (category.id === 'archive') {
-            sectionsMarkdown += `<details>\n<summary><b>📦 View Archived & Learning Repositories (${category.repos.length} items)</b></summary>\n\n`;
+            sectionsMarkdown += `<details>\n<summary><b>View Archived & Learning Repositories (${category.repos.length} items)</b></summary>\n\n`;
             sectionsMarkdown += tableContent;
             sectionsMarkdown += `\n</details>\n\n`;
         } else {
@@ -237,18 +260,18 @@ async function renderReadme() {
     let insightsMarkdown = '';
     if (insights && insights.suggestions) {
         for (const suggestion of insights.suggestions) {
-            insightsMarkdown += `- 💡 ${suggestion}\n`;
+            insightsMarkdown += `- ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) ${suggestion}\n`;
         }
         if (insights.rising_projects && insights.rising_projects.length > 0) {
-            insightsMarkdown += `\n**🚀 Rising & Active Momentum Projects:**\n`;
+            insightsMarkdown += `\n**Rising & Active Momentum Projects:**\n`;
             insights.rising_projects.slice(0, 4).forEach(rp => {
-                insightsMarkdown += `- 🔥 **[${rp.repo}](https://github.com/${USERNAME}/${rp.repo})** (${rp.primary_category}) — _${rp.reason}_\n`;
+                insightsMarkdown += `- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[${rp.repo}](https://github.com/${USERNAME}/${rp.repo})** (${rp.primary_category}) — _${rp.reason}_\n`;
             });
         }
         if (insights.neglected_repos && insights.neglected_repos.length > 0) {
             insightsMarkdown += `\n**Attention Needed:**\n`;
             insights.neglected_repos.slice(0, 3).forEach(nr => {
-                insightsMarkdown += `- ⚠️ \`${nr.name}\` (inactive for ${nr.days_inactive} days)\n`;
+                insightsMarkdown += `- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) \`${nr.name}\` (inactive for ${nr.days_inactive} days)\n`;
             });
         }
     } else {
@@ -291,13 +314,13 @@ async function renderReadme() {
                 if (ev.payload.commits && ev.payload.commits.length > 0) {
                     msg = `: _"${sanitizeMarkdownCell(ev.payload.commits[0].message.split('\n')[0].substring(0, 40))}"_`;
                 }
-                actionStr = `🚀 Pushed changes to **[${ev.repo.name}](https://github.com/${ev.repo.name})** (${branch})${msg}`;
+                actionStr = `![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[${ev.repo.name}](https://github.com/${ev.repo.name})** (${branch})${msg}`;
             } else if (ev.type === 'CreateEvent' && ev.payload.ref_type === 'repository') {
-                actionStr = `🎉 Created new repository **[${ev.repo.name}](https://github.com/${ev.repo.name})**`;
+                actionStr = `![Created](https://img.shields.io/badge/-created-brightgreen?style=flat-square&logo=github&logoColor=white) Created new repository **[${ev.repo.name}](https://github.com/${ev.repo.name})**`;
             } else if (ev.type === 'ReleaseEvent') {
-                actionStr = `📦 Released **${ev.payload.release.tag_name}** in **[${ev.repo.name}](https://github.com/${ev.repo.name})**`;
+                actionStr = `![Release](https://img.shields.io/badge/-release-blueviolet?style=flat-square&logo=github&logoColor=white) Released **${ev.payload.release.tag_name}** in **[${ev.repo.name}](https://github.com/${ev.repo.name})**`;
             } else if (ev.type === 'IssuesEvent' && ev.payload.action === 'opened') {
-                actionStr = `🐛 Opened issue in **[${ev.repo.name}](https://github.com/${ev.repo.name})**: _${sanitizeMarkdownCell(ev.payload.issue.title)}_`;
+                actionStr = `![Issue](https://img.shields.io/badge/-issue-orange?style=flat-square&logo=github&logoColor=white) Opened issue in **[${ev.repo.name}](https://github.com/${ev.repo.name})**: _${sanitizeMarkdownCell(ev.payload.issue.title)}_`;
             } else {
                 continue;
             }

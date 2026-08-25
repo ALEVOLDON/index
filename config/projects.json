@@ -2,7 +2,7 @@
   "categories": [
     {
       "id": "ai",
-      "title": "🤖 AI & Prompt Engineering",
+      "title": "AI & Prompt Engineering",
       "description": "Projects at the intersection of artificial intelligence and development.",
       "repos": [
         {
@@ -50,7 +50,7 @@
           "featured": false,
           "priority": 1,
           "notes": "Auto-discovered (description-based)",
-          "custom_description": "A robot powered training repository :robot:",
+          "custom_description": "A robot-powered training repository.",
           "custom_badges": ""
         },
         {
@@ -65,7 +65,7 @@
     },
     {
       "id": "music",
-      "title": "🎵 Music & Audio Technology",
+      "title": "Music & Audio Technology",
       "description": "My passion: tools for musicians and sound designers.",
       "repos": [
         {
@@ -144,7 +144,7 @@
     },
     {
       "id": "frontend",
-      "title": "💻 Frontend & Web Development",
+      "title": "Frontend & Web Development",
       "description": "Modern interfaces and interactive web applications.",
       "repos": [
         {
@@ -231,7 +231,7 @@
     },
     {
       "id": "creative",
-      "title": "🎨 Creative Coding & 3D",
+      "title": "Creative Coding & 3D",
       "description": "Experiments with visualization and procedural generation.",
       "repos": [
         {
@@ -286,7 +286,7 @@
     },
     {
       "id": "productivity",
-      "title": "📦 Productivity & Tools",
+      "title": "Productivity & Tools",
       "description": "Utilities for automation and productivity.",
       "repos": [
         {
@@ -341,7 +341,7 @@
     },
     {
       "id": "archive",
-      "title": "📚 Archive & Learning",
+      "title": "Archive & Learning",
       "description": "Old projects, forks, and learning materials (over 60 repositories in total).",
       "repos": [
         {

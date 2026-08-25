@@ -1,4 +1,4 @@
-# 📚 ALEVOLDON Repository Index
+# ALEVOLDON Repository Index
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ALEVOLDON&color=blueviolet&style=flat-square&label=PROFILE+VIEWS) {{ ECOSYSTEM_STATS }}
 
@@ -6,14 +6,14 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ---
 
-## ✨ Featured Projects
+## Featured Projects
 *Dive into my most impactful and innovative creations.*
 
 {{ FEATURED_PROJECTS }}
 
 ---
 
-## 🧭 Navigation by Categories
+## Navigation by Categories
 {{ CATEGORY_LINKS }}
 
 ---
@@ -22,21 +22,21 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ---
 
-## 🧠 Insights
+## Insights
 *Adaptive heuristics and health tracking of the repository ecosystem.*
 
 {{ INSIGHTS }}
 
 ---
 
-## ⚡ Recent Activity
+## Recent Activity
 <!-- RECENT_ACTIVITY_START -->
 {{ RECENT_ACTIVITY }}
 <!-- RECENT_ACTIVITY_END -->
 
 ---
 
-## ☁️ Tech Cloud
+## Tech Cloud
 <!-- TOP_SKILLS_START -->
 <div align="center">
 
@@ -47,7 +47,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ---
 
-## 📈 Statistics
+## Statistics
 
 ![GitHub Stars](https://img.shields.io/github/stars/ALEVOLDON?style=flat-square&color=gold&label=TOTAL%20STARS) ![GitHub Followers](https://img.shields.io/github/followers/ALEVOLDON?style=flat-square&color=blueviolet&label=FOLLOWERS)
 
@@ -57,17 +57,19 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ---
 
-## 🤝 Let's Connect!
+## Let's Connect
 
 I'm always open to interesting projects and collaborations in **AI, Music Technology, Frontend Development, and Creative Coding**. If you have an idea, a question, or just want to chat about the future of digital vibes, feel free to reach out!
 
-*   **Website:** [alevoldon.com](https://alevoldon.com/)
-*   **Telegram:** [@G_T_W_Y](https://t.me/G_T_W_Y)
-*   **SoundCloud:** [g_t_w_y](https://soundcloud.com/g_t_w_y)
-*   **X (Twitter):** [@AleVoldon](https://twitter.com/AleVoldon)
+[![Website](https://img.shields.io/badge/Website-alevoldon.com-4F46E5?style=flat-square&logo=googlechrome&logoColor=white)](https://alevoldon.com/)
+[![Telegram](https://img.shields.io/badge/Telegram-@G__T__W__Y-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/G_T_W_Y)
+[![SoundCloud](https://img.shields.io/badge/SoundCloud-g__t__w__y-FF5500?style=flat-square&logo=soundcloud&logoColor=white)](https://soundcloud.com/g_t_w_y)
+[![X](https://img.shields.io/badge/X-@AleVoldon-black?style=flat-square&logo=x&logoColor=white)](https://twitter.com/AleVoldon)
 
 ---
 
-## 📄 License
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet?style=flat-square&logo=opensourceinitiative&logoColor=white)](LICENSE)
 
 This project is licensed under the [MIT License](LICENSE).
