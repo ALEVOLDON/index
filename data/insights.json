@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated_at": "2026-08-25T06:52:37.440528",
+  "generated_at": "2026-08-25T03:53:46.602579",
   "ecosystem_stats": {
     "total_repos": 104,
     "total_stars": 14,
@@ -534,7 +534,7 @@
       "activity_score": 1.0,
       "momentum_score": 0.71,
       "recommendation_score": 0.76,
-      "days_inactive": 1
+      "days_inactive": 0
     },
     {
       "repo": "iphone-3d-website-starter",

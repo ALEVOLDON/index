@@ -202,19 +202,11 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ## Recent Activity
 <!-- RECENT_ACTIVITY_START -->
-<<<<<<< HEAD
 - **Aug 23** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Aug 21** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/ALEVOLDON](https://github.com/ALEVOLDON/ALEVOLDON)** (main)
 - **Aug 21** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (main)
 - **Aug 21** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (main)
 - **Aug 21** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (main)
-=======
-- **Aug 23** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Aug 21** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/ALEVOLDON](https://github.com/ALEVOLDON/ALEVOLDON)** (main)
-- **Aug 21** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (main)
-- **Aug 21** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (main)
-- **Aug 21** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (main)
->>>>>>> b0499d1 (style: replace emojis with svg badge icons across README and renderer)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
