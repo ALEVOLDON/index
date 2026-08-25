@@ -187,7 +187,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) You have 11 tracked active repositories inactive for over 1 year.
 
 **Rising & Active Momentum Projects:**
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (2 days ago, momentum 0.86)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (2 days ago, momentum 0.87)_
 - ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[alevoldon-lab](https://github.com/ALEVOLDON/alevoldon-lab)** (creative) — _High momentum (0.82) with updates in the last 7 days_
 - ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[jmf-radio](https://github.com/ALEVOLDON/jmf-radio)** (creative) — _High momentum (0.82) with updates in the last 7 days_
 - ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _Revived project with recent active pushes (19 days ago, momentum 0.78)_

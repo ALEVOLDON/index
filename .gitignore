@@ -66,3 +66,4 @@ jspm_packages/
 *.md
 !README.md
 !GITHUB_INDEX_V2_TASK.md
+!render/template.md

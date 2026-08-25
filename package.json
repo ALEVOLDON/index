@@ -1,0 +1,32 @@
+{
+  "name": "alevoldon-index",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "GitHub Index Intelligence Engine & Dynamic Portfolio",
+  "main": "src/render/renderReadme.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "fetch": "tsx src/core/fetchRepos.ts",
+    "analyze": "tsx src/analysis/engine.ts",
+    "discover": "tsx src/core/autoDiscovery.ts",
+    "validate": "tsx src/scripts/validate.ts",
+    "render": "tsx src/render/renderReadme.ts",
+    "pipeline": "npm run analyze && npm run discover && npm run validate && npm run render",
+    "pipeline:full": "npm run fetch && npm run analyze && npm run discover && npm run validate && npm run render",
+    "test": "node --import tsx --test src/tests/*.test.ts"
+  },
+  "keywords": [
+    "github",
+    "index",
+    "portfolio",
+    "automation",
+    "intelligence"
+  ],
+  "author": "Vladimir Rybalsky (ALEVOLDON)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
