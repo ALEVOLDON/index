@@ -517,7 +517,7 @@
   {
     "name": "Dump-Assistant-Bot",
     "stars": 2,
-    "updated_at": "2026-08-15",
+    "updated_at": "2026-08-25",
     "topics": [
       "automation",
       "chatbot",
@@ -541,7 +541,7 @@
     "open_issues_count": 0,
     "created_at": "2026-04-20",
     "homepage": "https://alevoldon.github.io/Dump-Assistant-Bot/",
-    "size": 1826,
+    "size": 2060,
     "archived": false
   },
   {
@@ -818,7 +818,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-08-25",
+    "updated_at": "2026-08-28",
     "topics": [
       "ai",
       "audio-development",
@@ -841,13 +841,13 @@
     "category": null,
     "fork": false,
     "description": "A curated index of ALEVOLDON's GitHub projects: AI, Music Tech, Frontend, Creative Coding, Productivity, and Learning. Explore my journey as a Meaning Engineer.",
-    "language": "JavaScript",
+    "language": "TypeScript",
     "license": "MIT",
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 304,
+    "size": 355,
     "archived": false
   },
   {
@@ -1420,7 +1420,7 @@
   {
     "name": "portfolio",
     "stars": 1,
-    "updated_at": "2026-08-23",
+    "updated_at": "2026-08-25",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -1443,7 +1443,7 @@
     "open_issues_count": 0,
     "created_at": "2025-11-28",
     "homepage": "https://alevoldon.com/",
-    "size": 192589,
+    "size": 192601,
     "archived": false
   },
   {
@@ -1865,7 +1865,7 @@
   {
     "name": "UPS-ExeGate-SpecialPro-UNB-1200",
     "stars": 0,
-    "updated_at": "2026-08-14",
+    "updated_at": "2026-08-26",
     "topics": [
       "desktop-app",
       "exegate",
@@ -1888,7 +1888,7 @@
     "open_issues_count": 0,
     "created_at": "2026-07-26",
     "homepage": "",
-    "size": 3420,
+    "size": 3483,
     "archived": false
   },
   {

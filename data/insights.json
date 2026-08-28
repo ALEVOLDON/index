@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated_at": "2026-08-28T12:04:31.081Z",
+  "generated_at": "2026-08-28T12:09:47.809Z",
   "ecosystem_stats": {
     "total_repos": 104,
     "total_stars": 14,
@@ -353,10 +353,10 @@
       ],
       "suggested_category": "ai",
       "health_score": 0.95,
-      "activity_score": 0.85,
-      "momentum_score": 0.61,
-      "recommendation_score": 0.73,
-      "days_inactive": 13
+      "activity_score": 1,
+      "momentum_score": 0.73,
+      "recommendation_score": 0.8,
+      "days_inactive": 3
     },
     {
       "repo": "duolingo",
@@ -534,7 +534,7 @@
       "activity_score": 1,
       "momentum_score": 0.72,
       "recommendation_score": 0.76,
-      "days_inactive": 3
+      "days_inactive": 0
     },
     {
       "repo": "iphone-3d-website-starter",
@@ -889,7 +889,7 @@
       "activity_score": 1,
       "momentum_score": 0.87,
       "recommendation_score": 0.78,
-      "days_inactive": 5
+      "days_inactive": 3
     },
     {
       "repo": "Prototypes",
@@ -1158,10 +1158,10 @@
       ],
       "suggested_category": "productivity",
       "health_score": 0.8,
-      "activity_score": 0.85,
-      "momentum_score": 0.7,
-      "recommendation_score": 0.67,
-      "days_inactive": 14
+      "activity_score": 1,
+      "momentum_score": 0.82,
+      "recommendation_score": 0.74,
+      "days_inactive": 2
     },
     {
       "repo": "vanillawebprojects",
@@ -1294,13 +1294,20 @@
       "momentum_score": 0.87,
       "activity_score": 1,
       "primary_category": "frontend",
-      "reason": "Revived project with recent active pushes (5 days ago, momentum 0.87)"
+      "reason": "Revived project with recent active pushes (3 days ago, momentum 0.87)"
     },
     {
       "repo": "alevoldon-lab",
       "momentum_score": 0.82,
       "activity_score": 1,
       "primary_category": "creative",
+      "reason": "High momentum (0.82) with updates in the last 7 days"
+    },
+    {
+      "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
+      "momentum_score": 0.82,
+      "activity_score": 1,
+      "primary_category": "productivity",
       "reason": "High momentum (0.82) with updates in the last 7 days"
     },
     {
@@ -1311,28 +1318,33 @@
       "reason": "Revived project with recent active pushes (22 days ago, momentum 0.78)"
     },
     {
-      "repo": "ZERO-GRAVITY",
+      "repo": "Dump-Assistant-Bot",
       "momentum_score": 0.73,
-      "activity_score": 0.85,
-      "primary_category": "frontend",
-      "reason": "Revived project with recent active pushes (21 days ago, momentum 0.73)"
-    },
-    {
-      "repo": "bot-manager-dashboard",
-      "momentum_score": 0.7,
-      "activity_score": 0.85,
-      "primary_category": "productivity",
-      "reason": "Strong momentum (0.7) with recent updates (13 days ago)"
+      "activity_score": 1,
+      "primary_category": "ai",
+      "reason": "High momentum (0.73) with updates in the last 7 days"
     }
   ],
   "featured_recommendations": [
+    {
+      "repo": "Dump-Assistant-Bot",
+      "recommendation_score": 0.8,
+      "primary_category": "ai",
+      "reasons": [
+        "High completeness & health (0.95)",
+        "Active updates (3 days ago)",
+        "Strong momentum (0.73)",
+        "Live demo homepage available",
+        "2 star(s)"
+      ]
+    },
     {
       "repo": "portfolio",
       "recommendation_score": 0.78,
       "primary_category": "frontend",
       "reasons": [
         "High completeness & health (0.85)",
-        "Active updates (5 days ago)",
+        "Active updates (3 days ago)",
         "Strong momentum (0.87)",
         "Live demo homepage available",
         "1 star(s)"
@@ -1350,15 +1362,13 @@
       ]
     },
     {
-      "repo": "Dump-Assistant-Bot",
-      "recommendation_score": 0.73,
-      "primary_category": "ai",
+      "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
+      "recommendation_score": 0.74,
+      "primary_category": "productivity",
       "reasons": [
-        "High completeness & health (0.95)",
-        "Active updates (13 days ago)",
-        "Strong momentum (0.61)",
-        "Live demo homepage available",
-        "2 star(s)"
+        "High completeness & health (0.8)",
+        "Active updates (2 days ago)",
+        "Strong momentum (0.82)"
       ]
     },
     {
@@ -1368,16 +1378,6 @@
       "reasons": [
         "High completeness & health (0.8)",
         "Active updates (10 days ago)",
-        "Strong momentum (0.7)"
-      ]
-    },
-    {
-      "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
-      "recommendation_score": 0.67,
-      "primary_category": "productivity",
-      "reasons": [
-        "High completeness & health (0.8)",
-        "Active updates (14 days ago)",
         "Strong momentum (0.7)"
       ]
     }
@@ -1427,7 +1427,7 @@
   "suggestions": [
     "Your ecosystem is currently heavily focused around 'javascript'.",
     "12 projects are showing strong recent momentum (e.g. 'portfolio').",
-    "Candidate for Featured recommendation: 'portfolio' (score 0.78).",
+    "Candidate for Featured recommendation: 'Dump-Assistant-Bot' (score 0.8).",
     "You have 11 tracked active repositories inactive for over 1 year."
   ]
 }
