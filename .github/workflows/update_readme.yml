@@ -21,41 +21,39 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
+          cache: 'npm'
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: 'pip' # Dependency caching
+      - name: Install Dependencies
+        run: npm ci
 
-      - name: Install Python Dependencies
-        run: pip install -r analysis/requirements.txt
+      - name: Type Check (TypeScript)
+        run: npm run typecheck
 
-      - name: Run Automated Unit Tests (Python)
-        run: python -m unittest discover tests -v
+      - name: Run Unit Tests
+        run: npm test
 
       # PIPELINE EXECUTION
-      - name: Run Fetch Repos (Node.js)
+      - name: Run Fetch Repos
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node core/fetchRepos.js
+        run: npm run fetch
 
-      - name: Run Analysis Engine (Python)
-        run: python analysis/engine.py
+      - name: Run Analysis Engine
+        run: npm run analyze
 
-      - name: Run Auto Discovery (Node.js)
+      - name: Run Auto Discovery
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node core/autoDiscovery.js
+        run: npm run discover
 
       - name: Validate Repository Data
-        run: node scripts/validate.js
+        run: npm run validate
 
-      - name: Render New README (Node.js)
+      - name: Render New README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node render/renderReadme.js
+        run: npm run render
 
       - name: Commit and Push Changes
         run: |
