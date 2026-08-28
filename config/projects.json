@@ -403,6 +403,14 @@
           "featured": false,
           "priority": 1,
           "notes": "Learning Course"
+        },
+        {
+          "name": ".github",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "Global GitHub community health files and default security policies for @ALEVOLDON",
+          "custom_badges": ""
         }
       ]
     }

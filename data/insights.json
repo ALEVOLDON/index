@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "generated_at": "2026-08-28T12:09:47.809Z",
+  "generated_at": "2026-08-28T12:29:07.455Z",
   "ecosystem_stats": {
-    "total_repos": 104,
+    "total_repos": 105,
     "total_stars": 14,
     "ai_projects": 7,
     "music_projects": 22,
@@ -23,6 +23,17 @@
     "nodejs"
   ],
   "repo_metrics": [
+    {
+      "repo": ".github",
+      "primary_category": "archive",
+      "secondary_categories": [],
+      "suggested_category": "archive",
+      "health_score": 0.45,
+      "activity_score": 1,
+      "momentum_score": 0.82,
+      "recommendation_score": 0.61,
+      "days_inactive": 0
+    },
     {
       "repo": "3d-tic-tac-toe",
       "primary_category": "archive",
@@ -81,11 +92,11 @@
       "primary_category": "archive",
       "secondary_categories": [],
       "suggested_category": "archive",
-      "health_score": 0.45,
+      "health_score": 0.55,
       "activity_score": 1,
       "momentum_score": 0.85,
-      "recommendation_score": 0.62,
-      "days_inactive": 7
+      "recommendation_score": 0.66,
+      "days_inactive": 0
     },
     {
       "repo": "alevoldon-lab",
@@ -183,10 +194,10 @@
       ],
       "suggested_category": "productivity",
       "health_score": 0.8,
-      "activity_score": 0.85,
-      "momentum_score": 0.7,
-      "recommendation_score": 0.67,
-      "days_inactive": 13
+      "activity_score": 1,
+      "momentum_score": 0.82,
+      "recommendation_score": 0.74,
+      "days_inactive": 0
     },
     {
       "repo": "CineBlocker",
@@ -858,11 +869,11 @@
         "productivity"
       ],
       "suggested_category": "ai",
-      "health_score": 0.7,
-      "activity_score": 0.85,
-      "momentum_score": 0.58,
-      "recommendation_score": 0.6,
-      "days_inactive": 22
+      "health_score": 0.8,
+      "activity_score": 1,
+      "momentum_score": 0.7,
+      "recommendation_score": 0.71,
+      "days_inactive": 0
     },
     {
       "repo": "point-cloud-surface",
@@ -885,11 +896,11 @@
         "creative"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.85,
+      "health_score": 0.95,
       "activity_score": 1,
       "momentum_score": 0.87,
-      "recommendation_score": 0.78,
-      "days_inactive": 3
+      "recommendation_score": 0.81,
+      "days_inactive": 0
     },
     {
       "repo": "Prototypes",
@@ -1108,11 +1119,11 @@
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.75,
-      "activity_score": 0.7,
-      "momentum_score": 0.43,
-      "recommendation_score": 0.54,
-      "days_inactive": 52
+      "health_score": 0.85,
+      "activity_score": 1,
+      "momentum_score": 0.82,
+      "recommendation_score": 0.75,
+      "days_inactive": 0
     },
     {
       "repo": "tools",
@@ -1230,11 +1241,11 @@
         "productivity"
       ],
       "suggested_category": "music",
-      "health_score": 0.75,
-      "activity_score": 0.85,
-      "momentum_score": 0.7,
-      "recommendation_score": 0.65,
-      "days_inactive": 14
+      "health_score": 0.85,
+      "activity_score": 1,
+      "momentum_score": 0.82,
+      "recommendation_score": 0.75,
+      "days_inactive": 0
     },
     {
       "repo": "webaudio_visualizer",
@@ -1281,11 +1292,11 @@
         "music"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.75,
-      "activity_score": 0.85,
-      "momentum_score": 0.73,
-      "recommendation_score": 0.66,
-      "days_inactive": 21
+      "health_score": 0.85,
+      "activity_score": 1,
+      "momentum_score": 0.85,
+      "recommendation_score": 0.76,
+      "days_inactive": 0
     }
   ],
   "rising_projects": [
@@ -1294,7 +1305,21 @@
       "momentum_score": 0.87,
       "activity_score": 1,
       "primary_category": "frontend",
-      "reason": "Revived project with recent active pushes (3 days ago, momentum 0.87)"
+      "reason": "Revived project with recent active pushes (0 days ago, momentum 0.87)"
+    },
+    {
+      "repo": "ZERO-GRAVITY",
+      "momentum_score": 0.85,
+      "activity_score": 1,
+      "primary_category": "frontend",
+      "reason": "Revived project with recent active pushes (0 days ago, momentum 0.85)"
+    },
+    {
+      "repo": ".github",
+      "momentum_score": 0.82,
+      "activity_score": 1,
+      "primary_category": "archive",
+      "reason": "High momentum (0.82) with updates in the last 7 days"
     },
     {
       "repo": "alevoldon-lab",
@@ -1304,28 +1329,26 @@
       "reason": "High momentum (0.82) with updates in the last 7 days"
     },
     {
-      "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
+      "repo": "bot-manager-dashboard",
       "momentum_score": 0.82,
       "activity_score": 1,
       "primary_category": "productivity",
       "reason": "High momentum (0.82) with updates in the last 7 days"
-    },
-    {
-      "repo": "full_roadmap_ai_enthusiast_2026",
-      "momentum_score": 0.78,
-      "activity_score": 0.85,
-      "primary_category": "ai",
-      "reason": "Revived project with recent active pushes (22 days ago, momentum 0.78)"
-    },
-    {
-      "repo": "Dump-Assistant-Bot",
-      "momentum_score": 0.73,
-      "activity_score": 1,
-      "primary_category": "ai",
-      "reason": "High momentum (0.73) with updates in the last 7 days"
     }
   ],
   "featured_recommendations": [
+    {
+      "repo": "portfolio",
+      "recommendation_score": 0.81,
+      "primary_category": "frontend",
+      "reasons": [
+        "High completeness & health (0.95)",
+        "Active updates (0 days ago)",
+        "Strong momentum (0.87)",
+        "Live demo homepage available",
+        "1 star(s)"
+      ]
+    },
     {
       "repo": "Dump-Assistant-Bot",
       "recommendation_score": 0.8,
@@ -1336,18 +1359,6 @@
         "Strong momentum (0.73)",
         "Live demo homepage available",
         "2 star(s)"
-      ]
-    },
-    {
-      "repo": "portfolio",
-      "recommendation_score": 0.78,
-      "primary_category": "frontend",
-      "reasons": [
-        "High completeness & health (0.85)",
-        "Active updates (3 days ago)",
-        "Strong momentum (0.87)",
-        "Live demo homepage available",
-        "1 star(s)"
       ]
     },
     {
@@ -1362,23 +1373,25 @@
       ]
     },
     {
-      "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
-      "recommendation_score": 0.74,
-      "primary_category": "productivity",
+      "repo": "SPA-Eurorack-Market-Guide",
+      "recommendation_score": 0.75,
+      "primary_category": "music",
       "reasons": [
-        "High completeness & health (0.8)",
-        "Active updates (2 days ago)",
-        "Strong momentum (0.82)"
+        "High completeness & health (0.85)",
+        "Active updates (0 days ago)",
+        "Strong momentum (0.82)",
+        "Live demo homepage available"
       ]
     },
     {
-      "repo": "jmf-radio",
-      "recommendation_score": 0.67,
-      "primary_category": "creative",
+      "repo": "web-hero-modular",
+      "recommendation_score": 0.75,
+      "primary_category": "music",
       "reasons": [
-        "High completeness & health (0.8)",
-        "Active updates (10 days ago)",
-        "Strong momentum (0.7)"
+        "High completeness & health (0.85)",
+        "Active updates (0 days ago)",
+        "Strong momentum (0.82)",
+        "Live demo homepage available"
       ]
     }
   ],
@@ -1426,8 +1439,8 @@
   ],
   "suggestions": [
     "Your ecosystem is currently heavily focused around 'javascript'.",
-    "12 projects are showing strong recent momentum (e.g. 'portfolio').",
-    "Candidate for Featured recommendation: 'Dump-Assistant-Bot' (score 0.8).",
+    "14 projects are showing strong recent momentum (e.g. 'portfolio').",
+    "Candidate for Featured recommendation: 'portfolio' (score 0.81).",
     "You have 11 tracked active repositories inactive for over 1 year."
   ]
 }

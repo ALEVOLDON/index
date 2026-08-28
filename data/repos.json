@@ -1,5 +1,23 @@
 [
   {
+    "name": ".github",
+    "stars": 0,
+    "updated_at": "2026-08-28",
+    "topics": [],
+    "tracked": true,
+    "category": null,
+    "fork": false,
+    "description": "Global GitHub community health files and default security policies for @ALEVOLDON",
+    "language": "",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-08-28",
+    "homepage": "",
+    "size": 0,
+    "archived": false
+  },
+  {
     "name": "3d-tic-tac-toe",
     "stars": 0,
     "updated_at": "2021-02-03",
@@ -81,14 +99,14 @@
   {
     "name": "ALEVOLDON",
     "stars": 0,
-    "updated_at": "2026-08-21",
+    "updated_at": "2026-08-28",
     "topics": [],
     "tracked": false,
     "category": null,
     "fork": false,
     "description": "My personal repository",
     "language": "",
-    "license": "",
+    "license": "MIT",
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2021-12-12",
@@ -242,7 +260,7 @@
   {
     "name": "bot-manager-dashboard",
     "stars": 0,
-    "updated_at": "2026-08-15",
+    "updated_at": "2026-08-28",
     "topics": [
       "bot-manager",
       "control-panel",
@@ -262,7 +280,7 @@
     "fork": false,
     "description": "Windows Process Launcher and Live Control Panel for Telegram/Discord bots, scripts, and ngrok tunnels",
     "language": "JavaScript",
-    "license": "NOASSERTION",
+    "license": "MIT",
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2026-07-31",
@@ -1363,7 +1381,7 @@
   {
     "name": "obsidian_posts_smart_tags",
     "stars": 0,
-    "updated_at": "2026-08-06",
+    "updated_at": "2026-08-28",
     "topics": [
       "automation",
       "knowledge-management",
@@ -1381,7 +1399,7 @@
     "fork": false,
     "description": "Node.js sync utility — pulls Telegram channel posts via Bot API and saves them as Markdown notes in Obsidian with auto-tagging",
     "language": "JavaScript",
-    "license": "",
+    "license": "MIT",
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2026-04-14",
@@ -1420,7 +1438,7 @@
   {
     "name": "portfolio",
     "stars": 1,
-    "updated_at": "2026-08-25",
+    "updated_at": "2026-08-28",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -1438,7 +1456,7 @@
     "fork": false,
     "description": "A sleek, generative portfolio with live GitHub data integration, Three.js backgrounds, and a serverless Telegram contact flow.",
     "language": "JavaScript",
-    "license": "",
+    "license": "MIT",
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2025-11-28",
@@ -1783,7 +1801,7 @@
   {
     "name": "SPA-Eurorack-Market-Guide",
     "stars": 0,
-    "updated_at": "2026-07-07",
+    "updated_at": "2026-08-28",
     "topics": [
       "calculator",
       "chartjs",
@@ -1800,7 +1818,7 @@
     "fork": false,
     "description": "Interactive Eurorack second-hand market guide and safety console for European musicians",
     "language": "HTML",
-    "license": "",
+    "license": "MIT",
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2026-07-07",
@@ -1989,7 +2007,7 @@
   {
     "name": "web-hero-modular",
     "stars": 0,
-    "updated_at": "2026-08-14",
+    "updated_at": "2026-08-28",
     "topics": [
       "3d-graphics",
       "audio-visualizer",
@@ -2011,7 +2029,7 @@
     "fork": false,
     "description": "🎛️ Real-time 3D Eurorack Synthesizer hero experience & interactive audio lab built with Three.js, GSAP, Web Audio API, and Blender Draco 3D assets.",
     "language": "Python",
-    "license": "",
+    "license": "MIT",
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2026-08-14",
@@ -2088,7 +2106,7 @@
   {
     "name": "ZERO-GRAVITY",
     "stars": 0,
-    "updated_at": "2026-08-07",
+    "updated_at": "2026-08-28",
     "topics": [
       "audio-system",
       "gamified-learning",
@@ -2102,7 +2120,7 @@
     "fork": false,
     "description": "Immersive 3D resource portal & gamified developer guide with ambient audio system",
     "language": "TypeScript",
-    "license": "",
+    "license": "MIT",
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2026-02-05",
