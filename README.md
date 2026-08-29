@@ -203,11 +203,11 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 
 ## Recent Activity
 <!-- RECENT_ACTIVITY_START -->
+- **Aug 28** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/ALEVOLDON](https://github.com/ALEVOLDON/ALEVOLDON)** (main)
+- **Aug 28** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/.github](https://github.com/ALEVOLDON/.github)** (main)
 - **Aug 28** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)** (main)
 - **Aug 28** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/index](https://github.com/ALEVOLDON/index)** (main)
 - **Aug 28** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/web-hero-modular](https://github.com/ALEVOLDON/web-hero-modular)** (master)
-- **Aug 28** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/SPA-Eurorack-Market-Guide](https://github.com/ALEVOLDON/SPA-Eurorack-Market-Guide)** (main)
-- **Aug 28** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
