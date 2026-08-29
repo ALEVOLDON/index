@@ -14,7 +14,7 @@
     "open_issues_count": 0,
     "created_at": "2026-08-28",
     "homepage": "",
-    "size": 0,
+    "size": 2,
     "archived": false
   },
   {
@@ -111,7 +111,7 @@
     "open_issues_count": 0,
     "created_at": "2021-12-12",
     "homepage": "",
-    "size": 4608,
+    "size": 4612,
     "archived": false
   },
   {
@@ -285,7 +285,7 @@
     "open_issues_count": 0,
     "created_at": "2026-07-31",
     "homepage": "",
-    "size": 1976,
+    "size": 1977,
     "archived": false
   },
   {
@@ -865,7 +865,7 @@
     "open_issues_count": 4,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 355,
+    "size": 408,
     "archived": false
   },
   {
@@ -1404,7 +1404,7 @@
     "open_issues_count": 0,
     "created_at": "2026-04-14",
     "homepage": "",
-    "size": 982,
+    "size": 986,
     "archived": false
   },
   {
@@ -1461,7 +1461,7 @@
     "open_issues_count": 0,
     "created_at": "2025-11-28",
     "homepage": "https://alevoldon.com/",
-    "size": 192601,
+    "size": 192602,
     "archived": false
   },
   {
@@ -1823,7 +1823,7 @@
     "open_issues_count": 0,
     "created_at": "2026-07-07",
     "homepage": "https://alevoldon.github.io/SPA-Eurorack-Market-Guide/",
-    "size": 102,
+    "size": 103,
     "archived": false
   },
   {
@@ -2034,7 +2034,7 @@
     "open_issues_count": 0,
     "created_at": "2026-08-14",
     "homepage": "https://alevoldon.github.io/web-hero-modular/",
-    "size": 39430,
+    "size": 40556,
     "archived": false
   },
   {
@@ -2125,7 +2125,7 @@
     "open_issues_count": 0,
     "created_at": "2026-02-05",
     "homepage": "https://zer0gravity.netlify.app/",
-    "size": 1486,
+    "size": 1488,
     "archived": false
   }
 ]
