@@ -836,7 +836,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-08-29",
+    "updated_at": "2026-08-30",
     "topics": [
       "ai",
       "audio-development",
@@ -865,7 +865,7 @@
     "open_issues_count": 0,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 434,
+    "size": 444,
     "archived": false
   },
   {
@@ -1279,7 +1279,7 @@
   },
   {
     "name": "Modular-Genesis",
-    "stars": 2,
+    "stars": 3,
     "updated_at": "2026-08-15",
     "topics": [
       "ableton-live",
