@@ -836,7 +836,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-08-31",
+    "updated_at": "2026-09-01",
     "topics": [
       "ai",
       "audio-development",
@@ -865,7 +865,7 @@
     "open_issues_count": 0,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 453,
+    "size": 462,
     "archived": false
   },
   {
@@ -1737,6 +1737,38 @@
     "created_at": "2025-09-25",
     "homepage": "https://alevoldon.github.io/Smart-Daw-Landing-React/",
     "size": 76,
+    "archived": false
+  },
+  {
+    "name": "SmartFridge-Telemetry-Kiosk",
+    "stars": 0,
+    "updated_at": "2026-09-01",
+    "topics": [
+      "energy-monitoring",
+      "flask",
+      "home-automation",
+      "iot",
+      "ipad",
+      "no-frost",
+      "python",
+      "refrigerator",
+      "smart-home",
+      "telemetry",
+      "termux",
+      "tinytuya",
+      "tuya"
+    ],
+    "tracked": true,
+    "category": null,
+    "fork": false,
+    "description": "Self-hosted IoT telemetry kiosk & duty cycle analyzer for refrigerators using Tuya smart plugs, Android TV Box (Termux), and vintage iPads (iOS 9 ES5).",
+    "language": "HTML",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-09-01",
+    "homepage": "https://alevoldon.github.io/SmartFridge-Telemetry-Kiosk/",
+    "size": 1983,
     "archived": false
   },
   {

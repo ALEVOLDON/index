@@ -226,6 +226,14 @@
           "notes": "Auto-discovered (description-based)",
           "custom_description": "Marathon-Finish-5.0",
           "custom_badges": ""
+        },
+        {
+          "name": "SmartFridge-Telemetry-Kiosk",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered",
+          "custom_description": "Self-hosted IoT telemetry kiosk & duty cycle analyzer for refrigerators using Tuya smart plugs, Android TV Box (Termux), and vintage iPads (iOS 9 ES5).",
+          "custom_badges": ""
         }
       ]
     },
