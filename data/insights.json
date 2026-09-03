@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated_at": "2026-09-03T16:45:51.510Z",
+  "generated_at": "2026-09-03T16:46:49.913Z",
   "ecosystem_stats": {
     "total_repos": 106,
     "total_stars": 15,
@@ -545,7 +545,7 @@
       "activity_score": 1,
       "momentum_score": 0.72,
       "recommendation_score": 0.76,
-      "days_inactive": 1
+      "days_inactive": 0
     },
     {
       "repo": "iphone-3d-website-starter",
@@ -900,7 +900,7 @@
       "activity_score": 1,
       "momentum_score": 0.87,
       "recommendation_score": 0.81,
-      "days_inactive": 6
+      "days_inactive": 0
     },
     {
       "repo": "Prototypes",
@@ -1084,7 +1084,7 @@
       "activity_score": 1,
       "momentum_score": 0.82,
       "recommendation_score": 0.75,
-      "days_inactive": 2
+      "days_inactive": 0
     },
     {
       "repo": "Social-Network-Theme-With-Sass",
@@ -1318,7 +1318,7 @@
       "momentum_score": 0.87,
       "activity_score": 1,
       "primary_category": "frontend",
-      "reason": "Revived project with recent active pushes (6 days ago, momentum 0.87)"
+      "reason": "Revived project with recent active pushes (0 days ago, momentum 0.87)"
     },
     {
       "repo": "ZERO-GRAVITY",
@@ -1356,7 +1356,7 @@
       "primary_category": "frontend",
       "reasons": [
         "High completeness & health (0.95)",
-        "Active updates (6 days ago)",
+        "Active updates (0 days ago)",
         "Strong momentum (0.87)",
         "Live demo homepage available",
         "1 star(s)"
