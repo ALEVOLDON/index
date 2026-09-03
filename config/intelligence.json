@@ -279,7 +279,14 @@
         "dashboard",
         "management",
         "control-panel",
-        "launcher"
+        "launcher",
+        "iot",
+        "smart-home",
+        "home-automation",
+        "telemetry",
+        "energy-monitoring",
+        "termux",
+        "flask"
       ],
       "keywords": [
         "habit tracker",
@@ -298,7 +305,14 @@
         "cli",
         "control panel",
         "launcher",
-        "workflow"
+        "workflow",
+        "telemetry",
+        "kiosk",
+        "iot",
+        "smart home",
+        "home automation",
+        "analyzer",
+        "refrigerator"
       ],
       "languages": ["shell", "python", "go", "rust"]
     }

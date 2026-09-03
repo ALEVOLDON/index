@@ -136,5 +136,23 @@
     "color": "06B6D4",
     "logo": "tailwindcss",
     "logoColor": "white"
+  },
+  "flask": {
+    "label": "Flask",
+    "color": "000000",
+    "logo": "flask",
+    "logoColor": "white"
+  },
+  "iot": {
+    "label": "IoT",
+    "color": "1572B6",
+    "logo": "",
+    "logoColor": ""
+  },
+  "termux": {
+    "label": "Termux",
+    "color": "000000",
+    "logo": "termux",
+    "logoColor": "white"
   }
 }

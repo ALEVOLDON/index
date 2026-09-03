@@ -136,12 +136,14 @@ export const DEFAULT_INTELLIGENCE: IntelligenceConfig = {
     productivity: {
       topics: [
         'productivity', 'tool', 'utility', 'habit-tracker', 'organizer', 'planner',
-        'cli', 'workflow', 'automation', 'dashboard', 'management', 'control-panel', 'launcher'
+        'cli', 'workflow', 'automation', 'dashboard', 'management', 'control-panel', 'launcher',
+        'iot', 'smart-home', 'home-automation', 'telemetry', 'energy-monitoring', 'termux', 'flask'
       ],
       keywords: [
         'habit tracker', 'habit', 'productivity', 'tool', 'tools', 'utility',
         'monitor', 'water map', 'tracking', 'organizer', 'planner', 'calendar',
-        'task manager', 'cli', 'control panel', 'launcher', 'workflow'
+        'task manager', 'cli', 'control panel', 'launcher', 'workflow',
+        'telemetry', 'kiosk', 'iot', 'smart home', 'home automation', 'analyzer', 'refrigerator'
       ],
       languages: ['shell', 'python', 'go', 'rust']
     }

@@ -1,14 +1,14 @@
 {
   "version": "2.0",
-  "generated_at": "2026-09-03T03:56:19.416Z",
+  "generated_at": "2026-09-03T16:45:51.510Z",
   "ecosystem_stats": {
     "total_repos": 106,
     "total_stars": 15,
     "ai_projects": 7,
     "music_projects": 22,
-    "frontend_projects": 42,
+    "frontend_projects": 41,
     "creative_projects": 7,
-    "productivity_projects": 7
+    "productivity_projects": 8
   },
   "top_topics": [
     "python",
@@ -1075,9 +1075,11 @@
     },
     {
       "repo": "SmartFridge-Telemetry-Kiosk",
-      "primary_category": "frontend",
-      "secondary_categories": [],
-      "suggested_category": "frontend",
+      "primary_category": "productivity",
+      "secondary_categories": [
+        "frontend"
+      ],
+      "suggested_category": "productivity",
       "health_score": 0.85,
       "activity_score": 1,
       "momentum_score": 0.82,
@@ -1343,7 +1345,7 @@
       "repo": "SmartFridge-Telemetry-Kiosk",
       "momentum_score": 0.82,
       "activity_score": 1,
-      "primary_category": "frontend",
+      "primary_category": "productivity",
       "reason": "High momentum (0.82) with updates in the last 7 days"
     }
   ],
@@ -1373,17 +1375,6 @@
       ]
     },
     {
-      "repo": "SmartFridge-Telemetry-Kiosk",
-      "recommendation_score": 0.75,
-      "primary_category": "frontend",
-      "reasons": [
-        "High completeness & health (0.85)",
-        "Active updates (2 days ago)",
-        "Strong momentum (0.82)",
-        "Live demo homepage available"
-      ]
-    },
-    {
       "repo": "SPA-Eurorack-Market-Guide",
       "recommendation_score": 0.75,
       "primary_category": "music",
@@ -1402,6 +1393,17 @@
         "High completeness & health (0.85)",
         "Active updates (6 days ago)",
         "Strong momentum (0.82)",
+        "Live demo homepage available"
+      ]
+    },
+    {
+      "repo": "alevoldon-lab",
+      "recommendation_score": 0.69,
+      "primary_category": "creative",
+      "reasons": [
+        "High completeness & health (0.85)",
+        "Active updates (13 days ago)",
+        "Strong momentum (0.7)",
         "Live demo homepage available"
       ]
     }
