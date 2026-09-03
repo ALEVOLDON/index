@@ -836,7 +836,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-09-01",
+    "updated_at": "2026-09-02",
     "topics": [
       "ai",
       "audio-development",
@@ -865,7 +865,7 @@
     "open_issues_count": 0,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 462,
+    "size": 472,
     "archived": false
   },
   {
@@ -1759,7 +1759,7 @@
       "tuya"
     ],
     "tracked": true,
-    "category": null,
+    "category": "frontend",
     "fork": false,
     "description": "Self-hosted IoT telemetry kiosk & duty cycle analyzer for refrigerators using Tuya smart plugs, Android TV Box (Termux), and vintage iPads (iOS 9 ES5).",
     "language": "HTML",
