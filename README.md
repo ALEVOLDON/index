@@ -124,7 +124,7 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 | :--- | :--- | :--- | :--- | :--- |
 | [ZERO-GRAVITY](https://github.com/ALEVOLDON/ZERO-GRAVITY)<br><small>Updated: 2026-08-28</small> | Immersive 3D resource portal for developers. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | ![Featured](https://img.shields.io/badge/Status-Featured-f1e05a?style=flat-square&logo=githubsponsors&logoColor=black) | [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ALEVOLDON/ZERO-GRAVITY) |
 | [Anti-Gravity-Landing](https://github.com/ALEVOLDON/Anti-Gravity-Landing)<br><small>Updated: 2026-02-03</small> | Landing page with physics: elements fall on click! | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square&logo=githubactions&logoColor=white) | [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ALEVOLDON/Anti-Gravity-Landing) |
-| [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>![Stars](https://img.shields.io/badge/stars-1-gold?style=flat-square) • Updated: 2026-09-10</small> | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square&logo=githubactions&logoColor=white) | [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ALEVOLDON/portfolio) |
+| [portfolio](https://github.com/ALEVOLDON/portfolio)<br><small>![Stars](https://img.shields.io/badge/stars-1-gold?style=flat-square) • Updated: 2026-09-11</small> | My main portfolio. | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square&logo=githubactions&logoColor=white) | [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ALEVOLDON/portfolio) |
 | [cosmic-portfolio](https://github.com/ALEVOLDON/cosmic-portfolio)<br><small>![Stars](https://img.shields.io/badge/stars-1-gold?style=flat-square) • Updated: 2025-03-01</small> | Interactive space-themed portfolio. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Maintenance](https://img.shields.io/badge/Status-Maintenance-orange?style=flat-square&logo=dependabot&logoColor=white) | [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ALEVOLDON/cosmic-portfolio) |
 | [CodeWizard](https://github.com/ALEVOLDON/CodeWizard)<br><small>Updated: 2025-03-24</small> | Futuristic terminal-style website. | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | ![Maintenance](https://img.shields.io/badge/Status-Maintenance-orange?style=flat-square&logo=dependabot&logoColor=white) | [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ALEVOLDON/CodeWizard) |
 | [relationship-test-app](https://github.com/ALEVOLDON/relationship-test-app)<br><small>Updated: 2025-05-13</small> | Relationship personality style test app. | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | ![Maintenance](https://img.shields.io/badge/Status-Maintenance-orange?style=flat-square&logo=dependabot&logoColor=white) | [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ALEVOLDON/relationship-test-app) |
@@ -192,31 +192,31 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 *Adaptive heuristics and health tracking of the repository ecosystem.*
 
 - ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) Your ecosystem is currently heavily focused around 'python'.
-- ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) 14 projects are showing strong recent momentum (e.g. 'full_roadmap_ai_enthusiast_2026').
+- ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) 14 projects are showing strong recent momentum (e.g. 'portfolio').
 - ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) Candidate for Featured recommendation: 'portfolio' (score 0.81).
 - ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) You have 11 tracked active repositories inactive for over 1 year.
 
 **Rising & Active Momentum Projects:**
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _Revived project with recent active pushes (7 days ago, momentum 0.91)_
 - ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (0 days ago, momentum 0.87)_
 - ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[SmartFridge-Telemetry-Kiosk](https://github.com/ALEVOLDON/SmartFridge-Telemetry-Kiosk)** (productivity) — _High momentum (0.82) with updates in the last 7 days_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (music) — _Revived project with recent active pushes (26 days ago, momentum 0.78)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _Revived project with recent active pushes (8 days ago, momentum 0.79)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[Modular-Genesis](https://github.com/ALEVOLDON/Modular-Genesis)** (music) — _Revived project with recent active pushes (27 days ago, momentum 0.78)_
 
 **Attention Needed:**
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `My-first-three.js-app` (inactive for 2044 days)
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `BLAZE` (inactive for 654 days)
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `cosmic-portfolio` (inactive for 558 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `My-first-three.js-app` (inactive for 2045 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `BLAZE` (inactive for 655 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `cosmic-portfolio` (inactive for 559 days)
 
 
 ---
 
 ## Recent Activity
 <!-- RECENT_ACTIVITY_START -->
+- **Sep 10** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
+- **Sep 9** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
+- **Sep 10** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Sep 8** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Sep 7** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (main)
-- **Sep 7** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
-- **Sep 7** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Sep 6** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/SmartFridge-Telemetry-Kiosk](https://github.com/ALEVOLDON/SmartFridge-Telemetry-Kiosk)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
