@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated_at": "2026-09-12T04:04:56.606Z",
+  "generated_at": "2026-09-13T04:16:17.279Z",
   "ecosystem_stats": {
     "total_repos": 106,
     "total_stars": 16,
@@ -32,7 +32,7 @@
       "activity_score": 0.85,
       "momentum_score": 0.7,
       "recommendation_score": 0.58,
-      "days_inactive": 15
+      "days_inactive": 16
     },
     {
       "repo": "3d-tic-tac-toe",
@@ -45,7 +45,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.07,
-      "days_inactive": 2047
+      "days_inactive": 2048
     },
     {
       "repo": "ableton",
@@ -56,7 +56,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3598
+      "days_inactive": 3599
     },
     {
       "repo": "AbletonLive9_RemoteScripts",
@@ -71,7 +71,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3463
+      "days_inactive": 3464
     },
     {
       "repo": "acid-synth",
@@ -85,7 +85,7 @@
       "activity_score": 0.2,
       "momentum_score": 0.08,
       "recommendation_score": 0.25,
-      "days_inactive": 314
+      "days_inactive": 315
     },
     {
       "repo": "ALEVOLDON",
@@ -96,7 +96,7 @@
       "activity_score": 0.85,
       "momentum_score": 0.73,
       "recommendation_score": 0.59,
-      "days_inactive": 15
+      "days_inactive": 16
     },
     {
       "repo": "alevoldon-lab",
@@ -111,7 +111,7 @@
       "activity_score": 0.85,
       "momentum_score": 0.7,
       "recommendation_score": 0.69,
-      "days_inactive": 22
+      "days_inactive": 23
     },
     {
       "repo": "Anti-Gravity-Landing",
@@ -124,7 +124,7 @@
       "activity_score": 0.2,
       "momentum_score": 0.08,
       "recommendation_score": 0.26,
-      "days_inactive": 221
+      "days_inactive": 222
     },
     {
       "repo": "app_p5js_demo",
@@ -137,7 +137,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1487
+      "days_inactive": 1488
     },
     {
       "repo": "audioplayer",
@@ -150,7 +150,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.07,
-      "days_inactive": 1918
+      "days_inactive": 1919
     },
     {
       "repo": "Bidoo",
@@ -161,7 +161,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3213
+      "days_inactive": 3214
     },
     {
       "repo": "BLAZE",
@@ -172,7 +172,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.16,
-      "days_inactive": 656
+      "days_inactive": 657
     },
     {
       "repo": "bootstrap-bakery-master",
@@ -183,7 +183,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.07,
-      "days_inactive": 2231
+      "days_inactive": 2232
     },
     {
       "repo": "bot-manager-dashboard",
@@ -197,7 +197,7 @@
       "activity_score": 0.85,
       "momentum_score": 0.7,
       "recommendation_score": 0.67,
-      "days_inactive": 15
+      "days_inactive": 16
     },
     {
       "repo": "CineBlocker",
@@ -211,7 +211,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.21,
-      "days_inactive": 413
+      "days_inactive": 414
     },
     {
       "repo": "city-game",
@@ -224,7 +224,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1970
+      "days_inactive": 1971
     },
     {
       "repo": "CodeWizard",
@@ -235,7 +235,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.17,
-      "days_inactive": 537
+      "days_inactive": 538
     },
     {
       "repo": "codiFunExample",
@@ -246,7 +246,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.12,
-      "days_inactive": 2202
+      "days_inactive": 2203
     },
     {
       "repo": "ComUnity",
@@ -257,7 +257,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.17,
-      "days_inactive": 490
+      "days_inactive": 491
     },
     {
       "repo": "cosmic-portfolio",
@@ -268,7 +268,7 @@
       "activity_score": 0,
       "momentum_score": 0.02,
       "recommendation_score": 0.23,
-      "days_inactive": 560
+      "days_inactive": 561
     },
     {
       "repo": "CS50-s-Web-Programming-with-Python-and-JavaScript",
@@ -281,7 +281,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1095
+      "days_inactive": 1096
     },
     {
       "repo": "CS50W---Lecture-3---Django",
@@ -296,7 +296,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1031
+      "days_inactive": 1032
     },
     {
       "repo": "cursor",
@@ -307,7 +307,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1669
+      "days_inactive": 1670
     },
     {
       "repo": "CV",
@@ -318,7 +318,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 654
+      "days_inactive": 655
     },
     {
       "repo": "cwa-documentation",
@@ -329,7 +329,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 2280
+      "days_inactive": 2281
     },
     {
       "repo": "design-resources-for-developers",
@@ -342,7 +342,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 2317
+      "days_inactive": 2318
     },
     {
       "repo": "developer-portfolios",
@@ -353,7 +353,7 @@
       "activity_score": 0.45,
       "momentum_score": 0.24,
       "recommendation_score": 0,
-      "days_inactive": 102
+      "days_inactive": 103
     },
     {
       "repo": "Dump-Assistant-Bot",
@@ -367,7 +367,7 @@
       "activity_score": 1,
       "momentum_score": 0.73,
       "recommendation_score": 0.8,
-      "days_inactive": 5
+      "days_inactive": 1
     },
     {
       "repo": "duolingo",
@@ -378,7 +378,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1115
+      "days_inactive": 1116
     },
     {
       "repo": "EnvelopForLive",
@@ -389,7 +389,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3222
+      "days_inactive": 3223
     },
     {
       "repo": "first-ide-lab-js-intro-000",
@@ -400,7 +400,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1971
+      "days_inactive": 1972
     },
     {
       "repo": "frontend",
@@ -411,7 +411,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 2333
+      "days_inactive": 2334
     },
     {
       "repo": "frontend-challenge",
@@ -422,7 +422,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3764
+      "days_inactive": 3765
     },
     {
       "repo": "full_roadmap_ai_enthusiast_2026",
@@ -435,7 +435,7 @@
       "activity_score": 0.85,
       "momentum_score": 0.79,
       "recommendation_score": 0.8,
-      "days_inactive": 9
+      "days_inactive": 10
     },
     {
       "repo": "github-slideshow",
@@ -446,7 +446,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1659
+      "days_inactive": 1660
     },
     {
       "repo": "gswp5.js-code",
@@ -457,7 +457,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 2167
+      "days_inactive": 2168
     },
     {
       "repo": "gtwy-audio-archive",
@@ -466,11 +466,11 @@
         "frontend"
       ],
       "suggested_category": "music",
-      "health_score": 0.5,
-      "activity_score": 0.2,
-      "momentum_score": 0.08,
-      "recommendation_score": 0.25,
-      "days_inactive": 189
+      "health_score": 0.7,
+      "activity_score": 1,
+      "momentum_score": 0.85,
+      "recommendation_score": 0.71,
+      "days_inactive": 1
     },
     {
       "repo": "gulp-starter-kit",
@@ -481,7 +481,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 2235
+      "days_inactive": 2236
     },
     {
       "repo": "habit-tracker",
@@ -490,11 +490,11 @@
         "frontend"
       ],
       "suggested_category": "productivity",
-      "health_score": 0.4,
-      "activity_score": 0.2,
-      "momentum_score": 0.08,
-      "recommendation_score": 0.21,
-      "days_inactive": 292
+      "health_score": 0.6,
+      "activity_score": 1,
+      "momentum_score": 0.85,
+      "recommendation_score": 0.67,
+      "days_inactive": 1
     },
     {
       "repo": "HACKATON-IT-NATION-2020",
@@ -505,7 +505,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.07,
-      "days_inactive": 2155
+      "days_inactive": 2156
     },
     {
       "repo": "HTML5-Semantic",
@@ -518,7 +518,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.17,
-      "days_inactive": 487
+      "days_inactive": 488
     },
     {
       "repo": "HUMAN",
@@ -529,7 +529,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.14,
-      "days_inactive": 2411
+      "days_inactive": 2412
     },
     {
       "repo": "index",
@@ -552,11 +552,11 @@
       "primary_category": "frontend",
       "secondary_categories": [],
       "suggested_category": "frontend",
-      "health_score": 0.2,
-      "activity_score": 0,
-      "momentum_score": 0,
+      "health_score": 0.4,
+      "activity_score": 1,
+      "momentum_score": 0.85,
       "recommendation_score": 0,
-      "days_inactive": 1257
+      "days_inactive": 1
     },
     {
       "repo": "javascript-intro-to-functions-lab-js-intro-000",
@@ -567,7 +567,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1966
+      "days_inactive": 1967
     },
     {
       "repo": "javascript-logging-lab-js-intro-000",
@@ -578,7 +578,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1970
+      "days_inactive": 1971
     },
     {
       "repo": "javascript-strings-lab-js-intro-000",
@@ -589,7 +589,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1969
+      "days_inactive": 1970
     },
     {
       "repo": "jmf-radio",
@@ -603,7 +603,7 @@
       "activity_score": 0.85,
       "momentum_score": 0.7,
       "recommendation_score": 0.67,
-      "days_inactive": 25
+      "days_inactive": 26
     },
     {
       "repo": "joomhost_superman",
@@ -614,7 +614,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.14,
-      "days_inactive": 2411
+      "days_inactive": 2412
     },
     {
       "repo": "jukrainian",
@@ -625,7 +625,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.17,
-      "days_inactive": 484
+      "days_inactive": 485
     },
     {
       "repo": "JW-Modules",
@@ -636,7 +636,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3211
+      "days_inactive": 3212
     },
     {
       "repo": "learn-co-sandbox",
@@ -647,7 +647,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1971
+      "days_inactive": 1972
     },
     {
       "repo": "learning-area",
@@ -658,7 +658,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1790
+      "days_inactive": 1791
     },
     {
       "repo": "link",
@@ -669,7 +669,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3272
+      "days_inactive": 3273
     },
     {
       "repo": "m4l-connection-kit",
@@ -680,7 +680,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3294
+      "days_inactive": 3295
     },
     {
       "repo": "madDog",
@@ -691,7 +691,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.07,
-      "days_inactive": 2264
+      "days_inactive": 2265
     },
     {
       "repo": "magenta",
@@ -705,7 +705,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3104
+      "days_inactive": 3105
     },
     {
       "repo": "Marathon-GoIT",
@@ -718,7 +718,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 2279
+      "days_inactive": 2280
     },
     {
       "repo": "Markdown",
@@ -729,7 +729,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.09,
-      "days_inactive": 2284
+      "days_inactive": 2285
     },
     {
       "repo": "MAVIC",
@@ -740,7 +740,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1672
+      "days_inactive": 1673
     },
     {
       "repo": "Minesweeper",
@@ -751,7 +751,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.12,
-      "days_inactive": 2237
+      "days_inactive": 2238
     },
     {
       "repo": "MJSB",
@@ -762,7 +762,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.12,
-      "days_inactive": 2227
+      "days_inactive": 2228
     },
     {
       "repo": "ML_modules",
@@ -775,7 +775,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3213
+      "days_inactive": 3214
     },
     {
       "repo": "Modern-Portfolio-Website",
@@ -788,7 +788,7 @@
       "activity_score": 0.45,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 165
+      "days_inactive": 166
     },
     {
       "repo": "modern_js_udemy_projects",
@@ -799,7 +799,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 2469
+      "days_inactive": 2470
     },
     {
       "repo": "Modular-Genesis",
@@ -810,10 +810,10 @@
       ],
       "suggested_category": "music",
       "health_score": 0.95,
-      "activity_score": 0.85,
-      "momentum_score": 0.78,
-      "recommendation_score": 0.78,
-      "days_inactive": 28
+      "activity_score": 1,
+      "momentum_score": 0.9,
+      "recommendation_score": 0.85,
+      "days_inactive": 1
     },
     {
       "repo": "movieinfo",
@@ -824,7 +824,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1674
+      "days_inactive": 1675
     },
     {
       "repo": "MS-Modules",
@@ -835,7 +835,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3211
+      "days_inactive": 3212
     },
     {
       "repo": "my-app-vr84-bootcamp",
@@ -846,7 +846,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.14,
-      "days_inactive": 2172
+      "days_inactive": 2173
     },
     {
       "repo": "My-first-three.js-app",
@@ -859,7 +859,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.07,
-      "days_inactive": 2046
+      "days_inactive": 2047
     },
     {
       "repo": "obsidian_posts_smart_tags",
@@ -873,7 +873,7 @@
       "activity_score": 1,
       "momentum_score": 0.7,
       "recommendation_score": 0.71,
-      "days_inactive": 5
+      "days_inactive": 6
     },
     {
       "repo": "point-cloud-surface",
@@ -887,7 +887,7 @@
       "activity_score": 0.2,
       "momentum_score": 0.11,
       "recommendation_score": 0.32,
-      "days_inactive": 186
+      "days_inactive": 187
     },
     {
       "repo": "portfolio",
@@ -911,7 +911,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.14,
-      "days_inactive": 485
+      "days_inactive": 486
     },
     {
       "repo": "push-interface",
@@ -922,7 +922,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3222
+      "days_inactive": 3223
     },
     {
       "repo": "pwa_app",
@@ -935,7 +935,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 955
+      "days_inactive": 956
     },
     {
       "repo": "Rack",
@@ -948,7 +948,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3210
+      "days_inactive": 3211
     },
     {
       "repo": "relationship-test-app",
@@ -957,11 +957,11 @@
         "productivity"
       ],
       "suggested_category": "frontend",
-      "health_score": 0.4,
-      "activity_score": 0,
-      "momentum_score": 0,
-      "recommendation_score": 0.14,
-      "days_inactive": 487
+      "health_score": 0.6,
+      "activity_score": 1,
+      "momentum_score": 0.85,
+      "recommendation_score": 0.67,
+      "days_inactive": 1
     },
     {
       "repo": "reponsive-web-design-bootcamp",
@@ -972,7 +972,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1804
+      "days_inactive": 1805
     },
     {
       "repo": "riverstrike",
@@ -985,7 +985,7 @@
       "activity_score": 0.2,
       "momentum_score": 0.08,
       "recommendation_score": 0.3,
-      "days_inactive": 204
+      "days_inactive": 205
     },
     {
       "repo": "RJModules",
@@ -996,7 +996,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3210
+      "days_inactive": 3211
     },
     {
       "repo": "Sass-Crash-Course",
@@ -1007,7 +1007,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.07,
-      "days_inactive": 2292
+      "days_inactive": 2293
     },
     {
       "repo": "Scandi",
@@ -1018,7 +1018,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1485
+      "days_inactive": 1486
     },
     {
       "repo": "sc_liked_to_playlist_web",
@@ -1033,7 +1033,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.16,
-      "days_inactive": 514
+      "days_inactive": 515
     },
     {
       "repo": "Signal-Lattice",
@@ -1046,7 +1046,7 @@
       "activity_score": 0.2,
       "momentum_score": 0.08,
       "recommendation_score": 0.26,
-      "days_inactive": 217
+      "days_inactive": 218
     },
     {
       "repo": "skills-based-javascript-intro-to-flow-control-js-intro-000",
@@ -1057,7 +1057,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1967
+      "days_inactive": 1968
     },
     {
       "repo": "Smart-Daw-Landing-React",
@@ -1068,10 +1068,10 @@
       ],
       "suggested_category": "ai",
       "health_score": 0.85,
-      "activity_score": 0.45,
-      "momentum_score": 0.24,
-      "recommendation_score": 0.47,
-      "days_inactive": 135
+      "activity_score": 1,
+      "momentum_score": 0.85,
+      "recommendation_score": 0.76,
+      "days_inactive": 1
     },
     {
       "repo": "SmartFridge-Telemetry-Kiosk",
@@ -1084,7 +1084,7 @@
       "activity_score": 1,
       "momentum_score": 0.82,
       "recommendation_score": 0.75,
-      "days_inactive": 5
+      "days_inactive": 1
     },
     {
       "repo": "Social-Network-Theme-With-Sass",
@@ -1095,7 +1095,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.14,
-      "days_inactive": 485
+      "days_inactive": 486
     },
     {
       "repo": "solar-roof",
@@ -1109,7 +1109,7 @@
       "activity_score": 0.7,
       "momentum_score": 0.43,
       "recommendation_score": 0.58,
-      "days_inactive": 78
+      "days_inactive": 79
     },
     {
       "repo": "soundcloud-likes-downloader",
@@ -1123,7 +1123,7 @@
       "activity_score": 0,
       "momentum_score": 0.02,
       "recommendation_score": 0.21,
-      "days_inactive": 516
+      "days_inactive": 517
     },
     {
       "repo": "SPA-Eurorack-Market-Guide",
@@ -1133,10 +1133,10 @@
       ],
       "suggested_category": "music",
       "health_score": 0.85,
-      "activity_score": 0.85,
-      "momentum_score": 0.58,
-      "recommendation_score": 0.66,
-      "days_inactive": 15
+      "activity_score": 1,
+      "momentum_score": 0.7,
+      "recommendation_score": 0.72,
+      "days_inactive": 1
     },
     {
       "repo": "tools",
@@ -1147,7 +1147,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 2847
+      "days_inactive": 2848
     },
     {
       "repo": "Travel-to",
@@ -1160,7 +1160,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.07,
-      "days_inactive": 2061
+      "days_inactive": 2062
     },
     {
       "repo": "trowaSoft-VCV",
@@ -1171,7 +1171,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3210
+      "days_inactive": 3211
     },
     {
       "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
@@ -1185,7 +1185,7 @@
       "activity_score": 0.85,
       "momentum_score": 0.7,
       "recommendation_score": 0.67,
-      "days_inactive": 17
+      "days_inactive": 18
     },
     {
       "repo": "vanillawebprojects",
@@ -1196,7 +1196,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 2282
+      "days_inactive": 2283
     },
     {
       "repo": "vcv-gratrix",
@@ -1207,7 +1207,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3211
+      "days_inactive": 3212
     },
     {
       "repo": "VCV-Rack-Plugins",
@@ -1218,7 +1218,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3212
+      "days_inactive": 3213
     },
     {
       "repo": "vcvrackplugins_dekstop",
@@ -1229,7 +1229,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 3215
+      "days_inactive": 3216
     },
     {
       "repo": "water-map-donetsk",
@@ -1242,7 +1242,7 @@
       "activity_score": 0.2,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 359
+      "days_inactive": 360
     },
     {
       "repo": "web-hero-modular",
@@ -1258,7 +1258,7 @@
       "activity_score": 0.85,
       "momentum_score": 0.7,
       "recommendation_score": 0.69,
-      "days_inactive": 15
+      "days_inactive": 16
     },
     {
       "repo": "webaudio_visualizer",
@@ -1271,7 +1271,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0.07,
-      "days_inactive": 2044
+      "days_inactive": 2045
     },
     {
       "repo": "WindyCheck_bot",
@@ -1284,7 +1284,7 @@
       "activity_score": 0.7,
       "momentum_score": 0.43,
       "recommendation_score": 0.56,
-      "days_inactive": 43
+      "days_inactive": 44
     },
     {
       "repo": "zaverstay-2",
@@ -1295,7 +1295,7 @@
       "activity_score": 0,
       "momentum_score": 0,
       "recommendation_score": 0,
-      "days_inactive": 1841
+      "days_inactive": 1842
     },
     {
       "repo": "ZERO-GRAVITY",
@@ -1306,13 +1306,20 @@
       ],
       "suggested_category": "frontend",
       "health_score": 0.85,
-      "activity_score": 0.85,
-      "momentum_score": 0.73,
-      "recommendation_score": 0.69,
-      "days_inactive": 15
+      "activity_score": 1,
+      "momentum_score": 0.85,
+      "recommendation_score": 0.76,
+      "days_inactive": 1
     }
   ],
   "rising_projects": [
+    {
+      "repo": "Modular-Genesis",
+      "momentum_score": 0.9,
+      "activity_score": 1,
+      "primary_category": "music",
+      "reason": "Revived project with recent active pushes (1 days ago, momentum 0.9)"
+    },
     {
       "repo": "portfolio",
       "momentum_score": 0.87,
@@ -1321,32 +1328,25 @@
       "reason": "Revived project with recent active pushes (0 days ago, momentum 0.87)"
     },
     {
-      "repo": "SmartFridge-Telemetry-Kiosk",
-      "momentum_score": 0.82,
+      "repo": "gtwy-audio-archive",
+      "momentum_score": 0.85,
+      "activity_score": 1,
+      "primary_category": "music",
+      "reason": "Revived project with recent active pushes (1 days ago, momentum 0.85)"
+    },
+    {
+      "repo": "habit-tracker",
+      "momentum_score": 0.85,
       "activity_score": 1,
       "primary_category": "productivity",
-      "reason": "High momentum (0.82) with updates in the last 7 days"
+      "reason": "Revived project with recent active pushes (1 days ago, momentum 0.85)"
     },
     {
-      "repo": "full_roadmap_ai_enthusiast_2026",
-      "momentum_score": 0.79,
-      "activity_score": 0.85,
-      "primary_category": "ai",
-      "reason": "Revived project with recent active pushes (9 days ago, momentum 0.79)"
-    },
-    {
-      "repo": "Modular-Genesis",
-      "momentum_score": 0.78,
-      "activity_score": 0.85,
-      "primary_category": "music",
-      "reason": "Revived project with recent active pushes (28 days ago, momentum 0.78)"
-    },
-    {
-      "repo": "Dump-Assistant-Bot",
-      "momentum_score": 0.73,
+      "repo": "relationship-test-app",
+      "momentum_score": 0.85,
       "activity_score": 1,
-      "primary_category": "ai",
-      "reason": "High momentum (0.73) with updates in the last 7 days"
+      "primary_category": "frontend",
+      "reason": "Revived project with recent active pushes (1 days ago, momentum 0.85)"
     }
   ],
   "featured_recommendations": [
@@ -1368,91 +1368,91 @@
       "primary_category": "ai",
       "reasons": [
         "High completeness & health (0.95)",
-        "Active updates (5 days ago)",
+        "Active updates (1 days ago)",
         "Strong momentum (0.73)",
         "Live demo homepage available",
         "2 star(s)"
       ]
     },
     {
-      "repo": "alevoldon-lab",
-      "recommendation_score": 0.69,
-      "primary_category": "creative",
+      "repo": "Smart-Daw-Landing-React",
+      "recommendation_score": 0.76,
+      "primary_category": "ai",
       "reasons": [
         "High completeness & health (0.85)",
-        "Active updates (22 days ago)",
-        "Strong momentum (0.7)",
+        "Active updates (1 days ago)",
+        "Strong momentum (0.85)",
         "Live demo homepage available"
       ]
     },
     {
-      "repo": "web-hero-modular",
-      "recommendation_score": 0.69,
+      "repo": "SPA-Eurorack-Market-Guide",
+      "recommendation_score": 0.72,
       "primary_category": "music",
       "reasons": [
         "High completeness & health (0.85)",
-        "Active updates (15 days ago)",
+        "Active updates (1 days ago)",
         "Strong momentum (0.7)",
         "Live demo homepage available"
       ]
     },
     {
-      "repo": "jmf-radio",
-      "recommendation_score": 0.67,
-      "primary_category": "creative",
+      "repo": "gtwy-audio-archive",
+      "recommendation_score": 0.71,
+      "primary_category": "music",
       "reasons": [
-        "High completeness & health (0.8)",
-        "Active updates (25 days ago)",
-        "Strong momentum (0.7)"
+        "High completeness & health (0.7)",
+        "Active updates (1 days ago)",
+        "Strong momentum (0.85)"
       ]
     }
   ],
   "neglected_repos": [
     {
       "name": "My-first-three.js-app",
-      "days_inactive": 2046
+      "days_inactive": 2047
     },
     {
       "name": "BLAZE",
-      "days_inactive": 656
+      "days_inactive": 657
     },
     {
       "name": "cosmic-portfolio",
-      "days_inactive": 560
+      "days_inactive": 561
     },
     {
       "name": "CodeWizard",
-      "days_inactive": 537
+      "days_inactive": 538
     },
     {
       "name": "soundcloud-likes-downloader",
-      "days_inactive": 516
+      "days_inactive": 517
     },
     {
       "name": "sc_liked_to_playlist_web",
-      "days_inactive": 514
+      "days_inactive": 515
     },
     {
       "name": "ComUnity",
-      "days_inactive": 490
+      "days_inactive": 491
     },
     {
       "name": "HTML5-Semantic",
-      "days_inactive": 487
-    },
-    {
-      "name": "relationship-test-app",
-      "days_inactive": 487
+      "days_inactive": 488
     },
     {
       "name": "jukrainian",
-      "days_inactive": 484
+      "days_inactive": 485
+    },
+    {
+      "name": "CineBlocker",
+      "days_inactive": 414
     }
   ],
   "suggestions": [
     "Your ecosystem is currently heavily focused around 'python'.",
-    "14 projects are showing strong recent momentum (e.g. 'portfolio').",
+    "18 projects are showing strong recent momentum (e.g. 'Modular-Genesis').",
     "Candidate for Featured recommendation: 'portfolio' (score 0.81).",
-    "You have 11 tracked active repositories inactive for over 1 year."
+    "You have 10 tracked active repositories inactive for over 1 year."
   ]
 }
