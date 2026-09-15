@@ -226,6 +226,14 @@
           "notes": "Auto-discovered (description-based)",
           "custom_description": "Marathon-Finish-5.0",
           "custom_badges": ""
+        },
+        {
+          "name": "my-app-vr84-bootcamp",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "In order to find out the level of atmospheric air pollution (air quality) in the city, you must select the appropriate monitoring station on the map.",
+          "custom_badges": ""
         }
       ]
     },
