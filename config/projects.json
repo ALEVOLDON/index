@@ -234,6 +234,14 @@
           "notes": "Auto-discovered (description-based)",
           "custom_description": "In order to find out the level of atmospheric air pollution (air quality) in the city, you must select the appropriate monitoring station on the map.",
           "custom_badges": ""
+        },
+        {
+          "name": "donbas-history",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered",
+          "custom_description": "Interactive digital museum and acoustic time machine of the Seversky Donets and Donbas basin (12,000 BCE – Present)",
+          "custom_badges": ""
         }
       ]
     },

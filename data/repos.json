@@ -255,7 +255,7 @@
     "created_at": "2020-08-03",
     "homepage": "",
     "size": 5396,
-    "archived": false
+    "archived": true
   },
   {
     "name": "bot-manager-dashboard",
@@ -363,7 +363,7 @@
     "created_at": "2020-08-06",
     "homepage": "",
     "size": 31,
-    "archived": false
+    "archived": true
   },
   {
     "name": "ComUnity",
@@ -381,7 +381,7 @@
     "created_at": "2025-05-10",
     "homepage": "https://comunitypro.netlify.app/",
     "size": 37,
-    "archived": false
+    "archived": true
   },
   {
     "name": "cosmic-portfolio",
@@ -489,7 +489,7 @@
     "created_at": "2020-06-16",
     "homepage": "",
     "size": 10262,
-    "archived": false
+    "archived": true
   },
   {
     "name": "design-resources-for-developers",
@@ -530,6 +530,40 @@
     "created_at": "2026-06-01",
     "homepage": "",
     "size": 15132,
+    "archived": false
+  },
+  {
+    "name": "donbas-history",
+    "stars": 0,
+    "updated_at": "2026-09-15",
+    "topics": [
+      "archaeology",
+      "bilingual",
+      "cultural-heritage",
+      "digital-humanities",
+      "donbas",
+      "history",
+      "interactive-map",
+      "museum",
+      "react",
+      "seversky-donets",
+      "soundscape",
+      "steppes",
+      "tanstack-start",
+      "time-machine",
+      "webaudio"
+    ],
+    "tracked": true,
+    "category": null,
+    "fork": false,
+    "description": "Interactive digital museum and acoustic time machine of the Seversky Donets and Donbas basin (12,000 BCE – Present)",
+    "language": "TypeScript",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-09-15",
+    "homepage": "https://alevoldon.github.io/donbas-history/",
+    "size": 134616,
     "archived": false
   },
   {
@@ -632,7 +666,7 @@
     "created_at": "2020-05-16",
     "homepage": "",
     "size": 2363,
-    "archived": false
+    "archived": true
   },
   {
     "name": "frontend-challenge",
@@ -759,7 +793,7 @@
     "created_at": "2020-07-31",
     "homepage": "https://www.npmjs.com/package/@jr-cologne/create-gulp-starter-kit",
     "size": 2184,
-    "archived": false
+    "archived": true
   },
   {
     "name": "habit-tracker",
@@ -795,7 +829,7 @@
     "created_at": "2020-10-17",
     "homepage": "",
     "size": 279,
-    "archived": false
+    "archived": true
   },
   {
     "name": "HTML5-Semantic",
@@ -836,7 +870,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-09-14",
+    "updated_at": "2026-09-15",
     "topics": [
       "ai",
       "audio-development",
@@ -865,7 +899,7 @@
     "open_issues_count": 2,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 396,
+    "size": 406,
     "archived": false
   },
   {
@@ -884,7 +918,7 @@
     "created_at": "2023-04-03",
     "homepage": "",
     "size": 1317,
-    "archived": false
+    "archived": true
   },
   {
     "name": "javascript-intro-to-functions-lab-js-intro-000",
@@ -987,7 +1021,7 @@
     "created_at": "2019-10-27",
     "homepage": "https://alevoldon.github.io/joomhost_superman",
     "size": 421,
-    "archived": false
+    "archived": true
   },
   {
     "name": "jukrainian",
@@ -1221,7 +1255,7 @@
     "created_at": "2020-06-22",
     "homepage": "",
     "size": 45,
-    "archived": false
+    "archived": true
   },
   {
     "name": "ML_modules",
@@ -1275,7 +1309,7 @@
     "created_at": "2020-06-21",
     "homepage": "",
     "size": 38,
-    "archived": false
+    "archived": true
   },
   {
     "name": "Modular-Genesis",
@@ -1348,7 +1382,7 @@
     "updated_at": "2026-09-14",
     "topics": [],
     "tracked": true,
-    "category": null,
+    "category": "frontend",
     "fork": false,
     "description": "In order to find out the level of atmospheric air pollution (air quality) in the city, you must select the appropriate monitoring station on the map.",
     "language": "JavaScript",
@@ -1358,7 +1392,7 @@
     "created_at": "2020-09-30",
     "homepage": "https://alevoldon.github.io/my-app-vr84-bootcamp/",
     "size": 4631,
-    "archived": false
+    "archived": true
   },
   {
     "name": "My-first-three.js-app",
@@ -1438,7 +1472,7 @@
   {
     "name": "portfolio",
     "stars": 1,
-    "updated_at": "2026-09-15",
+    "updated_at": "2026-09-16",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -1461,7 +1495,7 @@
     "open_issues_count": 0,
     "created_at": "2025-11-28",
     "homepage": "https://alevoldon.com/",
-    "size": 193862,
+    "size": 193894,
     "archived": false
   },
   {
@@ -1635,7 +1669,7 @@
     "created_at": "2020-05-27",
     "homepage": "",
     "size": 17,
-    "archived": false
+    "archived": true
   },
   {
     "name": "Scandi",
@@ -1787,7 +1821,7 @@
     "created_at": "2020-05-23",
     "homepage": "https://alevoldon.github.io/Social-Network-Theme-With-Sass/",
     "size": 351,
-    "archived": false
+    "archived": true
   },
   {
     "name": "solar-roof",
@@ -1957,7 +1991,7 @@
     "created_at": "2020-06-13",
     "homepage": "",
     "size": 28768,
-    "archived": false
+    "archived": true
   },
   {
     "name": "vcv-gratrix",
