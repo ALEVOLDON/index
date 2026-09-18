@@ -870,7 +870,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-09-16",
+    "updated_at": "2026-09-17",
     "topics": [
       "ai",
       "audio-development",
@@ -899,7 +899,7 @@
     "open_issues_count": 2,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 416,
+    "size": 426,
     "archived": false
   },
   {
@@ -1472,7 +1472,7 @@
   {
     "name": "portfolio",
     "stars": 1,
-    "updated_at": "2026-09-17",
+    "updated_at": "2026-09-18",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -1495,7 +1495,7 @@
     "open_issues_count": 0,
     "created_at": "2025-11-28",
     "homepage": "https://alevoldon.com/",
-    "size": 193933,
+    "size": 193964,
     "archived": false
   },
   {
@@ -1949,7 +1949,7 @@
   {
     "name": "UPS-ExeGate-SpecialPro-UNB-1200",
     "stars": 0,
-    "updated_at": "2026-08-26",
+    "updated_at": "2026-09-17",
     "topics": [
       "desktop-app",
       "exegate",
@@ -1965,14 +1965,14 @@
     "tracked": true,
     "category": "productivity",
     "fork": false,
-    "description": "Desktop monitoring dashboard & USB HID service for ExeGate UPS via FastAPI, WebSockets & PyWebView",
+    "description": "Universal real-time UPS monitor for ExeGate SpecialPro series (UNB-1200, Smart LLB-2200, etc.) with Windows graceful shutdown, system tray & power analytics",
     "language": "Python",
     "license": "NOASSERTION",
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2026-07-26",
     "homepage": "",
-    "size": 3483,
+    "size": 3596,
     "archived": false
   },
   {
