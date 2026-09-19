@@ -535,7 +535,7 @@
   {
     "name": "donbas-history",
     "stars": 0,
-    "updated_at": "2026-09-16",
+    "updated_at": "2026-09-18",
     "topics": [
       "archaeology",
       "bilingual",
@@ -563,7 +563,7 @@
     "open_issues_count": 0,
     "created_at": "2026-09-15",
     "homepage": "https://alevoldon.github.io/donbas-history/",
-    "size": 142063,
+    "size": 142093,
     "archived": false
   },
   {
@@ -870,7 +870,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-09-17",
+    "updated_at": "2026-09-18",
     "topics": [
       "ai",
       "audio-development",
@@ -899,7 +899,7 @@
     "open_issues_count": 2,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 426,
+    "size": 442,
     "archived": false
   },
   {
@@ -1472,7 +1472,7 @@
   {
     "name": "portfolio",
     "stars": 1,
-    "updated_at": "2026-09-18",
+    "updated_at": "2026-09-19",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -1495,7 +1495,7 @@
     "open_issues_count": 0,
     "created_at": "2025-11-28",
     "homepage": "https://alevoldon.com/",
-    "size": 193964,
+    "size": 193998,
     "archived": false
   },
   {
@@ -1776,7 +1776,7 @@
   {
     "name": "SmartFridge-Telemetry-Kiosk",
     "stars": 0,
-    "updated_at": "2026-09-12",
+    "updated_at": "2026-09-18",
     "topics": [
       "energy-monitoring",
       "flask",
@@ -1802,7 +1802,7 @@
     "open_issues_count": 0,
     "created_at": "2026-09-01",
     "homepage": "https://alevoldon.github.io/SmartFridge-Telemetry-Kiosk/",
-    "size": 2304,
+    "size": 3268,
     "archived": false
   },
   {
@@ -1949,7 +1949,7 @@
   {
     "name": "UPS-ExeGate-SpecialPro-UNB-1200",
     "stars": 0,
-    "updated_at": "2026-09-17",
+    "updated_at": "2026-09-18",
     "topics": [
       "desktop-app",
       "exegate",
@@ -1972,7 +1972,7 @@
     "open_issues_count": 0,
     "created_at": "2026-07-26",
     "homepage": "",
-    "size": 3596,
+    "size": 13242,
     "archived": false
   },
   {
