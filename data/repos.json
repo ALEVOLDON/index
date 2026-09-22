@@ -569,7 +569,7 @@
   {
     "name": "Dump-Assistant-Bot",
     "stars": 2,
-    "updated_at": "2026-09-12",
+    "updated_at": "2026-09-21",
     "topics": [
       "automation",
       "chatbot",
@@ -593,7 +593,7 @@
     "open_issues_count": 0,
     "created_at": "2026-04-20",
     "homepage": "https://alevoldon.github.io/Dump-Assistant-Bot/",
-    "size": 2146,
+    "size": 2145,
     "archived": false
   },
   {
@@ -870,7 +870,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-09-20",
+    "updated_at": "2026-09-21",
     "topics": [
       "ai",
       "audio-development",
@@ -899,7 +899,7 @@
     "open_issues_count": 2,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 462,
+    "size": 471,
     "archived": false
   },
   {
@@ -1472,7 +1472,7 @@
   {
     "name": "portfolio",
     "stars": 1,
-    "updated_at": "2026-09-21",
+    "updated_at": "2026-09-22",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -1495,7 +1495,7 @@
     "open_issues_count": 0,
     "created_at": "2025-11-28",
     "homepage": "https://alevoldon.com/",
-    "size": 194061,
+    "size": 194094,
     "archived": false
   },
   {
@@ -1776,7 +1776,7 @@
   {
     "name": "SmartFridge-Telemetry-Kiosk",
     "stars": 0,
-    "updated_at": "2026-09-19",
+    "updated_at": "2026-09-21",
     "topics": [
       "energy-monitoring",
       "flask",
@@ -1796,13 +1796,13 @@
     "category": "productivity",
     "fork": false,
     "description": "Self-hosted IoT telemetry kiosk & duty cycle analyzer for refrigerators using Tuya smart plugs, Android TV Box (Termux), and vintage iPads (iOS 9 ES5).",
-    "language": "HTML",
+    "language": "Python",
     "license": "MIT",
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2026-09-01",
     "homepage": "https://alevoldon.github.io/SmartFridge-Telemetry-Kiosk/",
-    "size": 3354,
+    "size": 3641,
     "archived": false
   },
   {
