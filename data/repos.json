@@ -870,7 +870,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-09-23",
+    "updated_at": "2026-09-24",
     "topics": [
       "ai",
       "audio-development",
@@ -899,7 +899,7 @@
     "open_issues_count": 2,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 491,
+    "size": 501,
     "archived": false
   },
   {
@@ -1472,7 +1472,7 @@
   {
     "name": "portfolio",
     "stars": 1,
-    "updated_at": "2026-09-24",
+    "updated_at": "2026-09-25",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -1495,7 +1495,7 @@
     "open_issues_count": 0,
     "created_at": "2025-11-28",
     "homepage": "https://alevoldon.com/",
-    "size": 194185,
+    "size": 192747,
     "archived": false
   },
   {
@@ -1796,13 +1796,13 @@
     "category": "productivity",
     "fork": false,
     "description": "Self-hosted IoT telemetry kiosk & duty cycle analyzer for refrigerators using Tuya smart plugs, Android TV Box (Termux), and vintage iPads (iOS 9 ES5).",
-    "language": "Python",
+    "language": "HTML",
     "license": "MIT",
     "forks_count": 0,
     "open_issues_count": 0,
     "created_at": "2026-09-01",
     "homepage": "https://alevoldon.github.io/SmartFridge-Telemetry-Kiosk/",
-    "size": 3757,
+    "size": 2899,
     "archived": false
   },
   {
