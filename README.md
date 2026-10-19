@@ -194,20 +194,20 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 *Adaptive heuristics and health tracking of the repository ecosystem.*
 
 - ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) Your ecosystem is currently heavily focused around 'python'.
-- ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) 8 projects are showing strong recent momentum (e.g. 'portfolio').
+- ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) 7 projects are showing strong recent momentum (e.g. 'portfolio').
 - ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) Candidate for Featured recommendation: 'portfolio' (score 0.83).
 - ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) You have 9 tracked active repositories inactive for over 1 year.
 
 **Rising & Active Momentum Projects:**
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (0 days ago, momentum 0.88)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai) — _Revived project with recent active pushes (26 days ago, momentum 0.76)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[donbas-history](https://github.com/ALEVOLDON/donbas-history)** (frontend) — _Strong momentum (0.7) with recent updates (30 days ago)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[SmartFridge-Telemetry-Kiosk](https://github.com/ALEVOLDON/SmartFridge-Telemetry-Kiosk)** (productivity) — _Strong momentum (0.7) with recent updates (9 days ago)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (1 days ago, momentum 0.88)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai) — _Revived project with recent active pushes (27 days ago, momentum 0.76)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[SmartFridge-Telemetry-Kiosk](https://github.com/ALEVOLDON/SmartFridge-Telemetry-Kiosk)** (productivity) — _Strong momentum (0.7) with recent updates (10 days ago)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[bot-manager-dashboard](https://github.com/ALEVOLDON/bot-manager-dashboard)** (productivity) — _Strong momentum (0.58) with recent updates (14 days ago)_
 
 **Attention Needed:**
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `My-first-three.js-app` (inactive for 2082 days)
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `BLAZE` (inactive for 692 days)
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `cosmic-portfolio` (inactive for 596 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `My-first-three.js-app` (inactive for 2083 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `BLAZE` (inactive for 693 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `cosmic-portfolio` (inactive for 597 days)
 
 
 ---
@@ -215,10 +215,10 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 ## Recent Activity
 <!-- RECENT_ACTIVITY_START -->
 - **Oct 17** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
+- **Oct 18** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
+- **Oct 17** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Oct 16** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Oct 16** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Oct 15** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Oct 15** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
