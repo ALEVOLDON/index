@@ -97,6 +97,39 @@
     "archived": false
   },
   {
+    "name": "ai-team-website",
+    "stars": 0,
+    "updated_at": "2026-10-21",
+    "topics": [
+      "ai-agents",
+      "autonomous-agents",
+      "code-generation",
+      "deepseek",
+      "desktop-studio",
+      "developer-tools",
+      "devlog",
+      "gemini-tts",
+      "lmstudio",
+      "local-llm",
+      "multi-agent-systems",
+      "ollama",
+      "showcase",
+      "software-engineering"
+    ],
+    "tracked": true,
+    "category": null,
+    "fork": false,
+    "description": "Autonomous Multi-Agent Development Studio: Interactive Showcase, Voice Devlog & Version Timeline",
+    "language": "JavaScript",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-10-21",
+    "homepage": "https://alevoldon.github.io/ai-team-website/",
+    "size": 1447,
+    "archived": false
+  },
+  {
     "name": "ALEVOLDON",
     "stars": 0,
     "updated_at": "2026-08-28",
@@ -651,6 +684,41 @@
     "archived": true
   },
   {
+    "name": "FlatEarthMap",
+    "stars": 0,
+    "updated_at": "2026-10-21",
+    "topics": [
+      "astronomy",
+      "astronomy-engine",
+      "azimuthal-equidistant",
+      "cartography",
+      "d3",
+      "d3js",
+      "data-visualization",
+      "flat-earth",
+      "flight-routes",
+      "geodesy",
+      "gleason-map",
+      "interactive-map",
+      "iss-tracker",
+      "satellite-tracking",
+      "sgp4",
+      "vanilla-js"
+    ],
+    "tracked": true,
+    "category": null,
+    "fork": false,
+    "description": "🌍 Interactive Azimuthal Equidistant map & celestial ephemeris engine (D3.js, Astronomy Engine, SGP4 ISS tracker, Gleason map distortion analysis & Full HD presentation)",
+    "language": "Python",
+    "license": "MIT",
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "created_at": "2026-10-21",
+    "homepage": "https://alevoldon.github.io/FlatEarthMap/",
+    "size": 43849,
+    "archived": false
+  },
+  {
     "name": "frontend",
     "stars": 0,
     "updated_at": "2020-04-23",
@@ -870,7 +938,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-10-20",
+    "updated_at": "2026-10-21",
     "topics": [
       "ai",
       "audio-development",
@@ -899,7 +967,7 @@
     "open_issues_count": 2,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 762,
+    "size": 772,
     "archived": false
   },
   {
@@ -1415,7 +1483,7 @@
   {
     "name": "obsidian_posts_smart_tags",
     "stars": 0,
-    "updated_at": "2026-09-07",
+    "updated_at": "2026-10-21",
     "topics": [
       "automation",
       "knowledge-management",
@@ -1438,7 +1506,7 @@
     "open_issues_count": 0,
     "created_at": "2026-04-14",
     "homepage": "",
-    "size": 998,
+    "size": 1003,
     "archived": false
   },
   {
@@ -1472,7 +1540,7 @@
   {
     "name": "portfolio",
     "stars": 2,
-    "updated_at": "2026-10-21",
+    "updated_at": "2026-10-22",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -1495,7 +1563,7 @@
     "open_issues_count": 0,
     "created_at": "2025-11-28",
     "homepage": "https://alevoldon.com/",
-    "size": 194615,
+    "size": 194688,
     "archived": false
   },
   {

@@ -60,6 +60,22 @@
           "notes": "Auto-discovered (description-based)",
           "custom_description": "HTML5 Semantic Tags: What Are They & How To Use Them!",
           "custom_badges": ""
+        },
+        {
+          "name": "ai-team-website",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered",
+          "custom_description": "Autonomous Multi-Agent Development Studio: Interactive Showcase, Voice Devlog & Version Timeline",
+          "custom_badges": ""
+        },
+        {
+          "name": "FlatEarthMap",
+          "featured": false,
+          "priority": 1,
+          "notes": "Auto-discovered",
+          "custom_description": "🌍 Interactive Azimuthal Equidistant map & celestial ephemeris engine (D3.js, Astronomy Engine, SGP4 ISS tracker, Gleason map distortion analysis & Full HD presentation)",
+          "custom_badges": ""
         }
       ]
     },
