@@ -221,10 +221,10 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 ## Recent Activity
 <!-- RECENT_ACTIVITY_START -->
 - **Oct 26** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
+- **Oct 25** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
+- **Oct 24** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Oct 22** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (main)
 - **Oct 21** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/ai-team-website](https://github.com/ALEVOLDON/ai-team-website)** (main)
-- **Oct 21** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/FlatEarthMap](https://github.com/ALEVOLDON/FlatEarthMap)** (main)
-- **Oct 21** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
