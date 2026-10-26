@@ -3,27 +3,27 @@
   "scoring_weights": {
     "health": {
       "has_description": 0.15,
-      "has_topics": 0.10,
+      "has_topics": 0.1,
       "topic_richness": 0.05,
-      "has_license": 0.10,
-      "has_stars": 0.10,
+      "has_license": 0.1,
+      "has_stars": 0.1,
       "has_forks": 0.05,
-      "has_language": 0.10,
-      "non_empty_size": 0.10,
+      "has_language": 0.1,
+      "non_empty_size": 0.1,
       "has_homepage": 0.05,
-      "recent_push_bonus": 0.20,
-      "archived_penalty": 0.40
+      "recent_push_bonus": 0.2,
+      "archived_penalty": 0.4
     },
     "activity": {
-      "days_7": 1.0,
+      "days_7": 1,
       "days_30": 0.85,
-      "days_90": 0.70,
+      "days_90": 0.7,
       "days_180": 0.45,
-      "days_365": 0.20
+      "days_365": 0.2
     },
     "momentum": {
-      "activity_weight": 0.40,
-      "recency_boost": 0.30,
+      "activity_weight": 0.4,
+      "recency_boost": 0.3,
       "revival_boost": 0.15,
       "engagement_weight": 0.15
     },
@@ -36,9 +36,9 @@
   },
   "thresholds": {
     "auto_discovery_health": 0.45,
-    "auto_discovery_momentum": 0.50,
-    "rising_momentum_min": 0.55,
-    "rising_activity_min": 0.40,
+    "auto_discovery_momentum": 0.5,
+    "rising_momentum_min": 0.5,
+    "rising_activity_min": 0.4,
     "featured_recommendation_min": 0.65,
     "neglected_days": 365
   },
@@ -107,7 +107,10 @@
         "claude",
         "gemini"
       ],
-      "languages": ["python", "jupyter notebook"]
+      "languages": [
+        "python",
+        "jupyter notebook"
+      ]
     },
     "music": {
       "topics": [
@@ -161,7 +164,12 @@
         "bandcamp",
         "dsp"
       ],
-      "languages": ["c++", "max", "supercollider", "faust"]
+      "languages": [
+        "c++",
+        "max",
+        "supercollider",
+        "faust"
+      ]
     },
     "frontend": {
       "topics": [
@@ -214,7 +222,12 @@
         "semantic html",
         "semantic tags"
       ],
-      "languages": ["typescript", "javascript", "html", "css"]
+      "languages": [
+        "typescript",
+        "javascript",
+        "html",
+        "css"
+      ]
     },
     "creative": {
       "topics": [
@@ -263,7 +276,11 @@
         "p5.js",
         "p5js"
       ],
-      "languages": ["glsl", "c#", "gdscript"]
+      "languages": [
+        "glsl",
+        "c#",
+        "gdscript"
+      ]
     },
     "productivity": {
       "topics": [
@@ -314,7 +331,12 @@
         "analyzer",
         "refrigerator"
       ],
-      "languages": ["shell", "python", "go", "rust"]
+      "languages": [
+        "shell",
+        "python",
+        "go",
+        "rust"
+      ]
     }
   }
 }

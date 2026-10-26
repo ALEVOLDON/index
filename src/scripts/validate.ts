@@ -5,6 +5,7 @@ import { ProjectsConfig } from '../types/config.js';
 import { RepoData } from '../types/repo.js';
 import { InsightsData } from '../types/insights.js';
 import { IntelligenceConfig } from '../types/intelligence.js';
+import { SYSTEM_REPOS } from '../core/categorize.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -53,7 +54,7 @@ export function validate(): void {
   }
 
   if (insights.repo_metrics && Array.isArray(insights.repo_metrics)) {
-    for (const metric of insights.repo_metrics.slice(0, 10)) {
+    for (const metric of insights.repo_metrics) {
       if (
         metric.health_score === undefined ||
         metric.activity_score === undefined ||
@@ -63,6 +64,18 @@ export function validate(): void {
         errors.push(`insights.json metric for repo ${metric.repo} is missing v2 score fields.`);
         break;
       }
+    }
+  }
+
+  for (const rp of insights.rising_projects || []) {
+    if (SYSTEM_REPOS.has(rp.repo)) {
+      errors.push(`System repository "${rp.repo}" must not appear in insights.rising_projects.`);
+    }
+  }
+
+  for (const rec of insights.featured_recommendations || []) {
+    if (SYSTEM_REPOS.has(rec.repo)) {
+      errors.push(`System repository "${rec.repo}" must not appear in insights.featured_recommendations.`);
     }
   }
 
@@ -88,6 +101,10 @@ export function validate(): void {
       if (!repo.name) {
         errors.push(`Category "${category.id}" contains a repo without a name.`);
         continue;
+      }
+
+      if (SYSTEM_REPOS.has(repo.name)) {
+        errors.push(`System repo "${repo.name}" in category "${category.id}" should not be in config/projects.json.`);
       }
 
       if (!repoNames.has(repo.name)) {

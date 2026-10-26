@@ -8,7 +8,8 @@ import {
   daysSince,
   DEFAULT_INTELLIGENCE
 } from '../analysis/engine.js';
-import { categorizeRepo, matchKeyword } from '../core/categorize.js';
+import { categorizeRepo, matchKeyword, SYSTEM_REPOS } from '../core/categorize.js';
+import { getRepoBadges, deduplicateActivityLines } from '../render/renderReadme.js';
 
 describe('Intelligence Engine v2 (TypeScript)', () => {
   const intelCfg = DEFAULT_INTELLIGENCE;
@@ -158,6 +159,17 @@ describe('Intelligence Engine v2 (TypeScript)', () => {
     };
     const { primary: primaryGame } = categorizeRepo(repoGame, intelCfg);
     assert.equal(primaryGame, 'creative');
+
+    // 4. Language alone without matching topics/keywords should NOT pollute categories
+    const barePythonRepo = {
+      name: 'random-lecture-notes',
+      description: 'Lecture notes from university course',
+      topics: [],
+      language: 'Python'
+    };
+    const { primary: primaryBare, secondaries: secondariesBare } = categorizeRepo(barePythonRepo, intelCfg);
+    assert.equal(primaryBare, 'archive');
+    assert.deepEqual(secondariesBare, []);
   });
 
   test('categorization_repo_name_tokens', () => {
@@ -176,8 +188,9 @@ describe('Intelligence Engine v2 (TypeScript)', () => {
       topics: [],
       language: 'Python'
     };
-    const { primary: primarySynth } = categorizeRepo(repoSynth, intelCfg);
+    const { primary: primarySynth, secondaries: secondariesSynth } = categorizeRepo(repoSynth, intelCfg);
     assert.equal(primarySynth, 'music');
+    assert.ok(!secondariesSynth.includes('ai'), 'Python synth should not have false ai secondary category');
   });
 
   test('recommendation_score calculation', () => {
@@ -211,5 +224,48 @@ describe('Intelligence Engine v2 (TypeScript)', () => {
     assert.ok(!matchKeyword('cli', 'Click here to see'));
     assert.ok(matchKeyword('three.js', 'Render with Three.js engine'));
     assert.ok(matchKeyword('web app', 'A modern web app scaffold'));
+  });
+
+  test('system_repos exclusion set', () => {
+    assert.ok(SYSTEM_REPOS.has('index'));
+    assert.ok(SYSTEM_REPOS.has('ALEVOLDON'));
+    assert.ok(SYSTEM_REPOS.has('.github'));
+    assert.ok(!SYSTEM_REPOS.has('portfolio'));
+  });
+
+  test('getRepoBadges prioritizes known badges and falls back to language', () => {
+    const badgesMap = {
+      threejs: { label: 'Three.js', color: 'black', logo: 'three.js', logoColor: 'white' },
+      vite: { label: 'Vite', color: '646CFF', logo: 'vite', logoColor: 'white' },
+      python: { label: 'Python', color: '3776AB', logo: 'python', logoColor: 'white' }
+    };
+
+    const repoWithTopics: any = {
+      name: 'demo',
+      topics: ['alpha-unmapped', 'beta-unmapped', 'threejs', 'vite'],
+      language: 'JavaScript'
+    };
+    const badges = getRepoBadges({ name: 'demo', featured: false, priority: 1 }, repoWithTopics, badgesMap, 2);
+    assert.ok(badges.includes('Three.js'));
+    assert.ok(badges.includes('Vite'));
+    assert.ok(!badges.includes('alpha--unmapped'));
+
+    const repoWithoutTopics: any = {
+      name: 'py-tool',
+      topics: [],
+      language: 'Python'
+    };
+    const fallbackBadges = getRepoBadges({ name: 'py-tool', featured: false, priority: 1 }, repoWithoutTopics, badgesMap, 3);
+    assert.ok(fallbackBadges.includes('Python'));
+  });
+
+  test('deduplicateActivityLines removes duplicate repo pushes on same day', () => {
+    const raw = [
+      '- **Sep 1** — ![Push](url) Pushed changes to **[ALEVOLDON/SmartFridge-Telemetry-Kiosk](url)** (main)',
+      '- **Sep 1** — ![Push](url) Pushed changes to **[ALEVOLDON/SmartFridge-Telemetry-Kiosk](url)** (main)',
+      '- **Aug 31** — ![Push](url) Pushed changes to **[ALEVOLDON/Dump-Assistant-Bot](url)** (main)'
+    ].join('\n');
+    const deduped = deduplicateActivityLines(raw);
+    assert.equal(deduped.length, 2);
   });
 });

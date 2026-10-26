@@ -6,7 +6,8 @@ import { RepoData, GitHubIssue } from '../types/repo.js';
 import { ProjectsConfig } from '../types/config.js';
 import { InsightsData, RepoMetric } from '../types/insights.js';
 import { IntelligenceConfig } from '../types/intelligence.js';
-import { categorizeRepo } from './categorize.js';
+import { categorizeRepo, SYSTEM_REPOS } from './categorize.js';
+import { buildInsights, DEFAULT_INTELLIGENCE } from '../analysis/engine.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -34,12 +35,7 @@ export async function runAutoDiscovery(): Promise<void> {
   const insightsData: InsightsData = JSON.parse(fs.readFileSync(INSIGHTS_PATH, 'utf8'));
   const config: ProjectsConfig = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 
-  let intelCfg: IntelligenceConfig = {
-    version: '2.0',
-    scoring_weights: {} as any,
-    thresholds: { auto_discovery_health: 0.45, auto_discovery_momentum: 0.50 },
-    category_definitions: {}
-  };
+  let intelCfg: IntelligenceConfig = DEFAULT_INTELLIGENCE;
 
   if (fs.existsSync(INTELLIGENCE_PATH)) {
     try {
@@ -69,11 +65,36 @@ export async function runAutoDiscovery(): Promise<void> {
   let configModified = false;
   let reposModified = false;
 
+  const archiveCategory = config.categories.find(c => c.id === 'archive');
+
   for (const repo of reposData) {
     const title = `Auto-Discovery: Add ${repo.name} to README`;
     const existingIssue = existingIssues.find(iss => iss.title === title);
 
     if (repo.tracked) {
+      // Automatically move newly-archived non-featured repositories to the archive category
+      if (repo.archived && archiveCategory) {
+        for (const cat of config.categories) {
+          if (cat.id === 'archive') continue;
+          const idx = cat.repos.findIndex(r => r.name === repo.name && !r.featured);
+          if (idx !== -1) {
+            const [movedRepo] = cat.repos.splice(idx, 1);
+            if (!archiveCategory.repos.find(r => r.name === repo.name)) {
+              console.log(`Moving archived repo ${repo.name} from ${cat.id} to archive...`);
+              archiveCategory.repos.push({
+                ...movedRepo,
+                priority: Math.min(movedRepo.priority, 4),
+                notes: movedRepo.notes || 'Archived Project'
+              });
+            }
+            repo.category = 'archive';
+            configModified = true;
+            reposModified = true;
+            break;
+          }
+        }
+      }
+
       if (existingIssue) {
         console.log(`Closing auto-discovery issue for ${repo.name} since it is now tracked.`);
         await closeIssue(existingIssue.number).catch(err => console.error(`Failed to close issue: ${err.message}`));
@@ -81,9 +102,9 @@ export async function runAutoDiscovery(): Promise<void> {
       continue;
     }
 
-    if (repo.fork || repo.archived || repo.name === 'ALEVOLDON' || repo.name === 'index') {
+    if (repo.fork || repo.archived || SYSTEM_REPOS.has(repo.name)) {
       if (existingIssue) {
-        console.log(`Closing auto-discovery issue for ${repo.name} (fork/archived/self/index).`);
+        console.log(`Closing auto-discovery issue for ${repo.name} (fork/archived/system).`);
         await closeIssue(existingIssue.number).catch(err => console.error(`Failed to close issue: ${err.message}`));
       }
       continue;
@@ -125,6 +146,7 @@ export async function runAutoDiscovery(): Promise<void> {
           });
           configModified = true;
           repo.tracked = true;
+          repo.category = categoryId;
           reposModified = true;
         }
       }
@@ -144,6 +166,11 @@ export async function runAutoDiscovery(): Promise<void> {
   if (reposModified) {
     console.log('Writing updated data/repos.json...');
     fs.writeFileSync(REPOS_PATH, JSON.stringify(reposData, null, 2), 'utf8');
+  }
+
+  if (configModified || reposModified) {
+    console.log('Re-running analysis engine to synchronize data/insights.json...');
+    buildInsights();
   }
 }
 

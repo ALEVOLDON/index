@@ -18,7 +18,7 @@ import {
   NeglectedRepo,
   EcosystemStats
 } from '../types/insights.js';
-import { categorizeRepo } from '../core/categorize.js';
+import { categorizeRepo, SYSTEM_REPOS } from '../core/categorize.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -67,7 +67,7 @@ export const DEFAULT_INTELLIGENCE: IntelligenceConfig = {
   thresholds: {
     auto_discovery_health: 0.45,
     auto_discovery_momentum: 0.50,
-    rising_momentum_min: 0.55,
+    rising_momentum_min: 0.50,
     rising_activity_min: 0.40,
     featured_recommendation_min: 0.65,
     neglected_days: 365
@@ -115,7 +115,8 @@ export const DEFAULT_INTELLIGENCE: IntelligenceConfig = {
       keywords: [
         'react', 'frontend', 'ui', 'vite', 'astro', 'vue', 'svelte', 'angular',
         'next.js', 'nextjs', 'nuxt', 'web app', 'dashboard', 'portfolio', 'landing',
-        'website', 'web', 'html5', 'css3', 'sass', 'tailwind', 'pwa'
+        'website', 'web', 'html5', 'css3', 'sass', 'tailwind', 'pwa',
+        'semantic html', 'semantic tags'
       ],
       languages: ['typescript', 'javascript', 'html', 'css']
     },
@@ -174,6 +175,7 @@ export function daysSince(dateStr: string | null | undefined): number {
 export function analyzeTopics(repos: RepoData[]): string[] {
   const counter: Record<string, number> = {};
   for (const r of repos) {
+    if (SYSTEM_REPOS.has(r.name)) continue;
     for (const t of r.topics || []) {
       counter[t] = (counter[t] || 0) + 1;
     }
@@ -317,19 +319,22 @@ export function buildInsights(): InsightsData {
     const stars = r.stars || 0;
     const isFork = !!r.fork;
     const isArchived = !!r.archived;
+    const isSystemRepo = SYSTEM_REPOS.has(name);
 
     const actScore = calculateActivityScore(d, weights.activity || {});
     const hlthScore = calculateHealthScore(r, d, weights.health || {});
     const momScore = calculateMomentumScore(r, actScore, d, weights.momentum || {});
-    const recScore = calculateRecommendationScore(
-      hlthScore,
-      actScore,
-      momScore,
-      stars,
-      weights.recommendation || {},
-      isFork,
-      isArchived
-    );
+    const recScore = isSystemRepo
+      ? 0.0
+      : calculateRecommendationScore(
+          hlthScore,
+          actScore,
+          momScore,
+          stars,
+          weights.recommendation || {},
+          isFork,
+          isArchived
+        );
 
     const manualCat = repoManualCat[name];
     const { primary: primaryCat, secondaries: secondaryCats } = categorizeRepo(r, intelCfg, manualCat);
@@ -355,8 +360,7 @@ export function buildInsights(): InsightsData {
       momScore >= risingMinMom &&
       actScore >= risingMinAct &&
       !isFork &&
-      name !== 'index' &&
-      name !== 'ALEVOLDON' &&
+      !isSystemRepo &&
       !isArchived
     ) {
       const createdDays = daysSince(r.created_at);
@@ -384,8 +388,7 @@ export function buildInsights(): InsightsData {
       recScore >= recMin &&
       !repoFeatured[name] &&
       !isFork &&
-      name !== 'index' &&
-      name !== 'ALEVOLDON' &&
+      !isSystemRepo &&
       !isArchived
     ) {
       const reasons: string[] = [];

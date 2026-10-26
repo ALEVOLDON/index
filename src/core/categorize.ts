@@ -1,6 +1,8 @@
 import { IntelligenceConfig } from '../types/intelligence.js';
 import { RepoData } from '../types/repo.js';
 
+export const SYSTEM_REPOS = new Set(['index', 'ALEVOLDON', '.github']);
+
 export function matchKeyword(kw: string, text: string): boolean {
   if (!kw || !text) return false;
   const kwClean = kw.trim().toLowerCase();
@@ -50,10 +52,10 @@ export function categorizeRepo(
       }
     }
 
-    // 3. Language matching (+1.5 if match)
+    // 3. Language matching (+0.5 supporting boost only when topic/keyword matched)
     const catLangs = (catDef.languages || []).map(l => l.toLowerCase());
-    if (lang && catLangs.includes(lang)) {
-      catScore += 1.5;
+    if (catScore > 0 && lang && catLangs.includes(lang)) {
+      catScore += 0.5;
     }
 
     if (catScore > 0) {
