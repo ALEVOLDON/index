@@ -1,8 +1,6 @@
 name: Close Auto-Discovery Issues
 
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
