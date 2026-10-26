@@ -14,68 +14,36 @@
           "custom_badges": "![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white)"
         },
         {
-          "name": "full_roadmap_ai_enthusiast_2026",
-          "featured": true,
-          "priority": 5,
-          "notes": "",
-          "custom_description": "The ultimate guide to mastering AI in 2025.",
-          "custom_badges": "![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)"
-        },
-        {
-          "name": "Smart-Daw-Landing-React",
-          "featured": false,
-          "priority": 1,
-          "notes": "",
-          "custom_description": "Landing page for an AI-powered music mixing assistant.",
-          "custom_badges": "![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)"
-        },
-        {
           "name": "Dump-Assistant-Bot",
           "featured": false,
           "priority": 8,
           "notes": "AI assistant bot for Telegram channels",
           "custom_description": "AI assistant bot for Telegram channels: reads posts, analyzes links, engages community. Supports local LLM via Ollama or OpenAI fallback.",
-          "custom_badges": "![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-1572B6?style=flat-square)"
-        },
-        {
-          "name": "CS50W---Lecture-3---Django",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered (description-based)",
-          "custom_description": "This is CS50W, CS50's Web Programming with Python and JavaScript. Register for free at https://cs50.edx.org/web. Slides and source code at https://cs50.harvard.edu/web. Playlist at      • CS50's Web Programming with Python an...  .",
-          "custom_badges": ""
-        },
-        {
-          "name": "github-slideshow",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered (description-based)",
-          "custom_description": "A robot-powered training repository.",
-          "custom_badges": ""
-        },
-        {
-          "name": "HTML5-Semantic",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered (description-based)",
-          "custom_description": "HTML5 Semantic Tags: What Are They & How To Use Them!",
-          "custom_badges": ""
+          "custom_badges": "![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Telegram API](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=flat-square&logo=telegram&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-6366F1?style=flat-square&logo=openai&logoColor=white)"
         },
         {
           "name": "ai-team-website",
           "featured": false,
-          "priority": 1,
+          "priority": 8,
           "notes": "Auto-discovered",
-          "custom_description": "Autonomous Multi-Agent Development Studio: Interactive Showcase, Voice Devlog & Version Timeline",
+          "custom_description": "Autonomous Multi-Agent Development Studio: Interactive Showcase, Voice Devlog & Version Timeline.",
           "custom_badges": ""
         },
         {
-          "name": "FlatEarthMap",
+          "name": "full_roadmap_ai_enthusiast_2026",
+          "featured": true,
+          "priority": 5,
+          "notes": "",
+          "custom_description": "The ultimate guide to mastering AI in 2026.",
+          "custom_badges": "![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)"
+        },
+        {
+          "name": "Smart-Daw-Landing-React",
           "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered",
-          "custom_description": "🌍 Interactive Azimuthal Equidistant map & celestial ephemeris engine (D3.js, Astronomy Engine, SGP4 ISS tracker, Gleason map distortion analysis & Full HD presentation)",
-          "custom_badges": ""
+          "priority": 4,
+          "notes": "",
+          "custom_description": "Landing page for an AI-powered music mixing assistant.",
+          "custom_badges": "![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)"
         }
       ]
     },
@@ -101,9 +69,25 @@
           "custom_badges": "![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white)"
         },
         {
-          "name": "Signal-Lattice",
+          "name": "SPA-Eurorack-Market-Guide",
           "featured": false,
           "priority": 8,
+          "notes": "Auto-discovered",
+          "custom_description": "Interactive Eurorack second-hand market guide and safety console for European musicians.",
+          "custom_badges": ""
+        },
+        {
+          "name": "web-hero-modular",
+          "featured": false,
+          "priority": 8,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "Live Modular Genesis lab: Blender rack, Three.js, GSAP, Web Audio.",
+          "custom_badges": ""
+        },
+        {
+          "name": "Signal-Lattice",
+          "featured": false,
+          "priority": 7,
           "notes": "",
           "custom_description": "Browser-based digital musical instrument.",
           "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
@@ -111,7 +95,7 @@
         {
           "name": "gtwy-audio-archive",
           "featured": false,
-          "priority": 7,
+          "priority": 6,
           "notes": "",
           "custom_description": "Web interface for the GTWY music archive.",
           "custom_badges": "![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Bandcamp API](https://img.shields.io/badge/Bandcamp-629AAF?style=flat-square&logo=bandcamp&logoColor=white)"
@@ -119,7 +103,7 @@
         {
           "name": "CineBlocker",
           "featured": false,
-          "priority": 6,
+          "priority": 4,
           "notes": "",
           "custom_description": "App to block distracting sites for creatives.",
           "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)"
@@ -127,7 +111,7 @@
         {
           "name": "sc_liked_to_playlist_web",
           "featured": false,
-          "priority": 5,
+          "priority": 3,
           "notes": "",
           "custom_description": "Download SoundCloud likes to a local player.",
           "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SoundCloud](https://img.shields.io/badge/SoundCloud-FF8800?style=flat-square&logo=soundcloud&logoColor=white)"
@@ -135,25 +119,9 @@
         {
           "name": "soundcloud-likes-downloader",
           "featured": false,
-          "priority": 1,
+          "priority": 2,
           "notes": "Auto-discovered (no topics)",
           "custom_description": "A convenient GUI application for downloading your liked tracks from SoundCloud.",
-          "custom_badges": ""
-        },
-        {
-          "name": "SPA-Eurorack-Market-Guide",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered",
-          "custom_description": "Interactive Eurorack second-hand market guide and safety console for European musicians",
-          "custom_badges": ""
-        },
-        {
-          "name": "web-hero-modular",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered (description-based)",
-          "custom_description": "Live Modular Genesis lab: Blender rack, Three.js, GSAP, Web Audio",
           "custom_badges": ""
         }
       ]
@@ -172,20 +140,20 @@
           "custom_badges": "![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)"
         },
         {
-          "name": "Anti-Gravity-Landing",
+          "name": "portfolio",
           "featured": false,
           "priority": 9,
           "notes": "",
-          "custom_description": "Landing page with physics: elements fall on click!",
-          "custom_badges": "![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
+          "custom_description": "My main developer portfolio.",
+          "custom_badges": ""
         },
         {
-          "name": "portfolio",
+          "name": "Anti-Gravity-Landing",
           "featured": false,
           "priority": 8,
           "notes": "",
-          "custom_description": "My main portfolio.",
-          "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
+          "custom_description": "Landing page with physics: elements fall on click!",
+          "custom_badges": "![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
         },
         {
           "name": "cosmic-portfolio",
@@ -212,51 +180,27 @@
           "custom_badges": "![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)"
         },
         {
+          "name": "jukrainian",
+          "featured": false,
+          "priority": 3,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "Music nonprofit organization established in Ukraine, focused on the development of the Ukrainian underground scene.",
+          "custom_badges": ""
+        },
+        {
+          "name": "HTML5-Semantic",
+          "featured": false,
+          "priority": 2,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "HTML5 Semantic Tags: What Are They & How To Use Them!",
+          "custom_badges": ""
+        },
+        {
           "name": "BLAZE",
           "featured": false,
           "priority": 1,
           "notes": "Auto-discovered (description-based)",
-          "custom_description": "BlazeLeaf (BLAZE): A token symbolizing the fiery growth of blockchain and the cannabis industry.",
-          "custom_badges": ""
-        },
-        {
-          "name": "ComUnity",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered (description-based)",
-          "custom_description": "ComUnity is a simple, front-end–only web application scaffold built with HTML5, CSS3 and vanilla JavaScript. It demonstrates the basics of structuring a static community hub: a responsive layout, interactive UI components, and easy deployment to any static-hosting provider.",
-          "custom_badges": ""
-        },
-        {
-          "name": "jukrainian",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered (description-based)",
-          "custom_description": "Music nonprofit organization established in Ukraine. It's mainly based on the development of the Ukrainian underground scene.",
-          "custom_badges": ""
-        },
-        {
-          "name": "Scandi",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered (description-based)",
-          "custom_description": "Marathon-Finish-5.0",
-          "custom_badges": ""
-        },
-        {
-          "name": "my-app-vr84-bootcamp",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered (description-based)",
-          "custom_description": "In order to find out the level of atmospheric air pollution (air quality) in the city, you must select the appropriate monitoring station on the map.",
-          "custom_badges": ""
-        },
-        {
-          "name": "donbas-history",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered",
-          "custom_description": "Interactive digital museum and acoustic time machine of the Seversky Donets and Donbas basin (12,000 BCE – Present)",
+          "custom_description": "BlazeLeaf (BLAZE): Landing page for a blockchain token project.",
           "custom_badges": ""
         }
       ]
@@ -283,9 +227,41 @@
           "custom_badges": "![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white)"
         },
         {
-          "name": "riverstrike",
+          "name": "alevoldon-lab",
+          "featured": false,
+          "priority": 9,
+          "notes": "Auto-discovered",
+          "custom_description": "Interactive 3D lab of AI agents, WebGL, and generative audio.",
+          "custom_badges": ""
+        },
+        {
+          "name": "FlatEarthMap",
           "featured": false,
           "priority": 8,
+          "notes": "Auto-discovered",
+          "custom_description": "🌍 Interactive Azimuthal Equidistant map & celestial ephemeris engine (D3.js, Astronomy Engine, SGP4 ISS tracker, Gleason map distortion analysis & presentation).",
+          "custom_badges": ""
+        },
+        {
+          "name": "jmf-radio",
+          "featured": false,
+          "priority": 8,
+          "notes": "Auto-discovered",
+          "custom_description": "Interactive 3D WebGL Nightclub & 24/7 DJ Streaming Station powered by Three.js, Blender 5.2, Web Audio API, and Node.js.",
+          "custom_badges": ""
+        },
+        {
+          "name": "donbas-history",
+          "featured": false,
+          "priority": 7,
+          "notes": "Auto-discovered",
+          "custom_description": "Interactive digital museum and acoustic time machine of the Seversky Donets and Donbas basin (12,000 BCE – Present).",
+          "custom_badges": ""
+        },
+        {
+          "name": "riverstrike",
+          "featured": false,
+          "priority": 6,
           "notes": "",
           "custom_description": "Arcade scrolling shooter (mobile-first).",
           "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Phaser](https://img.shields.io/badge/Phaser-E34F26?style=flat-square&logo=phaser&logoColor=white)"
@@ -293,26 +269,10 @@
         {
           "name": "My-first-three.js-app",
           "featured": false,
-          "priority": 7,
+          "priority": 3,
           "notes": "",
           "custom_description": "First steps in 3D web.",
           "custom_badges": "![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white)"
-        },
-        {
-          "name": "jmf-radio",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered",
-          "custom_description": "🎧 Interactive 3D WebGL Nightclub & 24/7 DJ Streaming Station powered by Three.js, Blender 5.2, Web Audio API, and Node.js.",
-          "custom_badges": ""
-        },
-        {
-          "name": "alevoldon-lab",
-          "featured": false,
-          "priority": 1,
-          "notes": "Auto-discovered",
-          "custom_description": "Interactive 3D lab of AI agents, WebGL, and generative audio.",
-          "custom_badges": ""
         }
       ]
     },
@@ -360,22 +320,6 @@
           "notes": "",
           "custom_description": "Full-featured habit tracker.",
           "custom_badges": "![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)"
-        },
-        {
-          "name": "water-map-donetsk",
-          "featured": false,
-          "priority": 6,
-          "notes": "",
-          "custom_description": "Water monitoring map.",
-          "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
-        },
-        {
-          "name": "pwa_app",
-          "featured": false,
-          "priority": 5,
-          "notes": "",
-          "custom_description": "Progressive Web Apps experiment.",
-          "custom_badges": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)"
         }
       ]
     },
@@ -421,6 +365,20 @@
           "notes": "Tool Fork"
         },
         {
+          "name": "water-map-donetsk",
+          "featured": false,
+          "priority": 4,
+          "notes": "Archived Project",
+          "custom_description": "Water monitoring map."
+        },
+        {
+          "name": "pwa_app",
+          "featured": false,
+          "priority": 4,
+          "notes": "Archived Experiment",
+          "custom_description": "Progressive Web Apps experiment."
+        },
+        {
           "name": "Travel-to",
           "featured": false,
           "priority": 4,
@@ -445,11 +403,40 @@
           "notes": "Learning Course"
         },
         {
-          "name": ".github",
+          "name": "CS50W---Lecture-3---Django",
           "featured": false,
           "priority": 1,
+          "notes": "Learning Course",
+          "custom_description": "CS50's Web Programming with Python and JavaScript — Lecture 3 (Django)."
+        },
+        {
+          "name": "Scandi",
+          "featured": false,
+          "priority": 1,
+          "notes": "Learning Course",
+          "custom_description": "Marathon-Finish-5.0 landing page."
+        },
+        {
+          "name": "github-slideshow",
+          "featured": false,
+          "priority": 1,
+          "notes": "Learning Course",
+          "custom_description": "GitHub training repository."
+        },
+        {
+          "name": "ComUnity",
+          "featured": false,
+          "priority": 3,
           "notes": "Auto-discovered (description-based)",
-          "custom_description": "Global GitHub community health files and default security policies for @ALEVOLDON",
+          "custom_description": "Front-end web application scaffold built with HTML5, CSS3, and vanilla JavaScript for a static community hub.",
+          "custom_badges": ""
+        },
+        {
+          "name": "my-app-vr84-bootcamp",
+          "featured": false,
+          "priority": 2,
+          "notes": "Auto-discovered (description-based)",
+          "custom_description": "Map visualization app to track atmospheric air quality and monitoring stations in the city.",
           "custom_badges": ""
         }
       ]

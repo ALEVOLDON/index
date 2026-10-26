@@ -1,26 +1,26 @@
 {
   "version": "2.0",
-  "generated_at": "2026-10-26T04:12:14.250Z",
+  "generated_at": "2026-10-26T12:40:20.545Z",
   "ecosystem_stats": {
     "total_repos": 109,
     "total_stars": 21,
-    "ai_projects": 9,
-    "music_projects": 22,
-    "frontend_projects": 42,
-    "creative_projects": 7,
-    "productivity_projects": 8
+    "ai_projects": 5,
+    "music_projects": 21,
+    "frontend_projects": 19,
+    "creative_projects": 13,
+    "productivity_projects": 6
   },
   "top_topics": [
     "python",
     "javascript",
-    "creative-coding",
     "react",
     "threejs",
     "webgl",
+    "creative-coding",
     "vite",
     "synthesizer",
-    "portfolio",
-    "nodejs"
+    "nodejs",
+    "web-audio-api"
   ],
   "repo_metrics": [
     {
@@ -31,15 +31,13 @@
       "health_score": 0.55,
       "activity_score": 0.7,
       "momentum_score": 0.43,
-      "recommendation_score": 0.48,
+      "recommendation_score": 0,
       "days_inactive": 59
     },
     {
       "repo": "3d-tic-tac-toe",
       "primary_category": "archive",
-      "secondary_categories": [
-        "frontend"
-      ],
+      "secondary_categories": [],
       "suggested_category": "archive",
       "health_score": 0.2,
       "activity_score": 0,
@@ -62,9 +60,7 @@
       "repo": "AbletonLive9_RemoteScripts",
       "primary_category": "archive",
       "secondary_categories": [
-        "music",
-        "ai",
-        "productivity"
+        "music"
       ],
       "suggested_category": "archive",
       "health_score": 0.4,
@@ -76,10 +72,7 @@
     {
       "repo": "acid-synth",
       "primary_category": "music",
-      "secondary_categories": [
-        "ai",
-        "productivity"
-      ],
+      "secondary_categories": [],
       "suggested_category": "music",
       "health_score": 0.5,
       "activity_score": 0.2,
@@ -108,7 +101,7 @@
       "health_score": 0.55,
       "activity_score": 0.7,
       "momentum_score": 0.5,
-      "recommendation_score": 0.49,
+      "recommendation_score": 0,
       "days_inactive": 59
     },
     {
@@ -141,11 +134,9 @@
     },
     {
       "repo": "app_p5js_demo",
-      "primary_category": "frontend",
-      "secondary_categories": [
-        "creative"
-      ],
-      "suggested_category": "frontend",
+      "primary_category": "creative",
+      "secondary_categories": [],
+      "suggested_category": "creative",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -155,9 +146,7 @@
     {
       "repo": "audioplayer",
       "primary_category": "archive",
-      "secondary_categories": [
-        "frontend"
-      ],
+      "secondary_categories": [],
       "suggested_category": "archive",
       "health_score": 0.2,
       "activity_score": 0,
@@ -189,9 +178,9 @@
     },
     {
       "repo": "bootstrap-bakery-master",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -216,8 +205,7 @@
       "repo": "CineBlocker",
       "primary_category": "music",
       "secondary_categories": [
-        "productivity",
-        "ai"
+        "productivity"
       ],
       "suggested_category": "music",
       "health_score": 0.6,
@@ -228,11 +216,9 @@
     },
     {
       "repo": "city-game",
-      "primary_category": "frontend",
-      "secondary_categories": [
-        "creative"
-      ],
-      "suggested_category": "frontend",
+      "primary_category": "creative",
+      "secondary_categories": [],
+      "suggested_category": "creative",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -263,9 +249,11 @@
     },
     {
       "repo": "ComUnity",
-      "primary_category": "frontend",
-      "secondary_categories": [],
-      "suggested_category": "frontend",
+      "primary_category": "archive",
+      "secondary_categories": [
+        "frontend"
+      ],
+      "suggested_category": "archive",
       "health_score": 0.1,
       "activity_score": 0,
       "momentum_score": 0,
@@ -298,13 +286,12 @@
     },
     {
       "repo": "CS50W---Lecture-3---Django",
-      "primary_category": "ai",
+      "primary_category": "archive",
       "secondary_categories": [
-        "productivity",
         "music",
         "frontend"
       ],
-      "suggested_category": "ai",
+      "suggested_category": "archive",
       "health_score": 0.1,
       "activity_score": 0,
       "momentum_score": 0,
@@ -313,9 +300,9 @@
     },
     {
       "repo": "cursor",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -324,9 +311,9 @@
     },
     {
       "repo": "CV",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -370,9 +357,11 @@
     },
     {
       "repo": "donbas-history",
-      "primary_category": "frontend",
-      "secondary_categories": [],
-      "suggested_category": "frontend",
+      "primary_category": "creative",
+      "secondary_categories": [
+        "frontend"
+      ],
+      "suggested_category": "creative",
       "health_score": 0.85,
       "activity_score": 0.7,
       "momentum_score": 0.43,
@@ -406,9 +395,9 @@
     },
     {
       "repo": "EnvelopForLive",
-      "primary_category": "music",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "music",
+      "suggested_category": "archive",
       "health_score": 0.45,
       "activity_score": 0,
       "momentum_score": 0,
@@ -428,11 +417,9 @@
     },
     {
       "repo": "FlatEarthMap",
-      "primary_category": "ai",
-      "secondary_categories": [
-        "productivity"
-      ],
-      "suggested_category": "ai",
+      "primary_category": "creative",
+      "secondary_categories": [],
+      "suggested_category": "creative",
       "health_score": 0.85,
       "activity_score": 1,
       "momentum_score": 0.82,
@@ -476,9 +463,9 @@
     },
     {
       "repo": "github-slideshow",
-      "primary_category": "ai",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "ai",
+      "suggested_category": "archive",
       "health_score": 0.1,
       "activity_score": 0,
       "momentum_score": 0,
@@ -535,9 +522,9 @@
     },
     {
       "repo": "HACKATON-IT-NATION-2020",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -546,11 +533,9 @@
     },
     {
       "repo": "HTML5-Semantic",
-      "primary_category": "ai",
-      "secondary_categories": [
-        "frontend"
-      ],
-      "suggested_category": "ai",
+      "primary_category": "frontend",
+      "secondary_categories": [],
+      "suggested_category": "frontend",
       "health_score": 0.5,
       "activity_score": 0,
       "momentum_score": 0,
@@ -559,9 +544,9 @@
     },
     {
       "repo": "HUMAN",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0.4,
       "activity_score": 0,
       "momentum_score": 0,
@@ -570,18 +555,18 @@
     },
     {
       "repo": "index",
-      "primary_category": "frontend",
+      "primary_category": "creative",
       "secondary_categories": [
-        "creative",
+        "frontend",
         "ai",
         "productivity",
         "music"
       ],
-      "suggested_category": "frontend",
+      "suggested_category": "creative",
       "health_score": 0.9,
       "activity_score": 1,
       "momentum_score": 0.87,
-      "recommendation_score": 0.8,
+      "recommendation_score": 0,
       "days_inactive": 1
     },
     {
@@ -597,9 +582,9 @@
     },
     {
       "repo": "javascript-intro-to-functions-lab-js-intro-000",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -608,9 +593,9 @@
     },
     {
       "repo": "javascript-logging-lab-js-intro-000",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -619,9 +604,9 @@
     },
     {
       "repo": "javascript-strings-lab-js-intro-000",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -721,9 +706,9 @@
     },
     {
       "repo": "madDog",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0.2,
       "activity_score": 0,
       "momentum_score": 0,
@@ -733,10 +718,7 @@
     {
       "repo": "magenta",
       "primary_category": "archive",
-      "secondary_categories": [
-        "ai",
-        "productivity"
-      ],
+      "secondary_categories": [],
       "suggested_category": "archive",
       "health_score": 0.45,
       "activity_score": 0,
@@ -747,9 +729,7 @@
     {
       "repo": "Marathon-GoIT",
       "primary_category": "archive",
-      "secondary_categories": [
-        "frontend"
-      ],
+      "secondary_categories": [],
       "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
@@ -770,9 +750,9 @@
     },
     {
       "repo": "MAVIC",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -781,9 +761,9 @@
     },
     {
       "repo": "Minesweeper",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0.35,
       "activity_score": 0,
       "momentum_score": 0,
@@ -792,9 +772,9 @@
     },
     {
       "repo": "MJSB",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -854,9 +834,9 @@
     },
     {
       "repo": "movieinfo",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -876,9 +856,9 @@
     },
     {
       "repo": "my-app-vr84-bootcamp",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0.2,
       "activity_score": 0.7,
       "momentum_score": 0,
@@ -888,9 +868,7 @@
     {
       "repo": "My-first-three.js-app",
       "primary_category": "creative",
-      "secondary_categories": [
-        "frontend"
-      ],
+      "secondary_categories": [],
       "suggested_category": "creative",
       "health_score": 0.2,
       "activity_score": 0,
@@ -902,8 +880,8 @@
       "repo": "obsidian_posts_smart_tags",
       "primary_category": "ai",
       "secondary_categories": [
-        "frontend",
-        "productivity"
+        "productivity",
+        "frontend"
       ],
       "suggested_category": "ai",
       "health_score": 0.8,
@@ -915,10 +893,7 @@
     {
       "repo": "point-cloud-surface",
       "primary_category": "creative",
-      "secondary_categories": [
-        "ai",
-        "productivity"
-      ],
+      "secondary_categories": [],
       "suggested_category": "creative",
       "health_score": 0.7,
       "activity_score": 0.2,
@@ -941,9 +916,9 @@
     },
     {
       "repo": "Prototypes",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0.4,
       "activity_score": 0,
       "momentum_score": 0,
@@ -963,11 +938,11 @@
     },
     {
       "repo": "pwa_app",
-      "primary_category": "productivity",
+      "primary_category": "archive",
       "secondary_categories": [
         "frontend"
       ],
-      "suggested_category": "productivity",
+      "suggested_category": "archive",
       "health_score": 0.1,
       "activity_score": 0,
       "momentum_score": 0,
@@ -1048,9 +1023,9 @@
     },
     {
       "repo": "Scandi",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0.1,
       "activity_score": 0,
       "momentum_score": 0,
@@ -1061,8 +1036,6 @@
       "repo": "sc_liked_to_playlist_web",
       "primary_category": "music",
       "secondary_categories": [
-        "ai",
-        "productivity",
         "frontend"
       ],
       "suggested_category": "music",
@@ -1087,9 +1060,9 @@
     },
     {
       "repo": "skills-based-javascript-intro-to-flow-control-js-intro-000",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -1113,9 +1086,7 @@
     {
       "repo": "SmartFridge-Telemetry-Kiosk",
       "primary_category": "productivity",
-      "secondary_categories": [
-        "frontend"
-      ],
+      "secondary_categories": [],
       "suggested_category": "productivity",
       "health_score": 0.85,
       "activity_score": 0.85,
@@ -1137,10 +1108,7 @@
     {
       "repo": "solar-roof",
       "primary_category": "creative",
-      "secondary_categories": [
-        "ai",
-        "productivity"
-      ],
+      "secondary_categories": [],
       "suggested_category": "creative",
       "health_score": 0.85,
       "activity_score": 0.45,
@@ -1151,10 +1119,7 @@
     {
       "repo": "soundcloud-likes-downloader",
       "primary_category": "music",
-      "secondary_categories": [
-        "ai",
-        "productivity"
-      ],
+      "secondary_categories": [],
       "suggested_category": "music",
       "health_score": 0.55,
       "activity_score": 0,
@@ -1189,9 +1154,7 @@
     {
       "repo": "Travel-to",
       "primary_category": "archive",
-      "secondary_categories": [
-        "frontend"
-      ],
+      "secondary_categories": [],
       "suggested_category": "archive",
       "health_score": 0.2,
       "activity_score": 0,
@@ -1213,9 +1176,7 @@
     {
       "repo": "UPS-ExeGate-SpecialPro-UNB-1200",
       "primary_category": "productivity",
-      "secondary_categories": [
-        "ai"
-      ],
+      "secondary_categories": [],
       "suggested_category": "productivity",
       "health_score": 0.8,
       "activity_score": 0.85,
@@ -1269,11 +1230,12 @@
     },
     {
       "repo": "water-map-donetsk",
-      "primary_category": "productivity",
+      "primary_category": "archive",
       "secondary_categories": [
-        "frontend"
+        "frontend",
+        "productivity"
       ],
-      "suggested_category": "productivity",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -1285,9 +1247,7 @@
       "primary_category": "music",
       "secondary_categories": [
         "creative",
-        "frontend",
-        "ai",
-        "productivity"
+        "frontend"
       ],
       "suggested_category": "music",
       "health_score": 0.85,
@@ -1298,11 +1258,9 @@
     },
     {
       "repo": "webaudio_visualizer",
-      "primary_category": "frontend",
-      "secondary_categories": [
-        "creative"
-      ],
-      "suggested_category": "frontend",
+      "primary_category": "creative",
+      "secondary_categories": [],
+      "suggested_category": "creative",
       "health_score": 0.2,
       "activity_score": 0,
       "momentum_score": 0,
@@ -1324,9 +1282,9 @@
     },
     {
       "repo": "zaverstay-2",
-      "primary_category": "frontend",
+      "primary_category": "archive",
       "secondary_categories": [],
-      "suggested_category": "frontend",
+      "suggested_category": "archive",
       "health_score": 0,
       "activity_score": 0,
       "momentum_score": 0,
@@ -1381,7 +1339,7 @@
       "repo": "FlatEarthMap",
       "momentum_score": 0.82,
       "activity_score": 1,
-      "primary_category": "ai",
+      "primary_category": "creative",
       "reason": "High momentum (0.82) with updates in the last 7 days"
     }
   ],
@@ -1424,7 +1382,7 @@
     {
       "repo": "FlatEarthMap",
       "recommendation_score": 0.75,
-      "primary_category": "ai",
+      "primary_category": "creative",
       "reasons": [
         "High completeness & health (0.85)",
         "Active updates (5 days ago)",
@@ -1484,7 +1442,7 @@
   ],
   "suggestions": [
     "Your ecosystem is currently heavily focused around 'python'.",
-    "10 projects are showing strong recent momentum (e.g. 'Dump-Assistant-Bot').",
+    "15 projects are showing strong recent momentum (e.g. 'Dump-Assistant-Bot').",
     "Candidate for Featured recommendation: 'Dump-Assistant-Bot' (score 0.83).",
     "You have 9 tracked active repositories inactive for over 1 year."
   ]
