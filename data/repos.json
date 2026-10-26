@@ -938,7 +938,7 @@
   {
     "name": "index",
     "stars": 1,
-    "updated_at": "2026-10-24",
+    "updated_at": "2026-10-25",
     "topics": [
       "ai",
       "audio-development",
@@ -967,7 +967,7 @@
     "open_issues_count": 2,
     "created_at": "2026-04-15",
     "homepage": "",
-    "size": 803,
+    "size": 423,
     "archived": false
   },
   {
@@ -1540,7 +1540,7 @@
   {
     "name": "portfolio",
     "stars": 2,
-    "updated_at": "2026-10-25",
+    "updated_at": "2026-10-26",
     "topics": [
       "developer-portfolio",
       "frontend",
@@ -1563,7 +1563,7 @@
     "open_issues_count": 0,
     "created_at": "2025-11-28",
     "homepage": "https://alevoldon.com/",
-    "size": 196846,
+    "size": 197934,
     "archived": false
   },
   {
