@@ -53,14 +53,38 @@
     "logo": "three.js",
     "logoColor": "white"
   },
+  "webgl": {
+    "label": "WebGL",
+    "color": "990000",
+    "logo": "webgl",
+    "logoColor": "white"
+  },
   "blender": {
     "label": "Blender",
     "color": "F5792A",
     "logo": "blender",
     "logoColor": "white"
   },
+  "blender3d": {
+    "label": "Blender 3D",
+    "color": "F5792A",
+    "logo": "blender",
+    "logoColor": "white"
+  },
+  "3d": {
+    "label": "3D",
+    "color": "F5792A",
+    "logo": "blender",
+    "logoColor": "white"
+  },
   "obsidian": {
     "label": "Obsidian",
+    "color": "7C3AED",
+    "logo": "obsidian",
+    "logoColor": "white"
+  },
+  "obsidian-plugin": {
+    "label": "Obsidian Plugin",
     "color": "7C3AED",
     "logo": "obsidian",
     "logoColor": "white"
@@ -77,6 +101,18 @@
     "logo": "telegram",
     "logoColor": "white"
   },
+  "telegram-bot-ai-assistant": {
+    "label": "Telegram AI Bot",
+    "color": "2CA5E0",
+    "logo": "telegram",
+    "logoColor": "white"
+  },
+  "discord-bot": {
+    "label": "Discord Bot",
+    "color": "5865F2",
+    "logo": "discord",
+    "logoColor": "white"
+  },
   "pyside6": {
     "label": "PySide6",
     "color": "41B883",
@@ -89,16 +125,58 @@
     "logo": "phaser",
     "logoColor": "white"
   },
+  "p5js": {
+    "label": "p5.js",
+    "color": "ED225D",
+    "logo": "p5dotjs",
+    "logoColor": "white"
+  },
+  "gsap": {
+    "label": "GSAP",
+    "color": "88CE02",
+    "logo": "greensock",
+    "logoColor": "black"
+  },
+  "chartjs": {
+    "label": "Chart.js",
+    "color": "FF6384",
+    "logo": "chartdotjs",
+    "logoColor": "white"
+  },
+  "html": {
+    "label": "HTML5",
+    "color": "E34F26",
+    "logo": "html5",
+    "logoColor": "white"
+  },
   "html5": {
     "label": "HTML5",
     "color": "E34F26",
     "logo": "html5",
     "logoColor": "white"
   },
+  "css": {
+    "label": "CSS3",
+    "color": "1572B6",
+    "logo": "css3",
+    "logoColor": "white"
+  },
   "css3": {
     "label": "CSS3",
     "color": "1572B6",
     "logo": "css3",
+    "logoColor": "white"
+  },
+  "scss": {
+    "label": "SCSS",
+    "color": "CC6699",
+    "logo": "sass",
+    "logoColor": "white"
+  },
+  "c++": {
+    "label": "C++",
+    "color": "00599C",
+    "logo": "cplusplus",
     "logoColor": "white"
   },
   "markdown": {
@@ -113,6 +191,12 @@
     "logo": "mongodb",
     "logoColor": "white"
   },
+  "sqlite": {
+    "label": "SQLite",
+    "color": "003B57",
+    "logo": "sqlite",
+    "logoColor": "white"
+  },
   "pwa": {
     "label": "PWA",
     "color": "5A0FC8",
@@ -125,16 +209,40 @@
     "logo": "soundcloud",
     "logoColor": "white"
   },
+  "bandcamp": {
+    "label": "Bandcamp",
+    "color": "629AAF",
+    "logo": "bandcamp",
+    "logoColor": "white"
+  },
   "express": {
     "label": "Express",
     "color": "000000",
     "logo": "express",
     "logoColor": "white"
   },
+  "fastapi": {
+    "label": "FastAPI",
+    "color": "009688",
+    "logo": "fastapi",
+    "logoColor": "white"
+  },
   "tailwindcss": {
     "label": "TailwindCSS",
     "color": "06B6D4",
     "logo": "tailwindcss",
+    "logoColor": "white"
+  },
+  "tailwind-v4": {
+    "label": "Tailwind v4",
+    "color": "06B6D4",
+    "logo": "tailwindcss",
+    "logoColor": "white"
+  },
+  "nextjs-15": {
+    "label": "Next.js 15",
+    "color": "000000",
+    "logo": "nextdotjs",
     "logoColor": "white"
   },
   "flask": {
@@ -153,6 +261,204 @@
     "label": "Termux",
     "color": "000000",
     "logo": "termux",
+    "logoColor": "white"
+  },
+  "openai": {
+    "label": "OpenAI",
+    "color": "412991",
+    "logo": "openai",
+    "logoColor": "white"
+  },
+  "ollama": {
+    "label": "Ollama",
+    "color": "000000",
+    "logo": "ollama",
+    "logoColor": "white"
+  },
+  "llm": {
+    "label": "LLM",
+    "color": "6366F1",
+    "logo": "openai",
+    "logoColor": "white"
+  },
+  "local-llm": {
+    "label": "Local LLM",
+    "color": "6366F1",
+    "logo": "ollama",
+    "logoColor": "white"
+  },
+  "rag": {
+    "label": "RAG",
+    "color": "6366F1",
+    "logo": "openai",
+    "logoColor": "white"
+  },
+  "web-audio": {
+    "label": "Web Audio",
+    "color": "FF5500",
+    "logo": "audacity",
+    "logoColor": "white"
+  },
+  "web-audio-api": {
+    "label": "Web Audio API",
+    "color": "FF5500",
+    "logo": "audacity",
+    "logoColor": "white"
+  },
+  "webaudio": {
+    "label": "Web Audio",
+    "color": "FF5500",
+    "logo": "audacity",
+    "logoColor": "white"
+  },
+  "synthesizer": {
+    "label": "Synthesizer",
+    "color": "FF5500",
+    "logo": "abletonlive",
+    "logoColor": "white"
+  },
+  "eurorack": {
+    "label": "Eurorack",
+    "color": "FF5500",
+    "logo": "abletonlive",
+    "logoColor": "white"
+  },
+  "ableton-live": {
+    "label": "Ableton Live",
+    "color": "000000",
+    "logo": "abletonlive",
+    "logoColor": "white"
+  },
+  "music-technology": {
+    "label": "Music Tech",
+    "color": "FF5500",
+    "logo": "audacity",
+    "logoColor": "white"
+  },
+  "sound-design": {
+    "label": "Sound Design",
+    "color": "FF5500",
+    "logo": "audacity",
+    "logoColor": "white"
+  },
+  "creative-coding": {
+    "label": "Creative Coding",
+    "color": "F5792A",
+    "logo": "processingfoundation",
+    "logoColor": "white"
+  },
+  "websockets": {
+    "label": "WebSockets",
+    "color": "010101",
+    "logo": "socketdotio",
+    "logoColor": "white"
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "color": "4F46E5",
+    "logo": "googlechrome",
+    "logoColor": "white"
+  },
+  "frontend": {
+    "label": "Frontend",
+    "color": "3178C6",
+    "logo": "html5",
+    "logoColor": "white"
+  },
+  "productivity": {
+    "label": "Productivity",
+    "color": "339933",
+    "logo": "githubactions",
+    "logoColor": "white"
+  },
+  "developer-portfolio": {
+    "label": "Dev Portfolio",
+    "color": "4F46E5",
+    "logo": "googlechrome",
+    "logoColor": "white"
+  },
+  "automation": {
+    "label": "Automation",
+    "color": "339933",
+    "logo": "githubactions",
+    "logoColor": "white"
+  },
+  "generative-music": {
+    "label": "Generative Music",
+    "color": "FF5500",
+    "logo": "audacity",
+    "logoColor": "white"
+  },
+  "generative-art": {
+    "label": "Generative Art",
+    "color": "F5792A",
+    "logo": "processingfoundation",
+    "logoColor": "white"
+  },
+  "interactive-audio": {
+    "label": "Interactive Audio",
+    "color": "FF5500",
+    "logo": "audacity",
+    "logoColor": "white"
+  },
+  "modular-synth": {
+    "label": "Modular Synth",
+    "color": "FF5500",
+    "logo": "abletonlive",
+    "logoColor": "white"
+  },
+  "ruby": {
+    "label": "Ruby",
+    "color": "CC342D",
+    "logo": "ruby",
+    "logoColor": "white"
+  },
+  "leaflet": {
+    "label": "Leaflet",
+    "color": "199900",
+    "logo": "leaflet",
+    "logoColor": "white"
+  },
+  "d3": {
+    "label": "D3.js",
+    "color": "F9A03C",
+    "logo": "d3dotjs",
+    "logoColor": "white"
+  },
+  "d3js": {
+    "label": "D3.js",
+    "color": "F9A03C",
+    "logo": "d3dotjs",
+    "logoColor": "white"
+  },
+  "ai-agents": {
+    "label": "AI Agents",
+    "color": "6366F1",
+    "logo": "openai",
+    "logoColor": "white"
+  },
+  "autonomous-agents": {
+    "label": "Autonomous Agents",
+    "color": "6366F1",
+    "logo": "openai",
+    "logoColor": "white"
+  },
+  "data-visualization": {
+    "label": "Data Viz",
+    "color": "F9A03C",
+    "logo": "d3dotjs",
+    "logoColor": "white"
+  },
+  "interactive-map": {
+    "label": "Interactive Map",
+    "color": "199900",
+    "logo": "OpenStreetMap",
+    "logoColor": "white"
+  },
+  "tanstack-start": {
+    "label": "TanStack",
+    "color": "FF4154",
+    "logo": "reactquery",
     "logoColor": "white"
   }
 }

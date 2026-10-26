@@ -2,6 +2,8 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 import { fetchJSON } from '../core/githubApi.js';
+import { SYSTEM_REPOS } from '../core/categorize.js';
+import { daysSince } from '../analysis/engine.js';
 import { ProjectsConfig, RepoConfig } from '../types/config.js';
 import { RepoData, GitHubEvent } from '../types/repo.js';
 import { InsightsData } from '../types/insights.js';
@@ -40,9 +42,55 @@ export function getBadgeForTopic(topic: string, techBadgesMap: TechBadgesMap): s
 
 export function getRepoBadges(rConf: RepoConfig, rData: RepoData, techBadgesMap: TechBadgesMap, limit = 3): string {
   if (rConf.custom_badges) return rConf.custom_badges;
-  const topics = (rData.topics || []).slice(0, limit);
-  if (topics.length === 0) return '';
-  return topics.map(t => getBadgeForTopic(t, techBadgesMap)).join(' ');
+
+  const rawTopics = rData.topics && rData.topics.length > 0
+    ? [...rData.topics]
+    : (rData.language ? [rData.language] : []);
+
+  if (rawTopics.length === 0) return '';
+
+  // Prioritize known technology badges over unmapped generic tags
+  const sortedTopics = rawTopics.sort((a, b) => {
+    const aKnown = techBadgesMap[a.toLowerCase()] ? 1 : 0;
+    const bKnown = techBadgesMap[b.toLowerCase()] ? 1 : 0;
+    return bKnown - aKnown;
+  });
+
+  // Avoid duplicate badge labels (e.g. "web-audio" and "webaudio")
+  const selectedBadges: string[] = [];
+  const seenLabels = new Set<string>();
+
+  for (const t of sortedTopics) {
+    if (selectedBadges.length >= limit) break;
+    const key = t.toLowerCase();
+    const labelKey = techBadgesMap[key] ? techBadgesMap[key].label.toLowerCase() : key;
+    if (seenLabels.has(labelKey)) continue;
+    seenLabels.add(labelKey);
+    selectedBadges.push(getBadgeForTopic(t, techBadgesMap));
+  }
+
+  return selectedBadges.join(' ');
+}
+
+export function deduplicateActivityLines(markdown: string): string[] {
+  const lines = markdown
+    .split(/\r?\n/)
+    .map(l => l.trim())
+    .filter(l => l.startsWith('- '));
+
+  const uniqueLines: string[] = [];
+  const seen = new Set<string>();
+
+  for (const line of lines) {
+    // Normalize line up to repo link to avoid duplicate pushes to the same repo on the same day
+    const repoMatch = line.match(/^\-\s+\*\*([^*]+)\*\*.*?\*\*\[([^\]]+)\]/);
+    const dedupKey = repoMatch ? `${repoMatch[1]}:${repoMatch[2]}` : line;
+    if (!seen.has(dedupKey)) {
+      seen.add(dedupKey);
+      uniqueLines.push(line);
+    }
+  }
+  return uniqueLines;
 }
 
 export function extractExistingActivity(readmePath: string): string | null {
@@ -56,15 +104,52 @@ export function extractExistingActivity(readmePath: string): string | null {
     if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
       const extracted = content.substring(startIdx + startTag.length, endIdx).trim();
       if (extracted && !extracted.includes('_No recent prominent activity')) {
-        return extracted
+        const normalized = extracted
           .replace(/🚀 Pushed changes to/g, '![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to')
           .replace(/🎉 Created new repository/g, '![Created](https://img.shields.io/badge/-created-brightgreen?style=flat-square&logo=github&logoColor=white) Created new repository')
           .replace(/📦 Released/g, '![Release](https://img.shields.io/badge/-release-blueviolet?style=flat-square&logo=github&logoColor=white) Released')
           .replace(/🐛 Opened issue in/g, '![Issue](https://img.shields.io/badge/-issue-orange?style=flat-square&logo=github&logoColor=white) Opened issue in');
+        const uniqueLines = deduplicateActivityLines(normalized);
+        if (uniqueLines.length > 0) {
+          return uniqueLines.join('\n');
+        }
       }
     }
   } catch {}
   return null;
+}
+
+export function buildFallbackActivityFromRepos(reposData: RepoData[], existingLines: string[] = [], maxItems = 5): string {
+  const result = [...existingLines];
+  const seenRepos = new Set<string>();
+
+  for (const line of result) {
+    const match = line.match(/\*\*\[([^\]]+)\]/);
+    if (match) {
+      const repoFull = match[1];
+      seenRepos.add(repoFull.includes('/') ? repoFull.split('/')[1] : repoFull);
+    }
+  }
+
+  const recentRepos = [...reposData]
+    .filter(r => !r.fork && !r.archived && !SYSTEM_REPOS.has(r.name) && r.updated_at && daysSince(r.updated_at) <= 90)
+    .sort((a, b) => b.updated_at.localeCompare(a.updated_at));
+
+  for (const r of recentRepos) {
+    if (result.length >= maxItems) break;
+    if (seenRepos.has(r.name)) continue;
+    seenRepos.add(r.name);
+    const dateStr = new Date(`${r.updated_at}T12:00:00Z`).toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      timeZone: 'UTC'
+    });
+    result.push(
+      `- **${dateStr}** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[${USERNAME}/${r.name}](https://github.com/${USERNAME}/${r.name})** (main)`
+    );
+  }
+
+  return result.join('\n');
 }
 
 export async function renderReadme(): Promise<void> {
@@ -149,11 +234,12 @@ export async function renderReadme(): Promise<void> {
   console.log('Rendering Categories...');
   let sectionsMarkdown = '';
 
-  const daysSince = (dateStr: string | null | undefined) => {
-    if (!dateStr) return 9999;
-    const d = new Date(dateStr);
-    if (isNaN(d.getTime())) return 9999;
-    return Math.max(0, (new Date().getTime() - d.getTime()) / (1000 * 60 * 60 * 24));
+  const getRepoTier = (rConf: RepoConfig, rData: RepoData | undefined, catId: string): number => {
+    if (rConf.featured) return 3;
+    if (!rData) return 0;
+    if (rData.archived || catId === 'archive' || (rConf.notes && rConf.notes.toLowerCase().includes('archive'))) return 0;
+    if (daysSince(rData.updated_at) > 365) return 1;
+    return 2;
   };
 
   for (const category of config.categories) {
@@ -164,11 +250,14 @@ export async function renderReadme(): Promise<void> {
     tableContent += `| Project | Description | Technologies | Status | Links |\n`;
     tableContent += `| :--- | :--- | :--- | :--- | :--- |\n`;
 
-    // Sort by priority (descending) then by update date
+    // Sort by status tier (Featured > Active > Maintenance > Archived), then priority (descending), then update date
     const sortedRepos = [...category.repos].sort((a, b) => {
-      if (b.priority !== a.priority) return b.priority - a.priority;
       const rDataA = reposMap[a.name];
       const rDataB = reposMap[b.name];
+      const tierA = getRepoTier(a, rDataA, category.id);
+      const tierB = getRepoTier(b, rDataB, category.id);
+      if (tierB !== tierA) return tierB - tierA;
+      if (b.priority !== a.priority) return b.priority - a.priority;
       const dateA = rDataA && rDataA.updated_at ? rDataA.updated_at : '';
       const dateB = rDataB && rDataB.updated_at ? rDataB.updated_at : '';
       return dateB.localeCompare(dateA);
@@ -252,6 +341,12 @@ export async function renderReadme(): Promise<void> {
         insightsMarkdown += `- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[${rp.repo}](https://github.com/${USERNAME}/${rp.repo})** (${rp.primary_category}) — _${rp.reason}_\n`;
       });
     }
+    if (insights.featured_recommendations && insights.featured_recommendations.length > 0) {
+      insightsMarkdown += `\n**Recommended for Featured:**\n`;
+      insights.featured_recommendations.slice(0, 3).forEach(rec => {
+        insightsMarkdown += `- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[${rec.repo}](https://github.com/${USERNAME}/${rec.repo})** (${rec.primary_category}, score ${rec.recommendation_score}) — _${rec.reasons.join(', ')}_\n`;
+      });
+    }
     if (insights.neglected_repos && insights.neglected_repos.length > 0) {
       insightsMarkdown += `\n**Attention Needed:**\n`;
       insights.neglected_repos.slice(0, 3).forEach(nr => {
@@ -267,6 +362,7 @@ export async function renderReadme(): Promise<void> {
   console.log('Rendering Tech Cloud...');
   const topicsCount: Record<string, number> = {};
   for (const r of reposData) {
+    if (SYSTEM_REPOS.has(r.name)) continue;
     for (const t of r.topics || []) {
       topicsCount[t] = (topicsCount[t] || 0) + 1;
     }
@@ -285,6 +381,7 @@ export async function renderReadme(): Promise<void> {
   // 6. Recent Activity
   console.log('Fetching Recent Activity...');
   let activityMarkdown = '';
+  const seenEventKeys = new Set<string>();
   try {
     const events = await fetchJSON<GitHubEvent[]>(`users/${USERNAME}/events/public?per_page=30`);
     let eventCount = 0;
@@ -292,7 +389,13 @@ export async function renderReadme(): Promise<void> {
     for (const ev of events) {
       if (eventCount >= 5) break;
 
+      const shortRepoName = ev.repo.name.includes('/') ? ev.repo.name.split('/')[1] : ev.repo.name;
+      if (SYSTEM_REPOS.has(shortRepoName)) continue;
+
       const dateStr = new Date(ev.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      const dedupKey = `${dateStr}:${ev.type}:${ev.repo.name}`;
+      if (seenEventKeys.has(dedupKey)) continue;
+
       let actionStr = '';
       if (ev.type === 'PushEvent') {
         const branch = ev.payload.ref ? ev.payload.ref.replace('refs/heads/', '') : 'main';
@@ -311,6 +414,7 @@ export async function renderReadme(): Promise<void> {
         continue;
       }
 
+      seenEventKeys.add(dedupKey);
       activityMarkdown += `- **${dateStr}** — ${actionStr}\n`;
       eventCount++;
     }
@@ -319,11 +423,13 @@ export async function renderReadme(): Promise<void> {
   }
 
   if (activityMarkdown === '') {
-    const existing = extractExistingActivity(README_PATH);
-    if (existing) {
-      console.log('Preserved previous Recent Activity from README.md.');
-      activityMarkdown = existing;
-    } else {
+    console.log('Building deduplicated Recent Activity from repository history...');
+    activityMarkdown = buildFallbackActivityFromRepos(reposData, [], 5);
+    if (!activityMarkdown.trim()) {
+      const existing = extractExistingActivity(README_PATH);
+      if (existing) activityMarkdown = existing;
+    }
+    if (!activityMarkdown.trim()) {
       activityMarkdown = '_No recent prominent activity in the last 90 days._\n';
     }
   }
