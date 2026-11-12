@@ -200,20 +200,20 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) You have 10 tracked active repositories inactive for over 1 year.
 
 **Rising & Active Momentum Projects:**
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (0 days ago, momentum 0.88)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai) — _Revived project with recent active pushes (20 days ago, momentum 0.76)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (ai) — _Revived project with recent active pushes (15 days ago, momentum 0.73)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[ai-team-website](https://github.com/ALEVOLDON/ai-team-website)** (ai) — _Strong momentum (0.7) with recent updates (16 days ago)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (1 days ago, momentum 0.88)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai) — _Revived project with recent active pushes (21 days ago, momentum 0.76)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (ai) — _Revived project with recent active pushes (16 days ago, momentum 0.73)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[ai-team-website](https://github.com/ALEVOLDON/ai-team-website)** (ai) — _Strong momentum (0.7) with recent updates (17 days ago)_
 
 **Recommended for Featured:**
-- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend, score 0.83) — _High completeness & health (0.95), Active updates (0 days ago), Strong momentum (0.88), Live demo homepage available, 2 star(s)_
-- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai, score 0.77) — _High completeness & health (0.95), Active updates (20 days ago), Strong momentum (0.76), Live demo homepage available, 2 star(s)_
-- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (productivity, score 0.71) — _High completeness & health (0.8), Active updates (5 days ago), Strong momentum (0.7)_
+- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend, score 0.83) — _High completeness & health (0.95), Active updates (1 days ago), Strong momentum (0.88), Live demo homepage available, 2 star(s)_
+- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai, score 0.77) — _High completeness & health (0.95), Active updates (21 days ago), Strong momentum (0.76), Live demo homepage available, 2 star(s)_
+- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[UPS-ExeGate-SpecialPro-UNB-1200](https://github.com/ALEVOLDON/UPS-ExeGate-SpecialPro-UNB-1200)** (productivity, score 0.71) — _High completeness & health (0.8), Active updates (6 days ago), Strong momentum (0.7)_
 
 **Attention Needed:**
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `My-first-three.js-app` (inactive for 2106 days)
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `BLAZE` (inactive for 716 days)
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `cosmic-portfolio` (inactive for 620 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `My-first-three.js-app` (inactive for 2107 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `BLAZE` (inactive for 717 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `cosmic-portfolio` (inactive for 621 days)
 
 
 ---
