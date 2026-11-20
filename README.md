@@ -200,31 +200,31 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) You have 10 tracked active repositories inactive for over 1 year.
 
 **Rising & Active Momentum Projects:**
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (0 days ago, momentum 0.88)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai) — _Revived project with recent active pushes (28 days ago, momentum 0.76)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (ai) — _Revived project with recent active pushes (23 days ago, momentum 0.73)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[ai-team-website](https://github.com/ALEVOLDON/ai-team-website)** (ai) — _Strong momentum (0.7) with recent updates (24 days ago)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (1 days ago, momentum 0.88)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai) — _Revived project with recent active pushes (29 days ago, momentum 0.76)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (ai) — _Revived project with recent active pushes (24 days ago, momentum 0.73)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[ai-team-website](https://github.com/ALEVOLDON/ai-team-website)** (ai) — _Strong momentum (0.7) with recent updates (25 days ago)_
 
 **Recommended for Featured:**
-- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend, score 0.83) — _High completeness & health (0.95), Active updates (0 days ago), Strong momentum (0.88), Live demo homepage available, 2 star(s)_
-- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai, score 0.77) — _High completeness & health (0.95), Active updates (28 days ago), Strong momentum (0.76), Live demo homepage available, 2 star(s)_
-- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[ai-team-website](https://github.com/ALEVOLDON/ai-team-website)** (ai, score 0.69) — _High completeness & health (0.85), Active updates (24 days ago), Strong momentum (0.7), Live demo homepage available_
+- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend, score 0.83) — _High completeness & health (0.95), Active updates (1 days ago), Strong momentum (0.88), Live demo homepage available, 2 star(s)_
+- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai, score 0.77) — _High completeness & health (0.95), Active updates (29 days ago), Strong momentum (0.76), Live demo homepage available, 2 star(s)_
+- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[ai-team-website](https://github.com/ALEVOLDON/ai-team-website)** (ai, score 0.69) — _High completeness & health (0.85), Active updates (25 days ago), Strong momentum (0.7), Live demo homepage available_
 
 **Attention Needed:**
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `My-first-three.js-app` (inactive for 2114 days)
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `BLAZE` (inactive for 724 days)
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `cosmic-portfolio` (inactive for 628 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `My-first-three.js-app` (inactive for 2115 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `BLAZE` (inactive for 725 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `cosmic-portfolio` (inactive for 629 days)
 
 
 ---
 
 ## Recent Activity
 <!-- RECENT_ACTIVITY_START -->
+- **Nov 18** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Nov 19** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Nov 16** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Nov 14** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 - **Nov 15** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
-- **Nov 13** — ![Push](https://img.shields.io/badge/-push-blue?style=flat-square&logo=git&logoColor=white) Pushed changes to **[ALEVOLDON/portfolio](https://github.com/ALEVOLDON/portfolio)** (main)
 <!-- RECENT_ACTIVITY_END -->
 
 ---
