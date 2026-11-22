@@ -200,20 +200,20 @@ Welcome to my master catalog! Here, all my projects are gathered and structured,
 - ![Insight](https://img.shields.io/badge/-insight-6366F1?style=flat-square&logo=probot&logoColor=white) You have 10 tracked active repositories inactive for over 1 year.
 
 **Rising & Active Momentum Projects:**
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (1 days ago, momentum 0.88)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai) — _Revived project with recent active pushes (30 days ago, momentum 0.76)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (ai) — _Revived project with recent active pushes (25 days ago, momentum 0.73)_
-- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[ai-team-website](https://github.com/ALEVOLDON/ai-team-website)** (ai) — _Strong momentum (0.7) with recent updates (26 days ago)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend) — _Revived project with recent active pushes (2 days ago, momentum 0.88)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[obsidian_posts_smart_tags](https://github.com/ALEVOLDON/obsidian_posts_smart_tags)** (ai) — _Revived project with recent active pushes (26 days ago, momentum 0.73)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[ai-team-website](https://github.com/ALEVOLDON/ai-team-website)** (ai) — _Strong momentum (0.7) with recent updates (27 days ago)_
+- ![Rising](https://img.shields.io/badge/-rising-FF4500?style=flat-square&logo=speedtest&logoColor=white) **[full_roadmap_ai_enthusiast_2026](https://github.com/ALEVOLDON/full_roadmap_ai_enthusiast_2026)** (ai) — _Strong momentum (0.58) with recent updates (80 days ago)_
 
 **Recommended for Featured:**
-- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend, score 0.83) — _High completeness & health (0.95), Active updates (1 days ago), Strong momentum (0.88), Live demo homepage available, 2 star(s)_
-- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai, score 0.77) — _High completeness & health (0.95), Active updates (30 days ago), Strong momentum (0.76), Live demo homepage available, 2 star(s)_
-- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[ai-team-website](https://github.com/ALEVOLDON/ai-team-website)** (ai, score 0.69) — _High completeness & health (0.85), Active updates (26 days ago), Strong momentum (0.7), Live demo homepage available_
+- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[portfolio](https://github.com/ALEVOLDON/portfolio)** (frontend, score 0.83) — _High completeness & health (0.95), Active updates (2 days ago), Strong momentum (0.88), Live demo homepage available, 2 star(s)_
+- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[ai-team-website](https://github.com/ALEVOLDON/ai-team-website)** (ai, score 0.69) — _High completeness & health (0.85), Active updates (27 days ago), Strong momentum (0.7), Live demo homepage available_
+- ![Recommended](https://img.shields.io/badge/-recommended-10B981?style=flat-square&logo=githubsponsors&logoColor=white) **[Dump-Assistant-Bot](https://github.com/ALEVOLDON/Dump-Assistant-Bot)** (ai, score 0.67) — _High completeness & health (0.95), Active updates (31 days ago), Live demo homepage available, 2 star(s)_
 
 **Attention Needed:**
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `My-first-three.js-app` (inactive for 2116 days)
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `BLAZE` (inactive for 726 days)
-- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `cosmic-portfolio` (inactive for 630 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `My-first-three.js-app` (inactive for 2117 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `BLAZE` (inactive for 727 days)
+- ![Attention](https://img.shields.io/badge/-attention-orange?style=flat-square&logo=dependabot&logoColor=white) `cosmic-portfolio` (inactive for 631 days)
 
 
 ---
